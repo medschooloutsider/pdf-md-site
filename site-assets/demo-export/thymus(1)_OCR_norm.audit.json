@@ -1,0 +1,5649 @@
+{
+  "exportMode" : "Hybrid",
+  "generatedAt" : "2026-03-30T18:47:25Z",
+  "metrics" : {
+    "extraction" : {
+      "ocrPages" : 2,
+      "pagesWithImageRegions" : 20,
+      "rasterDetectedPages" : 20,
+      "sectionCount" : 21,
+      "slideTextPages" : 0,
+      "slideTextWithOCRPages" : 0,
+      "textLayerPages" : 6,
+      "textLayerWithOCRPages" : 13,
+      "totalImageRegionCount" : 70,
+      "totalOCRObservationCount" : 539
+    },
+    "normalization" : {
+      "destructiveFallbackCount" : 0,
+      "inputFigureCaptionCount" : 0,
+      "outputBulletCount" : 69,
+      "outputFigureCaptionCount" : 0,
+      "outputHeadingCount" : 11,
+      "retainedTokenRatio" : 0.9633846153846154,
+      "sectionCount" : 21,
+      "sectionsWithChanges" : 18,
+      "totalInputCharacterCount" : 22406,
+      "totalInputTokenCount" : 3250,
+      "totalOutputCharacterCount" : 15180,
+      "totalOutputTokenCount" : 2144,
+      "totalRetainedTokenCount" : 3131
+    }
+  },
+  "pageRouting" : "6 text-layer page(s), 13 text-layer-plus-image-OCR page(s), 2 OCR page(s)",
+  "processingProfile" : "Balanced",
+  "routeRanges" : [
+    {
+      "end" : 1,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 1
+    },
+    {
+      "end" : 2,
+      "route" : "ocr",
+      "start" : 2
+    },
+    {
+      "end" : 4,
+      "route" : "text-layer",
+      "start" : 3
+    },
+    {
+      "end" : 7,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 5
+    },
+    {
+      "end" : 8,
+      "route" : "text-layer",
+      "start" : 8
+    },
+    {
+      "end" : 13,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 9
+    },
+    {
+      "end" : 14,
+      "route" : "text-layer",
+      "start" : 14
+    },
+    {
+      "end" : 18,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 15
+    },
+    {
+      "end" : 19,
+      "route" : "ocr",
+      "start" : 19
+    },
+    {
+      "end" : 21,
+      "route" : "text-layer",
+      "start" : 20
+    }
+  ],
+  "sectionCount" : 21,
+  "sectionLabel" : "Page",
+  "sections" : [
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.9724074074074075,
+          "index" : 1,
+          "width" : 0.5453055555555555,
+          "x" : 0.4440138888888889,
+          "y" : 0.0043796296296296465
+        },
+        {
+          "height" : 0.31444444444444447,
+          "index" : 2,
+          "width" : 0.439,
+          "x" : 0.010166666666666668,
+          "y" : 0.164
+        }
+      ],
+      "index" : 1,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.03150908267859253,
+          "index" : 1,
+          "text" : "PERICARDIUM",
+          "width" : 0.11463781876997514,
+          "x" : 0.742643091478589,
+          "y" : 0.14469803499003966
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.020102185336026257,
+          "index" : 2,
+          "text" : "THYMUS",
+          "width" : 0.07856844121759585,
+          "x" : 0.7056008376266252,
+          "y" : 0.34955073940721604
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01579457369717686,
+          "index" : 3,
+          "text" : "vein",
+          "width" : 0.02690700010819868,
+          "x" : 0.5172518291398661,
+          "y" : 0.5520084568301685
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01579457369717686,
+          "index" : 4,
+          "text" : "Innominate",
+          "width" : 0.07318704084916548,
+          "x" : 0.4720480679798059,
+          "y" : 0.5692389008047987
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01588971109101275,
+          "index" : 5,
+          "text" : "- Innominate vein",
+          "width" : 0.11193312211470165,
+          "x" : 0.8659665631012176,
+          "y" : 0.5907769557730861
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.015923185637502973,
+          "index" : 6,
+          "text" : "Subelavian vein-",
+          "width" : 0.10332287875088778,
+          "x" : 0.44621734979488,
+          "y" : 0.6078787876279063
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016053558696400082,
+          "index" : 7,
+          "text" : "Subelavian vein",
+          "width" : 0.10224660006436433,
+          "x" : 0.8724242452294863,
+          "y" : 0.6163636365982036
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01878787878787879,
+          "index" : 8,
+          "text" : "Subelavian artery",
+          "width" : 0.11516196511008522,
+          "x" : 0.8724242409537348,
+          "y" : 0.6466666666620806
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017575757575757585,
+          "index" : 9,
+          "text" : "Subelavian artery",
+          "width" : 0.1119331221147017,
+          "x" : 0.47958202960278495,
+          "y" : 0.6551515149764591
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018368937174479193,
+          "index" : 10,
+          "text" : "Vagus nerve",
+          "width" : 0.07673202514648435,
+          "x" : 0.8377433835183477,
+          "y" : 0.6630339063884546
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017575757575757585,
+          "index" : 11,
+          "text" : "thymus with thyroid",
+          "width" : 0.13345872358842326,
+          "x" : 0.8369070008888753,
+          "y" : 0.6824242423832175
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018886539574825324,
+          "index" : 12,
+          "text" : "Innominate artery",
+          "width" : 0.11516196511008521,
+          "x" : 0.4763531878325227,
+          "y" : 0.6939393936586403
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02041292132753316,
+          "index" : 13,
+          "text" : "Band connecting",
+          "width" : 0.10703492598100145,
+          "x" : 0.8367037880938126,
+          "y" : 0.6996939520465038
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020107470425692386,
+          "index" : 14,
+          "text" : "Internal jugular vein",
+          "width" : 0.13238243796608662,
+          "x" : 0.837983284835661,
+          "y" : 0.7199999997720952
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021030185583866014,
+          "index" : 15,
+          "text" : "Common carotid artery",
+          "width" : 0.14453810258345168,
+          "x" : 0.44713871268266064,
+          "y" : 0.727001994883471
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01883897087790749,
+          "index" : 16,
+          "text" : "Common carotid artery",
+          "width" : 0.14637408169833097,
+          "x" : 0.8369070045017226,
+          "y" : 0.744242424292838
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022884729558771303,
+          "index" : 17,
+          "text" : "Vagus nerve",
+          "width" : 0.07840997175736861,
+          "x" : 0.5145322115896173,
+          "y" : 0.7507147218112661
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018666313633774297,
+          "index" : 18,
+          "text" : "Internal jugular vein",
+          "width" : 0.13238243796608665,
+          "x" : 0.46020899132719695,
+          "y" : 0.7846194507249558
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018666313633774297,
+          "index" : 19,
+          "text" : "body",
+          "width" : 0.0333646808971058,
+          "x" : 0.8369070014364299,
+          "y" : 0.8205162088003106
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01883720918135211,
+          "index" : 20,
+          "text" : "Isthmus of thyroid",
+          "width" : 0.12054336547851562,
+          "x" : 0.8358307190977328,
+          "y" : 0.8375757573427453
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020102185336026257,
+          "index" : 21,
+          "text" : "body",
+          "width" : 0.0333646808971058,
+          "x" : 0.8369070015778838,
+          "y" : 0.8765151512805421
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020193797024813553,
+          "index" : 22,
+          "text" : "Lateral lobe of thyroid",
+          "width" : 0.1442215243252841,
+          "x" : 0.8369070014405449,
+          "y" : 0.8937455965475488
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "Thymus\nThe thymus is a specialized organ of the\nimmune system. The only known function of\nthe thymus is the production and\n\"education\" of T-lymphocytes (T cells),\nwhich are critical cells of the adaptive\nimmune system. Its epithelial cells provide a\nframework containing T cells as well as\nsmaller numbers of other lymphoid cells.\n\n#### Image OCR\n\nFigure labels:\n- Lateral lobe of thyroid body\n- Isthmus of thyroid body\n- Internal jugular vein\n- Vagus nerve\n- Common carotid artery\n- Internal jugular vein\n- Innominate artery\n- Subelavian artery\n- Vagus nerve\n- Subelavian artery\n- Subelavian vein",
+      "title" : "Page 1"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.8986481481481481,
+          "index" : 1,
+          "width" : 0.5736111111111111,
+          "x" : 0.1986111111111111,
+          "y" : 0.029870370370370363
+        },
+        {
+          "height" : 0.14622222222222223,
+          "index" : 2,
+          "width" : 0.7103333333333334,
+          "x" : 0.149,
+          "y" : 0.7926666666666666
+        }
+      ],
+      "index" : 2,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 1,
+          "text" : "levelopment äed in immane",
+          "width" : 0.06500000000000006,
+          "x" : 0.5833333344166666,
+          "y" : 0.2688888890000001
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 2,
+          "text" : "Peptides",
+          "width" : 0.023333333333333317,
+          "x" : 0.4616666668333333,
+          "y" : 0.28666666685185194
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 3,
+          "text" : "Unknown",
+          "width" : 0.02499999841054279,
+          "x" : 0.5083333337669508,
+          "y" : 0.28666666685185194
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.006666666136847632,
+          "index" : 4,
+          "text" : "Thyrran",
+          "width" : 0.019999998410542785,
+          "x" : 0.32333333512806184,
+          "y" : 0.28888888904268717
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 5,
+          "text" : "weaaln eentoا",
+          "width" : 0.04999999999999999,
+          "x" : 0.3933333334137931,
+          "y" : 0.2888888888812261
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 6,
+          "text" : "ht mare",
+          "width" : 0.023333331743876196,
+          "x" : 0.5083333352947285,
+          "y" : 0.3044444444444444
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008888888888888946,
+          "index" : 7,
+          "text" : "لمععملد عل-مممد الاسنايد",
+          "width" : 0.06333333333333335,
+          "x" : 0.5100000010555555,
+          "y" : 0.32000000007407403
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.00666666666666671,
+          "index" : 8,
+          "text" : "MADIOMALAL detAN CAkiun",
+          "width" : 0.06333332697550464,
+          "x" : 0.5800000063455807,
+          "y" : 0.3200000001111112
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 9,
+          "text" : "Skin (epidermal cels)",
+          "width" : 0.053333330154418934,
+          "x" : 0.3233333358116794,
+          "y" : 0.3266666667777779
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008888888888888946,
+          "index" : 10,
+          "text" : "Cholecakiterot",
+          "width" : 0.03333333333333338,
+          "x" : 0.3899999999166667,
+          "y" : 0.3266666666888889
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 11,
+          "text" : "Sterois",
+          "width" : 0.020000000000000018,
+          "x" : 0.4633333336666666,
+          "y" : 0.3266666667777779
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111183,
+          "index" : 12,
+          "text" : "Activated by the kidoeys to",
+          "width" : 0.06499999999999995,
+          "x" : 0.5083333322500001,
+          "y" : 0.32666666655555543
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 13,
+          "text" : "is activario",
+          "width" : 0.02499999841054279,
+          "x" : 0.5116666671002842,
+          "y" : 0.3422222224074075
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008888888888888835,
+          "index" : 14,
+          "text" : "nulin sensitivi",
+          "width" : 0.03166666666666673,
+          "x" : 0.5850000005277777,
+          "y" : 0.3422222222962963
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111183,
+          "index" : 15,
+          "text" : "Jrknoerc inwulin promotes",
+          "width" : 0.06333333333333335,
+          "x" : 0.5116666677222221,
+          "y" : 0.34888888900000004
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 16,
+          "text" : "nreases inเมริก production an",
+          "width" : 0.06833333333333336,
+          "x" : 0.5833333321944445,
+          "y" : 0.34888888885185176
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008888888888888946,
+          "index" : 17,
+          "text" : "Peptide",
+          "width" : 0.020000000000000018,
+          "x" : 0.4633333332499999,
+          "y" : 0.3511111111481481
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.0044444439146253956,
+          "index" : 18,
+          "text" : "outeocakin",
+          "width" : 0.028333330154418912,
+          "x" : 0.38833333633945705,
+          "y" : 0.3533333335982428
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 19,
+          "text" : "hyposia",
+          "width" : 0.021666666666666612,
+          "x" : 0.5083333330625001,
+          "y" : 0.3644444443611111
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 20,
+          "text" : "production of red tlood ceth",
+          "width" : 0.06666666666666665,
+          "x" : 0.5816666667500001,
+          "y" : 0.36444444443055557
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 21,
+          "text" : "Erythropoietin (EPO)",
+          "width" : 0.049999996821085635,
+          "x" : 0.3883333340894572,
+          "y" : 0.3733333332222222
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 22,
+          "text" : "Secreted in resporce to",
+          "width" : 0.056666666666666754,
+          "x" : 0.5083333323888889,
+          "y" : 0.3733333332222222
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 23,
+          "text" : "Gncoroten",
+          "width" : 0.031666666666666676,
+          "x" : 0.4633333332499999,
+          "y" : 0.3755555555672514
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 24,
+          "text" : "Ne0٢oe matrewem",
+          "width" : 0.06499999364217124,
+          "x" : 0.5816666665955813,
+          "y" : 0.37555555555555553
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888888888946,
+          "index" : 25,
+          "text" : "decreases blood presvure",
+          "width" : 0.05999999999999994,
+          "x" : 0.5799999999166666,
+          "y" : 0.3888888889012345
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.0044444439146253956,
+          "index" : 26,
+          "text" : "مwo٢١٦ot٢٥٨ه",
+          "width" : 0.05499999364217123,
+          "x" : 0.5816666725955808,
+          "y" : 0.40000000026490956
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.020000000000000018,
+          "index" : 27,
+          "text" : "tueten er sendeyinne",
+          "width" : 0.06333333333333335,
+          "x" : 0.5100000007916666,
+          "y" : 0.4155555555277778
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.01777777777777778,
+          "index" : 28,
+          "text" : "al nitriwrets peptide",
+          "width" : 0.06,
+          "x" : 0.38833333319999996,
+          "y" : 0.4177777776888888
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 29,
+          "text" : "Horption and rerin rek",
+          "width" : 0.053333333333333344,
+          "x" : 0.5900000006666666,
+          "y" : 0.41777777786111114
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008888888888888946,
+          "index" : 30,
+          "text" : "vey. inhibits sodiure",
+          "width" : 0.04499999999999993,
+          "x" : 0.5900000000801282,
+          "y" : 0.42666666664957253
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.015555555555555545,
+          "index" : 31,
+          "text" : "isd gicaosn ate peptise 1",
+          "width" : 0.065,
+          "x" : 0.38999999987121214,
+          "y" : 0.43999999992929295
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.00666666666666671,
+          "index" : 32,
+          "text" : "inhibition of glucagon releave",
+          "width" : 0.06999999364217124,
+          "x" : 0.5799999996789147,
+          "y" : 0.4488888887777778
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.006666666666666599,
+          "index" : 33,
+          "text" : "other qut regiom",
+          "width" : 0.039999996821085626,
+          "x" : 0.33666666625612407,
+          "y" : 0.4577777776666667
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 34,
+          "text" : "oanooncoeooo (or",
+          "width" : 0.05833333333333329,
+          "x" : 0.3916666665833333,
+          "y" : 0.457777777784127
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.006666666666666599,
+          "index" : 35,
+          "text" : "Parcreas: enhances olucose-",
+          "width" : 0.06833332697550454,
+          "x" : 0.5783333399289141,
+          "y" : 0.46444444455555556
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 36,
+          "text" : "eueenum xc",
+          "width" : 0.03833333333333333,
+          "x" : 0.3349999999166667,
+          "y" : 0.4666666666763285
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444362,
+          "index" : 37,
+          "text" : "wdensotwotedeoenda",
+          "width" : 0.06999999999999995,
+          "x" : 0.3883333332520325,
+          "y" : 0.4666666666720868
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 38,
+          "text" : "wrewnrwcore:",
+          "width" : 0.05499999999999994,
+          "x" : 0.50833333325,
+          "y" : 0.46666666667340073
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008888888888888835,
+          "index" : 39,
+          "text" : "juice t0 enter duodenum",
+          "width" : 0.05666666666666664,
+          "x" : 0.5816666676111111,
+          "y" : 0.48000000007407406
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 40,
+          "text" : "#lowing tile and pancreatic",
+          "width" : 0.06333333333333335,
+          "x" : 0.583333334111111,
+          "y" : 0.4866666668518518
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 41,
+          "text" : "٣a@awaew omet",
+          "width" : 0.06499999999999995,
+          "x" : 0.5799999999188596,
+          "y" : 0.5066666666725146
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008888888888888946,
+          "index" : 42,
+          "text" : "xpution of stored bile",
+          "width" : 0.05166666666666664,
+          "x" : 0.5833333332499999,
+          "y" : 0.5177777777921146
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008888888888888946,
+          "index" : 43,
+          "text" : "Galblasder: stimutate",
+          "width" : 0.051666663487752285,
+          "x" : 0.581666669117235,
+          "y" : 0.5266666667407407
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.01777777777777778,
+          "index" : 44,
+          "text" : "tooated in resporse to",
+          "width" : 0.05666666666666664,
+          "x" : 0.5083333330333333,
+          "y" : 0.5377777776
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111183,
+          "index" : 45,
+          "text" : "me tich ju",
+          "width" : 0.02499999999999991,
+          "x" : 0.5900000001041668,
+          "y" : 0.5377777779166666
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 46,
+          "text" : "xreas stimulates reiease",
+          "width" : 0.05666666666666664,
+          "x" : 0.588333332388889,
+          "y" : 0.5444444444074075
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.006666666666666599,
+          "index" : 47,
+          "text" : "Cholecystokinin (CCX)",
+          "width" : 0.05166666348775234,
+          "x" : 0.38833333421445726,
+          "y" : 0.5466666667649096
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888888888946,
+          "index" : 48,
+          "text" : "Peptide",
+          "width" : 0.020000000000000018,
+          "x" : 0.4633333332499999,
+          "y" : 0.5466666667037037
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.004444444444444473,
+          "index" : 49,
+          "text" : "• Quxdenum",
+          "width" : 0.03166666348775227,
+          "x" : 0.33166666983945703,
+          "y" : 0.5488888888888889
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 50,
+          "text" : "activity",
+          "width" : 0.020000000000000018,
+          "x" : 0.5799999996666667,
+          "y" : 0.5599999998888889
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111183,
+          "index" : 51,
+          "text" : "Stomach: ithitits secretory",
+          "width" : 0.06500000000000006,
+          "x" : 0.5800000008124999,
+          "y" : 0.5688888889722222
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.01777777777777778,
+          "index" : 52,
+          "text" : "tooated in resporse to",
+          "width" : 0.056666666666666754,
+          "x" : 0.5083333323888889,
+          "y" : 0.5822222220740741
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111183,
+          "index" : 53,
+          "text" : "Secretin",
+          "width" : 0.021666666666666667,
+          "x" : 0.3883333336944444,
+          "y" : 0.5888888889999999
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888888888835,
+          "index" : 54,
+          "text" : "Peptide",
+          "width" : 0.020000000000000018,
+          "x" : 0.4633333332499999,
+          "y" : 0.5911111111481482
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 55,
+          "text" : "release",
+          "width" : 0.018333333333333313,
+          "x" : 0.5799999998958333,
+          "y" : 0.6044444446111111
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.022222222222222143,
+          "index" : 56,
+          "text" : "goceatged h resporee to",
+          "width" : 0.06000000000000005,
+          "x" : 0.5066666672666666,
+          "y" : 0.611111111288889
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111183,
+          "index" : 57,
+          "text" : "dlases food intáke anc",
+          "width" : 0.04999999682108558,
+          "x" : 0.5916666681450128,
+          "y" : 0.6133333331481481
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 58,
+          "text" : "Ghretin",
+          "width" : 0.019999999999999962,
+          "x" : 0.38833333366666667,
+          "y" : 0.6222222222592593
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 59,
+          "text" : "Peptide",
+          "width" : 0.021666666666666667,
+          "x" : 0.46333333297222223,
+          "y" : 0.6222222221111111
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.017777777777777892,
+          "index" : 60,
+          "text" : "fooated in resporce to",
+          "width" : 0.05833333333333335,
+          "x" : 0.5083333343055555,
+          "y" : 0.637777778
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 61,
+          "text" : "Peptide",
+          "width" : 0.021666666666666667,
+          "x" : 0.4633333336944444,
+          "y" : 0.6444444445555555
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 62,
+          "text" : "soch: stimulates sjane",
+          "width" : 0.048333330154418985,
+          "x" : 0.5916666690616794,
+          "y" : 0.6444444445555555
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888888888835,
+          "index" : 63,
+          "text" : "Stomach",
+          "width" : 0.025000000000000022,
+          "x" : 0.33333333325000003,
+          "y" : 0.6466666666962964
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888359069869,
+          "index" : 64,
+          "text" : "Gastrin",
+          "width" : 0.019999999999999962,
+          "x" : 0.38833333366666667,
+          "y" : 0.6466666670056502
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 65,
+          "text" : "Gustrcintestinal (G0 tract macosa",
+          "width" : 0.07833333333333331,
+          "x" : 0.3250000013055555,
+          "y" : 0.660000000111111
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012385358810424796,
+          "index" : 66,
+          "text" : "Asipose tisoe",
+          "width" : 0.03687198003133135,
+          "x" : 0.32323067604227723,
+          "y" : 0.6993628754881502
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011111111111111072,
+          "index" : 67,
+          "text" : "Resistin, adiponectin",
+          "width" : 0.051666663487752285,
+          "x" : 0.3883333357839016,
+          "y" : 0.7000000001111111
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 68,
+          "text" : "Peptides",
+          "width" : 0.021666666666666667,
+          "x" : 0.46500000036111105,
+          "y" : 0.7000000001111111
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011111111111111072,
+          "index" : 69,
+          "text" : "Nased ty",
+          "width" : 0.019999999999999907,
+          "x" : 0.5433333336666667,
+          "y" : 0.7244444444814815
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008888888888888835,
+          "index" : 70,
+          "text" : "reases energy expendite",
+          "width" : 0.05333333333333323,
+          "x" : 0.5883333332526881,
+          "y" : 0.7244444444587814
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.015555555555555656,
+          "index" : 71,
+          "text" : "lecretion freperticnal to",
+          "width" : 0.05833333333333335,
+          "x" : 0.5099999990277778,
+          "y" : 0.7266666667037036
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111183,
+          "index" : 72,
+          "text" : "Leptin",
+          "width" : 0.016666666666666663,
+          "x" : 0.3883333336111111,
+          "y" : 0.7311111112222222
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008888888888888835,
+          "index" : 73,
+          "text" : "Peptide",
+          "width" : 0.020000000000000018,
+          "x" : 0.4633333332499999,
+          "y" : 0.7333333333703704
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 74,
+          "text" : "SOURCE",
+          "width" : 0.024999998410542845,
+          "x" : 0.32166666787806186,
+          "y" : 0.7444444445555556
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 75,
+          "text" : "HORMONE",
+          "width" : 0.02999999999999997,
+          "x" : 0.3866666661666667,
+          "y" : 0.7444444444074074
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.00666666666666671,
+          "index" : 76,
+          "text" : "TAAGET ORGAN AND EFFECTS",
+          "width" : 0.07333332697550454,
+          "x" : 0.5800000068455807,
+          "y" : 0.7466666667777777
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 77,
+          "text" : "Table 16.5 Selected Examples of Hormones Produced by Organs Other Than the Major Endocrine Organs",
+          "width" : 0.31166666666666665,
+          "x" : 0.3283333372291666,
+          "y" : 0.7644444445555556
+        }
+      ],
+      "route" : "ocr",
+      "text" : "Table 16.5 Selected Examples of Hormones Produced by Organs Other Than the Major Endocrine Organs\n\nSOURCE\n\nHORMONE\n\n### Taaget Organ And Effects\n\nLeptin\n\n### Peptide Lecretion Freperticnal To Nased Ty\n\nreases energy expendite\n\nFigure labels:\n\n- Asipose tisoe\n- Resistin, adiponectin\n- Peptides\n- Gustrcintestinal (G0 tract macosa\n- Stomach\n- Gastrin\n\nPeptide fooated in resporce to soch: stimulates sjane\n\nGhretin\n\nPeptide goceatged h resporee to release dlases food intáke anc\n\nSecretin\n\n### Peptide Tooated In Resporse To Stomach: Ithitits Secretory\n\nactivity\n\n- Quxdenum Cholecystokinin (CCX)\n\nPeptide tooated in resporse to xreas stimulates reiease me tich ju\n\nGalblasder: stimutate xpution of stored bile\n\n٣a@awaew omet\n\n#lowing tile and pancreatic juice t0 enter duodenum eueenum xc wdensotwotedeoenda wrewnrwcore: Parcreas: enhances olucose- other qut regiom oanooncoeooo (or isd gicaosn ate peptise 1 inhibition of glucagon releave al nitriwrets peptide tueten er sendeyinne vey. inhibits sodiure Horption and rerin rek decreases blood presvure\n\nErythropoietin (EPO)\n\n### Gncoroten Secreted In Resporce To\n\nhyposia production of red tlood ceth outeocakin\n\nPeptide\n\nJrknoerc inwulin promotes is activario nulin sensitivi nreases inเมริก production an\n\n### Skin (epidermal Cels) Cholecakiterot\n\nSterois\n\nActivated by the kidoeys to لمععملد عل-مممد الاسنايد MADIOMALAL detAN CAkiun ht mare\n\nThyrran weaaln eentoا\n\nPeptides\n\nUnknown levelopment äed in immane",
+      "title" : "Page 2"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 3,
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "The Endocrine Thymus\nGenerally speaking, the thymic hormones are all modulators of T-cell differentiation acting at\ndifferent stages: they showed immune-stimulating effects in a variety of clinical trials (Bach\n1983; Hadden 1993) and they modulate T-helper and T-cytotoxic functions.\nHowever, a number of thymic hormones seem to interact with the neuroendocrine system,\nAnd an emerging core of information is identifying the thymic hormone thymulin as a key link\nbetween the thymus and the anterior pituitary gland. In fact, many hormones exert a\nstimulatory effect on thymulin serum levels (PRL, IGF-1, GH, glucocorticoid hormones,\nestradiol, progesterone or testosterone, T3).\nTHYMOSIN Thymosin has displayed potent stimulatory effects on T-lymphocyte-mediated immunity. Thymosin\nshows also a stimulating effect on gonadotropin releasing hormones. The release of another pituitary hormone\nknown as prolactin, as well as human growth hormone and adrenal corticotropin (ACTH) are increased by (in vitro)\nthymosin administration. THYMULIN It affects the differentiation of immature bone marrow cells in the function\nof T-lymphocytes. The serum level of thymulin decreases with age, and it coincides with thymus atrophy. Thymulin\nrequires zinc for full biological activity\nTHYMIC HUMORAL FACTOR (THF) Peripheral blood obtained from patients with chronic hepatitis B and viral\ninfections responded to THF with increased production of IL-2, a protein produced by lymphocytes. This suggests a\npossible antiviral role for this thymic hormone.\nTHYMOPOIETIN It thoroughly enhances T-lymphocyte differentiation and the effect of function on mature T-",
+      "title" : "Page 3"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.7980000000000002,
+          "index" : 1,
+          "width" : 0.8215,
+          "x" : 0.013500000000000002,
+          "y" : 0.04244444444444437
+        },
+        {
+          "height" : 0.7902222222222222,
+          "index" : 2,
+          "width" : 0.8113333333333332,
+          "x" : 0.018000000000000002,
+          "y" : 0.045333333333333364
+        },
+        {
+          "height" : 0.23464814814814816,
+          "index" : 3,
+          "width" : 0.31295833333333334,
+          "x" : 0.6175972222222222,
+          "y" : 0.7084592592592592
+        }
+      ],
+      "index" : 4,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.020606060606060614,
+          "index" : 1,
+          "text" : "ells. and the cellular",
+          "width" : 0.18519909842223892,
+          "x" : 0.6090909090909091,
+          "y" : 0.046666666872727254
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.027878787878787885,
+          "index" : 2,
+          "text" : "noral immunity that",
+          "width" : 0.18065990483345853,
+          "x" : 0.6090909101273583,
+          "y" : 0.07454545477777777
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.025454545454545462,
+          "index" : 3,
+          "text" : "es and toxins. The",
+          "width" : 0.16976584022038566,
+          "x" : 0.6090909100340527,
+          "y" : 0.11212121216835017
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021818181818181813,
+          "index" : 4,
+          "text" : "sm from extern factors",
+          "width" : 0.2024480340596043,
+          "x" : 0.6090909101031493,
+          "y" : 0.15090909094545454
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03151515151515154,
+          "index" : 5,
+          "text" : "se system, which",
+          "width" : 0.15433258201853242,
+          "x" : 0.6090909096874888,
+          "y" : 0.17757575780086582
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02785819793205312,
+          "index" : 6,
+          "text" : "It is supported by T-cells",
+          "width" : 0.2217283214222301,
+          "x" : 0.3120084590056309,
+          "y" : 0.3465202986318618
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027335010875355094,
+          "index" : 7,
+          "text" : "It is supported by T-cells",
+          "width" : 0.22136891403784478,
+          "x" : 0.3127246323089619,
+          "y" : 0.34909090867263365
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02785819793205321,
+          "index" : 8,
+          "text" : "The Cellular Immunity",
+          "width" : 0.205890586159446,
+          "x" : 0.3205364737951976,
+          "y" : 0.3822514654473346
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027493113893451115,
+          "index" : 9,
+          "text" : "The Cellular Immunity",
+          "width" : 0.20572872686048263,
+          "x" : 0.32114627493142717,
+          "y" : 0.3842424236645644
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029675036927621842,
+          "index" : 10,
+          "text" : "phagocytosis by opsonization.",
+          "width" : 0.27167810613458804,
+          "x" : 0.28886100205081283,
+          "y" : 0.416165793365733
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027512277545350933,
+          "index" : 11,
+          "text" : "phagocytosis by opsonization.",
+          "width" : 0.2718987772619638,
+          "x" : 0.2886627961864165,
+          "y" : 0.4197604500083311
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029675036927621842,
+          "index" : 12,
+          "text" : "tissue fluids. These immunocomplexes activate the complement system and facilitate",
+          "width" : 0.7675211403586647,
+          "x" : 0.03911205648165238,
+          "y" : 0.4518969612903144
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02917235518946794,
+          "index" : 13,
+          "text" : "tissue fluids. These immunocomplexes activate the complement system and facilitate",
+          "width" : 0.7675726512044434,
+          "x" : 0.03962276114417108,
+          "y" : 0.4550700686153747
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029675036927621842,
+          "index" : 14,
+          "text" : "antibodies\/immunoglobulins that recognize and neutralize free antigen in serum and",
+          "width" : 0.7626479825106532,
+          "x" : 0.04154862607222211,
+          "y" : 0.48762812745538037
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029090909090909032,
+          "index" : 15,
+          "text" : "antibodies\/immunoglobulins that recognize and neutralize free antigen in serum and",
+          "width" : 0.762760285919101,
+          "x" : 0.0420289533978282,
+          "y" : 0.4903030305958648
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029267297460198217,
+          "index" : 16,
+          "text" : "with an appropriate antigen, they produce and secrete large amounts of circulating",
+          "width" : 0.7480285089666193,
+          "x" : 0.04885836173811138,
+          "y" : 0.5219501947280385
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.028889687278054008,
+          "index" : 17,
+          "text" : "with an appropriate antigen, they produce and secrete large amounts of circulating",
+          "width" : 0.7483231900630747,
+          "x" : 0.049247494433843284,
+          "y" : 0.5240843213498938
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029675036927621842,
+          "index" : 18,
+          "text" : "binding specificity as the antibody finally produced by the mature AFC. After contact",
+          "width" : 0.7589930863813921,
+          "x" : 0.04398521454706837,
+          "y" : 0.5590904617308582
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.028889687278054008,
+          "index" : 19,
+          "text" : "binding specificity as the antibody finally produced by the mature AFC. After contact",
+          "width" : 0.7591510396831205,
+          "x" : 0.044435124642127566,
+          "y" : 0.5609989222098172
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03090784856100386,
+          "index" : 20,
+          "text" : "immunoglobulins on their surface, the B-cell antigen receptors that have the same",
+          "width" : 0.7419370893998578,
+          "x" : 0.051294926918530444,
+          "y" : 0.5917719774262626
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03235596974690767,
+          "index" : 21,
+          "text" : "immunoglobulins on their surface, the B-cell antigen receptors that have the same",
+          "width" : 0.7435108247777324,
+          "x" : 0.05045058532689758,
+          "y" : 0.5930985751901723
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032854505169867106,
+          "index" : 22,
+          "text" : "cell) as effector cell of the B-cell lineage. B-cells carry membrane-bound",
+          "width" : 0.6495908979936079,
+          "x" : 0.09929547092061991,
+          "y" : 0.6281303433379151
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029090909090909032,
+          "index" : 23,
+          "text" : "cell) as effector cell of the B-cell lineage. B-cells carry membrane-bound",
+          "width" : 0.6460604000215271,
+          "x" : 0.09977734528619409,
+          "y" : 0.6315151516033756
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02785819793205321,
+          "index" : 24,
+          "text" : "Humoral immunity is provided by the plasma cell also called AFC (antibody forming",
+          "width" : 0.7455919855291193,
+          "x" : 0.05129492046852693,
+          "y" : 0.666283961958235
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03217599579782196,
+          "index" : 25,
+          "text" : "Humoral immunity is provided by the plasma cell also called AFC (antibody forming",
+          "width" : 0.7484033795143481,
+          "x" : 0.050931842914321866,
+          "y" : 0.6672179437787454
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0293092708784861,
+          "index" : 26,
+          "text" : "The Humoral Immunity",
+          "width" : 0.2156368879838423,
+          "x" : 0.315663323419046,
+          "y" : 0.7005640558914898
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027490717569986948,
+          "index" : 27,
+          "text" : "The Humoral Immunity",
+          "width" : 0.215353457431167,
+          "x" : 0.31633390968045905,
+          "y" : 0.7036363636562181
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032401986555619725,
+          "index" : 28,
+          "text" : "demonstrated by Cooper et al. in 1965.",
+          "width" : 0.35868181448474806,
+          "x" : 0.2440681881502395,
+          "y" : 0.7357575752663336
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027603959403326817,
+          "index" : 29,
+          "text" : "demonstrated by Cooper et al. in 1965.",
+          "width" : 0.3545216508345171,
+          "x" : 0.24743923098208076,
+          "y" : 0.7362868291629872
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02785819793205321,
+          "index" : 30,
+          "text" : "immunity that culminates in activated T-cells. This differentiation has first been clearly",
+          "width" : 0.7784857177734376,
+          "x" : 0.033020614049014047,
+          "y" : 0.773477462493724
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03213833317612158,
+          "index" : 31,
+          "text" : "immunity that culminates in activated T-cells. This differentiation has first been clearly",
+          "width" : 0.7794431855152519,
+          "x" : 0.033687507894504476,
+          "y" : 0.7727272722462426
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032703101920236344,
+          "index" : 32,
+          "text" : "leads to the synthesis of circulating antibody molecules by B-cells, and the cellular",
+          "width" : 0.7431553511186078,
+          "x" : 0.051294949720954976,
+          "y" : 0.8043637258043674
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030909090909090935,
+          "index" : 33,
+          "text" : "leads to the synthesis of circulating antibody molecules by B-cells, and the cellular",
+          "width" : 0.7423077057283709,
+          "x" : 0.05165368587592106,
+          "y" : 0.8078787873262654
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032703101920236344,
+          "index" : 34,
+          "text" : "immune system consists of two main compartments, the humoral immunity that",
+          "width" : 0.7334090909090909,
+          "x" : 0.056168080788160685,
+          "y" : 0.8400948928985863
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032152352766557174,
+          "index" : 35,
+          "text" : "immune system consists of two main compartments, the humoral immunity that",
+          "width" : 0.7326829751576863,
+          "x" : 0.05646605124146935,
+          "y" : 0.8418181817953366
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029227723216024452,
+          "index" : 36,
+          "text" : "such as infectious agents (bacteria, viruses, fungi and parasites) and toxins. The",
+          "width" : 0.7114798805930398,
+          "x" : 0.06713268522062822,
+          "y" : 0.877554155283877
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030494669133966583,
+          "index" : 37,
+          "text" : "such as infectious agents (bacteria, viruses, fungi and parasites) and toxins. The",
+          "width" : 0.7110273313736467,
+          "x" : 0.0672938827943176,
+          "y" : 0.8787854838228838
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03289579707023135,
+          "index" : 38,
+          "text" : "distinguishes self from non-self and thereby protects the organism from extern factors",
+          "width" : 0.7788105912642046,
+          "x" : 0.03293941107272706,
+          "y" : 0.9125757579604945
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03228899175470523,
+          "index" : 39,
+          "text" : "distinguishes self from non-self and thereby protects the organism from extern factors",
+          "width" : 0.7794431855152519,
+          "x" : 0.033687507894504476,
+          "y" : 0.9149837357880451
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.021196454948301354,
+          "index" : 40,
+          "text" : "Ine verteorale Immune response is a mighly specmic aetense system, which",
+          "width" : 0.6798044100674716,
+          "x" : 0.08297040520067263,
+          "y" : 0.9472883938220551
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.011234877615264004,
+          "index" : 41,
+          "text" : "~0cl5o3365788302",
+          "width" : 0.21896273139517372,
+          "x" : 0.5425151933103746,
+          "y" : 0.9542196675530099
+        }
+      ],
+      "route" : "text-layer",
+      "text" : "The Immune System\nThe Innate and Acquired Immunity\nThe vertebrate immune response is a highly specific defense system, which\ndistinguishes self from non-self and thereby protects the organism from extern factors\nsuch as infectious agents (bacteria, viruses, fungi and parasites) and toxins. The\nimmune system consists of two main compartments, the humoral immunity that\nleads to the synthesis of circulating antibody molecules by B-cells, and the cellular\nimmunity that culminates in activated T-cells. This differentiation has first been clearly\ndemonstrated by Cooper et al. in 1965.\nThe Humoral Immunity\nHumoral immunity is provided by the plasma cell also called AFC (antibody forming\ncell) as effector cell of the B-cell lineage. B-cells carry membrane-bound\nimmunoglobulins on their surface, the B-cell antigen receptors that have the same\nbinding specificity as the antibody finally produced by the mature AFC. After contact\nwith an appropriate antigen, they produce and secrete large amounts of circulating\nantibodies\/immunoglobulins that recognize and neutralize free antigen in serum and\ntissue fluids. These immunocomplexes activate the complement system and facilitate\nphagocytosis by opsonization.\nThe Cellular Immunity\nIt is supported by T-cells",
+      "title" : "Page 4"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.8921111111111111,
+          "index" : 1,
+          "width" : 0.516,
+          "x" : 0.4409305555555556,
+          "y" : 0.026311111111111056
+        },
+        {
+          "height" : 0.4824444444444443,
+          "index" : 2,
+          "width" : 0.41700000000000004,
+          "x" : 0.006,
+          "y" : 0.0360000000000001
+        },
+        {
+          "height" : 0.4715555555555555,
+          "index" : 3,
+          "width" : 0.4045,
+          "x" : 0.0095,
+          "y" : 0.03888888888888889
+        },
+        {
+          "height" : 0.23464814814814816,
+          "index" : 4,
+          "width" : 0.31295833333333334,
+          "x" : 0.014624999999999999,
+          "y" : 0.6876037037037037
+        }
+      ],
+      "index" : 5,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.024242424242424235,
+          "index" : 1,
+          "text" : "phagocytes and other cell",
+          "width" : 0.2623653894315051,
+          "x" : 0.07263586130224423,
+          "y" : 0.06787878775757573
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03030303030303031,
+          "index" : 2,
+          "text" : "the myeloid lineage produc",
+          "width" : 0.27598297019784623,
+          "x" : 0.05901828046024991,
+          "y" : 0.10181818177104378
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03030303030303028,
+          "index" : 3,
+          "text" : "lineage produces lymphocyte:",
+          "width" : 0.3050338091660405,
+          "x" : 0.02996744084648137,
+          "y" : 0.14181818180952385
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022737859090169205,
+          "index" : 4,
+          "text" : "(CFU-L)",
+          "width" : 0.061768452037464484,
+          "x" : 0.49643947787327586,
+          "y" : 0.14461591889342898
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023728177619702858,
+          "index" : 5,
+          "text" : "B lymphocyte",
+          "width" : 0.09673502835360441,
+          "x" : 0.662672417099957,
+          "y" : 0.1640467641004709
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018787878787878697,
+          "index" : 6,
+          "text" : "Plasma cell",
+          "width" : 0.08364316073330967,
+          "x" : 0.7782531865112551,
+          "y" : 0.1672727275439334
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018597604000207175,
+          "index" : 7,
+          "text" : "stem cell",
+          "width" : 0.06571962529962715,
+          "x" : 0.49545964400977294,
+          "y" : 0.17258985213655356
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03030303030303031,
+          "index" : 8,
+          "text" : "differentiation: the lympho",
+          "width" : 0.27235161532682195,
+          "x" : 0.06264963550275486,
+          "y" : 0.1818181817757576
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02125440424138847,
+          "index" : 9,
+          "text" : "Lymphoid",
+          "width" : 0.06970263394442469,
+          "x" : 0.4934681396209907,
+          "y" : 0.1938442567327941
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03030303030303031,
+          "index" : 10,
+          "text" : "cells through two main line:",
+          "width" : 0.2796143250688706,
+          "x" : 0.055386926860199824,
+          "y" : 0.22181818164983164
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03670622392134234,
+          "index" : 11,
+          "text" : "from the same pluripotent s",
+          "width" : 0.2882673013726781,
+          "x" : 0.046999974165824444,
+          "y" : 0.25978277412244105
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027214891838304896,
+          "index" : 12,
+          "text" : "T lymphocyte",
+          "width" : 0.09911725824529473,
+          "x" : 0.6535152867550379,
+          "y" : 0.2579482273565262
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.020606060606060614,
+          "index" : 13,
+          "text" : "All cells ot the Immune system",
+          "width" : 0.30594164788379663,
+          "x" : 0.029059602395402912,
+          "y" : 0.30303030302272727
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02258280436197917,
+          "index" : 14,
+          "text" : "Basophil",
+          "width" : 0.06273237054998228,
+          "x" : 0.7772574334689681,
+          "y" : 0.3333262862921958
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02177912856593279,
+          "index" : 15,
+          "text" : "(CFU-ML)",
+          "width" : 0.07376987110484731,
+          "x" : 0.47749399408517484,
+          "y" : 0.3981555380546006
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017575757575757512,
+          "index" : 16,
+          "text" : "stem cell",
+          "width" : 0.06571962529962712,
+          "x" : 0.4825148691086685,
+          "y" : 0.4236363637296667
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021495721990411974,
+          "index" : 17,
+          "text" : "Pluripotential",
+          "width" : 0.09462679082697087,
+          "x" : 0.46855916184216545,
+          "y" : 0.4447912509229324
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02258280436197917,
+          "index" : 18,
+          "text" : "Eosinophil",
+          "width" : 0.07567714344371448,
+          "x" : 0.7812404429705812,
+          "y" : 0.4449119098695522
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02258280436197917,
+          "index" : 19,
+          "text" : "Macrophage",
+          "width" : 0.08961767023259942,
+          "x" : 0.84397281363986,
+          "y" : 0.5378999298093204
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02227340929435962,
+          "index" : 20,
+          "text" : "Monocyte",
+          "width" : 0.07028210726651278,
+          "x" : 0.7520341061051027,
+          "y" : 0.5724084557490795
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02269316702178032,
+          "index" : 21,
+          "text" : "CFU-GM",
+          "width" : 0.06498145363547583,
+          "x" : 0.6277658580419634,
+          "y" : 0.6248549669503262
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02410166191332269,
+          "index" : 22,
+          "text" : "Neutrophil",
+          "width" : 0.07592421098188921,
+          "x" : 0.7392953292933817,
+          "y" : 0.6806077315013631
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.015738681781847265,
+          "index" : 23,
+          "text" : ".",
+          "width" : 0.015438277511961751,
+          "x" : 0.22340095693023126,
+          "y" : 0.7414926242137079
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02217610214695787,
+          "index" : 24,
+          "text" : "cell (CFU-S)",
+          "width" : 0.09073261607776989,
+          "x" : 0.48544252889146805,
+          "y" : 0.7566251272915733
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024190322413589052,
+          "index" : 25,
+          "text" : "Erythrocyte",
+          "width" : 0.08189347700639199,
+          "x" : 0.8468391584273463,
+          "y" : 0.7562822172836363
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022090068007960456,
+          "index" : 26,
+          "text" : "Myeloid stem",
+          "width" : 0.09569481589577415,
+          "x" : 0.48345930498723166,
+          "y" : 0.7805793494526527
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02258280436197917,
+          "index" : 27,
+          "text" : "Megakaryocyte",
+          "width" : 0.10953270652077413,
+          "x" : 0.7563466455485945,
+          "y" : 0.8407751938522079
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020098456180456883,
+          "index" : 28,
+          "text" : "Platelets",
+          "width" : 0.061767834750088714,
+          "x" : 0.8668594976752491,
+          "y" : 0.8951533795209966
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.016949349611220122,
+          "index" : 29,
+          "text" : "rympnora orsalls.",
+          "width" : 0.1816267942583732,
+          "x" : 0.12168995210605649,
+          "y" : 0.9582021655446861
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "All cells of the immune system arise\nfrom the same pluripotent stem\ncells through two main lines of\ndifferentiation: the lymphoid\nlineage produces lymphocytes, and\nthe myeloid lineage produces\nphagocytes and other cells.\nThe major lymphoid organs and\ntissues are divided into primary\n(central) and secondary (peripheral)\nlymphoid organs.\n\n#### Image OCR\n\nFigure labels:\n- Platelets\n- Megakaryocyte\n- Myeloid stem cell (CFU-S\n- Erythrocyte\n- Neutrophil\n- CFU-GM\n- Monocyte\n- Macrophage\n- Pluripotential\n- Eosinophil stem cell\n- Basophil\n- T lymphocyte\n- Lymphoid stem cell\nB lymphocyte Plasma cell rympnora orsalls.\n### All Cells Ot The Immune System\nthe myeloid lineage produc phagocytes and other cell",
+      "title" : "Page 5"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.45799999999999996,
+          "index" : 1,
+          "width" : 0.8798333333333334,
+          "x" : 0.0615,
+          "y" : 0.022444444444444454
+        },
+        {
+          "height" : 0.49307407407407405,
+          "index" : 2,
+          "width" : 0.6980833333333334,
+          "x" : 0.15175,
+          "y" : 0.47067037037037046
+        }
+      ],
+      "index" : 6,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.02631150216767282,
+          "index" : 1,
+          "text" : "(MALT).",
+          "width" : 0.07373942982066765,
+          "x" : 0.4630655381749596,
+          "y" : 0.10655262292167564
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03090909090909088,
+          "index" : 2,
+          "text" : "s and tissues such as the spleen, lymph nodes and mucosa-associated lymphoid",
+          "width" : 0.7135068581321024,
+          "x" : 0.14318182377041494,
+          "y" : 0.13818181799140603
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030465950243400833,
+          "index" : 3,
+          "text" : ",lymphocytes develop in the primary organs, but migrate to and function in sec",
+          "width" : 0.7135068581321022,
+          "x" : 0.14318182521144954,
+          "y" : 0.1744086017488193
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02788898121226922,
+          "index" : 4,
+          "text" : "in the bone marrow.",
+          "width" : 0.18636961503462363,
+          "x" : 0.40782084736804225,
+          "y" : 0.24903757158012882
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03212121212121219,
+          "index" : 5,
+          "text" : "rate and mature into functional cells, whereas the B-lymphocytes develop and r",
+          "width" : 0.7135068581321024,
+          "x" : 0.14318182436255175,
+          "y" : 0.27939393919213107
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030909090909090935,
+          "index" : 6,
+          "text" : "le thymus is the site where T-lymphocytes differentiate from lymphoid stem cel",
+          "width" : 0.7135068581321024,
+          "x" : 0.14318182277294206,
+          "y" : 0.3181818184605606
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027989573623194854,
+          "index" : 7,
+          "text" : "innumerable antigenic challenges throughout life.",
+          "width" : 0.451783807927912,
+          "x" : 0.27508192948048127,
+          "y" : 0.35443466916329025
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02787878787878786,
+          "index" : 8,
+          "text" : "acquire their repertoire of specific antigen receptors that enable them to meet",
+          "width" : 0.7135068581321024,
+          "x" : 0.14318182805240812,
+          "y" : 0.39030302999935274
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030524600635875362,
+          "index" : 9,
+          "text" : "s and bone marrow are the mammals' primary lymphoid organs where the lyr",
+          "width" : 0.7135068581321024,
+          "x" : 0.14318182017431955,
+          "y" : 0.4264450958246583
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02769631819291551,
+          "index" : 10,
+          "text" : "(peripheral) lymphoid organs.",
+          "width" : 0.27730180220170453,
+          "x" : 0.36232293805060123,
+          "y" : 0.46106549328216717
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027878787878787916,
+          "index" : 11,
+          "text" : "najor lymphoid organs and tissues are divided into primary (central) and secor",
+          "width" : 0.7135068581321024,
+          "x" : 0.1431818216607922,
+          "y" : 0.4969696971987707
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019061371774384436,
+          "index" : 12,
+          "text" : "Thymus",
+          "width" : 0.050811309814453115,
+          "x" : 0.34892970446172156,
+          "y" : 0.596860299591158
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019061371774384436,
+          "index" : 13,
+          "text" : "T lymphocytes",
+          "width" : 0.09380549344149504,
+          "x" : 0.4740037026547809,
+          "y" : 0.5968602998467538
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017328518954190297,
+          "index" : 14,
+          "text" : "Recirculation",
+          "width" : 0.08468551635742186,
+          "x" : 0.6524947158013698,
+          "y" : 0.5968602999824826
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01591459563284211,
+          "index" : 15,
+          "text" : "Mature",
+          "width" : 0.045660962191495034,
+          "x" : 0.47397316545831963,
+          "y" : 0.6174950595952762
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01922747062914297,
+          "index" : 16,
+          "text" : "lineage",
+          "width" : 0.052148368141867914,
+          "x" : 0.25640996021326357,
+          "y" : 0.6383656980961261
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02252707510283498,
+          "index" : 17,
+          "text" : "lymph",
+          "width" : 0.050811309814453115,
+          "x" : 0.58604915518087,
+          "y" : 0.6384487478679334
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01906137177438449,
+          "index" : 18,
+          "text" : "lymphocyte",
+          "width" : 0.08077695673162283,
+          "x" : 0.24209566597438034,
+          "y" : 0.6557772673774396
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02584500861890387,
+          "index" : 19,
+          "text" : "Blood,",
+          "width" : 0.05122680317271838,
+          "x" : 0.5884471168616688,
+          "y" : 0.6584504305603633
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.020794222282640842,
+          "index" : 20,
+          "text" : "lymphoid tissues",
+          "width" : 0.1289825578169389,
+          "x" : 0.6876717776721001,
+          "y" : 0.6592429720872104
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.013862815625739806,
+          "index" : 21,
+          "text" : "T",
+          "width" : 0.010422833182594958,
+          "x" : 0.27466701900484414,
+          "y" : 0.6783043430604263
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01732851895419035,
+          "index" : 22,
+          "text" : "cutaneous",
+          "width" : 0.0794740988991477,
+          "x" : 0.6889746303180994,
+          "y" : 0.6817700474048652
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01939393939393941,
+          "index" : 23,
+          "text" : "Mucosal and",
+          "width" : 0.0977140600031073,
+          "x" : 0.6850660682271726,
+          "y" : 0.7024242426986779
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019393938815954977,
+          "index" : 24,
+          "text" : "B lymphocytes",
+          "width" : 0.0938054934414951,
+          "x" : 0.47660940881545755,
+          "y" : 0.7163636364227952
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019934458877101092,
+          "index" : 25,
+          "text" : "Spleen",
+          "width" : 0.053589373501864365,
+          "x" : 0.6849798908618632,
+          "y" : 0.7281205071978497
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017561578461618144,
+          "index" : 26,
+          "text" : "Mature",
+          "width" : 0.04564964641224254,
+          "x" : 0.47658453186020994,
+          "y" : 0.7353719290729527
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017575757575757543,
+          "index" : 27,
+          "text" : "Bone marrow",
+          "width" : 0.08729122508655898,
+          "x" : 0.3463239972091253,
+          "y" : 0.7509090907204833
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02332108468720399,
+          "index" : 28,
+          "text" : "Lymph nodes",
+          "width" : 0.10562534679066055,
+          "x" : 0.6811104229061457,
+          "y" : 0.7576185302003875
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01732852011015922,
+          "index" : 29,
+          "text" : "Blood",
+          "width" : 0.04429703799161044,
+          "x" : 0.5899577180675207,
+          "y" : 0.7684126462781444
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013862815625739806,
+          "index" : 30,
+          "text" : "stem cell",
+          "width" : 0.058628436001864355,
+          "x" : 0.16653012654428515,
+          "y" : 0.7718783504350243
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01690209013043031,
+          "index" : 31,
+          "text" : "lineage",
+          "width" : 0.052677088650790106,
+          "x" : 0.24306710433639303,
+          "y" : 0.7710617310205892
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014087805314497501,
+          "index" : 32,
+          "text" : "marrow",
+          "width" : 0.049543789950284106,
+          "x" : 0.16651246069982176,
+          "y" : 0.7890943754975508
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019492129701556598,
+          "index" : 33,
+          "text" : "lymphocyte",
+          "width" : 0.08083378184925424,
+          "x" : 0.22903871093901718,
+          "y" : 0.7872586391611274
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017459279840642807,
+          "index" : 34,
+          "text" : "Bone",
+          "width" : 0.03521335255015979,
+          "x" : 0.16651198079031185,
+          "y" : 0.8064700099235635
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.01732851895419035,
+          "index" : 35,
+          "text" : "B",
+          "width" : 0.010422832315618328,
+          "x" : 0.26294133232170985,
+          "y" : 0.8082682422207497
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015595667289965079,
+          "index" : 36,
+          "text" : "Recirculation",
+          "width" : 0.08468551635742186,
+          "x" : 0.6511918604247511,
+          "y" : 0.822131058074523
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024338693329782224,
+          "index" : 37,
+          "text" : "lymphoid organs",
+          "width" : 0.1289825578169389,
+          "x" : 0.31896406016405626,
+          "y" : 0.8550552456208069
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020794222282640842,
+          "index" : 38,
+          "text" : "lymphoid organs",
+          "width" : 0.12767970692027703,
+          "x" : 0.6850660649247982,
+          "y" : 0.8567880982850443
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020134006847034785,
+          "index" : 39,
+          "text" : "Generative",
+          "width" : 0.08351747686212715,
+          "x" : 0.3423480278719927,
+          "y" : 0.8787788556408198
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02352811177571617,
+          "index" : 40,
+          "text" : "Peripheral",
+          "width" : 0.0809314034201882,
+          "x" : 0.7110459261431911,
+          "y" : 0.8770818032027008
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029690720529267283,
+          "index" : 41,
+          "text" : "Primary",
+          "width" : 0.0784318195689808,
+          "x" : 0.3370303033171194,
+          "y" : 0.9340518596016582
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029458484071673802,
+          "index" : 42,
+          "text" : "Secondary",
+          "width" : 0.10422832835804335,
+          "x" : 0.6928831940789594,
+          "y" : 0.9347664364793365
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "The major lymphoid organs and tissues are divided into primary (central) and secondary\n(peripheral) lymphoid organs.\nThymus and bone marrow are the mammals’ primary lymphoid organs where the lymphoid\ncells acquire their repertoire of specific antigen receptors that enable them to meet the\ninnumerable antigenic challenges throughout life.\nThe thymus is the site where T-lymphocytes differentiate from lymphoid stem cells,\nproliferate and mature into functional cells, whereas the B-lymphocytes develop and mature\nin the bone marrow.\nBriefly, lymphocytes develop in the primary organs, but migrate to and function in secondary\norgans and tissues such as the spleen, lymph nodes and mucosa-associated lymphoid tissue\n(MALT).\n\n#### Image OCR\n\nFigure labels:\n- Generative\n- Recirculation\nBone marrow lymphocyte stem cell lineage\nFigure labels:\n- Blood\n- Mucosal and lymphocyte\n- Blood, cutaneous lymphoid tissues lineage\n,lymphocytes develop in the primary organs, but migrate to and function in sec s and tissues such as the spleen, lymph nodes and mucosa-associated lymphoid",
+      "title" : "Page 6"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.06377777777777778,
+          "index" : 1,
+          "width" : 0.9463333333333334,
+          "x" : 2.3208333333333334e-09,
+          "y" : 0
+        },
+        {
+          "height" : 0.07555555555555547,
+          "index" : 2,
+          "width" : 0.7968333333333334,
+          "x" : 4.3875e-09,
+          "y" : 0
+        },
+        {
+          "height" : 0.9366666666666666,
+          "index" : 3,
+          "width" : 0.317,
+          "x" : 0.6829999999999999,
+          "y" : 0.06333332202962957
+        },
+        {
+          "height" : 0.6096111111111111,
+          "index" : 4,
+          "width" : 0.6706944444444445,
+          "x" : 0.00040108333333333337,
+          "y" : 0.09303703703703706
+        },
+        {
+          "height" : 0.19466666666666668,
+          "index" : 5,
+          "width" : 0.2051666666666667,
+          "x" : 0.16599999999999998,
+          "y" : 0.4102222222222222
+        },
+        {
+          "height" : 0.22466666666666665,
+          "index" : 6,
+          "width" : 0.05699999999999999,
+          "x" : 0.26816666666666666,
+          "y" : 0.5473333333333333
+        }
+      ],
+      "index" : 7,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.02495771697073264,
+          "index" : 1,
+          "text" : "continues to migrate toward the",
+          "width" : 0.2562308848987926,
+          "x" : 0.6972756127718777,
+          "y" : 0.004133192098573012
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027878787878787885,
+          "index" : 2,
+          "text" : "poles of the thyroid, and the thymus",
+          "width" : 0.2882597489790483,
+          "x" : 0.6983087981988356,
+          "y" : 0.03151515193072168
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020665960600881807,
+          "index" : 3,
+          "text" : "become localized near the inferior",
+          "width" : 0.27069552334872155,
+          "x" : 0.6983088053356825,
+          "y" : 0.07026427133340338
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023664551937218795,
+          "index" : 4,
+          "text" : "the inferior parathyroid glands",
+          "width" : 0.2417662187056108,
+          "x" : 0.6972756220147559,
+          "y" : 0.09757575782593644
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026176884969075446,
+          "index" : 5,
+          "text" : "eventually separate. In most cases,",
+          "width" : 0.2779278564453125,
+          "x" : 0.6972756077008166,
+          "y" : 0.12537350248976925
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029164904970111247,
+          "index" : 6,
+          "text" : "toward the mediastinum, then they",
+          "width" : 0.283093788840554,
+          "x" : 0.6972756173837634,
+          "y" : 0.1556835795297386
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025024666063713303,
+          "index" : 7,
+          "text" : "and the thymus migrate together",
+          "width" : 0.2634631902521307,
+          "x" : 0.6972756179992696,
+          "y" : 0.19012684946608524
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02485200824159564,
+          "index" : 8,
+          "text" : "As the inferior parathyroid glands",
+          "width" : 0.2655295909534801,
+          "x" : 0.6972756104603038,
+          "y" : 0.2218146579195737
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022043692848899128,
+          "index" : 9,
+          "text" : "cord.",
+          "width" : 0.04339393962513317,
+          "x" : 0.6972756135216326,
+          "y" : 0.28519027476470954
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027160273465243277,
+          "index" : 10,
+          "text" : "persists for some time as a cellular",
+          "width" : 0.27299308083274143,
+          "x" : 0.6981781747579678,
+          "y" : 0.31539932128562226
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027878787878787885,
+          "index" : 11,
+          "text" : "obliterated, but the neck of the flask",
+          "width" : 0.2903261219371449,
+          "x" : 0.6972756090507157,
+          "y" : 0.34303030268866574
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025091614000724998,
+          "index" : 12,
+          "text" : "opening of each diverticulum is soon",
+          "width" : 0.2892929354580966,
+          "x" : 0.6983087978658531,
+          "y" : 0.3761205068434386
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0249189573345762,
+          "index" : 13,
+          "text" : "tissue proper. The pharyngeal",
+          "width" : 0.235567099831321,
+          "x" : 0.697275612072743,
+          "y" : 0.4078083153157142
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024901339213053382,
+          "index" : 14,
+          "text" : "never any fusion of the thymus",
+          "width" : 0.24486580588600848,
+          "x" : 0.6983088001861444,
+          "y" : 0.439393939708131
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02915081024169914,
+          "index" : 15,
+          "text" : "by connective tissue, but there is",
+          "width" : 0.26036363081498576,
+          "x" : 0.6983088056686014,
+          "y" : 0.46545454561668753
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023421422784978732,
+          "index" : 16,
+          "text" : "and become joined to one another",
+          "width" : 0.2768946699662642,
+          "x" : 0.6972756110472671,
+          "y" : 0.5028717410962058
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03427848353530419,
+          "index" : 17,
+          "text" : "Esophagus",
+          "width" : 0.10469741047037186,
+          "x" : 0.02172965165595934,
+          "y" : 0.5180995765433494
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.0302989011822325,
+          "index" : 18,
+          "text" : "- Trachea",
+          "width" : 0.08638302986634606,
+          "x" : 0.3395466582434303,
+          "y" : 0.5207485691088805
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.025088089451645434,
+          "index" : 19,
+          "text" : "the ventral aorta. Here they meet",
+          "width" : 0.2727618963068182,
+          "x" : 0.6972756192595779,
+          "y" : 0.531515151213394
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025664339932528354,
+          "index" : 20,
+          "text" : "isthmus",
+          "width" : 0.07518007149091323,
+          "x" : 0.5550368138517043,
+          "y" : 0.5415234954218455
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.038778439146099665,
+          "index" : 21,
+          "text" : "arathyroid IV -",
+          "width" : 0.14758294513055176,
+          "x" : 0,
+          "y" : 0.5639713170235531
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.031988160104462614,
+          "index" : 22,
+          "text" : "Thyroid",
+          "width" : 0.0764176331391657,
+          "x" : 0.5549118884903662,
+          "y" : 0.5634112466427377
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02499295321377838,
+          "index" : 23,
+          "text" : "surrounding mesoderm in front of",
+          "width" : 0.27172870982776987,
+          "x" : 0.6972756156578322,
+          "y" : 0.5634918951745823
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02787878787878778,
+          "index" : 24,
+          "text" : "diverticula, and extends into the",
+          "width" : 0.25519769841974427,
+          "x" : 0.6983087980348127,
+          "y" : 0.5921212124023673
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.034643699183608545,
+          "index" : 25,
+          "text" : "4th pouch-",
+          "width" : 0.10575138603418154,
+          "x" : 0.014782538922521838,
+          "y" : 0.6247076313100705
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02363636363636365,
+          "index" : 26,
+          "text" : "two flask-shaped entodermal",
+          "width" : 0.23350072687322443,
+          "x" : 0.6972756122572241,
+          "y" : 0.6266666666352223
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027686467026219273,
+          "index" : 27,
+          "text" : "lobe",
+          "width" : 0.044447014467427645,
+          "x" : 0.5550938157111487,
+          "y" : 0.6433478845191071
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025007046786221628,
+          "index" : 28,
+          "text" : "The thymus appears in the form of",
+          "width" : 0.27586145574396304,
+          "x" : 0.6972756239483359,
+          "y" : 0.6569696968413266
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030354031649502847,
+          "index" : 29,
+          "text" : "thyroid",
+          "width" : 0.06945132896282397,
+          "x" : 0.555925763157208,
+          "y" : 0.6690413685339727
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03427848353530412,
+          "index" : 30,
+          "text" : "Thymus",
+          "width" : 0.08395546830621924,
+          "x" : 0.013827961578231763,
+          "y" : 0.6789447717100476
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025049660422585208,
+          "index" : 31,
+          "text" : "Lateral",
+          "width" : 0.06518895316599173,
+          "x" : 0.5570692393581379,
+          "y" : 0.7000392238454386
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02506694909298056,
+          "index" : 32,
+          "text" : "part of the third pharyngeal pouch.",
+          "width" : 0.2851601617986506,
+          "x" : 0.6983088103658983,
+          "y" : 0.7191754753146625
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03869427767666902,
+          "index" : 33,
+          "text" : "Parathyroid III-",
+          "width" : 0.14855748247509162,
+          "x" : 0.015602998720888496,
+          "y" : 0.7314506090453075
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02368217005874172,
+          "index" : 34,
+          "text" : "the thymus arises from the ventral",
+          "width" : 0.27999422940340907,
+          "x" : 0.6972756115442912,
+          "y" : 0.7508632842327969
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032077415928696146,
+          "index" : 35,
+          "text" : "of larynx",
+          "width" : 0.08602052931073915,
+          "x" : 0.5560367091228634,
+          "y" : 0.7683783232206212
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.027878787878787885,
+          "index" : 36,
+          "text" : "of the third pharyngeal pouch, and",
+          "width" : 0.27999422940340907,
+          "x" : 0.697275610571064,
+          "y" : 0.7781818180152406
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03509102676853988,
+          "index" : 37,
+          "text" : "3rd pouch-",
+          "width" : 0.1137231336731788,
+          "x" : 0.014747510047421166,
+          "y" : 0.784010759680503
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030055057641231682,
+          "index" : 38,
+          "text" : "• Epithelium",
+          "width" : 0.1068305980133443,
+          "x" : 0.5520517984134444,
+          "y" : 0.8010311798499599
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02363636363636365,
+          "index" : 39,
+          "text" : "glands derive from the dorsal part",
+          "width" : 0.27586145574396304,
+          "x" : 0.6972756228669313,
+          "y" : 0.8127272732684784
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03333333333333335,
+          "index" : 40,
+          "text" : "2nd pouch",
+          "width" : 0.10766054407508267,
+          "x" : 0.015803383594041827,
+          "y" : 0.8381818177790867
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02494009884920993,
+          "index" : 41,
+          "text" : "While the inferior parathyroid",
+          "width" : 0.2417662187056108,
+          "x" : 0.6983088081122122,
+          "y" : 0.8430303031522373
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03085417082815464,
+          "index" : 42,
+          "text" : "- Tongue",
+          "width" : 0.08946721647686327,
+          "x" : 0.5409989278974829,
+          "y" : 0.8728783659821777
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.026606003732392372,
+          "index" : 43,
+          "text" : "Ist pouch\"",
+          "width" : 0.10588628060039992,
+          "x" : 0.0147150916257557,
+          "y" : 0.8917479247802862
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030841315298369396,
+          "index" : 44,
+          "text" : "id glands",
+          "width" : 0.09721227472478694,
+          "x" : 0.6744992016401459,
+          "y" : 0.9021480531192545
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021666666666666667,
+          "index" : 45,
+          "text" : "mediastinum.",
+          "width" : 0.10536469199440691,
+          "x" : 0.6989191332597006,
+          "y" : 0.94119047609375
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02199556524103338,
+          "index" : 46,
+          "text" : "mediastinum.",
+          "width" : 0.1096062330766157,
+          "x" : 0.6978726243327941,
+          "y" : 0.950509977911634
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01882936499736928,
+          "index" : 47,
+          "text" : "continues to l",
+          "width" : 0.10653540871360084,
+          "x" : 0.6977484168164455,
+          "y" : 0.9721428570369013
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02016260089296283,
+          "index" : 48,
+          "text" : "continues to migrate toward the",
+          "width" : 0.25667283491654835,
+          "x" : 0.6964851999472491,
+          "y" : 0.9798373985388844
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "The development of the thymus is linked to that of the parathyroid glands\nWhile the inferior parathyroid\nglands derive from the dorsal part\nof the third pharyngeal pouch, and\nthe thymus arises from the ventral\npart of the third pharyngeal pouch.\nThe thymus appears in the form of\ntwo flask-shaped entodermal\ndiverticula, and extends into the\nsurrounding mesoderm in front of\nthe ventral aortæ. Here they meet\nand become joined to one another\nby connective tissue, but there is\nnever any fusion of the thymus\ntissue proper. The pharyngeal\nopening of each diverticulum is soon\nobliterated, but the neck of the flask\npersists for some time as a cellular\ncord.\nAs the inferior parathyroid glands\nand the thymus migrate together\ntoward the mediastinum, then they\neventually separate. In most cases,\nthe inferior parathyroid glands\nbecome localized near the inferior\npoles of the thyroid, and the thymus\ncontinues to migrate toward the\nmediastinum.\n\n#### Image OCR\n\nIst pouch\"\n- Tongue\n- Epithelium of larynx Parathyroid III- Thymus Lateral thyroid lobe arathyroid IV - Thyroid Esophagus\n- Trachea isthmus",
+      "title" : "Page 7"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.5112407407407408,
+          "index" : 1,
+          "width" : 0.3816805550736111,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.44009259259259254,
+          "index" : 2,
+          "width" : 0.5964583333333333,
+          "x" : 0.3816805555555556,
+          "y" : 0
+        }
+      ],
+      "index" : 8,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.029179739518599108,
+          "index" : 1,
+          "text" : "intermediate lobe.",
+          "width" : 0.19126145796342334,
+          "x" : 0.05712953872104767,
+          "y" : 0.7829020507532509
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03393939393939397,
+          "index" : 2,
+          "text" : "occasionally united, so as to forn",
+          "width" : 0.33,
+          "x" : 0.059090909577922054,
+          "y" : 0.8157575755151516
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02909090909090915,
+          "index" : 3,
+          "text" : "midline by connective tissue that",
+          "width" : 0.32909090909090916,
+          "x" : 0.05999999794318184,
+          "y" : 0.860606060530303
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03389389877325531,
+          "index" : 4,
+          "text" : "m a single mass, and sometimes separated by an",
+          "width" : 0.4987212121212121,
+          "x" : 0.37318182100440106,
+          "y" : 0.8874238364595012
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02909090909090909,
+          "index" : 5,
+          "text" : "The thymus is an encapsulated s",
+          "width" : 0.33090909090909093,
+          "x" : 0.05818181956060605,
+          "y" : 0.9006060606666667
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.040792817098661074,
+          "index" : 6,
+          "text" : "at merges with the capsule of each lobe; they are",
+          "width" : 0.5007651515151514,
+          "x" : 0.37318182145212114,
+          "y" : 0.9253132843109309
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032683402388496194,
+          "index" : 7,
+          "text" : "soft bi-lobed organ, the two parts being joined at the",
+          "width" : 0.5423252525252525,
+          "x" : 0.37318182205556993,
+          "y" : 0.9673165976893214
+        }
+      ],
+      "route" : "text-layer",
+      "text" : "The thymus is an encapsulated soft bi-lobed organ, the two parts being joined at the\nmidline by connective tissue that merges with the capsule of each lobe; they are\noccasionally united, so as to form a single mass, and sometimes separated by an\nintermediate lobe.",
+      "title" : "Page 8"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.21274074074074073,
+          "index" : 1,
+          "width" : 0.8769166666666667,
+          "x" : 0,
+          "y" : 0.028000000000000008
+        },
+        {
+          "height" : 0.4902222222222223,
+          "index" : 2,
+          "width" : 0.5260000000000001,
+          "x" : 0.25233333333333335,
+          "y" : 0.33844444444444444
+        },
+        {
+          "height" : 0.47622222222222227,
+          "index" : 3,
+          "width" : 0.5103333333333334,
+          "x" : 0.25733333333333336,
+          "y" : 0.34222222222222215
+        }
+      ],
+      "index" : 9,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.03632065334192993,
+          "index" : 1,
+          "text" : "years (35 g), and gradually involutes with",
+          "width" : 0.45999999999999996,
+          "x" : 0.28136363519318186,
+          "y" : 0.1660534419966509
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03636363636363632,
+          "index" : 2,
+          "text" : "years (35 g), and gradually involutes with",
+          "width" : 0.4596034482758621,
+          "x" : 0.2817899676125305,
+          "y" : 0.17272727252525252
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027845834228812934,
+          "index" : 3,
+          "text" : "in adolescence between 12 and 19",
+          "width" : 0.39181818181818184,
+          "x" : 0.3149999975511364,
+          "y" : 0.21932373373885128
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027878787878787843,
+          "index" : 4,
+          "text" : "in adolescence between 12 and 19",
+          "width" : 0.3923887147335423,
+          "x" : 0.3144890257607367,
+          "y" : 0.22606060600757577
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032688588007736934,
+          "index" : 5,
+          "text" : "g at birth) reaching a maximal weight",
+          "width" : 0.42,
+          "x" : 0.30227272552272727,
+          "y" : 0.2580657639273647
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03393939393939395,
+          "index" : 6,
+          "text" : "g at birth) reaching a maximal weight",
+          "width" : 0.4196379310344828,
+          "x" : 0.3026810322249664,
+          "y" : 0.2648484850909091
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03389927645246793,
+          "index" : 7,
+          "text" : "It is relatively large in infancy (weighing 25",
+          "width" : 0.47818181818181815,
+          "x" : 0.2722727295584415,
+          "y" : 0.30286123672039544
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03272727272727269,
+          "index" : 8,
+          "text" : "It is relatively large in infancy (weighing 25",
+          "width" : 0.4786778996865204,
+          "x" : 0.27179858592256495,
+          "y" : 0.30969696968831173
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.033993856868802616,
+          "index" : 9,
+          "text" : "atrophy.",
+          "width" : 0.09932912653142756,
+          "x" : 0.46306270975902464,
+          "y" : 0.34700407477126677
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.035155445445667594,
+          "index" : 10,
+          "text" : "atrophy.",
+          "width" : 0.10014185394239278,
+          "x" : 0.4633373803944019,
+          "y" : 0.35393742896012603
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03389927645246793,
+          "index" : 11,
+          "text" : "time of puberty and then begins to",
+          "width" : 0.39454545454545453,
+          "x" : 0.31499999796969697,
+          "y" : 0.39124149322611457
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032727272727272744,
+          "index" : 12,
+          "text" : "time of puberty and then begins to",
+          "width" : 0.39420532915360507,
+          "x" : 0.3153973387082418,
+          "y" : 0.39818181823232324
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.033899276452467986,
+          "index" : 13,
+          "text" : "The thymus continues to grow until the",
+          "width" : 0.4445454545454545,
+          "x" : 0.28954545772077916,
+          "y" : 0.43603696545055415
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03272727272727269,
+          "index" : 14,
+          "text" : "The thymus continues to grow until the",
+          "width" : 0.4432539184952978,
+          "x" : 0.2899647315275293,
+          "y" : 0.4430303029917355
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030267211118274934,
+          "index" : 15,
+          "text" : "10 years",
+          "width" : 0.07727272727272727,
+          "x" : 0.35499999994155845,
+          "y" : 0.6031119705553509
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.031104163978697474,
+          "index" : 16,
+          "text" : "20 years",
+          "width" : 0.077455229325728,
+          "x" : 0.5230905670955563,
+          "y" : 0.6026934941257805
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.032406220735677914,
+          "index" : 17,
+          "text" : "40 years",
+          "width" : 0.07657651034268469,
+          "x" : 0.646711744762182,
+          "y" : 0.602647809961167
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029056522673543934,
+          "index" : 18,
+          "text" : "60",
+          "width" : 0.022727272727272724,
+          "x" : 0.7631818181863637,
+          "y" : 0.6067440359604556
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025424457339350934,
+          "index" : 19,
+          "text" : "RN",
+          "width" : 0.02727272727272727,
+          "x" : 0.24409090920454543,
+          "y" : 0.6103761014954211
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03030303030303032,
+          "index" : 20,
+          "text" : "10 years",
+          "width" : 0.07629780564263323,
+          "x" : 0.3553628526342999,
+          "y" : 0.6103030301346801
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03112389304421164,
+          "index" : 21,
+          "text" : "20 years",
+          "width" : 0.07829101302407006,
+          "x" : 0.5224030833879586,
+          "y" : 0.6098925989871737
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03030303030303032,
+          "index" : 22,
+          "text" : "40 years",
+          "width" : 0.07629780564263326,
+          "x" : 0.6469294670392242,
+          "y" : 0.6103030301136363
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.025454545454545424,
+          "index" : 23,
+          "text" : "RN",
+          "width" : 0.022707680250783704,
+          "x" : 0.24909090920444749,
+          "y" : 0.616363636430303
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024242424242424267,
+          "index" : 24,
+          "text" : "6",
+          "width" : 0.01089968652037614,
+          "x" : 0.7641010972392372,
+          "y" : 0.616363636161616
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.023003080449888934,
+          "index" : 25,
+          "text" : "Tttalr",
+          "width" : 0.07090909090909098,
+          "x" : 0.6595454540389609,
+          "y" : 0.649118131714562
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03674532803622158,
+          "index" : 26,
+          "text" : "years of age).",
+          "width" : 0.15730090054598725,
+          "x" : 0.4322877105035188,
+          "y" : 0.9337618198480843
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "The thymus continues to grow until the\ntime of puberty and then begins to\natrophy.\nIt is relatively large in infancy (weighing 25\ng at birth) reaching a maximal weight\nin adolescence between 12 and 19\nyears (35 g), and gradually involutes with\nage (between 20 and 60 years) with\nprogressive fatty replacement (15 g at 60\nyears of age).\n\n#### Image OCR\n\nTttalr",
+      "title" : "Page 9"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.6249629629629629,
+          "index" : 1,
+          "width" : 0.2909027777777778,
+          "x" : 0.043534722222222225,
+          "y" : 0.2913074074074074
+        },
+        {
+          "height" : 0.2857222222222222,
+          "index" : 2,
+          "width" : 0.5999999999999999,
+          "x" : 0.33444444444444443,
+          "y" : 0.2913148148148148
+        },
+        {
+          "height" : 0.3548888888888889,
+          "index" : 3,
+          "width" : 0.5781666666666667,
+          "x" : 0.36150000000000004,
+          "y" : 0.6173333333333334
+        }
+      ],
+      "index" : 10,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.025454545454545494,
+          "index" : 1,
+          "text" : "A Thymus structure",
+          "width" : 0.18545454545454548,
+          "x" : 0.4204545448333334,
+          "y" : 0.06363636342424245
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03333333333333333,
+          "index" : 2,
+          "text" : "B Thymus histology",
+          "width" : 0.1907499972256748,
+          "x" : 0.6777045450766515,
+          "y" : 0.06242424206694048
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013244274023807425,
+          "index" : 3,
+          "text" : "Lobule",
+          "width" : 0.03475748929110438,
+          "x" : 0.2539848915014058,
+          "y" : 0.14731725688909109
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03488771611993959,
+          "index" : 4,
+          "text" : "orientation.",
+          "width" : 0.11918695623224432,
+          "x" : 0.3530428863687235,
+          "y" : 0.20393838553502622
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011157510930841686,
+          "index" : 5,
+          "text" : "Medulla",
+          "width" : 0.036405102122913695,
+          "x" : 0.11588835833228436,
+          "y" : 0.24351215367806406
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333365,
+          "index" : 6,
+          "text" : "Septa",
+          "width" : 0.027272727272727275,
+          "x" : 0.18045454552727272,
+          "y" : 0.2424242422909091
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012478287436745367,
+          "index" : 7,
+          "text" : "Cortex",
+          "width" : 0.030986796292391684,
+          "x" : 0.28859751070295536,
+          "y" : 0.2446699472945286
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030303030303030335,
+          "index" : 8,
+          "text" : "rtially subdivide the thymus into interconnecting",
+          "width" : 0.4900000000000001,
+          "x" : 0.353181815422078,
+          "y" : 0.24787878766233767
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.043285485469933736,
+          "index" : 9,
+          "text" : "issue) surrounds each lobe and, in most species,",
+          "width" : 0.4929772394353693,
+          "x" : 0.3531818363884517,
+          "y" : 0.280606061230751
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016969696969696937,
+          "index" : 10,
+          "text" : "on the thymus",
+          "width" : 0.07909090909090909,
+          "x" : 0.10772727296212121,
+          "y" : 0.2848484847070707
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333293,
+          "index" : 11,
+          "text" : "Anatomical landmarks",
+          "width" : 0.12090909090909091,
+          "x" : 0.10772727151818184,
+          "y" : 0.3030303029696969
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.011032602714769704,
+          "index" : 12,
+          "text" : "Lobule-",
+          "width" : 0.04092751589688387,
+          "x" : 0.09317260619936121,
+          "y" : 0.36357460777743433
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014753986705433214,
+          "index" : 13,
+          "text" : "Septa",
+          "width" : 0.027334908572110267,
+          "x" : 0.09860527325970807,
+          "y" : 0.40110785520277015
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03272727272727274,
+          "index" : 14,
+          "text" : "Cortex. 'Outer' region of the thymus; supports early stage",
+          "width" : 0.5318181818181817,
+          "x" : 0.3759090921287879,
+          "y" : 0.4309090906363636
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.00969696969696972,
+          "index" : 15,
+          "text" : "lobe",
+          "width" : 0.020909090909090912,
+          "x" : 0.10499999982575758,
+          "y" : 0.452121212080808
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090934,
+          "index" : 16,
+          "text" : "lobe",
+          "width" : 0.019999999999999997,
+          "x" : 0.23136363656363637,
+          "y" : 0.45454545458181816
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333365,
+          "index" : 17,
+          "text" : "Right",
+          "width" : 0.02636363636363637,
+          "x" : 0.10136363669318181,
+          "y" : 0.46424242431818175
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012121212121212078,
+          "index" : 18,
+          "text" : "— Lett",
+          "width" : 0.03181818181818181,
+          "x" : 0.2168181820340909,
+          "y" : 0.46666666651515154
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.021818181818181813,
+          "index" : 19,
+          "text" : "It can be divided in:",
+          "width" : 0.1790909090909091,
+          "x" : 0.37500000149242424,
+          "y" : 0.47333333335353533
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025732549031575493,
+          "index" : 20,
+          "text" : "Capsule",
+          "width" : 0.07005657542835582,
+          "x" : 0.41951716679921564,
+          "y" : 0.588345846514387
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.02545454545454544,
+          "index" : 21,
+          "text" : "lobules of variable size and",
+          "width" : 0.27272727272727276,
+          "x" : 0.06863636168831172,
+          "y" : 0.5963636363203463
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03272727272727273,
+          "index" : 22,
+          "text" : "gives rise to septae, that pi",
+          "width" : 0.2718181818181818,
+          "x" : 0.06954545548701299,
+          "y" : 0.6278787876450216
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029090909090909087,
+          "index" : 23,
+          "text" : "A thin capsule (connective",
+          "width" : 0.2681818181818182,
+          "x" : 0.07045454399350651,
+          "y" : 0.6727272729350648
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01696969696969697,
+          "index" : 24,
+          "text" : "m",
+          "width" : 0.013636363636363624,
+          "x" : 0.48681818186363635,
+          "y" : 0.6890909089696969
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012121212121212133,
+          "index" : 25,
+          "text" : "TTI",
+          "width" : 0.017272727272727276,
+          "x" : 0.7568181817102273,
+          "y" : 0.7072727272272727
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "HISTOLOGY\nA thin capsule (connective tissue) surrounds each lobe and, in most species,\ngives rise to septae, that partially subdivide the thymus into interconnecting\nlobules of variable size and orientation.\nIt can be divided in:\nCortex. ‘Outer’ region of the thymus; supports early stage\nlymphocytic development, including positive selection for\nrecognition of self-MHC (major histocompatibility complex).\nMedulla. ‘Inner’ region of the thymus; location of later\nstages of lymphocytic differentiation to CD4+ and CD8+\nstages, including negative selection against tissue-specific\nantigen recognition.\n\n#### Image OCR\n\nA thin capsule (connective gives rise to septae, that pi lobules of variable size and Right\n- Lett lobe Septa Lobule- Anatomical landmarks on the thymus Medulla Septa Cortex Lobule Capsule",
+      "title" : "Page 10"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.6281851851851853,
+          "index" : 1,
+          "width" : 0.6185138888888889,
+          "x" : 0.3657361111111111,
+          "y" : 0.08662962962962958
+        }
+      ],
+      "index" : 11,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.009920296002494482,
+          "index" : 1,
+          "text" : "Rashidi H MD, Nguyen J MD et al. HematologyOutlines.com",
+          "width" : 0.16244185691909901,
+          "x" : 0.6046273787548566,
+          "y" : 0.48283561873624836
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016348400203148806,
+          "index" : 2,
+          "text" : "blood, and bone marrow",
+          "width" : 0.11537063615004904,
+          "x" : 0.5187916236332951,
+          "y" : 0.4901015741718322
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016348400203148806,
+          "index" : 3,
+          "text" : "blood, and bone marrow",
+          "width" : 0.11629359691439778,
+          "x" : 0.818755288611495,
+          "y" : 0.4901015741718322
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01271542238022689,
+          "index" : 4,
+          "text" : "bone marrow",
+          "width" : 0.06368459076669936,
+          "x" : 0.37850092660612905,
+          "y" : 0.49252355990620583
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.014991617425019114,
+          "index" : 5,
+          "text" : "precursor from",
+          "width" : 0.07328066720812447,
+          "x" : 0.37363450522743574,
+          "y" : 0.5077369722555671
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015980981533269475,
+          "index" : 6,
+          "text" : "To secondary lymphoid organs,",
+          "width" : 0.15136627230009808,
+          "x" : 0.5012552898782846,
+          "y" : 0.5075075902587337
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015980981533269475,
+          "index" : 7,
+          "text" : "To secondary lymphoid organs,",
+          "width" : 0.15044331846660128,
+          "x" : 0.8021419121372775,
+          "y" : 0.5075075902587337
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01815854875452527,
+          "index" : 8,
+          "text" : "Lymphoid",
+          "width" : 0.05001993441274749,
+          "x" : 0.3857947370882813,
+          "y" : 0.5242437479827297
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01733215384340456,
+          "index" : 9,
+          "text" : "CD8-",
+          "width" : 0.03632095301441199,
+          "x" : 0.6339996056746262,
+          "y" : 0.5265009048390152
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016295977320643362,
+          "index" : 10,
+          "text" : "CD4-",
+          "width" : 0.03699478430468296,
+          "x" : 0.7845674859137022,
+          "y" : 0.5270189930078956
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014269030030509272,
+          "index" : 11,
+          "text" : "Positive",
+          "width" : 0.03982719132146439,
+          "x" : 0.7088525913107642,
+          "y" : 0.53786691711938
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.021634031570991683,
+          "index" : 12,
+          "text" : "CDAt",
+          "width" : 0.043859165939309226,
+          "x" : 0.6265386387693236,
+          "y" : 0.5421749070485524
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01966890105934246,
+          "index" : 13,
+          "text" : "CD8+",
+          "width" : 0.04245639615475029,
+          "x" : 0.7799907503909372,
+          "y" : 0.5419281662471518
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014751675794506808,
+          "index" : 14,
+          "text" : "Single",
+          "width" : 0.030457847305974537,
+          "x" : 0.7135372630420511,
+          "y" : 0.5529919227388697
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.021886285510950405,
+          "index" : 15,
+          "text" : "STEP 4",
+          "width" : 0.06478369913387708,
+          "x" : 0.6949898896023896,
+          "y" : 0.6028994419415226
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018599520220954905,
+          "index" : 16,
+          "text" : "Medulla",
+          "width" : 0.04987333649729454,
+          "x" : 0.8916529191202893,
+          "y" : 0.6082307435673124
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.0184395941656873,
+          "index" : 17,
+          "text" : "CD8-",
+          "width" : 0.04430232461429972,
+          "x" : 0.3692712745447925,
+          "y" : 0.6144572379712249
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.017210288426924705,
+          "index" : 18,
+          "text" : "CD4-",
+          "width" : 0.04337936038452497,
+          "x" : 0.37019423930242457,
+          "y" : 0.6390433635894438
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.024370689203733618,
+          "index" : 19,
+          "text" : "STEP 1",
+          "width" : 0.0638899865648436,
+          "x" : 0.4642339839281684,
+          "y" : 0.6409950422141002
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016802562852253202,
+          "index" : 20,
+          "text" : "Negative",
+          "width" : 0.043545908757374865,
+          "x" : 0.37103393000750523,
+          "y" : 0.6619893929643975
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012293063162089056,
+          "index" : 21,
+          "text" : "Double",
+          "width" : 0.03784156807502452,
+          "x" : 0.37388610068497885,
+          "y" : 0.6820690839928226
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022127512536867722,
+          "index" : 22,
+          "text" : "positive selection",
+          "width" : 0.1126017399952988,
+          "x" : 0.6710808684876506,
+          "y" : 0.7582860749293091
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02065539410472034,
+          "index" : 23,
+          "text" : "negative and",
+          "width" : 0.08181722430882706,
+          "x" : 0.6864846036041741,
+          "y" : 0.7827566609121649
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02119580412925449,
+          "index" : 24,
+          "text" : "STEP 3",
+          "width" : 0.0646075584619001,
+          "x" : 0.8067567391432489,
+          "y" : 0.7813452962410213
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.015980981533269475,
+          "index" : 25,
+          "text" : "CD8 -",
+          "width" : 0.04153342845954949,
+          "x" : 0.5123308679536993,
+          "y" : 0.7890187319331776
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01721028727203207,
+          "index" : 26,
+          "text" : "Cortex",
+          "width" : 0.04337936038452496,
+          "x" : 0.8962843556537934,
+          "y" : 0.8037704077433274
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017559392810789495,
+          "index" : 27,
+          "text" : "MHC induced",
+          "width" : 0.09045057768814894,
+          "x" : 0.6821564497242925,
+          "y" : 0.8085926304568891
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.016348400203148806,
+          "index" : 28,
+          "text" : "CD4 -",
+          "width" : 0.04153342845954948,
+          "x" : 0.5123308673480034,
+          "y" : 0.8122256082728717
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016315327545272807,
+          "index" : 29,
+          "text" : "Negative",
+          "width" : 0.04252665420117468,
+          "x" : 0.5150646328926831,
+          "y" : 0.8355651983150628
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012688854077177063,
+          "index" : 30,
+          "text" : "Double",
+          "width" : 0.036070686880611054,
+          "x" : 0.517831133912225,
+          "y" : 0.8564326825849393
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016467246730510185,
+          "index" : 31,
+          "text" : "epithelial cell",
+          "width" : 0.06651843593526469,
+          "x" : 0.8621021716534356,
+          "y" : 0.8858907964751311
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012293063162088983,
+          "index" : 32,
+          "text" : "Cortical",
+          "width" : 0.0396875,
+          "x" : 0.8759791223735176,
+          "y" : 0.9070321359406947
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "The thymus is involved in the production\nof hormones that play a role in T-cell\ndifferentiation.\nT-lymphocytes are designated as such\nbecause they are derived from or\ninfluenced by the thymus hormone. To\nbecome mature, all T-lymphocytes must\nreside in the thymus gland for a period\nof time.\nThe stem cells arriving from the bone\nmarrow first colonize the subcapsular\nregion (through the cortico-medullary\nblood vessels) where they proliferate,\nactively generating the thymocyte\npopulation.\nDuring the maturation period within the\nthymus, T-lymphocytes eventually\nbecome either CD4+ cells or CD8+ cells.\nOnly those thymocytes expressing CD4\nor CD8 characteristics are positively\nselected to reach to the lymphatic\nsystem.\nThis differentiation process results in\nmature lymphocytes that can recognize\nforeign bodies, viruses or cancerous\ncells, in the context of major\nhistocompatible complex hormones.\n\n#### Image OCR\n\nFigure labels:\n- Cortical epithelial cell\n- Double\n- Negative\n- MHC induced\n- Cortex negative and positive selection\n- Double\n- Negative\n- CDAt\n- Single\n- Lymphoid\nPositive precursor from To secondary lymphoid organs, bone marrow blood, and bone marrow\nRashidi H MD, Nguyen J MD et al. HematologyOutlines.com",
+      "title" : "Page 11"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.976374074074074,
+          "index" : 1,
+          "width" : 0.9819444444444444,
+          "x" : 0.009722222222222222,
+          "y" : 0
+        },
+        {
+          "height" : 0.0731111111111111,
+          "index" : 2,
+          "width" : 0.4880000000000001,
+          "x" : 0.5028333333333334,
+          "y" : 0.6108888888888889
+        },
+        {
+          "height" : 0.045555555555555544,
+          "index" : 3,
+          "width" : 0.385,
+          "x" : 0.503,
+          "y" : 0.678888888888889
+        },
+        {
+          "height" : 0.1586666666666667,
+          "index" : 4,
+          "width" : 0.30416666666666664,
+          "x" : 0.5171666666666667,
+          "y" : 0.746
+        },
+        {
+          "height" : 0.13688888888888887,
+          "index" : 5,
+          "width" : 0.2831666666666667,
+          "x" : 0.5465,
+          "y" : 0.7751111111111111
+        }
+      ],
+      "index" : 12,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.03292929215864705,
+          "index" : 1,
+          "text" : "8C",
+          "width" : 0.036287658723592464,
+          "x" : 0.03619978841822602,
+          "y" : 0.05086155685482174
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.02711824128122038,
+          "index" : 2,
+          "text" : "8D",
+          "width" : 0.03338464644166452,
+          "x" : 0.5122938684011711,
+          "y" : 0.054735591072826724
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01743315494421752,
+          "index" : 3,
+          "text" : "MEDULLA",
+          "width" : 0.05951175697901589,
+          "x" : 0.6487354660527952,
+          "y" : 0.14771241827180104
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02147355859929858,
+          "index" : 4,
+          "text" : "CORTICO-MEDULLARY JUNCTIOI",
+          "width" : 0.16256870165327977,
+          "x" : 0.5601935837383707,
+          "y" : 0.22519310836821332
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.017433154944217627,
+          "index" : 5,
+          "text" : "CORFICAL REGION",
+          "width" : 0.10886297617077735,
+          "x" : 0.5340664651781469,
+          "y" : 0.3336660726302383
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03292929215864705,
+          "index" : 6,
+          "text" : "8A",
+          "width" : 0.03628765872359247,
+          "x" : 0.03619978853400092,
+          "y" : 0.542863934072701
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030992274428858844,
+          "index" : 7,
+          "text" : "8B",
+          "width" : 0.036287658723592416,
+          "x" : 0.5108423627578665,
+          "y" : 0.5448009514009682
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "SUBCAPSULAR REGION\nCORTICAL REGION\nCORTICO-MEDULLARY JUNCTION\nMEDULLA\n\n#### Image OCR\n\n### Corfical Region",
+      "title" : "Page 12"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.8940666666666667,
+          "index" : 1,
+          "width" : 0.4306250000000001,
+          "x" : 0.5480416666666668,
+          "y" : 0
+        },
+        {
+          "height" : 0.15555555555555556,
+          "index" : 2,
+          "width" : 0.26016666666666666,
+          "x" : 0.49766666666666665,
+          "y" : 0.23177777777777772
+        }
+      ],
+      "index" : 13,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.5,
+          "height" : 0.014476743755918498,
+          "index" : 1,
+          "text" : "m",
+          "width" : 0.013822997700084338,
+          "x" : 0.6274202291399237,
+          "y" : 0.3116966176279868
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023362188628225547,
+          "index" : 2,
+          "text" : "Capsule",
+          "width" : 0.05944736827503552,
+          "x" : 0.6924828179520071,
+          "y" : 0.32699490969017286
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.013160676667184535,
+          "index" : 3,
+          "text" : "C",
+          "width" : 0.00987356966192072,
+          "x" : 0.6313696571949277,
+          "y" : 0.3669714587723802
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017108879089355485,
+          "index" : 4,
+          "text" : "D Visualizing the thymic microenvironment",
+          "width" : 0.27744731556285507,
+          "x" : 0.597799523008286,
+          "y" : 0.40776955629279577
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013160676667184535,
+          "index" : 5,
+          "text" : "mTEC",
+          "width" : 0.03258277893066406,
+          "x" : 0.6945605073898756,
+          "y" : 0.463044397461598
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.016014799060243536,
+          "index" : 6,
+          "text" : "> Dendritic cell",
+          "width" : 0.074051777232777,
+          "x" : 0.7587387103806013,
+          "y" : 0.46545454547135673
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.014594784938927774,
+          "index" : 7,
+          "text" : "T cell (mature)",
+          "width" : 0.0701023448597301,
+          "x" : 0.858461771141628,
+          "y" : 0.46424242409075583
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01974101442279237,
+          "index" : 8,
+          "text" : "•Blood vessel",
+          "width" : 0.09379891829057173,
+          "x" : 0.740966283712717,
+          "y" : 0.5051585624902422
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019406333692145998,
+          "index" : 9,
+          "text" : "Lymphocyte",
+          "width" : 0.06057240572842684,
+          "x" : 0.8602646700384762,
+          "y" : 0.50795803805426
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.015221881288470561,
+          "index" : 10,
+          "text" : "СТЕС",
+          "width" : 0.030801939530806104,
+          "x" : 0.687552070721812,
+          "y" : 0.5100502645708864
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017108879089355485,
+          "index" : 11,
+          "text" : "Key",
+          "width" : 0.021721853776411577,
+          "x" : 0.623470801151128,
+          "y" : 0.5209513742662366
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01579281200062142,
+          "index" : 12,
+          "text" : "(SP)",
+          "width" : 0.021721853776411563,
+          "x" : 0.6540788686132993,
+          "y" : 0.5683298094865814
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333298,
+          "index" : 13,
+          "text" : "CD4+ or CD8+",
+          "width" : 0.07405177723277698,
+          "x" : 0.6274202272550745,
+          "y" : 0.5866666667083953
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016114143602775802,
+          "index" : 14,
+          "text" : "Medulla",
+          "width" : 0.0415372258966619,
+          "x" : 0.8929851495487187,
+          "y" : 0.5931744292015897
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023311056295539194,
+          "index" : 15,
+          "text" : "Capsule",
+          "width" : 0.059072333425416665,
+          "x" : 0.6923542952791317,
+          "y" : 0.6119045624116954
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014476743755918498,
+          "index" : 16,
+          "text" : "CMJ",
+          "width" : 0.025671282681551864,
+          "x" : 0.8930192650852324,
+          "y" : 0.6486099367243134
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012079983508554932,
+          "index" : 17,
+          "text" : "C",
+          "width" : 0.009076005961251842,
+          "x" : 0.6315842026462593,
+          "y" : 0.6531560504197073
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01579281200062142,
+          "index" : 18,
+          "text" : "(DP)",
+          "width" : 0.023696568228981713,
+          "x" : 0.6521041543929144,
+          "y" : 0.6617706128692453
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015209245392770491,
+          "index" : 19,
+          "text" : "CD4+CD8+",
+          "width" : 0.05638281388716265,
+          "x" : 0.635267353308091,
+          "y" : 0.6798293097332146
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0193279736136879,
+          "index" : 20,
+          "text" : "e",
+          "width" : 0.012706408345752606,
+          "x" : 0.48909090904552904,
+          "y" : 0.6906039992962276
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018119975262832405,
+          "index" : 21,
+          "text" : "D Visualizing the thymic n",
+          "width" : 0.16790611028315938,
+          "x" : 0.5970953783507452,
+          "y" : 0.6930199958408988
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014826349200624396,
+          "index" : 22,
+          "text" : "Cortex",
+          "width" : 0.03562411568381569,
+          "x" : 0.8949543476737863,
+          "y" : 0.7116063815431013
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014476743755918599,
+          "index" : 23,
+          "text" : "(DN1-4)",
+          "width" : 0.03653220783580433,
+          "x" : 0.6422305844905867,
+          "y" : 0.7486310782582062
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.014495980210265921,
+          "index" : 24,
+          "text" : "mTEC",
+          "width" : 0.032673621460506695,
+          "x" : 0.6951162441779434,
+          "y" : 0.748587919947463
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.014476743755918599,
+          "index" : 25,
+          "text" : "CD4-CD8-",
+          "width" : 0.05627934889359908,
+          "x" : 0.6353190858054582,
+          "y" : 0.7670560256837478
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01602577671860201,
+          "index" : 26,
+          "text" : "Capsule",
+          "width" : 0.043491047945889545,
+          "x" : 0.8692990270677162,
+          "y" : 0.8222143843393197
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018424947334058406,
+          "index" : 27,
+          "text" : "C T cell development in the thymus",
+          "width" : 0.22709210482510656,
+          "x" : 0.6047110230585485,
+          "y" : 0.8618128963776324
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019092810659697663,
+          "index" : 28,
+          "text" : "Capsule",
+          "width" : 0.04950579556551845,
+          "x" : 0.6026673309799775,
+          "y" : 0.910173467688848
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013160676667184535,
+          "index" : 29,
+          "text" : "m",
+          "width" : 0.01283564134077592,
+          "x" : 0.6491420831304548,
+          "y" : 0.9802589852126022
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "The bulk of the supporting framework in the\nthymus is composed of the network of\nepithelial-reticular cells. Epithelial cells in the\nsubcapsular region of the thymus form a layer\n1 or 2 cells deep.\nIn the outer cortex and ensheathing blood\nvessels, epithelial cells are thin and sheet-like,\nbut elsewhere they assume a stellate\nappearance.\nEpithelial cells are divided into distinct\npopulations that differ in antigenic expression,\nultrastructural characteristics and capacity to\nsynthesize the thymic hormones thymulin,\nthymosin, thymopoetin and thymic humoral\nfactor.\nImmunohistochemically, epithelial cells can be\ndivided into four distinct subtypes:\nsubcapsular, cortical, inner cortical, medullary\nand Hassalls corpuscles.\n\n#### Image OCR\n\nCapsule\nC T cell development in the thymus\nFigure labels:\n- Capsule\n- Blood vessel Lymphocyte mTEC > Dendritic cell T cell (mature)\nFigure labels:\n- D Visualizing the thymic microenvironment\n- Capsule mTEC e\n- D Visualizing the thymic n\n- Capsule",
+      "title" : "Page 13"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.4055,
+          "index" : 1,
+          "width" : 0.43650000000000005,
+          "x" : 0.5130972222222222,
+          "y" : 0.035722222222222155
+        },
+        {
+          "height" : 0.36274074074074075,
+          "index" : 2,
+          "width" : 0.3400694444444444,
+          "x" : 0.5519583333333333,
+          "y" : 0.6
+        },
+        {
+          "height" : 0.13933333333333334,
+          "index" : 3,
+          "width" : 0.11333333333333337,
+          "x" : 0.6243333333333333,
+          "y" : 0.6706666666666666
+        }
+      ],
+      "index" : 14,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.5,
+          "height" : 0.023030303030303057,
+          "index" : 1,
+          "text" : "30 um",
+          "width" : 0.04086809983603571,
+          "x" : 0.5572198945384632,
+          "y" : 0.5630303030848485
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02584351048325051,
+          "index" : 2,
+          "text" : "corpuscles",
+          "width" : 0.09933596333208186,
+          "x" : 0.7313856630461584,
+          "y" : 0.833965906279429
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.023500560413707367,
+          "index" : 3,
+          "text" : "Hassal's",
+          "width" : 0.07727329097781856,
+          "x" : 0.7315514576049915,
+          "y" : 0.8706739621604913
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024242424242424242,
+          "index" : 4,
+          "text" : "are only found in the thymus.",
+          "width" : 0.23340225906358175,
+          "x" : 0.523617235765617,
+          "y" : 0.9315151515151514
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012121212121212097,
+          "index" : 5,
+          "text" : "a cumeetule layelo mat hlave nelaulmoeu. These suuclu",
+          "width" : 0.43320183054652456,
+          "x" : 0.5227090611102778,
+          "y" : 0.9630303031111112
+        }
+      ],
+      "route" : "text-layer",
+      "text" : "Corticomedullary Junction\nThe corticomedullary junction is characterized by\nplentiful blood vessels (predominantly\narterioles) with scant perivascular connective\ntissue and mature and immature T lymphocytes.\nDendritic cells and variable numbers of\nperivascular B-lymphocytes and plasma cells\noccur in the corticomedullary zone.\nB-cells and plasma cells increase with increasing\nage.\nMedulla\nThe medulla, is continuous between adjacent\nlobules and can form small buds that reach deep\ninto the cortex that in some places reach the\ncapsule.\nThe medulla is paler staining, less densely\ncellular than the cortex, and contains more\nmature T-cells, prominent epithelial cells,\nHassalls corpuscles, macrophages, dendritic\ncells (non-phagocytic, bone marrow-derived\ncells), B lymphocytes and rarely myeloid cells.\nThe medullary T-lymphocytes are larger, paler-\nstaining and have more cytoplasm than cortical\nlymphocytes.\nHassal's corpuscles can be detected in the medulla. These\nare made up of flat non-secreting epithelial cells arranged in\na concentric layers that have keratinised. These structures\nare only found in the thymus.",
+      "title" : "Page 14"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.225074074074074,
+          "index" : 1,
+          "width" : 0.389125,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.7746851851851851,
+          "index" : 2,
+          "width" : 0.5218333333333334,
+          "x" : 0.1635833333333333,
+          "y" : 0.15494444444444447
+        },
+        {
+          "height" : 0.12244444444444445,
+          "index" : 3,
+          "width" : 0.20199999999999999,
+          "x" : 0.6153333333333334,
+          "y" : 0.24866666666666662
+        },
+        {
+          "height" : 0.10799999999999998,
+          "index" : 4,
+          "width" : 0.22983333333333328,
+          "x" : 0.6198333333333333,
+          "y" : 0.25155555555555553
+        },
+        {
+          "height" : 0.036,
+          "index" : 5,
+          "width" : 0.07066666666666666,
+          "x" : 0.6328333333333334,
+          "y" : 0.3573333333333333
+        },
+        {
+          "height" : 0.08111111111111113,
+          "index" : 6,
+          "width" : 0.15949999999999998,
+          "x" : 0.10866666666666666,
+          "y" : 0.36799999999999994
+        },
+        {
+          "height" : 0.08577777777777776,
+          "index" : 7,
+          "width" : 0.13783333333333336,
+          "x" : 0.10916666666666668,
+          "y" : 0.3688888888888889
+        },
+        {
+          "height" : 0.08111111111111108,
+          "index" : 8,
+          "width" : 0.15949999999999998,
+          "x" : 0.10866666666666666,
+          "y" : 0.49733333333333335
+        },
+        {
+          "height" : 0.08577777777777781,
+          "index" : 9,
+          "width" : 0.13783333333333336,
+          "x" : 0.10916666666666668,
+          "y" : 0.4982222222222222
+        },
+        {
+          "height" : 0.12244444444444445,
+          "index" : 10,
+          "width" : 0.20199999999999999,
+          "x" : 0.6283333333333334,
+          "y" : 0.5326666666666666
+        },
+        {
+          "height" : 0.10799999999999998,
+          "index" : 11,
+          "width" : 0.22983333333333336,
+          "x" : 0.6328333333333334,
+          "y" : 0.5355555555555556
+        },
+        {
+          "height" : 0.08111111111111113,
+          "index" : 12,
+          "width" : 0.15949999999999998,
+          "x" : 0.10866666666666666,
+          "y" : 0.5646666666666665
+        },
+        {
+          "height" : 0.08577777777777776,
+          "index" : 13,
+          "width" : 0.13783333333333336,
+          "x" : 0.10916666666666668,
+          "y" : 0.5655555555555555
+        }
+      ],
+      "index" : 15,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.010305202368534013,
+          "index" : 1,
+          "text" : "1-T22",
+          "width" : 0.02025369990955698,
+          "x" : 0.537988900826934,
+          "y" : 0.4757554037383572
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011799717527447294,
+          "index" : 2,
+          "text" : "MEDIASTINUM",
+          "width" : 0.053165959444913063,
+          "x" : 0.5468498954785213,
+          "y" : 0.5178972519826651
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008428369579893187,
+          "index" : 3,
+          "text" : "POSTERIOR",
+          "width" : 0.027848836725408353,
+          "x" : 0.37595930303167563,
+          "y" : 0.526325621963176
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010403340657552074,
+          "index" : 4,
+          "text" : "INFERIOR",
+          "width" : 0.034225737831809364,
+          "x" : 0.546826084145652,
+          "y" : 0.5329236689989852
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008428369579893187,
+          "index" : 5,
+          "text" : "MEDIASTINUM",
+          "width" : 0.035443971807306435,
+          "x" : 0.3759593041588908,
+          "y" : 0.5398110135692729
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008428369579893187,
+          "index" : 6,
+          "text" : "MEDIUM",
+          "width" : 0.022785412181507467,
+          "x" : 0.3759593027456627,
+          "y" : 0.548239383231776
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.005057021054354613,
+          "index" : 7,
+          "text" : "MEDIASTINUM",
+          "width" : 0.03670982707630506,
+          "x" : 0.3746934498195375,
+          "y" : 0.5836385363693145
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008428369579893187,
+          "index" : 8,
+          "text" : "ANTERIOR",
+          "width" : 0.026582979722456487,
+          "x" : 0.3759593033936608,
+          "y" : 0.5903812318252375
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008428369579893187,
+          "index" : 9,
+          "text" : "T4",
+          "width" : 0.013924418362704225,
+          "x" : 0.5443181817070816,
+          "y" : 0.5937525795441471
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013633105538108226,
+          "index" : 10,
+          "text" : "MEDIASTINUM",
+          "width" : 0.05443181818181818,
+          "x" : 0.5417864698889271,
+          "y" : 0.6106093189436882
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010666814861875531,
+          "index" : 11,
+          "text" : "SUPERIOR",
+          "width" : 0.03553060011430224,
+          "x" : 0.5430090127781454,
+          "y" : 0.6255039989081163
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008428369579893187,
+          "index" : 12,
+          "text" : "MEDIASTINUM",
+          "width" : 0.051900104175914445,
+          "x" : 0.5012790704703144,
+          "y" : 0.6965786902067553
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "MEDIASTINUM\nSUPERIOR\nMEDIASTINUM\nT4\nANTERIOR\nMEDIASTINUM\nMEDIUM\nMEDIASTINUM\nPOSTERIOR\nMEDIASTINUM\nINFERIOR\nMEDIASTINUM\n\n#### Image OCR\n\nFigure labels:",
+      "title" : "Page 15"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.7955555555555556,
+          "index" : 1,
+          "width" : 0.47456944444444443,
+          "x" : 0.016184722222222222,
+          "y" : 0.022222222222222223
+        },
+        {
+          "height" : 0.4222222222222221,
+          "index" : 2,
+          "width" : 0.5105,
+          "x" : 0.4855,
+          "y" : 0.04066666666666673
+        },
+        {
+          "height" : 0.49461111111111117,
+          "index" : 3,
+          "width" : 0.34722222222222215,
+          "x" : 0.6018472222222222,
+          "y" : 0.45600740740740736
+        },
+        {
+          "height" : 0.2168888888888889,
+          "index" : 4,
+          "width" : 0.5013333333333333,
+          "x" : 0.008166666666666666,
+          "y" : 0.6926666666666667
+        },
+        {
+          "height" : 0.2068888888888889,
+          "index" : 5,
+          "width" : 0.4941666666666667,
+          "x" : 0.011,
+          "y" : 0.6942222222222222
+        }
+      ],
+      "index" : 16,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.016969696969696968,
+          "index" : 1,
+          "text" : "t",
+          "width" : 0.007272727272727306,
+          "x" : 0.5054545454242423,
+          "y" : 0.11090909105050507
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.010909090909090889,
+          "index" : 2,
+          "text" : "T5",
+          "width" : 0.011807814992025496,
+          "x" : 0.3224441787464673,
+          "y" : 0.12181818187878787
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01333333333333332,
+          "index" : 3,
+          "text" : "T5",
+          "width" : 0.012727272727272742,
+          "x" : 0.3218181816909091,
+          "y" : 0.12909090903030304
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.021818181818181806,
+          "index" : 4,
+          "text" : "lo",
+          "width" : 0.018165869218500795,
+          "x" : 0.4986531101538143,
+          "y" : 0.1375757573939394
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.014545454545454545,
+          "index" : 5,
+          "text" : "C",
+          "width" : 0.006363636363636371,
+          "x" : 0.5063636363257575,
+          "y" : 0.14727272739393937
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023003335462351823,
+          "index" : 6,
+          "text" : "scia.",
+          "width" : 0.03727272727272728,
+          "x" : 0.5936363635727273,
+          "y" : 0.15440919759005045
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.0096969696969697,
+          "index" : 7,
+          "text" : "T4",
+          "width" : 0.011807814992025496,
+          "x" : 0.3097280703230363,
+          "y" : 0.16545454551515149
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.009696969696969697,
+          "index" : 8,
+          "text" : "T4",
+          "width" : 0.009999999999999995,
+          "x" : 0.3109090909805195,
+          "y" : 0.1727272727792208
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021818181818181806,
+          "index" : 9,
+          "text" : "hi",
+          "width" : 0.017257575757575753,
+          "x" : 0.4995614034128965,
+          "y" : 0.1739393938855219
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019393939393939394,
+          "index" : 10,
+          "text" : "h",
+          "width" : 0.010909090909090929,
+          "x" : 0.5009090908636362,
+          "y" : 0.18242424254545453
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026635441061670543,
+          "index" : 11,
+          "text" : "from the aortic arch and great vessels b)",
+          "width" : 0.36272727272727273,
+          "x" : 0.5936363643011363,
+          "y" : 0.1883088494538535
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212132,
+          "index" : 12,
+          "text" : "artery",
+          "width" : 0.02270733652312595,
+          "x" : 0.4241730461339155,
+          "y" : 0.1969696970909091
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0096969696969697,
+          "index" : 13,
+          "text" : "mediastinum",
+          "width" : 0.047231259968102075,
+          "x" : 0.051772727745039854,
+          "y" : 0.2030303030787879
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212121,
+          "index" : 14,
+          "text" : "artery",
+          "width" : 0.021818181818181803,
+          "x" : 0.42454545443636366,
+          "y" : 0.20424242436363638
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009696969696969697,
+          "index" : 15,
+          "text" : "mediastinum",
+          "width" : 0.047272727272727265,
+          "x" : 0.050909091246753246,
+          "y" : 0.21030303035497833
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212132,
+          "index" : 16,
+          "text" : "pulmonary",
+          "width" : 0.03905661881977672,
+          "x" : 0.42417304662439387,
+          "y" : 0.20909090896969695
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013052074547969932,
+          "index" : 17,
+          "text" : "Superior",
+          "width" : 0.032885417810467436,
+          "x" : 0.051679300992221074,
+          "y" : 0.21468608400151046
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090896,
+          "index" : 18,
+          "text" : "pulmonary",
+          "width" : 0.039090909090909044,
+          "x" : 0.4245454550340909,
+          "y" : 0.21757575762121212
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.016969696969696996,
+          "index" : 19,
+          "text" : "t",
+          "width" : 0.008181818181818182,
+          "x" : 0.5045454545129869,
+          "y" : 0.21757575769696968
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.032688950393868405,
+          "index" : 20,
+          "text" : "ests upon the pericardium, being",
+          "width" : 0.3009090909090909,
+          "x" : 0.5936363651742423,
+          "y" : 0.21857639600890638
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012606273997913702,
+          "index" : 21,
+          "text" : "Superior",
+          "width" : 0.03192020763050425,
+          "x" : 0.05176716888842721,
+          "y" : 0.22218171138523518
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0096969696969697,
+          "index" : 22,
+          "text" : "Left",
+          "width" : 0.015440988835725668,
+          "x" : 0.4241730461233187,
+          "y" : 0.22484848478787878
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090915,
+          "index" : 23,
+          "text" : "inlet",
+          "width" : 0.019074162679425823,
+          "x" : 0.12534449784608254,
+          "y" : 0.22848484856060608
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009696969696969697,
+          "index" : 24,
+          "text" : "Left",
+          "width" : 0.015454545454545433,
+          "x" : 0.4245454544999999,
+          "y" : 0.23212121214973264
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212121,
+          "index" : 25,
+          "text" : "inlet",
+          "width" : 0.019090909090909085,
+          "x" : 0.12545454569318182,
+          "y" : 0.2357575758181818
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011971366188742902,
+          "index" : 26,
+          "text" : "Thoracic",
+          "width" : 0.032888425312924435,
+          "x" : 0.1261578609802517,
+          "y" : 0.24128704423772523
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.018181818181818212,
+          "index" : 27,
+          "text" : "m",
+          "width" : 0.015440988835725668,
+          "x" : 0.5013779904760367,
+          "y" : 0.2442424241125541
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090896,
+          "index" : 28,
+          "text" : "Thoracic",
+          "width" : 0.032727272727272716,
+          "x" : 0.1263636365974026,
+          "y" : 0.24909090913419912
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212132,
+          "index" : 29,
+          "text" : "carotid artery",
+          "width" : 0.0481395534290271,
+          "x" : 0.12625279154997607,
+          "y" : 0.2563636363878788
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012442121216745112,
+          "index" : 30,
+          "text" : "Aortic arch",
+          "width" : 0.040925968699478066,
+          "x" : 0.40598079606560705,
+          "y" : 0.2574153027652874
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026635441061670543,
+          "index" : 31,
+          "text" : "hyoideus and Sternothyreoideus.",
+          "width" : 0.3081818181818182,
+          "x" : 0.5936363658376623,
+          "y" : 0.2585295578392287
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.012280450300736849,
+          "index" : 32,
+          "text" : "carotid artery",
+          "width" : 0.04911288174715909,
+          "x" : 0.12635264994482373,
+          "y" : 0.26355674466810797
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090922,
+          "index" : 33,
+          "text" : "Aortic arch",
+          "width" : 0.040909090909090916,
+          "x" : 0.40545454504545453,
+          "y" : 0.26484848478787876
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0096969696969697,
+          "index" : 34,
+          "text" : "Left common",
+          "width" : 0.0481395534290271,
+          "x" : 0.12625279141243448,
+          "y" : 0.270909090961039
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025435690235690218,
+          "index" : 35,
+          "text" : "Sternothyreoidei.",
+          "width" : 0.15712737355066375,
+          "x" : 0.02680053870679821,
+          "y" : 0.27870796856706503
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090896,
+          "index" : 36,
+          "text" : "Left common",
+          "width" : 0.049090909090909074,
+          "x" : 0.12545454511363635,
+          "y" : 0.27818181831818184
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.016969696969696968,
+          "index" : 37,
+          "text" : "SU",
+          "width" : 0.01634928229665071,
+          "x" : 0.5004696968879505,
+          "y" : 0.28060606054545456
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03147824852742883,
+          "index" : 38,
+          "text" : "ed by the sternum, and by the origins of",
+          "width" : 0.36272727272727273,
+          "x" : 0.5936363635,
+          "y" : 0.29000780622636985
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013692315997499396,
+          "index" : 39,
+          "text" : "Trachea",
+          "width" : 0.031207501698909207,
+          "x" : 0.160605180823953,
+          "y" : 0.2943659630747473
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090915,
+          "index" : 40,
+          "text" : "artery",
+          "width" : 0.02270733652312601,
+          "x" : 0.37694178605681816,
+          "y" : 0.2927272726666667
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010909090909090896,
+          "index" : 41,
+          "text" : "artery",
+          "width" : 0.021818181818181858,
+          "x" : 0.3772727270909091,
+          "y" : 0.29999999994949494
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011464186003713878,
+          "index" : 42,
+          "text" : "Trachea",
+          "width" : 0.032828861583362935,
+          "x" : 0.1599492052096511,
+          "y" : 0.3033588162315823
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0096969696969697,
+          "index" : 43,
+          "text" : "Left subclavian",
+          "width" : 0.05540590111642743,
+          "x" : 0.3778500802065324,
+          "y" : 0.3072727273131313
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030280583613916903,
+          "index" : 44,
+          "text" : "sides of the trachea, behind the Sternohyoidei and",
+          "width" : 0.4550336077970089,
+          "x" : 0.02589228636832349,
+          "y" : 0.31019977531681897
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.030280583613916993,
+          "index" : 45,
+          "text" : "of the anterior neck, where it lies on the front and",
+          "width" : 0.45321710636867757,
+          "x" : 0.02680054150156128,
+          "y" : 0.3453252526766555
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0266354410616706,
+          "index" : 46,
+          "text" : "e lower border of the thyroid gland (left",
+          "width" : 0.36272727272727273,
+          "x" : 0.5936363624272727,
+          "y" : 0.3650713220559317
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025435690235690218,
+          "index" : 47,
+          "text" : "The thymus is located in part in the inferior portion",
+          "width" : 0.460483112082003,
+          "x" : 0.02498403341840135,
+          "y" : 0.3852956228577722
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03147824852742883,
+          "index" : 48,
+          "text" : "from the 4th costal cartilage upward, as",
+          "width" : 0.36272727272727273,
+          "x" : 0.5936363656079545,
+          "y" : 0.39654957045119227
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025435690235690218,
+          "index" : 49,
+          "text" : "Neck",
+          "width" : 0.04722903713661569,
+          "x" : 0.025892287151869902,
+          "y" : 0.42284354671818936
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.019371229863033163,
+          "index" : 50,
+          "text" : "im.",
+          "width" : 0.03272727272727273,
+          "x" : 0.5936363638409091,
+          "y" : 0.4389241359733163
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025424739195231028,
+          "index" : 51,
+          "text" : "rediastinum and anterior part of inferior",
+          "width" : 0.36272727272727273,
+          "x" : 0.5936363644220779,
+          "y" : 0.472823788052019
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026635441061670543,
+          "index" : 52,
+          "text" : "le most part of the organ lies in the",
+          "width" : 0.31545454545454543,
+          "x" : 0.593636366790909,
+          "y" : 0.5079341424088
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.012112233445566797,
+          "index" : 53,
+          "text" : "T12",
+          "width" : 0.0163485128549824,
+          "x" : 0.3365140314596077,
+          "y" : 0.5282199776138721
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01429319460576634,
+          "index" : 54,
+          "text" : "Esophagus",
+          "width" : 0.04194742882237713,
+          "x" : 0.4490531721010305,
+          "y" : 0.539847341930876
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012293609225254992,
+          "index" : 55,
+          "text" : "Diaphragm",
+          "width" : 0.04090128991728447,
+          "x" : 0.44912211633041127,
+          "y" : 0.5680996601083246
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010901010101010081,
+          "index" : 56,
+          "text" : "T10",
+          "width" : 0.016348512854982344,
+          "x" : 0.3474130396208831,
+          "y" : 0.6457086419298879
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010901010101010172,
+          "index" : 57,
+          "text" : "mediastinum",
+          "width" : 0.04722903713661568,
+          "x" : 0.030433540672239964,
+          "y" : 0.668721885658148
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011171106613792713,
+          "index" : 58,
+          "text" : "Posterior",
+          "width" : 0.03473017145937941,
+          "x" : 0.030325218767001713,
+          "y" : 0.6813046824168993
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009689786756453546,
+          "index" : 59,
+          "text" : "mediastinum",
+          "width" : 0.04813728785078139,
+          "x" : 0.030433541062787766,
+          "y" : 0.7062698092515914
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011281258150864854,
+          "index" : 60,
+          "text" : "Middle",
+          "width" : 0.025521232162357636,
+          "x" : 0.03038843471089255,
+          "y" : 0.7181919186710719
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011103695397853278,
+          "index" : 61,
+          "text" : "Heart",
+          "width" : 0.021854555871662528,
+          "x" : 0.4663656138337199,
+          "y" : 0.7340266034273669
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010901010101010081,
+          "index" : 62,
+          "text" : "mediastinum",
+          "width" : 0.04722903713661569,
+          "x" : 0.030433540918765153,
+          "y" : 0.7438177329276575
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012112233445566797,
+          "index" : 63,
+          "text" : "T8",
+          "width" : 0.011807259284153965,
+          "x" : 0.34832129044101134,
+          "y" : 0.7535075195802918
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010770884356942905,
+          "index" : 64,
+          "text" : "Anterior",
+          "width" : 0.031061156495161127,
+          "x" : 0.030343224861719555,
+          "y" : 0.7566006409212627
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009689786756453456,
+          "index" : 65,
+          "text" : "mediastinum",
+          "width" : 0.04722903713661569,
+          "x" : 0.015901529627054264,
+          "y" : 0.7765207632358788
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010019355396309347,
+          "index" : 66,
+          "text" : "Inferior",
+          "width" : 0.02731237890499617,
+          "x" : 0.015869100609721715,
+          "y" : 0.7896794357071759
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009689786756453366,
+          "index" : 67,
+          "text" : "bronchus",
+          "width" : 0.03542177785246178,
+          "x" : 0.4545866244510083,
+          "y" : 0.8213360269844759
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01248008367193801,
+          "index" : 68,
+          "text" : "thymus",
+          "width" : 0.028243534760883014,
+          "x" : 0.07307744250821778,
+          "y" : 0.8344755587686687
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009773890504505197,
+          "index" : 69,
+          "text" : "Left main",
+          "width" : 0.03452674843928048,
+          "x" : 0.4545800136927519,
+          "y" : 0.8346174319046349
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01089422838741641,
+          "index" : 70,
+          "text" : "gus",
+          "width" : 0.012727272727272726,
+          "x" : 0.47727272722727276,
+          "y" : 0.8783073239593108
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.010901010101010081,
+          "index" : 71,
+          "text" : "T5",
+          "width" : 0.010899008569988213,
+          "x" : 0.32289027045194085,
+          "y" : 0.8843196409619843
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.009683758566592399,
+          "index" : 72,
+          "text" : "gm",
+          "width" : 0.011818181818181816,
+          "x" : 0.47727272722727276,
+          "y" : 0.9061481298366011
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.009689786756453456,
+          "index" : 73,
+          "text" : "T4",
+          "width" : 0.010899008569988213,
+          "x" : 0.31017476040820874,
+          "y" : 0.9267124578518967
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010901010101010081,
+          "index" : 74,
+          "text" : "artery",
+          "width" : 0.022706267854142124,
+          "x" : 0.42461435075638554,
+          "y" : 0.9594154882760494
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010901010101010172,
+          "index" : 75,
+          "text" : "mediastinum",
+          "width" : 0.04722903713661569,
+          "x" : 0.05132330740080098,
+          "y" : 0.9642603816441826
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013323456790123513,
+          "index" : 76,
+          "text" : "pulmonary",
+          "width" : 0.03996303142329022,
+          "x" : 0.42370609957901195,
+          "y" : 0.9703164984497329
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011380671761252627,
+          "index" : 77,
+          "text" : "Superior",
+          "width" : 0.032785084563691044,
+          "x" : 0.05127927781439876,
+          "y" : 0.9773440076108437
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "Thorax: The most part of the organ lies in the\nsuperior mediastinum and anterior part of inferior\nmediastinum.\nIt extends from the 4th costal cartilage upward, as\nhigh as the lower border of the thyroid gland (left\nlobe).\nIt is covered by the sternum, and by the origins of\nthe Sternohyoideus and Sternothyreoideus.\nBelow, it rests upon the pericardium, being\nseparated from the aortic arch and great vessels by a\nlayer of fascia.\nNeck\nThe thymus is located in part in the inferior portion\nof the anterior neck, where it lies on the front and\nsides of the trachea, behind the Sternohyoidei and\nSternothyreoidei.\n\n#### Image OCR\n\nFigure labels:\n- Left main bronchus\n- Heart\n- Diaphragm\n- Esophagus\nFigure labels:\n- Left subclavian\n- Trachea artery\n- Left common carotid artery\n- Thoracic inlet\nFigure labels:\n- Trachea artery\n- Left common carotid artery\n- Thoracic inlet",
+      "title" : "Page 16"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.423462962962963,
+          "index" : 1,
+          "width" : 0.5206666666666667,
+          "x" : 0.47158333333333335,
+          "y" : 0.017722222222222105
+        },
+        {
+          "height" : 0.09466666666666668,
+          "index" : 2,
+          "width" : 0.11233333333333324,
+          "x" : 0.6735,
+          "y" : 0.2037777777777777
+        },
+        {
+          "height" : 0.1102222222222222,
+          "index" : 3,
+          "width" : 0.03800000000000002,
+          "x" : 0.6468333333333334,
+          "y" : 0.20400000000000004
+        },
+        {
+          "height" : 0.04977777777777777,
+          "index" : 4,
+          "width" : 0.11216666666666665,
+          "x" : 0.481,
+          "y" : 0.21733333333333335
+        },
+        {
+          "height" : 0.051333333333333384,
+          "index" : 5,
+          "width" : 0.07950000000000002,
+          "x" : 0.48316666666666663,
+          "y" : 0.2193333333333332
+        },
+        {
+          "height" : 0.07755555555555554,
+          "index" : 6,
+          "width" : 0.05700000000000003,
+          "x" : 0.5823333333333334,
+          "y" : 0.2366666666666667
+        },
+        {
+          "height" : 0.08266666666666664,
+          "index" : 7,
+          "width" : 0.034166666666666616,
+          "x" : 0.6866666666666668,
+          "y" : 0.3904444444444445
+        },
+        {
+          "height" : 0.04977777777777777,
+          "index" : 8,
+          "width" : 0.11233333333333324,
+          "x" : 0.6735,
+          "y" : 0.45933333333333337
+        },
+        {
+          "height" : 0.44662962962962965,
+          "index" : 9,
+          "width" : 0.6134583333333333,
+          "x" : 0.16486111111111112,
+          "y" : 0.5313574074074074
+        }
+      ],
+      "index" : 17,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.00979793085897738,
+          "index" : 1,
+          "text" : "recurrent laryngeal nerve.",
+          "width" : 0.08790697271173654,
+          "x" : 0.34408166273451224,
+          "y" : 0.015751311565265047
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012332530733693529,
+          "index" : 2,
+          "text" : "relations with the esophagus and the",
+          "width" : 0.1254505781693892,
+          "x" : 0.343165962596529,
+          "y" : 0.027856863327701632
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.009760101010100976,
+          "index" : 3,
+          "text" : "6.",
+          "width" : 0.006409883499145493,
+          "x" : 0.4979188689868834,
+          "y" : 0.03530934353194447
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011500274058413579,
+          "index" : 4,
+          "text" : "trachea and the carotid showing also",
+          "width" : 0.12361917669122867,
+          "x" : 0.3440816658423316,
+          "y" : 0.041172970055929806
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011159805418526361,
+          "index" : 5,
+          "text" : "continues in the space between the",
+          "width" : 0.1199563876065341,
+          "x" : 0.34408166548987507,
+          "y" : 0.054829545515546065
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.009760101010101028,
+          "index" : 6,
+          "text" : "4",
+          "width" : 0.007325581637295813,
+          "x" : 0.49700317121795357,
+          "y" : 0.05360953288928351
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.007320075757575758,
+          "index" : 7,
+          "text" : "Dª",
+          "width" : 0.008241278908469481,
+          "x" : 0.6471775900700121,
+          "y" : 0.05848958341466752
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.006270297451256785,
+          "index" : 8,
+          "text" : "ic trunck",
+          "width" : 0.01831395235928623,
+          "x" : 0.5611020087922782,
+          "y" : 0.06092960854010809
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01106523079633548,
+          "index" : 9,
+          "text" : "carotid arteries. Sometimes it",
+          "width" : 0.10072674144398083,
+          "x" : 0.34408166182987265,
+          "y" : 0.0670296717883391
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.006100063131313097,
+          "index" : 10,
+          "text" : "brachiocephal",
+          "width" : 0.027470930272882683,
+          "x" : 0.561102008619637,
+          "y" : 0.06824968426718356
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.006100063131313149,
+          "index" : 11,
+          "text" : "THYMUS",
+          "width" : 0.01831395235928623,
+          "x" : 0.4979188697915514,
+          "y" : 0.0719097222832229
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.006100063131313149,
+          "index" : 12,
+          "text" : "LEFT",
+          "width" : 0.00915697617964315,
+          "x" : 0.561102008738931,
+          "y" : 0.0767897727882734
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008540088383838419,
+          "index" : 13,
+          "text" : "Posterior: trachea and common",
+          "width" : 0.10713662581010298,
+          "x" : 0.34499736012791626,
+          "y" : 0.0828898358789194
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008540088383838419,
+          "index" : 14,
+          "text" : "D",
+          "width" : 0.005494185794483499,
+          "x" : 0.641683403839941,
+          "y" : 0.08288983579758516
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012237956111502598,
+          "index" : 15,
+          "text" : "Sternohyoidei and Sternothyreoidei.",
+          "width" : 0.12270348288796164,
+          "x" : 0.3431659659141323,
+          "y" : 0.09383211964607316
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008540088383838367,
+          "index" : 16,
+          "text" : "7",
+          "width" : 0.004578488089821575,
+          "x" : 0.499750264365964,
+          "y" : 0.10119002539486006
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013543085897737051,
+          "index" : 17,
+          "text" : "Anterior: investing fascia, behind the",
+          "width" : 0.12361917669122871,
+          "x" : 0.3440816647824116,
+          "y" : 0.10472711598826363
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.008540088383838419,
+          "index" : 18,
+          "text" : ".C",
+          "width" : 0.006409883499145493,
+          "x" : 0.636189217789754,
+          "y" : 0.10485006308556265
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01123405781080482,
+          "index" : 19,
+          "text" : "Neck:",
+          "width" : 0.021135059703480105,
+          "x" : 0.3440446532419274,
+          "y" : 0.11936324242462518
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.006100063131313149,
+          "index" : 20,
+          "text" : "C°",
+          "width" : 0.006409883499145493,
+          "x" : 0.6325264272790347,
+          "y" : 0.12925031571756626
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012705567123727352,
+          "index" : 21,
+          "text" : "RELATIONS",
+          "width" : 0.038716454939408715,
+          "x" : 0.3439530835855417,
+          "y" : 0.13204762686500693
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.009760101010100976,
+          "index" : 22,
+          "text" : "2",
+          "width" : 0.006409883499145563,
+          "x" : 0.498834566661302,
+          "y" : 0.13779040413800508
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.003632075471698098,
+          "index" : 23,
+          "text" : "Lett recurment",
+          "width" : 0.020891399590387067,
+          "x" : 0.46954007058001807,
+          "y" : 0.8401801029764865
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.003632075471698098,
+          "index" : 24,
+          "text" : "Left vaous nerv",
+          "width" : 0.022708043183680405,
+          "x" : 0.46954007048918595,
+          "y" : 0.8789222412201972
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.002421383647798713,
+          "index" : 25,
+          "text" : "lelcerpnr",
+          "width" : 0.01725811413628673,
+          "x" : 0.4713567143945312,
+          "y" : 0.9007146941041944
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.003632075471698155,
+          "index" : 26,
+          "text" : "aft phrenic nervel",
+          "width" : 0.021799721387033736,
+          "x" : 0.46318181959305443,
+          "y" : 0.9164536878518796
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.003632075471698098,
+          "index" : 27,
+          "text" : "И ск Sиrnon",
+          "width" : 0.01634979060715372,
+          "x" : 0.463181818321404,
+          "y" : 0.9297712978472273
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.006053459119496868,
+          "index" : 28,
+          "text" : "les.",
+          "width" : 0.009991539763113368,
+          "x" : 0.4631818183483439,
+          "y" : 0.944299599791476
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.008474842767295638,
+          "index" : 29,
+          "text" : "from inferior thyroid",
+          "width" : 0.05722426972376752,
+          "x" : 0.46318181896056665,
+          "y" : 0.9527744424780589
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "RELATIONS\nNeck:\nAnterior: investing fascia, behind the\nSternohyoidei and Sternothyreoidei.\nPosterior: trachea and common\ncarotid arteries. Sometimes it\ncontinues in the space between the\ntrachea and the carotid showing also\nrelations with the esophagus and the\nrecurrent laryngeal nerve.\nLateral: common carotid artery\nTHYMUS\nLEFT\nbrachiocephal\nic trunck\nAORTIC ARCH\n\n#### Image OCR\n\nfrom inferior thyroid les. aft phrenic nervel lelcerpnr\nFigure labels:\n- Lett recurment",
+      "title" : "Page 17"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.5494259259259259,
+          "index" : 1,
+          "width" : 0.5135,
+          "x" : 0.43997222222222226,
+          "y" : 0.016037037037036978
+        },
+        {
+          "height" : 0.5194629629629629,
+          "index" : 2,
+          "width" : 0.7134861111111112,
+          "x" : 0.022337500000000003,
+          "y" : 0.48053681098148154
+        }
+      ],
+      "index" : 18,
+      "ocrObservations" : [
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.014545454545454544,
+          "index" : 1,
+          "text" : "ond intornol thararir artarine",
+          "width" : 0.28011627197265626,
+          "x" : 0.03000661264818557,
+          "y" : 0.0012121211618691433
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029825918024236512,
+          "index" : 2,
+          "text" : "Blood Supply of thymus is from inferior thyroid",
+          "width" : 0.4520058094371448,
+          "x" : 0.030006607007511083,
+          "y" : 0.018181817885299736
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025415859800396567,
+          "index" : 3,
+          "text" : "pleura",
+          "width" : 0.05729651017622514,
+          "x" : 0.021518234825180248,
+          "y" : 0.12566731176633944
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026911669644442464,
+          "index" : 4,
+          "text" : "Lateral: phrenic nerves and mediastinic",
+          "width" : 0.35545057816938924,
+          "x" : 0.021518234702556562,
+          "y" : 0.16096711793699475
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014119922753536346,
+          "index" : 5,
+          "text" : "12",
+          "width" : 0.012732557816938857,
+          "x" : 0.5233932348032867,
+          "y" : 0.17085106386915613
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02842237067945076,
+          "index" : 6,
+          "text" : "the aortic arch.",
+          "width" : 0.1405590126731179,
+          "x" : 0.02024908898413022,
+          "y" : 0.19749413956049702
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02848484848484846,
+          "index" : 7,
+          "text" : "with the left brachiocephalic trunk and",
+          "width" : 0.36195831298828124,
+          "x" : 0.017132579897463116,
+          "y" : 0.23090909034466206
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02857737685694833,
+          "index" : 8,
+          "text" : "brachiocephalic trunk; on the left side",
+          "width" : 0.3528333351828835,
+          "x" : 0.0171325792432172,
+          "y" : 0.2672727267893634
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.031063828901811058,
+          "index" : 9,
+          "text" : "on the right side the vena cava, the right",
+          "width" : 0.36500000000000005,
+          "x" : 0.021518236081980537,
+          "y" : 0.29934235998871866
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.031160541881214532,
+          "index" : 10,
+          "text" : "Posterior: trachea, bronchi, pericardium,",
+          "width" : 0.36924419056285507,
+          "x" : 0.021518230309723843,
+          "y" : 0.3345454540664673
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025654415939793482,
+          "index" : 11,
+          "text" : "upper portion.",
+          "width" : 0.13263080943714486,
+          "x" : 0.022579284046900586,
+          "y" : 0.3739393942919328
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012707929900198284,
+          "index" : 12,
+          "text" : "6",
+          "width" : 0.008488371588967111,
+          "x" : 0.5297595141002046,
+          "y" : 0.3826499035748041
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026885879978989113,
+          "index" : 13,
+          "text" : "and insertion of strap muscles in the",
+          "width" : 0.3278633811257102,
+          "x" : 0.021518232205106978,
+          "y" : 0.4094777565202072
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03305513208562681,
+          "index" : 14,
+          "text" : "Anterior: posterior surface of sternum",
+          "width" : 0.3451436268199574,
+          "x" : 0.021338893475460478,
+          "y" : 0.443066229522079
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02449024547230118,
+          "index" : 15,
+          "text" : "Thorax:",
+          "width" : 0.07141720164905896,
+          "x" : 0.02029364476364408,
+          "y" : 0.4833641615308643
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010897534668721145,
+          "index" : 16,
+          "text" : "sac",
+          "width" : 0.016363636363636355,
+          "x" : 0.6959090908409091,
+          "y" : 0.556222393289564
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012108371854134598,
+          "index" : 17,
+          "text" : "Pericardial",
+          "width" : 0.047272727272727244,
+          "x" : 0.6868181821558441,
+          "y" : 0.5719632768880512
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012108371854134534,
+          "index" : 18,
+          "text" : "ymus",
+          "width" : 0.02363636363636364,
+          "x" : 0.4313636366590909,
+          "y" : 0.6082883924591037
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013319209039547987,
+          "index" : 19,
+          "text" : "- TIV\/N vertebral level",
+          "width" : 0.09636363636363637,
+          "x" : 0.6331818187840909,
+          "y" : 0.7112095532116799
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01388363940506391,
+          "index" : 20,
+          "text" : "cic artery •",
+          "width" : 0.0446386684070934,
+          "x" : 0.43131702973185093,
+          "y" : 0.7617824993376354
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01331920903954805,
+          "index" : 21,
+          "text" : "artery",
+          "width" : 0.026363636363636353,
+          "x" : 0.6504545453363636,
+          "y" : 0.7693297381917437
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.0112035165104918,
+          "index" : 22,
+          "text" : "nt intemal",
+          "width" : 0.042770666642622523,
+          "x" : 0.43134193993961667,
+          "y" : 0.7824959562869878
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.012108371854134598,
+          "index" : 23,
+          "text" : "- Left internal thoracic",
+          "width" : 0.09454545454545456,
+          "x" : 0.6222727263272727,
+          "y" : 0.7899139702105804
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.029060092449922945,
+          "index" : 24,
+          "text" : "yroid",
+          "width" : 0.05090909090909091,
+          "x" : 0.4313636366515151,
+          "y" : 0.9037326658816127
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.01089753466872108,
+          "index" : 25,
+          "text" : "73",
+          "width" : 0.009999999999999998,
+          "x" : 0.5350000000090909,
+          "y" : 0.9727503850990371
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.012108371854134598,
+          "index" : 26,
+          "text" : "ー-ぽ",
+          "width" : 0.026363636363636412,
+          "x" : 0.8604545456272727,
+          "y" : 0.9751720596999229
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "Thorax:\nAnterior: posterior surface of sternum\nand insertion of strap muscles in the\nupper portion.\nPosterior: trachea, bronchi, pericardium,\non the right side the vena cava, the right\nbrachiocephalic trunk; on the left side\nwith the left brachiocephalic trunk and\nthe aortic arch.\nLateral: phrenic nerves and mediastinic\npleura\n\n#### Image OCR\n\nyroid nt intemal\n- Left internal thoracic cic artery • artery\n### Blood Supply Of Thymus Is From Inferior Thyroid\nond intornol thararir artarine",
+      "title" : "Page 18"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.9122222222222223,
+          "index" : 1,
+          "width" : 0.7879583333333334,
+          "x" : 0.11851805555555556,
+          "y" : 0.037037037037037035
+        }
+      ],
+      "index" : 19,
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.01777777777777778,
+          "index" : 1,
+          "text" : "PERICARDIUM",
+          "width" : 0.07666666666666666,
+          "x" : 0.5066666657083334,
+          "y" : 0.39111111099999996
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01832772572835295,
+          "index" : 2,
+          "text" : "THYMUS",
+          "width" : 0.04844548543294275,
+          "x" : 0.4716105910657064,
+          "y" : 0.5241694702862594
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01777777777777778,
+          "index" : 3,
+          "text" : "PHRENIC NERVE",
+          "width" : 0.08999999999999997,
+          "x" : 0.5416666677916667,
+          "y" : 0.5955555556666666
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017777777777777892,
+          "index" : 4,
+          "text" : "PULMONAR VEIN",
+          "width" : 0.10666666666666663,
+          "x" : 0.2950000010666667,
+          "y" : 0.6088888890222222
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026666666666666616,
+          "index" : 5,
+          "text" : "THYMUS ANATOMY",
+          "width" : 0.17333333333333334,
+          "x" : 0.41000000096296296,
+          "y" : 0.7088888890123457
+        }
+      ],
+      "route" : "ocr",
+      "text" : "### Thymus Anatomy\n\n### Pulmonar Vein\n\n### Phrenic Nerve\n\nTHYMUS\n\nPERICARDIUM",
+      "title" : "Page 19"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.9048333333333334,
+          "index" : 1,
+          "width" : 0.5407361111111112,
+          "x" : 0.06851805555555555,
+          "y" : 0.06278333333333326
+        }
+      ],
+      "index" : 20,
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "The thymus is visible in CT\nor MRN axial sections just\nanterior to the ascending\naorta and inferior to the left\nbrachiocephalic vein.",
+      "title" : "Page 20"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.6882777777777778,
+          "index" : 1,
+          "width" : 0.5286666666666667,
+          "x" : 0.429625,
+          "y" : 0.0728333333333333
+        }
+      ],
+      "index" : 21,
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Blood supply:\n•arterial supply from the inferior\nthyroid and internal thoracic\narteries\n•venous drainage from the thymus\nend into the left brachiocephalic,\ninternal thoracic and inferior thyroid\nveins.\nLymphatic drainage: parasternal,\nbrachiocephalic and\ntracheobronchial lymph nodes",
+      "title" : "Page 21"
+    }
+  ],
+  "sourceFile" : "thymus(1).pdf",
+  "sourceKind" : "PDF",
+  "title" : "thymus(1)"
+}

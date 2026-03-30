@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pdf.md</title>
+  <meta
+    name="description"
+    content="pdf.md is a macOS app that converts difficult PDFs, presentation files, and image-based documents into clean, usable markdown."
+  >
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">pdf.md</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#what">What</a>
+      <a href="#why">Why</a>
+      <a href="#how">How</a>
+      <a href="#specs">Specs</a>
+      <a href="#buy">Buy</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>From messy.pdf to clean.md</h1>
+        <p class="lede">
+          pdf.md is a macOS app for converting difficult documents into readable,
+          editable markdown. It handles PDFs, including PDFs with embedded images,
+          and supports common presentation and image formats.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#buy">Buy pdf.md</a>
+          <a class="button button-secondary" href="#how">See The Workflow</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Product summary">
+        <p class="panel-label">Built for</p>
+        <ul class="panel-list">
+          <li>study notes and reading packs</li>
+          <li>lecture slides and class material</li>
+          <li>drafting, summarising, and reuse</li>
+        </ul>
+        <p class="panel-note">
+          Designed for cases where the document format should not block downstream work.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="what">
+      <div class="section-heading">
+        <p class="eyebrow">What</p>
+        <h2>A focused document-to-markdown app for files that do not convert cleanly.</h2>
+      </div>
+      <div class="two-column">
+        <p>
+          pdf.md is built for documents that break normal copy and paste
+          workflows: difficult PDFs, slide decks, image-based material, and
+          mixed-content files that are awkward to reuse.
+        </p>
+        <p>
+          The result is straightforward: markdown that is easier to read, edit,
+          search, quote, and continue working with.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="section-heading">
+        <p class="eyebrow">Why</p>
+        <h2>Built to reduce cleanup work and make difficult source files usable.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>Cleaner output</h3>
+          <p>
+            Exported markdown is cleaned up for practical use, so it reads more
+            like working text and less like a raw extraction.
+          </p>
+        </article>
+        <article>
+          <h3>Easier reuse</h3>
+          <p>
+            Once content is in markdown, it is easier to edit, organize,
+            search, quote, and move into notes, drafts, or study material.
+          </p>
+        </article>
+        <article>
+          <h3>Less manual cleanup</h3>
+          <p>
+            pdf.md reduces the time spent fixing formatting and extracting
+            usable text from difficult source files.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="how">
+      <div class="section-heading">
+        <p class="eyebrow">How</p>
+        <h2>A direct path from source document to working markdown.</h2>
+      </div>
+      <p class="example-intro">
+        The example below uses the first page of <code>thymus(1).pdf</code>:
+        from the original source page, through pdf.md preview and export, to the
+        final markdown file.
+      </p>
+
+      <div class="story-grid">
+        <article class="story-card">
+          <div class="file-card-top">
+            <span class="file-pill">Input</span>
+            <span class="file-name">thymus(1).pdf</span>
+          </div>
+          <img
+            class="file-visual file-visual-page"
+            src="./site-assets/demo/thymus-page-1-focus.png"
+            alt="Cropped render of actual page 1 from thymus(1).pdf."
+          >
+          <p class="file-note">
+            The source can begin as a PDF, including PDFs with embedded images,
+            or as a supported presentation or image file.
+          </p>
+        </article>
+
+        <article class="story-card story-card-how">
+          <div class="file-card-top">
+            <span class="file-pill">How</span>
+            <span class="file-name">pdf.md</span>
+          </div>
+          <div class="how-grid">
+            <article class="demo-card">
+              <img
+                src="./site-assets/demo/quick-preview-state.png"
+                alt="pdf.md Quick Preview popup showing the first page of thymus(1).pdf."
+              >
+              <div class="demo-meta">
+                <p class="demo-kicker">01 Popup Preview</p>
+                <p>Inspect the source and confirm the pages or content to export.</p>
+              </div>
+            </article>
+
+            <article class="demo-card">
+              <img
+                src="./site-assets/demo/in-app-preview-state.png"
+                alt="pdf.md showing the loaded thymus PDF, assigned export folder, and markdown preview in the main window."
+              >
+              <div class="demo-meta">
+                <p class="demo-kicker">02 App UI</p>
+                <p>Convert the selected content into markdown and review the result before continuing downstream work.</p>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <article class="story-card">
+          <div class="file-card-top">
+            <span class="file-pill file-pill-output">Output</span>
+            <span class="file-name">thymus(1)_OCR_norm.md</span>
+          </div>
+          <img
+            class="file-visual"
+            src="./site-assets/demo/markedit-preview.png"
+            alt="The exported markdown file from pdf.md opened in MarkEdit."
+          >
+          <p class="file-note">
+            The output is a standard markdown file with cleaned, readable
+            structure that is easier to edit, search, quote, and reuse.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="specs">
+      <div class="section-heading">
+        <p class="eyebrow">Technical Specifications</p>
+        <h2>Document inspection, export control, and markdown review.</h2>
+      </div>
+
+      <div class="specs-grid">
+        <article class="spec-card">
+          <img
+            src="./site-assets/specs/focus/workspace-quick-preview-focus.png"
+            alt="pdf.md quick preview overlay showing a full source page."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Page Inspection</p>
+            <p>Open a full-page preview to verify the source before export.</p>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <img
+            src="./site-assets/specs/focus/workspace-range-editor-focus.png"
+            alt="pdf.md extraction range editor sheet."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Range Control</p>
+            <p>Limit export to the relevant page range instead of processing the entire document.</p>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <img
+            src="./site-assets/specs/focus/workspace-exported-preview-focus.png"
+            alt="pdf.md preview pane showing the exported markdown after export."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Post-Export Review</p>
+            <p>Review the generated markdown in the app immediately after export.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-buy" id="buy">
+      <div class="section-heading">
+        <p class="eyebrow">Buy</p>
+        <h2>One product, one license, one clear price.</h2>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-copy">
+          <p class="pricing-label">Personal License</p>
+          <p class="pricing-price">$29</p>
+          <p class="pricing-note">One-time purchase</p>
+          <ul class="pricing-list">
+            <li>personal use</li>
+            <li>up to 2 Macs</li>
+            <li>minor updates included</li>
+            <li>download after checkout</li>
+          </ul>
+        </div>
+        <div class="pricing-actions">
+          <a class="button button-primary" href="mailto:worldpresident1030@gmail.com?subject=pdf.md%20license%20interest">Contact for License Access</a>
+          <p class="pricing-support">
+            Checkout is being finalized. For early access, licensing questions, or support, contact worldpresident1030@gmail.com.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section final-call">
+      <h2>A macOS app for turning difficult documents into usable markdown.</h2>
+      <p>
+        Built for documents that do not convert cleanly, including PDFs with
+        embedded images, presentation files, and image-based source material.
+      </p>
+      <div class="legal-links">
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./eula.html">EULA</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "id": "biopath-representative-export-benchmark",
+  "name": "ALL Past Papers Biopath 2 representative export benchmark",
+  "sourcePDFPath": "/Users/siumanshermanchan/Downloads/ALL Past Papers Biopath 2.pdf",
+  "referenceAuditJSONPath": "/Users/siumanshermanchan/Downloads/ALL Past Papers Biopath 2_OCR_norm.audit.json",
+  "referenceAuditJSONPaths": {
+    "on": "/Users/siumanshermanchan/Downloads/ALL Past Papers Biopath 2_OCR_norm.audit.json",
+    "off": "/Users/siumanshermanchan/Downloads/ALL Past Papers Biopath 2_OCR_raw.audit.json"
+  },
+  "ocrMode": "balanced",
+  "suites": [
+    {
+      "id": "first-ocr-transition",
+      "title": "First OCR transition",
+      "description": "Pages 17-21 capture the first switch from text-plus-image OCR into pure OCR and back to mixed extraction.",
+      "rangeExpression": "17-21",
+      "combinations": [
+        { "exportMode": "hybrid", "normalization": "on", "expectation": "success" },
+        { "exportMode": "hybrid", "normalization": "off", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "on", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "off", "expectation": "success" }
+      ]
+    },
+    {
+      "id": "slow-mixed-cluster",
+      "title": "Slow mixed cluster",
+      "description": "Pages 180-184 include OCR fallback pages and the slowest mixed-content pages observed in the full-document hybrid runs.",
+      "rangeExpression": "180-184",
+      "combinations": [
+        { "exportMode": "hybrid", "normalization": "on", "expectation": "success" },
+        { "exportMode": "hybrid", "normalization": "off", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "on", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "off", "expectation": "success" }
+      ]
+    },
+    {
+      "id": "late-route-mix",
+      "title": "Late route mix",
+      "description": "Pages 203-210 cover mixed pages, text-layer-only pages, and the normalization-sensitive late-document route mix.",
+      "rangeExpression": "203-210",
+      "combinations": [
+        { "exportMode": "hybrid", "normalization": "on", "expectation": "success" },
+        { "exportMode": "hybrid", "normalization": "off", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "on", "expectation": "success" },
+        { "exportMode": "heavyAudit", "normalization": "off", "expectation": "success" }
+      ]
+    },
+    {
+      "id": "fast-text-probe",
+      "title": "Fast Text compatibility probe",
+      "description": "Pages 204, 206, 210, and 213-214 look text-heavy, but Fast Text is expected to block because the PDF still carries raster content that needs OCR merge.",
+      "rangeExpression": "204,206,210,213-214",
+      "combinations": [
+        { "exportMode": "fastText", "normalization": "on", "expectation": "blocked" },
+        { "exportMode": "fastText", "normalization": "off", "expectation": "blocked" }
+      ]
+    }
+  ]
+}
