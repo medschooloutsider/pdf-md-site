@@ -29,6 +29,10 @@ body {
     linear-gradient(180deg, #f8f4eb 0%, var(--bg) 100%);
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 a {
   color: inherit;
 }
@@ -248,6 +252,37 @@ main {
 .feature-grid article {
   padding: 1.5rem 0;
   border-top: 1px solid var(--line);
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.screenshot-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background: rgba(255, 252, 246, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.screenshot-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
+  background: #12151a;
+}
+
+.screenshot-card figcaption {
+  padding: 1rem 1.1rem 1.15rem;
+  color: var(--muted);
+  line-height: 1.7;
 }
 
 .feature-grid h3,
@@ -506,6 +541,7 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .screenshot-grid,
   .specs-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -624,6 +660,250 @@ main {
   padding-bottom: 0.15rem;
 }
 
+.link-row .button {
+  border-bottom: 0;
+  padding-bottom: 0.75rem;
+}
+
+.proof-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) auto;
+  gap: 1.5rem;
+  align-items: end;
+  margin-top: 2rem;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background: rgba(255, 252, 246, 0.66);
+  box-shadow: var(--shadow);
+}
+
+.proof-callout-label,
+.proof-callout-copy {
+  margin: 0;
+}
+
+.proof-callout-label {
+  color: var(--accent-strong);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.proof-callout-copy {
+  margin-top: 0.5rem;
+  color: var(--muted);
+  line-height: 1.75;
+  max-width: 44rem;
+}
+
+.proof-modal {
+  width: min(1280px, calc(100% - 2rem));
+  max-width: 1280px;
+  height: min(90svh, 920px);
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 1.8rem;
+  background: #10151b;
+  color: #f7f2e8;
+  box-shadow: 0 34px 120px rgba(8, 12, 16, 0.48);
+}
+
+.proof-modal::backdrop {
+  background: rgba(12, 16, 18, 0.58);
+  backdrop-filter: blur(8px);
+}
+
+.proof-modal-shell {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 1rem;
+  height: 100%;
+  padding: 1.25rem;
+}
+
+.proof-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.proof-modal-header h2 {
+  margin: 0;
+  max-width: 14ch;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.proof-modal-copy {
+  margin: 0;
+  max-width: 48rem;
+  color: rgba(247, 242, 232, 0.72);
+  line-height: 1.75;
+}
+
+.proof-modal-close {
+  min-height: 2.8rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #f7f2e8;
+  font: inherit;
+  cursor: pointer;
+}
+
+.proof-modal-frame-wrap {
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 1.35rem;
+  background: #0a0f14;
+}
+
+.proof-modal-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #0a0f14;
+}
+
+.proof-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-compact {
+  min-height: 100svh;
+}
+
+.page-compact .site-header {
+  position: static;
+  margin-top: 1.25rem;
+}
+
+.page-compact main {
+  padding-top: 1.5rem;
+}
+
+.proof-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.9fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.proof-panel {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1.6rem;
+  background: rgba(255, 252, 246, 0.76);
+  box-shadow: var(--shadow);
+}
+
+.proof-panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.proof-hero h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 7vw, 5.1rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  max-width: 10ch;
+  text-wrap: balance;
+}
+
+.proof-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.proof-metric {
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.proof-metric strong,
+.proof-metric span {
+  display: block;
+}
+
+.proof-metric strong {
+  font-size: 1.7rem;
+  letter-spacing: -0.04em;
+}
+
+.proof-metric span {
+  margin-top: 0.35rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.proof-block {
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: 1.5rem;
+  background: rgba(255, 252, 246, 0.72);
+  box-shadow: var(--shadow);
+}
+
+.proof-block h3,
+.proof-strip-copy h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1.15rem;
+}
+
+.proof-block p,
+.proof-strip-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.proof-list {
+  margin: 0.9rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.proof-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 1.75rem;
+  background: rgba(255, 252, 246, 0.74);
+  box-shadow: var(--shadow);
+}
+
+.proof-strip img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 1.15rem;
+  background: #12151a;
+}
+
 .final-call {
   padding: 5rem 0 1rem;
 }
@@ -659,9 +939,14 @@ main {
   .hero,
   .two-column,
   .feature-grid,
+  .screenshot-grid,
   .story-grid,
   .specs-grid,
   .how-grid,
+  .proof-actions,
+  .proof-hero,
+  .proof-grid,
+  .proof-strip,
   .pricing-card {
     grid-template-columns: 1fr;
   }
@@ -677,6 +962,27 @@ main {
   .hero {
     min-height: auto;
     padding-top: 3rem;
+  }
+
+  .proof-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .proof-modal {
+    width: min(calc(100% - 1rem), 1280px);
+    height: min(94svh, 920px);
+  }
+
+  .proof-modal-shell {
+    padding: 1rem;
+  }
+
+  .proof-modal-header {
+    flex-direction: column;
+  }
+
+  .proof-modal-header h2 {
+    max-width: none;
   }
 }
 

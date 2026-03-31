@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>pdf.md Proof Overview</title>
+  <meta
+    name="description"
+    content="Proof overview for pdf.md: stress testing, benchmark logic, parallel OCR profiles, and QA coverage."
+  >
+  <link rel="icon" type="image/png" href="./favicon.png?v=20260331b">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body class="page-compact">
+  <header class="site-header">
+    <a class="brand" href="./index.html">pdf.md</a>
+    <nav class="site-nav" aria-label="Proof page">
+      <a href="#claim">Claim</a>
+      <a href="#corpus">Corpus</a>
+      <a href="#parallel">Parallel OCR</a>
+      <a href="#coverage">Coverage</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section proof-hero" id="claim">
+      <div>
+        <p class="eyebrow">Proof Overview</p>
+        <h1>Evidence behind the export claims.</h1>
+        <p class="lede">
+          <code>pdf.md</code> was not tuned around toy examples. Its export engine and app
+          workflow were tested against difficult real-world academic documents,
+          with the goal of proving something more important than "a file was
+          written": that the result remains usable, inspectable, and repeatable.
+        </p>
+        <div class="proof-metrics">
+          <div class="proof-metric">
+            <strong>Real Corpus</strong>
+            <span>Golden-set academic source material with mixed text, scans, and figures.</span>
+          </div>
+          <div class="proof-metric">
+            <strong>5 / 8 / 10</strong>
+            <span>Explicit parallel OCR profiles for lighter, balanced, or heavier runs.</span>
+          </div>
+          <div class="proof-metric">
+            <strong>Smoke / Stress / Soak</strong>
+            <span>Multiple QA lanes covering both the engine and the visible app.</span>
+          </div>
+        </div>
+      </div>
+      <aside class="proof-panel">
+        <p>
+          The proof story here is practical: difficult source material,
+          controlled parallel OCR, benchmark discipline, and app-surface QA that
+          reflects the actual release workflow.
+        </p>
+      </aside>
+    </section>
+
+    <section class="section" id="corpus">
+      <div class="section-heading">
+        <p class="eyebrow">Corpus</p>
+        <h2>The testing story is grounded in documents that are hard in practice, not just easy in theory.</h2>
+      </div>
+      <div class="proof-grid">
+        <article class="proof-block">
+          <h3>Mixed source structure</h3>
+          <p>
+            The golden set includes text-layer PDFs, scan-like pages, embedded
+            raster figures, and documents that move in and out of OCR fallback
+            within the same file.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>Quality over mere output</h3>
+          <p>
+            The benchmark logic checks route stability, OCR fallback behavior,
+            normalization impact, and repeatability against stored references.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>Commercial-release mindset</h3>
+          <p>
+            The point of the harness is not academic curiosity. It is to reduce
+            omission risk before release and make difficult exports reviewable.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="parallel">
+      <div class="section-heading">
+        <p class="eyebrow">Parallel OCR</p>
+        <h2>Parallelism is a product feature here, but it stays explicit and controlled.</h2>
+      </div>
+      <div class="proof-strip">
+        <img
+          src="./site-assets/showcase/diagnostics-clean.png"
+          alt="pdf.md diagnostics window showing visible runtime metrics and the selected processing profile."
+        >
+        <div class="proof-strip-copy">
+          <h3>Visible profile choice</h3>
+          <p>
+            <code>pdf.md</code> uses controlled parallel OCR profiles instead of one opaque
+            OCR setting. Eligible page work is scheduled in bounded parallel
+            batches so larger mixed documents can move faster while the chosen
+            runtime profile remains visible to the user.
+          </p>
+          <ul class="proof-list">
+            <li><code>Lite</code>: 5 workers for a lighter runtime posture</li>
+            <li><code>Balanced</code>: 8 workers as the practical default</li>
+            <li><code>Max</code>: 10 workers for deliberately heavier OCR throughput</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="coverage">
+      <div class="section-heading">
+        <p class="eyebrow">Coverage</p>
+        <h2>The benchmark lane sits inside a broader QA system that also tests the visible app.</h2>
+      </div>
+      <div class="proof-grid">
+        <article class="proof-block">
+          <h3>Unit coverage</h3>
+          <p>
+            Export invariants, output naming, route assignment, audit behavior,
+            and deterministic OCR-observation paths are validated directly.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>Headless export coverage</h3>
+          <p>
+            Repeatable headless runs exercise realistic benchmark profiles and
+            longer export paths without requiring the GUI to be present.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>App-surface coverage</h3>
+          <p>
+            The packaged app is also automated through diagnostics, preview,
+            routing, repeated export, cancellation, assignment sheets, and
+            markdown review states.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="proof-strip">
+        <img
+          src="./site-assets/showcase/routing-clean.png"
+          alt="pdf.md main workspace showing the routing controls, extraction settings, and preview."
+        >
+        <div class="proof-strip-copy">
+          <h3>What a buyer should take from this</h3>
+          <p>
+            <code>pdf.md</code> was tested as a document-production tool, not just a file
+            converter. It can handle ugly source material, expose what happened
+            during export, scale OCR work through explicit profiles, and produce
+            markdown meant to be used after the export is done.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

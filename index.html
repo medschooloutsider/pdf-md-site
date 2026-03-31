@@ -23,7 +23,9 @@
     <nav class="site-nav" aria-label="Primary">
       <a href="#what">What</a>
       <a href="#why">Why</a>
+      <a href="#advantage">Advantage</a>
       <a href="#how">How</a>
+      <a href="#proof">Proof</a>
       <a href="#specs">Specs</a>
       <a href="#buy">Buy</a>
     </nav>
@@ -34,9 +36,11 @@
       <div class="hero-copy">
         <h1>From messy.pdf to clean.md</h1>
         <p class="lede">
-          pdf.md is a macOS app for converting difficult documents into readable,
-          editable markdown. It handles PDFs, including PDFs with embedded images,
-          and supports common presentation and image formats.
+          pdf.md is a macOS app for turning difficult PDFs, presentation files,
+          and image-heavy course material into usable markdown. It inspects the
+          source, chooses the right extraction path per page, lets you route only
+          the sections you want, and exports markdown that is built for editing,
+          search, quoting, summarising, and downstream AI workflows.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="#buy">Buy pdf.md</a>
@@ -47,11 +51,13 @@
         <p class="panel-label">Built for</p>
         <ul class="panel-list">
           <li>study notes and reading packs</li>
-          <li>lecture slides and class material</li>
-          <li>drafting, summarising, and reuse</li>
+          <li>lecture slides, scan-like PDFs, and mixed-content handouts</li>
+          <li>drafting, summarising, quoting, and markdown-first workflows</li>
         </ul>
         <p class="panel-note">
-          Designed for cases where the document format should not block downstream work.
+          Designed for cases where the source file is the obstacle: weak text
+          layers, embedded images, awkward slide exports, or material that
+          should be reused locally instead of uploaded to a generic website.
         </p>
       </div>
     </section>
@@ -64,55 +70,219 @@
       <div class="two-column">
         <p>
           pdf.md is built for documents that break normal copy and paste
-          workflows: difficult PDFs, slide decks, image-based material, and
-          mixed-content files that are awkward to reuse.
+          workflows: difficult PDFs, exported slide decks, image-based
+          material, and mixed-content files that are awkward to reuse.
         </p>
         <p>
-          The result is straightforward: markdown that is easier to read, edit,
-          search, quote, and continue working with.
+          It is not a generic "convert file" wrapper. It is a document
+          workbench for inspecting source pages, choosing page ranges, assigning
+          one file to more than one destination, and exporting either practical
+          markdown or full audit artifacts when you need to inspect what
+          happened page by page.
         </p>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>Inputs it handles</h3>
+          <p>
+            PDFs, PowerPoint-family presentation files, and image inputs are
+            handled inside one app, with the same routing and preview workflow.
+          </p>
+        </article>
+        <article>
+          <h3>Modes that match the job</h3>
+          <p>
+            Fast Text, Hybrid, and Heavy Audit give you a usable quick pass, a
+            stronger mixed-text export, or a traceable audit-heavy export.
+          </p>
+        </article>
+        <article>
+          <h3>Outputs built for work</h3>
+          <p>
+            The target is not "any text at all." The target is markdown that is
+            readable enough to keep using once the export is finished.
+          </p>
+        </article>
       </div>
     </section>
 
     <section class="section" id="why">
       <div class="section-heading">
         <p class="eyebrow">Why</p>
-        <h2>Built to reduce cleanup work and make difficult source files usable.</h2>
+        <h2>Built because difficult academic and reference documents waste time twice: once during extraction and again during cleanup.</h2>
       </div>
       <div class="feature-grid">
         <article>
-          <h3>Cleaner output</h3>
+          <h3>Raw extraction is not enough</h3>
           <p>
-            Exported markdown is cleaned up for practical use, so it reads more
-            like working text and less like a raw extraction.
+            Many source files technically contain text, but not in a form that
+            becomes good working markdown. pdf.md exists to close that gap.
           </p>
         </article>
         <article>
-          <h3>Easier reuse</h3>
+          <h3>Slides and PDFs are mixed media</h3>
           <p>
-            Once content is in markdown, it is easier to edit, organize,
-            search, quote, and move into notes, drafts, or study material.
+            Real course material mixes text layers, raster figures, scanned
+            labels, and slide-style layouts. One extraction path is not enough.
           </p>
         </article>
         <article>
-          <h3>Less manual cleanup</h3>
+          <h3>Repeatability matters</h3>
           <p>
-            pdf.md reduces the time spent fixing formatting and extracting
-            usable text from difficult source files.
+            If the same document set needs to be exported again, routed to two
+            destinations, reviewed, or audited, the app should make that repeat
+            work reliable instead of manual.
           </p>
         </article>
+        <article>
+          <h3>Local review matters</h3>
+          <p>
+            The app keeps inspection, export, diagnostics, and markdown review
+            in one local workflow rather than sending the user into a browser
+            upload cycle for every file.
+          </p>
+        </article>
+        <article>
+          <h3>Markdown is the real target</h3>
+          <p>
+            The goal is to get to a durable format that can be versioned,
+            searched, quoted, edited, and fed into later synthesis work without
+            being trapped inside the source format.
+          </p>
+        </article>
+        <article>
+          <h3>Auditability matters</h3>
+          <p>
+            When a page looks wrong, you need to see what the app saw, which
+            route it chose, and what OCR boxes were present. Heavy Audit exists
+            for exactly that reason.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="advantage">
+      <div class="section-heading">
+        <p class="eyebrow">Advantage</p>
+        <h2>What pdf.md does that typical online converters usually do not.</h2>
+      </div>
+      <div class="two-column">
+        <p>
+          Typical online converters are optimized for a short upload-convert-download
+          loop. They often treat the whole file as one job, give little visibility
+          into route choice, and stop at a one-shot text dump or a generic OCR pass.
+        </p>
+        <p>
+          pdf.md is built around document control, not just document conversion:
+          page-range routing, per-file destination assignment, in-app preview,
+          repeat export, diagnostics, and full audit sidecars when a difficult
+          file needs to be inspected deeply.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>It stays local</h3>
+          <p>
+            The working loop happens in a macOS app on your machine, which is a
+            different operating model from shipping files to a browser service
+            and hoping the result is good enough.
+          </p>
+        </article>
+        <article>
+          <h3>It is route-aware</h3>
+          <p>
+            pdf.md can use direct text extraction where a page is readable and
+            switch into OCR where a page, region, or embedded raster actually
+            needs it.
+          </p>
+        </article>
+        <article>
+          <h3>It uses controlled parallel OCR</h3>
+          <p>
+            pdf.md does not treat OCR as a single serial pass. It schedules page
+            work across selectable parallel profiles so larger jobs can move
+            faster without forcing the same load on every machine.
+          </p>
+        </article>
+        <article>
+          <h3>It supports real export control</h3>
+          <p>
+            One file can be routed to one or more destinations, limited to
+            selected ranges, and exported again without rebuilding the job from
+            scratch.
+          </p>
+        </article>
+        <article>
+          <h3>It exposes diagnostics</h3>
+          <p>
+            The app has a diagnostics surface, preview surfaces, and Heavy Audit
+            sidecars so the export can be reviewed instead of trusted blindly.
+          </p>
+        </article>
+        <article>
+          <h3>It separates quick output from audit output</h3>
+          <p>
+            Hybrid is for practical markdown. Heavy Audit is for cases where you
+            also want JSON, HTML, rendered page assets, and OCR observations.
+          </p>
+        </article>
+        <article>
+          <h3>It was built for ugly source material</h3>
+          <p>
+            The app and its harness were shaped against real endocrine course
+            PDFs and slide exports, not only synthetic happy-path samples.
+          </p>
+        </article>
+      </div>
+      <div class="screenshot-grid">
+        <figure class="screenshot-card">
+          <img
+            src="./site-assets/showcase/routing-clean.png"
+            alt="pdf.md main workspace showing file selection, routing controls, extraction mode selection, and preview in one window."
+          >
+          <figcaption>
+            One workspace holds queue review, routing, extraction mode, and
+            preview together instead of pushing the user through a blind upload
+            and download loop.
+          </figcaption>
+        </figure>
+        <figure class="screenshot-card">
+          <img
+            src="./site-assets/showcase/diagnostics-clean.png"
+            alt="pdf.md diagnostics window showing queue, destination, OCR, preview, and performance metrics."
+          >
+          <figcaption>
+            The diagnostics surface exposes queue state, route mix, OCR profile,
+            cache state, and runtime posture when an export needs explanation.
+          </figcaption>
+        </figure>
+        <figure class="screenshot-card">
+          <img
+            src="./site-assets/showcase/markdown-editor-clean.png"
+            alt="Exported markdown from pdf.md opened in a markdown editor, showing routing and audit metadata followed by readable content."
+          >
+          <figcaption>
+            The export leaves the app as working markdown, with readable
+            structure and optional audit metadata that remains useful in normal
+            editors.
+          </figcaption>
+        </figure>
       </div>
     </section>
 
     <section class="section section-accent" id="how">
       <div class="section-heading">
         <p class="eyebrow">How</p>
-        <h2>A direct path from source document to working markdown.</h2>
+        <h2>A direct path from source document to working markdown, with inspection and route choice built in.</h2>
       </div>
       <p class="example-intro">
         The example below uses the first page of <code>thymus(1).pdf</code>:
         from the original source page, through pdf.md preview and export, to the
-        final markdown file.
+        final markdown file. Under the hood, the app inspects the document,
+        decides whether the text layer is trustworthy, merges OCR when pages are
+        image-heavy, runs OCR work through a controlled parallel scheduler, and
+        normalizes the output for readable markdown when that cleanup improves
+        the result.
       </p>
 
       <div class="story-grid">
@@ -178,12 +348,128 @@
           </p>
         </article>
       </div>
+      <ol class="workflow">
+        <li>
+          <span class="workflow-step">01 Inspect</span>
+          <div>
+            <h3>Read the source before exporting</h3>
+            <p>Preview the source page, check the queue, and confirm which file or page range should actually be processed.</p>
+          </div>
+        </li>
+        <li>
+          <span class="workflow-step">02 Route</span>
+          <div>
+            <h3>Assign output where it belongs</h3>
+            <p>Send one file to one folder or many, and restrict the route to the sections that matter instead of exporting the whole source by default.</p>
+          </div>
+        </li>
+        <li>
+          <span class="workflow-step">03 Extract</span>
+          <div>
+            <h3>Use the extraction mode that matches the job</h3>
+            <p>Fast Text favors direct text layers, Hybrid blends direct extraction with OCR, and Heavy Audit keeps the richer inspection artifacts alongside the markdown. The OCR lane can then run in Lite, Balanced, or Max profiles so throughput can scale without hiding the cost of heavier parallelism.</p>
+          </div>
+        </li>
+        <li>
+          <span class="workflow-step">04 Review</span>
+          <div>
+            <h3>Check the markdown immediately</h3>
+            <p>Review the exported markdown inside the app and rerun if needed, instead of discovering problems only after the file has already moved downstream.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="proof">
+      <div class="section-heading">
+        <p class="eyebrow">Proof</p>
+        <h2>The export story is backed by benchmark lanes, app-surface automation, and a real golden corpus.</h2>
+      </div>
+      <div class="two-column">
+        <p>
+          pdf.md has been stress-tested against a real endocrine anatomy course
+          corpus containing difficult PDFs, scan-like content, and mixed
+          text-plus-image material. The QA harness does not stop at unit tests:
+          it exercises headless export profiles and the real packaged app.
+        </p>
+        <p>
+          The smoke, stress, and soak lanes cover visible app actions, export
+          modes, OCR modes, document modes, multi-file routing, multi-destination
+          flows, repeated export, cancellation, markdown preview, diagnostics,
+          and Heavy Audit outputs.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>Parallel OCR profiles</h3>
+          <p>
+            The current shipping profiles are Lite at 5 workers, Balanced at 8
+            workers, and Max at 10 workers. Balanced is the practical default;
+            Max is reserved for users who explicitly want the heaviest parallel
+            OCR load.
+          </p>
+        </article>
+        <article>
+          <h3>Parallelism without guesswork</h3>
+          <p>
+            The scheduler breaks eligible page work into independent OCR jobs
+            and keeps a bounded number in flight. That gives better throughput
+            on large mixed documents while keeping the runtime model legible.
+          </p>
+        </article>
+        <article>
+          <h3>Visible, not hidden</h3>
+          <p>
+            The app surfaces the selected processing profile, diagnostics, and
+            route outcomes so users can understand why a run was fast, slow,
+            light, or deliberately aggressive.
+          </p>
+        </article>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <h3>Unit lane</h3>
+          <p>
+            Synthetic tests validate output naming, route assignment, range
+            routing, OCR observation capture, and other export invariants.
+          </p>
+        </article>
+        <article>
+          <h3>Headless lane</h3>
+          <p>
+            Real golden-set benchmark profiles run the export engine without the
+            GUI, which is useful for repeatable regression checks and longer runs.
+          </p>
+        </article>
+        <article>
+          <h3>App-surface lane</h3>
+          <p>
+            The packaged app is driven through real UI states: diagnostics,
+            previews, assignment sheets, range editing, repeat export, and the
+            cancellation path.
+          </p>
+        </article>
+      </div>
+      <div class="proof-actions">
+        <div class="proof-callout">
+          <p class="proof-callout-label">Need the evidence behind the claim?</p>
+          <p class="proof-callout-copy">
+            Open the proof overview for a polished summary of the golden corpus,
+            parallel OCR profiles, benchmark logic, and app-surface QA coverage.
+          </p>
+        </div>
+        <div class="link-row">
+          <button class="button button-secondary" type="button" data-proof-open>
+            Open Proof Overview
+          </button>
+        </div>
+      </div>
     </section>
 
     <section class="section" id="specs">
       <div class="section-heading">
         <p class="eyebrow">Technical Specifications</p>
-        <h2>Document inspection, export control, and markdown review.</h2>
+        <h2>Document inspection, export control, markdown review, and audit output.</h2>
       </div>
 
       <div class="specs-grid">
@@ -217,6 +503,39 @@
           <div class="spec-copy">
             <p class="spec-label">Post-Export Review</p>
             <p>Review the generated markdown in the app immediately after export.</p>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <img
+            src="./site-assets/specs/focus/workspace-diagnostics-focus.png"
+            alt="pdf.md diagnostics view showing current app and export metrics."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Diagnostics</p>
+            <p>Inspect queue state, route mix, cache state, selected processing profile, and export diagnostics when a file needs deeper review.</p>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <img
+            src="./site-assets/showcase/export-preview-clean.png"
+            alt="pdf.md exported-markdown preview showing route summary, document mode, and audit sidecar note after export."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Heavy Audit</p>
+            <p>Keep markdown plus audit JSON, HTML, rendered page assets, and OCR observations for difficult exports.</p>
+          </div>
+        </article>
+
+        <article class="spec-card">
+          <img
+            src="./site-assets/specs/focus/workspace-assignment-sheet-focus.png"
+            alt="pdf.md assignment sheet used to route files to destinations."
+          >
+          <div class="spec-copy">
+            <p class="spec-label">Multi-Destination Routing</p>
+            <p>Send one source file to multiple destinations and keep different route ranges per destination.</p>
           </div>
         </article>
       </div>
@@ -261,5 +580,81 @@
       </div>
     </section>
   </main>
+  <dialog class="proof-modal" id="proof-modal" aria-labelledby="proof-modal-title">
+    <div class="proof-modal-shell">
+      <div class="proof-modal-header">
+        <div>
+          <p class="eyebrow">Proof Overview</p>
+          <h2 id="proof-modal-title">Stress testing, benchmark logic, and export credibility.</h2>
+        </div>
+        <button class="proof-modal-close" type="button" data-proof-close aria-label="Close proof overview">
+          Close
+        </button>
+      </div>
+      <p class="proof-modal-copy">
+        This panel opens the public proof page in place, so the user stays on
+        the product page while reviewing the benchmark and QA story.
+      </p>
+      <div class="proof-modal-frame-wrap">
+        <iframe
+          class="proof-modal-frame"
+          src="./export-benchmarking.html"
+          title="pdf.md proof overview"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="proof-modal-footer">
+        <button class="button button-secondary" type="button" data-proof-close>
+          Close Overview
+        </button>
+      </div>
+    </div>
+  </dialog>
+  <script>
+    (function () {
+      const dialog = document.getElementById("proof-modal");
+      const openButtons = document.querySelectorAll("[data-proof-open]");
+      const closeButtons = document.querySelectorAll("[data-proof-close]");
+      if (!dialog) return;
+
+      function openProof() {
+        if (typeof dialog.showModal === "function") {
+          dialog.showModal();
+          document.body.classList.add("modal-open");
+        } else {
+          window.location.href = "./export-benchmarking.html";
+        }
+      }
+
+      function closeProof() {
+        dialog.close();
+        document.body.classList.remove("modal-open");
+      }
+
+      openButtons.forEach((button) => {
+        button.addEventListener("click", openProof);
+      });
+
+      closeButtons.forEach((button) => {
+        button.addEventListener("click", closeProof);
+      });
+
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inside =
+          rect.top <= event.clientY &&
+          event.clientY <= rect.top + rect.height &&
+          rect.left <= event.clientX &&
+          event.clientX <= rect.left + rect.width;
+        if (!inside) {
+          closeProof();
+        }
+      });
+
+      dialog.addEventListener("close", () => {
+        document.body.classList.remove("modal-open");
+      });
+    }());
+  </script>
 </body>
 </html>
