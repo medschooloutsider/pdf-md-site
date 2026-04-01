@@ -259,7 +259,6 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
-  align-items: start;
 }
 
 .screenshot-card {
@@ -274,10 +273,9 @@ main {
 .screenshot-card img {
   display: block;
   width: 100%;
-  height: min(20rem, 28vw);
-  padding: 0.8rem 0.8rem 0;
-  object-fit: contain;
-  object-position: center top;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
   background: #12151a;
 }
 
@@ -351,7 +349,6 @@ main {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
-  align-items: start;
 }
 
 .spec-card {
@@ -365,10 +362,8 @@ main {
 .spec-card img {
   display: block;
   width: 100%;
-  height: min(16rem, 22vw);
-  padding: 0.75rem 0.75rem 0;
-  object-fit: contain;
-  object-position: center top;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   background: #12151a;
 }
 
@@ -704,9 +699,9 @@ main {
 }
 
 .proof-modal {
-  width: min(1380px, calc(100% - 1.5rem));
-  max-width: 1380px;
-  height: min(92svh, 940px);
+  width: min(1280px, calc(100% - 2rem));
+  max-width: 1280px;
+  height: min(90svh, 920px);
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 1.8rem;
@@ -722,10 +717,10 @@ main {
 
 .proof-modal-shell {
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
-  gap: 0.9rem;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 1rem;
   height: 100%;
-  padding: 1rem;
+  padding: 1.25rem;
 }
 
 .proof-modal-header {
@@ -741,6 +736,13 @@ main {
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 0.98;
   letter-spacing: -0.04em;
+}
+
+.proof-modal-copy {
+  margin: 0;
+  max-width: 48rem;
+  color: rgba(247, 242, 232, 0.72);
+  line-height: 1.75;
 }
 
 .proof-modal-close {
@@ -772,7 +774,6 @@ main {
 
 .proof-modal-footer {
   display: flex;
-  gap: 0.75rem;
   justify-content: flex-end;
 }
 
@@ -898,38 +899,9 @@ main {
 .proof-strip img {
   display: block;
   width: 100%;
-  max-height: 23rem;
-  padding: 0.85rem;
   border: 1px solid var(--line);
   border-radius: 1.15rem;
   background: #12151a;
-  object-fit: contain;
-  object-position: center top;
-}
-
-.embedded-proof .site-header {
-  display: none;
-}
-
-.embedded-proof main {
-  width: min(calc(100% - 1.5rem), 1320px);
-  padding: 0.75rem 0 2rem;
-}
-
-.embedded-proof .section {
-  padding: 2.5rem 0;
-}
-
-.embedded-proof .proof-hero {
-  min-height: auto;
-  align-items: start;
-}
-
-.embedded-proof .proof-panel,
-.embedded-proof .proof-block,
-.embedded-proof .proof-strip,
-.embedded-proof .proof-metric {
-  box-shadow: none;
 }
 
 .final-call {
@@ -984,7 +956,7 @@ main {
   }
 
   .demo-card img {
-    min-height: 13rem;
+    min-height: 15rem;
   }
 
   .hero {
