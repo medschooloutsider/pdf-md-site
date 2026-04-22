@@ -52,6 +52,10 @@
             <strong>Smoke / Stress / Soak</strong>
             <span>Multiple QA lanes covering both the engine and the visible app.</span>
           </div>
+          <div class="proof-metric">
+            <strong>2026-04-22</strong>
+            <span>Latest commercial sweep passed with strict packaged-app nonfronting proof.</span>
+          </div>
         </div>
       </div>
       <aside class="proof-panel">
@@ -149,6 +153,31 @@
             markdown review states.
           </p>
         </article>
+        <article class="proof-block">
+          <h3>Structure evidence coverage</h3>
+          <p>
+            Structure checks track figure references, theorem/proof headings,
+            table equation lines, and math references so the evidence is not
+            limited to file creation or plain text presence.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>Performance cleanup coverage</h3>
+          <p>
+            Performance smoke, stress, and soak runs split intended markdown
+            and audit artifacts from stray retained byproducts. The latest
+            sweep reported <code>retainedOtherArtifactByteCount=0</code> in all
+            three performance lanes.
+          </p>
+        </article>
+        <article class="proof-block">
+          <h3>Nonfronting app proof</h3>
+          <p>
+            The packaged app-surface lane runs with strict nonfronting proof.
+            The latest sweep passed semantic checks and nonfronting checks with
+            <code>frontingCount=0</code>.
+          </p>
+        </article>
       </div>
     </section>
 
@@ -165,6 +194,13 @@
             converter. It can handle ugly source material, expose what happened
             during export, scale OCR work through explicit profiles, and produce
             markdown meant to be used after the export is done.
+          </p>
+          <p>
+            The latest internal commercial sweep completed on 2026-04-22 across
+            unit, headless smoke/stress/soak, packaged app-surface, workflow
+            performance, and performance smoke/stress/soak lanes. That is a
+            release-readiness signal, not a guarantee that every possible PDF
+            will convert perfectly.
           </p>
         </div>
       </div>

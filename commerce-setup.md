@@ -13,9 +13,9 @@ Use this when creating the first sellable Lemon Squeezy configuration for `pdf.m
 
 - Product name: `pdf.md`
 - Product type: digital product / software
-- Price: `$29`
+- Price: `HK$299`
 - Billing model: one-time purchase
-- Variant name: `Personal License`
+- Variant name: `Default`
 
 ## License Settings
 
@@ -30,7 +30,7 @@ Recommended first settings:
 This matches the current app-side assumption:
 
 - one purchaser
-- personal license
+- one default one-time license variant
 - up to 2 Macs
 
 ## Checkout

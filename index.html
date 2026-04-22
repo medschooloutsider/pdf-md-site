@@ -399,6 +399,20 @@
           and Heavy Audit outputs.
         </p>
       </div>
+      <div class="proof-metrics proof-metrics-wide" aria-label="Latest QA sweep summary">
+        <div class="proof-metric">
+          <strong>2026-04-22</strong>
+          <span>Latest full commercial QA sweep completed across unit, headless export, packaged app, and performance lanes.</span>
+        </div>
+        <div class="proof-metric">
+          <strong>0 fronting</strong>
+          <span>Strict packaged app-surface automation passed semantic and nonfronting checks with <code>frontingCount=0</code>.</span>
+        </div>
+        <div class="proof-metric">
+          <strong>0 stray bytes</strong>
+          <span>Perf smoke, stress, and soak runs all reported <code>retainedOtherArtifactByteCount=0</code>.</span>
+        </div>
+      </div>
       <div class="feature-grid">
         <article>
           <h3>Parallel OCR profiles</h3>
@@ -449,13 +463,22 @@
             cancellation path.
           </p>
         </article>
+        <article>
+          <h3>Structure evidence lane</h3>
+          <p>
+            Dedicated structure checks track figure references, theorem/proof
+            headings, table equation lines, and math-reference preservation
+            instead of treating markdown as plain text only.
+          </p>
+        </article>
       </div>
       <div class="proof-actions">
         <div class="proof-callout">
           <p class="proof-callout-label">Need the evidence behind the claim?</p>
           <p class="proof-callout-copy">
             Open the proof overview for a polished summary of the golden corpus,
-            parallel OCR profiles, benchmark logic, and app-surface QA coverage.
+            parallel OCR profiles, benchmark logic, app-surface QA coverage, and
+            the latest commercial sweep boundaries.
           </p>
         </div>
         <div class="link-row">
@@ -549,7 +572,7 @@
       <div class="pricing-card">
         <div class="pricing-copy">
           <p class="pricing-label">Personal License</p>
-          <p class="pricing-price">HKD299</p>
+          <p class="pricing-price">HK$299</p>
           <p class="pricing-note">One-time purchase</p>
           <ul class="pricing-list">
             <li>personal use</li>
