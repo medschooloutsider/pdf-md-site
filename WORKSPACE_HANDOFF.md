@@ -1,11 +1,11 @@
 # Workspace Handoff
 
-Updated: 2026-04-22 11:27 CEST
+Updated: 2026-04-23 16:16 CEST
 
 ## Lane
 
-- Branch: `shared utility lane`
-- Worktree: `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/worktrees/pdf-md-site-publish`
+- Branch: `pdf-md-site-publish`
+- Worktree: `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/apps/PDF-MD/publishing/pdf-md-site-publish`
 - Responsibility: shared static-site publish lane for PDF-MD marketing and checkout pages
 - Merge target: `none; shared utility lane`
 
@@ -18,6 +18,7 @@ Updated: 2026-04-22 11:27 CEST
 - utility-lane startup and handoff files are now in place
 - the PDF-MD root routing docs now explicitly reserve this lane for site-only work
 - public proof surfaces now cite the 2026-04-22 commercial sweep boundaries without overclaiming universal PDF correctness
+- lane folder moved from AppDev `worktrees/` into `Commercialisation_Hub/apps/PDF-MD/publishing/` so PDF-MD commercialisation material is navigable by app and function
 
 ## Left To Do
 
@@ -32,6 +33,7 @@ Updated: 2026-04-22 11:27 CEST
 
 - Site validation for this slice: `git diff --check` plus static text review.
 - Source evidence remains in canonical PDF-MD `main`: final commercial sweep evidence under `QA/runs/*/20260422-*`, strict app-surface `QA/runs/app-surface/20260422-022358`, structure evidence `QA/runs/structure-evidence/20260422-020138`.
+- Post-move AppDev readiness, master-plan, and scope gates passed from the new Commercialisation Hub path on 2026-04-23 16:16 CEST.
 
 ## Risks To Other Lanes
 
@@ -43,5 +45,7 @@ Updated: 2026-04-22 11:27 CEST
 - `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/apps/PDF-MD/WORKSPACE_HANDOFF.md`
 - `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/apps/PDF-MD/docs/coordination/APP_WIDE_CONCERN_ROUTING.md`
 - `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/apps/PDF-MD/APP_DEVELOPMENT_LOG.md`
+- `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/docs/coordination/MASTER_PLAN.md`
+- `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/WORKSPACE_HANDOFF.md`
 - `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/APP_DEV_PORTFOLIO_LEDGER.md`
 - `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/docs/app_dev_ledger_contract.md`
