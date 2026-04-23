@@ -13,7 +13,7 @@ Use this when creating the first sellable Lemon Squeezy configuration for `pdf.m
 
 - Product name: `pdf.md`
 - Product type: digital product / software
-- Price: `HK$299`
+- Price: `HKD138`
 - Billing model: one-time purchase
 - Variant name: `Default`
 
@@ -37,9 +37,9 @@ This matches the current app-side assumption:
 
 Use Lemon Squeezy hosted checkout, not a custom cart URL.
 
-The shareable checkout URL should look like:
+The current live checkout URL is:
 
-- `https://[STORE].lemonsqueezy.com/checkout/buy/[VARIANT_ID]`
+- `https://medout.lemonsqueezy.com/checkout/buy/4a9b9138-736f-4a98-afc2-48488fbf12ee`
 
 Do not copy a converted cart URL that contains:
 
