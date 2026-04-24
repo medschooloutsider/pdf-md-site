@@ -96,7 +96,7 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(320px, 0.95fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
   gap: 2.5rem;
   min-height: calc(100svh - 10rem);
   align-items: center;
@@ -111,10 +111,10 @@ main {
 
 .hero-copy h1 {
   margin: 0;
-  font-size: clamp(3rem, 8vw, 5.8rem);
+  font-size: 5.4rem;
   line-height: 0.94;
-  letter-spacing: -0.05em;
-  max-width: 10ch;
+  letter-spacing: 0;
+  max-width: 13ch;
 }
 
 .eyebrow {
@@ -165,6 +165,63 @@ main {
 .button-secondary {
   border-color: var(--line);
   background: rgba(255, 255, 255, 0.5);
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 2rem;
+}
+
+.hero-badges span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 252, 246, 0.62);
+  color: var(--accent-strong);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+}
+
+.hero-product {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 1.8rem;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  align-self: center;
+}
+
+.hero-product img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top center;
+  background: #12151a;
+}
+
+.hero-product-caption {
+  padding: 1rem 1.1rem 1.15rem;
+}
+
+.hero-product-caption span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--accent-strong);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-product-caption strong {
+  display: block;
+  line-height: 1.45;
 }
 
 .hero-panel {
@@ -221,9 +278,9 @@ main {
 .section-heading h2,
 .final-call h2 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: 3.35rem;
   line-height: 1.05;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
 }
 
 .two-column,
@@ -580,9 +637,9 @@ main {
 
 .pricing-price {
   margin-top: 0.5rem;
-  font-size: clamp(3rem, 8vw, 4.75rem);
+  font-size: 4.5rem;
   line-height: 0.95;
-  letter-spacing: -0.06em;
+  letter-spacing: 0;
 }
 
 .pricing-note {
@@ -733,9 +790,9 @@ main {
 .proof-modal-header h2 {
   margin: 0;
   max-width: 14ch;
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: 3rem;
   line-height: 0.98;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
 }
 
 .proof-modal-copy {
@@ -813,9 +870,9 @@ main {
 
 .proof-hero h1 {
   margin: 0;
-  font-size: clamp(2.8rem, 7vw, 5.1rem);
+  font-size: 5rem;
   line-height: 0.95;
-  letter-spacing: -0.05em;
+  letter-spacing: 0;
   max-width: 10ch;
   text-wrap: balance;
 }
@@ -841,7 +898,7 @@ main {
 
 .proof-metric strong {
   font-size: 1.7rem;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
 }
 
 .proof-metric span {
@@ -974,6 +1031,17 @@ main {
     padding-top: 3rem;
   }
 
+  .hero-copy h1,
+  .proof-hero h1 {
+    font-size: 3.6rem;
+  }
+
+  .section-heading h2,
+  .final-call h2,
+  .proof-modal-header h2 {
+    font-size: 2.55rem;
+  }
+
   .proof-metrics {
     grid-template-columns: 1fr;
   }
@@ -1006,7 +1074,18 @@ main {
   }
 
   .hero-copy h1 {
+    font-size: 3rem;
     max-width: 11ch;
+  }
+
+  .section-heading h2,
+  .final-call h2,
+  .proof-modal-header h2 {
+    font-size: 2.15rem;
+  }
+
+  .pricing-price {
+    font-size: 3.3rem;
   }
 
   .workflow li {

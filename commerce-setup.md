@@ -15,7 +15,7 @@ Use this when creating the first sellable Lemon Squeezy configuration for `pdf.m
 - Product type: digital product / software
 - Price: `HKD138`
 - Billing model: one-time purchase
-- Variant name: `Default`
+- Variant name: `Personal License`
 
 ## License Settings
 
