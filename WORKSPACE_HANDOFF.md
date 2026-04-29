@@ -1,17 +1,17 @@
 # Workspace Handoff
 
-Updated: 2026-04-24 16:09 CEST
+Updated: 2026-04-29 02:20 CEST
 
 ## Lane
 
-- Branch: `pdf-md-site-publish`
+- Branch: `main`
 - Worktree: `/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/apps/PDF-MD/publishing/pdf-md-site-publish`
 - Responsibility: shared static-site publish lane for PDF-MD marketing and checkout pages
 - Merge target: `none; shared utility lane`
 
 ## Current Objective
 
-- keep static publish work isolated from PDF-MD product and QA changes; current slice keeps the public homepage aligned with the 2026-04-24 marketing diagnosis and treats PDF-MD as the flagship native Mac Markdown product
+- keep static publish work isolated from PDF-MD product and QA changes; current slice mirrors the GPT-MD three-tab catalogue website model into PDF-MD and prepares the static site for GitHub Pages publication from `main`
 
 ## What Is Already Done
 
@@ -22,13 +22,14 @@ Updated: 2026-04-24 16:09 CEST
 - homepage top section now uses public-facing `PDF-MD` naming, a flagship document-to-Markdown promise, routing workspace screenshot as the first visual, buyer-facing feature badges, and less internal proof/process language
 - harvested generated image assets from the 2026-04-24 PDF-MD image-heavy dispatch are now copied into `site-assets/generated/`; the homepage hero uses the primary backplate, the Advantage strip uses the secondary backplate, and the How section uses the workflow transformation visual instead of the older four-image collage
 - `Commercialisation_Hub/apps/PDF-MD/distribution/app-store-metadata.md` now records a four-step App Store screenshot storyboard keyed to `site-assets/generated/pdfmd-app-store-backplate-set.png`
+- the PDF-MD public site now uses the same clean three-tab structure as GPT-MD: Introduction, Technical Specification, and Sales & Support
+- the homepage `Buy pdf.md` CTA is wired to the live Lemon Squeezy checkout URL `https://medout.lemonsqueezy.com/checkout/buy/4a9b9138-736f-4a98-afc2-48488fbf12ee`
+- Terms, Privacy, and EULA pages are refreshed with PDF-MD-specific public-facing copy and cross-page navigation
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
-- optionally adjust generated-visual cropping after final stakeholder/deployment review
-- feed any future generated visuals back into the homepage only after real app screenshots are used as prompt inputs
-- optional: deploy the pushed site revision if the hosting provider does not auto-publish from `main`
+- confirm GitHub Pages has picked up the latest pushed `main` revision after publication
 
 ## Waiting On
 
@@ -41,6 +42,7 @@ Updated: 2026-04-24 16:09 CEST
 - 2026-04-24 flagship homepage rewrite followed the marketing diagnosis from `2026-04-24_gptmd_pdfmd_marketing_diagnosis_from_chatgpt_pro_extended.md` and reused `site-assets/showcase/routing-clean.png` as the first product visual.
 - Source evidence remains in canonical PDF-MD `main`: final commercial sweep evidence under `QA/runs/*/20260422-*`, strict app-surface `QA/runs/app-surface/20260422-022358`, structure evidence `QA/runs/structure-evidence/20260422-020138`.
 - Post-move AppDev readiness, master-plan, and scope gates passed from the new Commercialisation Hub path on 2026-04-23 16:16 CEST.
+- 2026-04-29 three-tab rewrite validation: AppDev coordination, master-plan, and scope gates passed from the dedicated `pdf-md-site-publish` lane; `git diff --check` passed; static local-link and target checks returned no missing links and no non-anchor links lacking `target="_blank"`; placeholder/cross-product grep returned no matches; local Playwright render confirmed three primary tabs, the live Lemon checkout href, and no desktop/mobile horizontal overflow. Screenshots were written to `site_visual_review/pdf-md-three-tab-1440.png` and `site_visual_review/pdf-md-eula-390.png`.
 
 ## Risks To Other Lanes
 
