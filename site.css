@@ -236,6 +236,21 @@ td {
   margin: 0 1rem 1rem;
 }
 
+.gallery-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+.gallery-strip img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--rule);
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(38, 46, 48, 0.08);
+}
+
 ul,
 ol {
   margin: 0;
@@ -541,8 +556,14 @@ li + li {
   }
 
   .feature-list,
+  .gallery-strip,
   .setup-table-wrap {
     margin: 0 0.85rem 0.85rem;
+  }
+
+  .gallery-strip {
+    grid-template-columns: 1fr;
+    padding: 0 0.85rem 0.85rem;
   }
 
   .site-footer {
