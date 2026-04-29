@@ -43,7 +43,7 @@ Updated: 2026-04-29 02:20 CEST
 - Source evidence remains in canonical PDF-MD `main`: final commercial sweep evidence under `QA/runs/*/20260422-*`, strict app-surface `QA/runs/app-surface/20260422-022358`, structure evidence `QA/runs/structure-evidence/20260422-020138`.
 - Post-move AppDev readiness, master-plan, and scope gates passed from the new Commercialisation Hub path on 2026-04-23 16:16 CEST.
 - 2026-04-29 three-tab rewrite validation: AppDev coordination, master-plan, and scope gates passed from the dedicated `pdf-md-site-publish` lane; `git diff --check` passed; static local-link and target checks returned no missing links and no non-anchor links lacking `target="_blank"`; placeholder/cross-product grep returned no matches; local Playwright render confirmed three primary tabs, the live Lemon checkout href, and no desktop/mobile horizontal overflow. Screenshots were written to `site_visual_review/pdf-md-three-tab-1440.png` and `site_visual_review/pdf-md-eula-390.png`.
-- 2026-04-29 gallery update: the five selected `10_3*_ AM` images were identified as pdf.md images and added as a no-title/no-caption gallery under the Introduction panel. Local checks confirmed five gallery images, no missing references, and no horizontal overflow.
+- 2026-04-29 gallery update: the five selected `10_3*_ AM` images were identified as pdf.md images and added as a no-title/no-caption gallery under the Introduction panel. Final gallery assets are exact 2880x1800 PNGs under `site-assets/gallery/pdf-md/` with numbered descriptive filenames. Local checks confirmed five gallery images, no missing references, and no horizontal overflow.
 
 ## Risks To Other Lanes
 
