@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-04-29 02:20 CEST
+Updated: 2026-05-02 23:05 CEST
 
 ## Lane
 
@@ -25,11 +25,12 @@ Updated: 2026-04-29 02:20 CEST
 - the PDF-MD public site now uses the same clean three-tab structure as GPT-MD: Introduction, Technical Specification, and Sales & Support
 - the homepage `Buy pdf.md` CTA is wired to the live Lemon Squeezy checkout URL `https://medout.lemonsqueezy.com/checkout/buy/4a9b9138-736f-4a98-afc2-48488fbf12ee`
 - Terms, Privacy, and EULA pages are refreshed with PDF-MD-specific public-facing copy and cross-page navigation
+- public pages now use the native system font stack instead of Google-hosted fonts; `site.css` carries the calmer premium/minimal treatment for tabs, cards, gallery images, and proof-page components; gallery/proof images have explicit dimensions plus lazy/async decoding
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
-- confirm GitHub Pages has picked up the latest pushed `main` revision after publication
+- GitHub Pages may still need a short rebuild window after the pushed `main` revision
 
 ## Waiting On
 
@@ -44,6 +45,7 @@ Updated: 2026-04-29 02:20 CEST
 - Post-move AppDev readiness, master-plan, and scope gates passed from the new Commercialisation Hub path on 2026-04-23 16:16 CEST.
 - 2026-04-29 three-tab rewrite validation: AppDev coordination, master-plan, and scope gates passed from the dedicated `pdf-md-site-publish` lane; `git diff --check` passed; static local-link and target checks returned no missing links and no non-anchor links lacking `target="_blank"`; placeholder/cross-product grep returned no matches; local Playwright render confirmed three primary tabs, the live Lemon checkout href, and no desktop/mobile horizontal overflow. Screenshots were written to `site_visual_review/pdf-md-three-tab-1440.png` and `site_visual_review/pdf-md-eula-390.png`.
 - 2026-04-29 gallery update: the five selected `10_3*_ AM` images were identified as pdf.md images and added as a no-title/no-caption gallery under the Introduction panel. Final gallery assets are exact 2880x1800 PNGs under `site-assets/gallery/pdf-md/` with numbered descriptive filenames. Local checks confirmed five gallery images, no missing references, and no horizontal overflow.
+- 2026-05-02 minimal site polish: `git diff --check` passed; local HTML reference check across GPT-MD and PDF-MD site pages returned no missing local refs; local HTTP renders returned `index.html` and `export-benchmarking.html`; external Google font refs were removed from public pages. Pushed commit `988a53c` to `medschooloutsider/pdf-md-site`.
 
 ## Risks To Other Lanes
 

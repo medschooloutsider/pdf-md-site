@@ -1,6 +1,6 @@
 # App Development Log
 
-Updated: 2026-04-29 12:10 CEST
+Updated: 2026-05-02 23:05 CEST
 
 Append new entries at the end of this file.
 
@@ -26,3 +26,4 @@ Append new entries at the end of this file.
 - 2026-04-29 02:20 CEST | mcmaster-three-tab-site-rewrite | Mirrored the GPT-MD McMaster-Carr-inspired three-tab public site structure into PDF-MD using `/Users/siumanshermanchan/Downloads/PDFMD Website Draft.md`: Introduction, Technical Specification, and Sales & Support. Replaced the homepage, refreshed Terms/Privacy/EULA with PDF-MD-specific public copy, reused the cooler white/grey catalogue CSS, kept all page links intercommutable, and wired the Buy CTA to the live Lemon Squeezy checkout URL. Validation passed `git diff --check`, static local-link and new-tab target checks, placeholder/cross-product grep, and local Playwright desktop/mobile render checks with screenshots under `site_visual_review/`.
 - 2026-04-29 12:10 CEST | pdf-md-gallery-assets | Classified the five `10_3*_ AM` selected images as pdf.md assets, copied them into `site-assets/gallery/`, and added a captionless image-only gallery to the Introduction panel. Validation passed `git diff --check`, local link/image reference checks, new-tab target checks, and local Playwright render verification with five gallery images and no horizontal overflow.
 - 2026-04-29 12:10 CEST | pdf-md-gallery-upscale-organization | Replaced the first-pass gallery copies with exact 2880x1800 PNGs under `site-assets/gallery/pdf-md/` using numbered descriptive filenames and updated the homepage image references.
+- 2026-05-02 23:05 CEST | pdf-md-minimal-site-polish | Polished the current canonical PDF-MD public site repo with a calmer native-system typography stack, lighter header/tab/card treatment, proof-page styling, fixed image dimensions, lazy/async image decoding, and `.DS_Store` ignore coverage. Removed external Google font requests from public pages. Validation passed `git diff --check`, local HTML reference checks, and local HTTP renders for `index.html` and `export-benchmarking.html`; commit `988a53c` was pushed to `medschooloutsider/pdf-md-site`.
