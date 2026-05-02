@@ -1,17 +1,17 @@
 :root {
-  --page: #f5f6f6;
+  --page: #f7f7f4;
   --paper: #ffffff;
-  --ink: #1f2524;
-  --muted: #596263;
-  --rule: #ccd1d2;
-  --rule-dark: #8c9698;
-  --tab: #d9c88e;
-  --tab-dark: #b79c3b;
-  --green: #235342;
-  --green-soft: #e7f0ed;
-  --steel: #eef0f1;
-  --warning: #7a3f24;
-  --shadow: 0 18px 50px rgba(38, 46, 48, 0.1);
+  --ink: #181c1b;
+  --muted: #5c6462;
+  --rule: #d7dcda;
+  --rule-dark: #a9b1ae;
+  --tab: #f0efe8;
+  --tab-dark: #98936e;
+  --green: #204d3d;
+  --green-soft: #eef4f1;
+  --steel: #f1f2ef;
+  --warning: #744127;
+  --shadow: 0 14px 38px rgba(24, 28, 27, 0.07);
   --content: 1180px;
 }
 
@@ -26,11 +26,8 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background:
-    linear-gradient(90deg, rgba(31, 37, 36, 0.028) 1px, transparent 1px),
-    linear-gradient(180deg, #fbfcfc 0%, var(--page) 100%);
-  background-size: 32px 32px, auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--page);
 }
 
 a {
@@ -55,9 +52,10 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid #7f774a;
-  background: var(--tab);
-  box-shadow: 0 2px 0 rgba(31, 37, 36, 0.16);
+  border-bottom: 1px solid rgba(24, 28, 27, 0.12);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 1px 18px rgba(24, 28, 27, 0.05);
+  backdrop-filter: blur(14px);
 }
 
 .brand {
@@ -78,11 +76,12 @@ a {
   justify-content: center;
   width: 2.4rem;
   height: 1.7rem;
-  border: 1px solid rgba(31, 37, 36, 0.55);
+  border: 1px solid rgba(24, 28, 27, 0.55);
   background: var(--green);
   color: #fffef8;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.78rem;
+  border-radius: 4px;
 }
 
 .tabs {
@@ -98,11 +97,11 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 2.65rem;
-  border: 1px solid #8e8145;
+  border: 1px solid var(--rule);
   border-bottom: 0;
-  background: #e7dba8;
-  color: #242412;
-  font-weight: 700;
+  background: var(--tab);
+  color: #272a28;
+  font-weight: 650;
   text-align: center;
   text-decoration: none;
   transition: background-color 140ms ease, color 140ms ease;
@@ -114,7 +113,7 @@ a {
 
 .tabs a:hover,
 .tabs a:focus-visible {
-  background: #fff7c7;
+  background: #ffffff;
   outline: 2px solid var(--green);
   outline-offset: -2px;
 }
@@ -128,15 +127,17 @@ a {
 .tab-panel {
   scroll-margin-top: 7.5rem;
   margin-bottom: 1rem;
-  border: 1px solid var(--rule-dark);
+  border: 1px solid var(--rule);
   background: var(--paper);
   box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .panel-header {
   padding: 2.2rem 2rem;
   border-bottom: 1px solid var(--rule);
-  background: linear-gradient(180deg, #ffffff 0%, #f3f5f5 100%);
+  background: #ffffff;
 }
 
 .panel-header.compact {
@@ -146,7 +147,7 @@ a {
 .kicker,
 .path-line,
 .error-line {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 .kicker {
@@ -214,6 +215,7 @@ td {
   border: 1px solid var(--rule);
   background: #ffffff;
   padding: 1.15rem;
+  border-radius: 8px;
 }
 
 .summary-card p {
@@ -246,9 +248,12 @@ td {
 .gallery-strip img {
   display: block;
   width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
   border: 1px solid var(--rule);
   background: #ffffff;
-  box-shadow: 0 10px 28px rgba(38, 46, 48, 0.08);
+  box-shadow: 0 8px 22px rgba(24, 28, 27, 0.06);
+  border-radius: 8px;
 }
 
 ul,
@@ -314,7 +319,7 @@ li + li {
 .numbered-list li::before {
   content: counter(workflow, decimal-leading-zero);
   color: var(--green);
-  font-family: "IBM Plex Mono", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-weight: 600;
 }
 
@@ -367,6 +372,25 @@ li + li {
 .button.secondary {
   background: #ffffff;
   color: var(--green);
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  width: min(100%, var(--content));
+  margin: 0 auto;
+  padding: 0 1rem 0.8rem;
+}
+
+.site-nav a {
+  border: 1px solid var(--rule);
+  background: var(--tab);
+  color: var(--green);
+  padding: 0.42rem 0.62rem;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .legal-links {
@@ -440,8 +464,8 @@ li + li {
   width: min(100%, var(--content));
   margin: 0 auto;
   padding: 0.55rem 1rem 0.7rem;
-  background: #eceff0;
-  border-top: 1px solid rgba(31, 37, 36, 0.1);
+  background: #f6f6f2;
+  border-top: 1px solid rgba(24, 28, 27, 0.08);
 }
 
 .page-nav a {
@@ -469,6 +493,7 @@ li + li {
   border: 1px solid var(--rule);
   background: #ffffff;
   padding: 1rem;
+  border-radius: 8px;
 }
 
 .legal-body article h2 {
@@ -486,14 +511,17 @@ li + li {
   border: 1px solid var(--rule);
   background: var(--green-soft);
   padding: 1rem;
+  border-radius: 8px;
 }
 
 .section {
   width: min(calc(100% - 2rem), var(--content));
   margin: 1rem auto;
-  border: 1px solid var(--rule-dark);
+  border: 1px solid var(--rule);
   background: var(--paper);
   padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .section-heading {
@@ -512,6 +540,70 @@ li + li {
   border: 1px solid var(--rule);
   background: #ffffff;
   padding: 1rem;
+  border-radius: 8px;
+}
+
+.eyebrow {
+  margin: 0 0 0.55rem;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lede {
+  max-width: 760px;
+  color: #303736;
+  font-size: 1.15rem;
+}
+
+.proof-metrics,
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.proof-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.proof-metric,
+.proof-block {
+  border: 1px solid var(--rule);
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.proof-metric strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--ink);
+  font-size: 1.1rem;
+}
+
+.proof-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.proof-strip img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+
+.proof-list {
+  margin-top: 0.75rem;
+}
+
+.section-accent {
+  background: #fbfbf8;
 }
 
 @media (max-width: 760px) {
@@ -547,7 +639,10 @@ li + li {
   .permission-grid,
   .two-column,
   .feature-grid,
-  .proof-hero {
+  .proof-hero,
+  .proof-grid,
+  .proof-metrics,
+  .proof-strip {
     grid-template-columns: 1fr;
   }
 
