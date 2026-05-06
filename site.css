@@ -248,8 +248,7 @@ td {
 .gallery-strip img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--rule);
   background: #ffffff;
   box-shadow: 0 8px 22px rgba(24, 28, 27, 0.06);
