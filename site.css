@@ -528,6 +528,10 @@ li + li {
   margin-bottom: 1rem;
 }
 
+.section-heading p:last-child {
+  margin-bottom: 0.85rem;
+}
+
 .two-column,
 .feature-grid {
   display: grid;
@@ -562,6 +566,11 @@ li + li {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.proof-metrics.compact {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .proof-grid {
@@ -616,6 +625,45 @@ li + li {
 .sample-callout p {
   max-width: 720px;
   margin-bottom: 0;
+}
+
+.product-sample {
+  scroll-margin-top: 7.5rem;
+}
+
+.integrated-file-grid {
+  margin-bottom: 1rem;
+}
+
+.sample-proof-strip {
+  margin-top: 1rem;
+}
+
+.proof-strip-copy {
+  min-width: 0;
+}
+
+.sample-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.redirect-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 1rem;
+}
+
+.redirect-card {
+  width: min(680px, 100%);
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
 }
 
 .file-grid {
@@ -792,6 +840,11 @@ li + li {
 
   .sample-callout {
     align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .sample-actions {
+    align-items: stretch;
     flex-direction: column;
   }
 
