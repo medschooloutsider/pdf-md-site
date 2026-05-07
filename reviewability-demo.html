@@ -9,7 +9,7 @@
     content="Inspect a PDF-MD sample pack with a synthetic research PDF, generated Markdown output, audit JSON, and review notes."
   >
   <link rel="icon" type="image/png" href="./favicon.png?v=20260331b">
-  <link rel="stylesheet" href="./site.css?v=20260507b">
+  <link rel="stylesheet" href="./site.css?v=20260507c">
 </head>
 <body class="page-compact">
   <header class="site-header">
@@ -67,22 +67,42 @@
     <section class="section" id="output">
       <div class="section-heading">
         <p class="eyebrow">Files</p>
-        <h2>Open the PDF and Markdown side by side.</h2>
+        <h2>Preview the source, output, and audit files in place.</h2>
       </div>
       <div class="file-grid">
-        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf">
+        <a
+          class="file-card"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf"
+          data-preview-title="Source PDF"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf"
+        >
           <strong>Source PDF</strong>
           <span>Synthetic academic/research handout.</span>
         </a>
-        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md">
+        <a
+          class="file-card"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md"
+          data-preview-title="Markdown output"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md"
+        >
           <strong>Markdown output</strong>
           <span>Generated through the PDF-MD benchmark/export harness.</span>
         </a>
-        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json">
+        <a
+          class="file-card"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json"
+          data-preview-title="Audit JSON"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json"
+        >
           <strong>Audit JSON</strong>
           <span>Sidecar with route, OCR, timing, and output metadata.</span>
         </a>
-        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/review-notes.md">
+        <a
+          class="file-card"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/review-notes.md"
+          data-preview-title="Review notes"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/review-notes.md"
+        >
           <strong>Review notes</strong>
           <span>What to inspect and what not to overclaim.</span>
         </a>
@@ -154,5 +174,71 @@ Check sensor rinse betore tinal average</pre>
       <a href="mailto:worldpresident1030@gmail.com" target="_blank" rel="noreferrer">Email support</a>
     </nav>
   </footer>
+
+  <div class="file-modal" id="file-preview-modal" hidden>
+    <div class="file-modal-backdrop" data-modal-close></div>
+    <section class="file-modal-panel" role="dialog" aria-modal="true" aria-labelledby="file-preview-title">
+      <header class="file-modal-header">
+        <div>
+          <p class="eyebrow">Sample file preview</p>
+          <h2 id="file-preview-title">Sample file</h2>
+        </div>
+        <button class="modal-close" type="button" data-modal-close aria-label="Close file preview">Close</button>
+      </header>
+      <iframe class="file-preview-frame" id="file-preview-frame" title="Sample file preview"></iframe>
+      <footer class="file-modal-footer">
+        <a class="button secondary" id="file-preview-open" href="#" target="_blank" rel="noreferrer">Open in new tab</a>
+        <a class="button" href="./site-assets/sample-pack/pdf-md-reviewability-demo.zip">Download sample pack</a>
+      </footer>
+    </section>
+  </div>
+
+  <script>
+    (() => {
+      const modal = document.getElementById("file-preview-modal");
+      const title = document.getElementById("file-preview-title");
+      const frame = document.getElementById("file-preview-frame");
+      const openLink = document.getElementById("file-preview-open");
+      const cards = document.querySelectorAll("[data-preview-url]");
+      let lastTrigger = null;
+
+      function openPreview(trigger) {
+        const previewURL = trigger.dataset.previewUrl;
+        lastTrigger = trigger;
+        title.textContent = trigger.dataset.previewTitle || "Sample file";
+        frame.src = previewURL;
+        openLink.href = previewURL;
+        modal.hidden = false;
+        document.body.classList.add("modal-open");
+        modal.querySelector(".modal-close").focus();
+      }
+
+      function closePreview() {
+        modal.hidden = true;
+        frame.removeAttribute("src");
+        document.body.classList.remove("modal-open");
+        if (lastTrigger) {
+          lastTrigger.focus();
+        }
+      }
+
+      cards.forEach((card) => {
+        card.addEventListener("click", (event) => {
+          event.preventDefault();
+          openPreview(card);
+        });
+      });
+
+      modal.querySelectorAll("[data-modal-close]").forEach((control) => {
+        control.addEventListener("click", closePreview);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !modal.hidden) {
+          closePreview();
+        }
+      });
+    })();
+  </script>
 </body>
 </html>
