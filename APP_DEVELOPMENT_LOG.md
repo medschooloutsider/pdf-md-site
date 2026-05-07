@@ -1,6 +1,6 @@
 # App Development Log
 
-Updated: 2026-05-07 17:43 CEST
+Updated: 2026-05-07 17:57 CEST
 
 Append new entries at the end of this file.
 
@@ -33,3 +33,4 @@ Append new entries at the end of this file.
 - 2026-05-07 16:31 CEST | pdf-md-review-notes-removal | Removed the standalone Review notes file/card from the public PDF-MD sample pack and regenerated the downloadable ZIP without `audit/review-notes.md`. Kept the closeable file-preview modal for source PDF, generated Markdown, and audit JSON. Wrong Hub lesson recorded that review-note style marketing artifacts are not acceptable for PDF-MD samples; future real lecture samples must be rights-cleared before publishing source PDFs or full generated Markdown.
 - 2026-05-07 16:52 CEST | pdf-md-niddk-digestion-sample | Replaced the synthetic reviewability sample with a rights-clean NIDDK/NIH digestion lecture sample after rejecting the OpenStax path because the current source pages are marked NonCommercial-ShareAlike. The pack now contains `source/niddk-digestion-lecture.pdf`, embedded-label diagram PNGs, generated Hybrid normalized Markdown, audit JSON, benchmark profile/summary, source transcript, and a clean downloadable ZIP. Verification passed PDF render/text checks, PDF-MD benchmark export with route mix `Text 6 / Text+OCR 2`, JSON validation, ZIP stale-asset checks, local reference checks, `git diff --check`, and Playwright desktop/mobile preview modal plus image-ratio checks.
 - 2026-05-07 17:43 CEST | pdf-md-auditory-transduction-sample | Replaced the NIDDK sample with a user-confirmed rights-cleared auditory transduction lecture excerpt from original pages 5, 8, 10, 11, 15, 20, 30, and 40. The pack now contains `source/auditory-transduction-lecture-excerpt.pdf`, a correctly proportioned embedded-label preview image, generated Hybrid normalized Markdown, audit JSON, benchmark profile/summary, source transcript, and a clean downloadable ZIP. Verification passed visual PDF render checks, PDF-MD benchmark export with route mix `Text+OCR 5 / OCR 3`, JSON validation, public-artifact stale grep, local reference checks, clean ZIP inspection, `git diff --check`, and Playwright desktop/mobile preview modal plus image-ratio checks.
+- 2026-05-07 17:57 CEST | pdf-md-auditory-ocr-excerpt-completion | Expanded the public `Image-embedded labels` sample block so it shows the complete generated Page 6 excerpt from the Markdown output instead of only the figure-label tail.

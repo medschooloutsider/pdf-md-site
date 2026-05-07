@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-05-07 17:43 CEST
+Updated: 2026-05-07 17:57 CEST
 
 ## Lane
 
@@ -31,6 +31,7 @@ Updated: 2026-05-07 17:43 CEST
 - reviewability sample file cards now open inside a closeable in-page preview modal with direct open/download links retained; the honest-output raster image renders at its intrinsic aspect ratio
 - standalone review-note artifacts are now explicitly removed from the public sample pack; future samples should show the source, generated Markdown, and audit evidence directly
 - current sample source is `source/auditory-transduction-lecture-excerpt.pdf`, an eight-slide auditory transduction lecture excerpt selected from original pages 5, 8, 10, 11, 15, 20, 30, and 40; it intentionally mixes selectable slide text with image-heavy embedded figure labels for OCR inspection
+- the `Image-embedded labels` page block now shows the complete generated Page 6 Markdown excerpt, including slide headings and recovered figure-label content
 
 ## Left To Do
 
@@ -57,6 +58,7 @@ Updated: 2026-05-07 17:43 CEST
 - 2026-05-07 review-notes removal: public HTML references, source tree, and regenerated ZIP no longer contain `audit/review-notes.md`; Wrong Hub lesson appended in `/Volumes/DATA_ARCHIVE/Hub_Network/00_Central_Hubs/Wrong_Hub/lessons/2026-05.md`.
 - 2026-05-07 NIDDK digestion sample: generated `niddk-digestion-lecture.pdf` with 8 pages and selectable text plus two embedded-label diagram slides; PDF-MD benchmark export passed with route mix `Text 6 / Text+OCR 2`, status `success`, `retainedOtherByteCount=0`, and `destructiveNormalizationFallbackCount=0`; JSON validation, stale-asset grep, clean ZIP check, local reference check, `git diff --check`, and Playwright desktop/mobile modal plus image-ratio checks passed. The OpenStax path was rejected before final publication because current source pages are marked NonCommercial-ShareAlike.
 - 2026-05-07 auditory transduction sample: rebuilt the public sample pack from the user-confirmed rights-cleared lecture excerpt at `source/auditory-transduction-lecture-excerpt.pdf`; PDF-MD benchmark export passed with route mix `Text+OCR 5 / OCR 3`, status `success`, `retainedOtherByteCount=0`, and `destructiveNormalizationFallbackCount=0`; JSON validation, public-artifact stale grep, local reference check, clean ZIP inspection, `git diff --check`, PDF render/text checks, and Playwright desktop/mobile closeable modal plus image-ratio checks passed.
+- 2026-05-07 OCR excerpt completion: public sample block now mirrors the full generated Page 6 excerpt rather than an incomplete tail-only snippet.
 
 ## Risks To Other Lanes
 
