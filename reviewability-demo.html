@@ -104,7 +104,7 @@
     <section class="section section-accent" id="review">
       <div class="section-heading">
         <p class="eyebrow">Image-embedded labels</p>
-        <h2>The figure labels are recovered, with OCR roughness visible.</h2>
+        <h2>The figure labels are recovered, with uncertainty visible.</h2>
       </div>
       <div class="proof-strip">
         <img
@@ -120,29 +120,43 @@
           <p>
             The slide text is selectable, while many anatomy labels are pixels
             inside the figures. PDF-MD routes these slides through Hybrid OCR, so
-            labels like Malleus, Stapes, Scala tympani, and Round window become
+            labels like Malleus, Stapes, Scala tympani, and Auditory tube become
             visible in Markdown. The rough spots are visible on purpose:
-            lecture-slide extraction should be inspectable.
+            lecture-slide extraction should be inspectable, not overconfident.
           </p>
-          <pre class="sample-output">### Page 6
+          <pre class="sample-output">### Page 8
 
-### Inward Movement Of B Outward Movement
+&gt; OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
-### Tympanic Membrane Of Tympanic Membrane
+TRAVELING
+PRESSURE WAVES
+SCALA VESTIBULI PRESSURE INCREASE
+PRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE
 
-### External Middle Ear
+#### Image OCR
 
-ineus ear canal
-
-Figure labels:
-
-- Malleus
-- Stapes
-- Oval window
-
-,Scala vestibuli PULL
-
-- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave</pre>
+Malleus Incus
+Stapes vibrating Helicotrema
+Cochlea
+in oval window
+Sound waves
+Perilymph
+tympani
+External auditory
+canal
+Spiral organ
+(organ of Corti)
+Tectorial membrane
+Vestibular membrane
+Cochlear duct
+Tympanic
+(contains endolymph)
+Secondary tympanic
+membrane vibrating
+in round window
+Middle ear Auditory tube
+Middle ear
+Auditory tube</pre>
         </div>
       </div>
     </section>

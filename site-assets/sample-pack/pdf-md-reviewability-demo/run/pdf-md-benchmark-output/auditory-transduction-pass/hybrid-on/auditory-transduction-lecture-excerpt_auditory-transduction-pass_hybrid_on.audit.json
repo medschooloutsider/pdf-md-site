@@ -13,7 +13,7 @@
     "scheduledPageCount" : 8
   },
   "exportMode" : "Hybrid",
-  "generatedAt" : "2026-05-07T15:40:30Z",
+  "generatedAt" : "2026-05-07T18:34:54Z",
   "metrics" : {
     "extraction" : {
       "ocrPages" : 3,
@@ -35,22 +35,28 @@
       "inputMathTokenCount" : 0,
       "inputTableEquationLineCount" : 0,
       "inputTheoremProofHeadingCount" : 0,
-      "outputBulletCount" : 32,
+      "outputBulletCount" : 8,
       "outputFigureCaptionCount" : 0,
       "outputFigureReferenceCount" : 0,
-      "outputHeadingCount" : 21,
+      "outputHeadingCount" : 0,
       "outputMathReferenceCount" : 0,
       "outputMathTokenCount" : 0,
       "outputTableEquationLineCount" : 0,
       "outputTheoremProofHeadingCount" : 0,
-      "retainedTokenRatio" : 0.9543568464730291,
+      "retainedTokenRatio" : 0.9349930843706777,
       "sectionCount" : 8,
       "sectionsWithChanges" : 8,
       "totalInputCharacterCount" : 5016,
       "totalInputTokenCount" : 723,
-      "totalOutputCharacterCount" : 3840,
-      "totalOutputTokenCount" : 520,
-      "totalRetainedTokenCount" : 690
+      "totalOutputCharacterCount" : 2948,
+      "totalOutputTokenCount" : 414,
+      "totalRetainedTokenCount" : 676
+    },
+    "uncertainty" : {
+      "diagramOrChartSectionCount" : 7,
+      "medicalNotationSectionCount" : 0,
+      "sectionsWithUncertaintyNotes" : 7,
+      "tableLikeSectionCount" : 0
     }
   },
   "ocrLanguageConfiguration" : {
@@ -150,19 +156,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 432,
+          "characterCount" : 433,
           "mathTokenCount" : 0,
-          "sha256" : "3cfa4886f3adfd7debddb0d245d45bef514379d00e818b8cf72bbf527ebdaf31",
+          "sha256" : "4ab6fc02bad7b07fe698d933466663f91823294cbc2463b92bdce0429a71cc27",
           "tokenCount" : 53
         },
-        "finalText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+        "finalText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\/\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
         "normalized" : {
-          "characterCount" : 432,
+          "characterCount" : 433,
           "mathTokenCount" : 0,
-          "sha256" : "3cfa4886f3adfd7debddb0d245d45bef514379d00e818b8cf72bbf527ebdaf31",
+          "sha256" : "4ab6fc02bad7b07fe698d933466663f91823294cbc2463b92bdce0429a71cc27",
           "tokenCount" : 53
         },
-        "normalizedText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+        "normalizedText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\/\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
         "precleaned" : {
           "characterCount" : 402,
           "mathTokenCount" : 0,
@@ -380,8 +386,16 @@
         }
       ],
       "route" : "ocr",
-      "text" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
-      "title" : "Page 1"
+      "text" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\/\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+      "title" : "Page 1",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -414,19 +428,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 300,
+          "characterCount" : 265,
           "mathTokenCount" : 0,
-          "sha256" : "a091c054b594e41c99092ba8ba72cb04efc0325442061715c0e3dfc0c1d2f6ec",
+          "sha256" : "01631f89d08f094d22e2888d557e6c56a0fc9a79042cdbf4a39ef2a161815b9f",
           "tokenCount" : 44
         },
-        "finalText" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
+        "finalText" : "AUDIOGRAM\n\n125 250 1000 2000 3000 4000 6000 8000\n\nLeft Ear X Right Ear\n\nNormal Hearing\n\n80 Hearing Level in Decibels (dB)\n\nMild Hearing Loss\n\nModerate Hearing Loss\n\nSevere Hearing Loss\n\nProfound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\nFrequency in Hertz (Hz)",
         "normalized" : {
-          "characterCount" : 300,
+          "characterCount" : 265,
           "mathTokenCount" : 0,
-          "sha256" : "a091c054b594e41c99092ba8ba72cb04efc0325442061715c0e3dfc0c1d2f6ec",
+          "sha256" : "01631f89d08f094d22e2888d557e6c56a0fc9a79042cdbf4a39ef2a161815b9f",
           "tokenCount" : 44
         },
-        "normalizedText" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
+        "normalizedText" : "AUDIOGRAM\n\n125 250 1000 2000 3000 4000 6000 8000\n\nLeft Ear X Right Ear\n\nNormal Hearing\n\n80 Hearing Level in Decibels (dB)\n\nMild Hearing Loss\n\nModerate Hearing Loss\n\nSevere Hearing Loss\n\nProfound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\nFrequency in Hertz (Hz)",
         "precleaned" : {
           "characterCount" : 323,
           "mathTokenCount" : 0,
@@ -842,8 +856,16 @@
         }
       ],
       "route" : "ocr",
-      "text" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
-      "title" : "Page 2"
+      "text" : "AUDIOGRAM\n\n125 250 1000 2000 3000 4000 6000 8000\n\nLeft Ear X Right Ear\n\nNormal Hearing\n\n80 Hearing Level in Decibels (dB)\n\nMild Hearing Loss\n\nModerate Hearing Loss\n\nSevere Hearing Loss\n\nProfound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\nFrequency in Hertz (Hz)",
+      "title" : "Page 2",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -869,19 +891,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 296,
+          "characterCount" : 282,
           "mathTokenCount" : 0,
-          "sha256" : "065a36cb63fdb39618f96e20e49b97af10861f330820264e77b1ec6874f15f0a",
-          "tokenCount" : 39
+          "sha256" : "9a2c9f5ea9381220ed9f35218ebb911fa8365dd274d7441fc95cf528a2d4fc33",
+          "tokenCount" : 38
         },
-        "finalText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n- Fundamental Various harmonics\n- Synthesized wave",
+        "finalText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\nVarious harmonics\n- Synthesized wave",
         "normalized" : {
-          "characterCount" : 589,
+          "characterCount" : 571,
           "mathTokenCount" : 0,
-          "sha256" : "c07a952d460a9fc6fc3aa90c0c0f57449fb09b4f8cd6e1cbfd962362fa92ee53",
+          "sha256" : "3c2046a7815dd0f7fa0a2b93d769f61759dd7ac7e9ef77f883573c7637c5301c",
           "tokenCount" : 78
         },
-        "normalizedText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n### Sounds Produced By Musical Instruments Or The Human Voice Consist Of Many\n\nTONES\n\n### Our Hearing System Performs A Frequency Analysis\n\n### Our Brain Performs A Synthesis\n\n### The Fundamental Harmonic The Lowest Frequency Of A Periodic Waveform\n\n- Fundamental Various harmonics\n- Synthesized wave\n\n### Our Hearing System Per\n\nOUR BRAIN PER",
+        "normalizedText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\nSOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\n\nTONES\n\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\n\nOUR BRAIN PERFORMS A SYNTHESIS\n\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n- Fundamental\n\nVarious harmonics\n\n- Synthesized wave\n\nOUR HEARING SYSTEM PER\n\nOUR BRAIN PER",
         "precleaned" : {
           "characterCount" : 566,
           "mathTokenCount" : 0,
@@ -991,8 +1013,16 @@
         }
       ],
       "route" : "text-layer-plus-image-ocr",
-      "text" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n- Fundamental Various harmonics\n- Synthesized wave",
-      "title" : "Page 3"
+      "text" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\nVarious harmonics\n- Synthesized wave",
+      "title" : "Page 3",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -1018,19 +1048,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 714,
+          "characterCount" : 417,
           "mathTokenCount" : 0,
-          "sha256" : "d26e23de293aaaf731e72a0a8cd37c13fbf56ca878efed4c3fdc07c3636f21eb",
-          "tokenCount" : 108
+          "sha256" : "07aeb37650702da5cb28f58b4f6fcd5efe7c1e69ab478cec914dea8594f64d8f",
+          "tokenCount" : 66
         },
-        "finalText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n- Sound wave represents alternating areas of high and low pressure.\nWavelength\nAAANA\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\nSound wave represents alternating areas of high and low pressure.\nWavelength\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\n### Tympanic Membrane Vibrations Are\nvibrates in response amplified across to sound wave. ossicles.",
+        "finalText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are\nvibrates in response\namplified across\nareas of high and low pressure.\nWavelength\nmeasured in Hz (cycles\nper second)\nvibrates in response amplified across",
         "normalized" : {
-          "characterCount" : 1006,
+          "characterCount" : 810,
           "mathTokenCount" : 0,
-          "sha256" : "01e974e9260c2c76c5360fd7c67c2a0ecf55084dce1cd8ed121f1e58742037f5",
-          "tokenCount" : 149
+          "sha256" : "565d787b9d65c1729ce7c06d754c9776795f437a1266c683849f18add282601c",
+          "tokenCount" : 124
         },
-        "normalizedText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\n### Outer Ear\n\n### The Part Most Visible Is The Pinna\n\n### It Funnels Sound Waves Into The External Auditory Canal\n\nTympanic membrane\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n\n- Sound wave represents alternating areas of high and low pressure.\n\nWavelength\n\nAAANA\n\n### Frequency Of Sound Wave Measured In Hz (cycles\n\nper second)\n\n### The Outer Ear Structures Must\n\n### Focus Sound Waves On The Tympanic Membrane\n\n### Sound Causes The Tympanic Membrane To Vibrate Like A Drum\n\nSound wave represents alternating areas of high and low pressure.\n\nWavelength\n\n### Frequency Of Sound Wave Measured In Hz (cycles\n\nper second)\n\n### Tympanic Membrane Vibrations Are\n\nvibrates in response amplified across to sound wave. ossicles.",
+        "normalizedText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nOUTER EAR\n\nTHE PART MOST VISIBLE IS THE PINNA\n\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\n\nTympanic membrane\n\nVibrations are\n\nvibrates in response\n\namplified across\n\nto sound wave. ossicles.\n\n- Sound wave represents alternating\n\nareas of high and low pressure.\n\nWavelength\n\nAAANA\n\nFrequency of sound wave\n\nmeasured in Hz (cycles\n\nper second)\n\nTHE OUTER EAR STRUCTURES MUST\n\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\n\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\nTympanic membrane Vibrations are\n\nvibrates in response amplified across",
         "precleaned" : {
           "characterCount" : 973,
           "mathTokenCount" : 0,
@@ -1347,8 +1377,16 @@
         }
       ],
       "route" : "text-layer-plus-image-ocr",
-      "text" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n- Sound wave represents alternating areas of high and low pressure.\nWavelength\nAAANA\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\nSound wave represents alternating areas of high and low pressure.\nWavelength\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\n### Tympanic Membrane Vibrations Are\nvibrates in response amplified across to sound wave. ossicles.",
-      "title" : "Page 4"
+      "text" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are\nvibrates in response\namplified across\nareas of high and low pressure.\nWavelength\nmeasured in Hz (cycles\nper second)\nvibrates in response amplified across",
+      "title" : "Page 4",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -1381,19 +1419,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 466,
+          "characterCount" : 379,
           "mathTokenCount" : 0,
-          "sha256" : "39b861508d44206336c6a8d7e441c4c44a4e83f959a61a647b9e444e2607c28d",
-          "tokenCount" : 67
+          "sha256" : "514ae4603ba14432f38bccb0617af6502f1dcb2735c3d33ab1acc79d15089778",
+          "tokenCount" : 57
         },
-        "finalText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nFigure labels:\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the junction (isthmus)\nNasopharynx ear, nose, and throat.\nEustachian tube throat passage\n### Connects The N\nГO THE NASOPHARYNX",
+        "finalText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nBony portion\ninner ear\nCartilaginous\nportion\nnasal passage\nMastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the\njunction (isthmus)\near, nose, and throat.\nthroat\npassage",
         "normalized" : {
-          "characterCount" : 760,
+          "characterCount" : 708,
           "mathTokenCount" : 0,
-          "sha256" : "1c36df8f8c8cb37d7e7df851baab003d1ffb621363bf9a05369b02adb30a8dd5",
-          "tokenCount" : 108
+          "sha256" : "fa213e748f1438363c23873b41751aaeca9ecc44e5fd5c8d88c1f158f3d4a95a",
+          "tokenCount" : 104
         },
-        "normalizedText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\n### Middle Ear\n\n### The Eustachian Tube\n\n### Connects The Middle Ear To The Nasopharynx\n\n### To Equalize The Air Pressure On Opposite Sides Of The Tympanic Membrane\n\nFigure labels:\n\n- (SWALLOWING\n- Middle ear\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\n\narises in the pas-\n\nBony-cartilaginous\n\nmiddle and inner sages of the junction (isthmus)\n\nNasopharynx ear, nose, and throat.\n\nEustachian tube throat passage\n\n### To Equalize The Air Pressure\n\nMiddle ear\n\n### Connects The N\n\nAN TUBE\n\nГO THE NASOPHARYNX\n\n### E Sides Of The Tympanic Membrane",
+        "normalizedText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nMIDDLE EAR\n\nTHE EUSTACHIAN TUBE\n\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\n\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n\n(SWALLOWING)\n\nMiddle\n\near\n\nBony portion\n\ninner ear\n\nCartilaginous\n\nportion\n\nnasal passage\n\nMastoiditis usually\n\narises in the pas-\n\nBony-cartilaginous\n\nmiddle and inner sages of the\n\njunction (isthmus)\n\nNasopharynx\n\near, nose, and throat.\n\nEustachian\n\ntube\n\nthroat\n\npassage\n\nTO EQUALIZE THE AIR PRESSURE\n\nCONNECTS THE N\n\nAN TUBE\n\nГO THE NASOPHARYNX\n\nE SIDES OF THE TYMPANIC MEMBRANE",
         "precleaned" : {
           "characterCount" : 719,
           "mathTokenCount" : 0,
@@ -1737,8 +1775,16 @@
         }
       ],
       "route" : "text-layer-plus-image-ocr",
-      "text" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nFigure labels:\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the junction (isthmus)\nNasopharynx ear, nose, and throat.\nEustachian tube throat passage\n### Connects The N\nГO THE NASOPHARYNX",
-      "title" : "Page 5"
+      "text" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nBony portion\ninner ear\nCartilaginous\nportion\nnasal passage\nMastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the\njunction (isthmus)\near, nose, and throat.\nthroat\npassage",
+      "title" : "Page 5",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -1764,19 +1810,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 347,
+          "characterCount" : 318,
           "mathTokenCount" : 0,
-          "sha256" : "d94528ddf48eb1dd5a13ce2f20aa23705a4e68cbe389df8365e50838b7c07942",
-          "tokenCount" : 46
+          "sha256" : "401a9a9b25c4cf48b6a80a4c0dbef2114c45d8507674dbb3cdae865958c7a68b",
+          "tokenCount" : 43
         },
-        "finalText" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
+        "finalText" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT\n\nTYMPANIC MEMBRANE OF TYMPANIC MEMBRANE\n\nExternal Middle ear\n\nineus\n\near canal\n\nMalleus\n\nStapes\n\nOval window\n\n,Scala\n\nvestibuli PULL\n\ntympani\n\nTympanic\n\nRound window\n\nmembrane Eustachian membrane\n\npushed by the tube\n\npulled by the\n\ncompression\n\nrarefaction\n\npnase or a\n\nsound wave",
         "normalized" : {
-          "characterCount" : 347,
+          "characterCount" : 318,
           "mathTokenCount" : 0,
-          "sha256" : "d94528ddf48eb1dd5a13ce2f20aa23705a4e68cbe389df8365e50838b7c07942",
-          "tokenCount" : 46
+          "sha256" : "401a9a9b25c4cf48b6a80a4c0dbef2114c45d8507674dbb3cdae865958c7a68b",
+          "tokenCount" : 43
         },
-        "normalizedText" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
+        "normalizedText" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT\n\nTYMPANIC MEMBRANE OF TYMPANIC MEMBRANE\n\nExternal Middle ear\n\nineus\n\near canal\n\nMalleus\n\nStapes\n\nOval window\n\n,Scala\n\nvestibuli PULL\n\ntympani\n\nTympanic\n\nRound window\n\nmembrane Eustachian membrane\n\npushed by the tube\n\npulled by the\n\ncompression\n\nrarefaction\n\npnase or a\n\nsound wave",
         "precleaned" : {
           "characterCount" : 342,
           "mathTokenCount" : 0,
@@ -2066,8 +2112,16 @@
         }
       ],
       "route" : "ocr",
-      "text" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
-      "title" : "Page 6"
+      "text" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT\n\nTYMPANIC MEMBRANE OF TYMPANIC MEMBRANE\n\nExternal Middle ear\n\nineus\n\near canal\n\nMalleus\n\nStapes\n\nOval window\n\n,Scala\n\nvestibuli PULL\n\ntympani\n\nTympanic\n\nRound window\n\nmembrane Eustachian membrane\n\npushed by the tube\n\npulled by the\n\ncompression\n\nrarefaction\n\npnase or a\n\nsound wave",
+      "title" : "Page 6",
+      "uncertainty" : {
+        "notes" : [
+
+        ],
+        "signals" : [
+
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -2093,19 +2147,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 502,
+          "characterCount" : 378,
           "mathTokenCount" : 0,
-          "sha256" : "42928b99e7a3a3f5e5f41f50d8fa642a7c8d139857e747a3c5f372f7c23bac6d",
-          "tokenCount" : 67
+          "sha256" : "7d11a14771048ebcef9e5f536936c07cc478fd0d39a5593466b613ac1ab9f6ca",
+          "tokenCount" : 50
         },
-        "finalText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\ncochlear\nduct tectorial membrane\nspiral limbus\ncochlear\nmembrane scala tympani organ of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
+        "finalText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nstria vascularis\ncochlear\nduct\ntectorial\nspiral\nlimbus\nnerve\norgan of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear\nligament\n91997 Encyclopaedia Britannica, Ine.",
         "normalized" : {
-          "characterCount" : 806,
+          "characterCount" : 653,
           "mathTokenCount" : 0,
-          "sha256" : "0d23d2d9bce767a10c58a9e5d4dfc88d82f5879915caffb24a1ade2979e634c9",
-          "tokenCount" : 104
+          "sha256" : "8a7d79f2fbb88eb278482a821dfbc5ed384e3c0fcc96807535e88fca01c84989",
+          "tokenCount" : 85
         },
-        "normalizedText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nReissner's membrane scala vestibuli stria vascularis\n\n> THE SCALA VESTIBULI\n\ncochlear\n\n### Reissner's Membrane\n\nduct tectorial membrane\n\n### Separates The Scala Vestibuli\n\nspiral limbus\n\n### From The Middle Compartment\n\n> THE SCALA MEDIA\n\ncochlear\n\nTHE BASILAR MEMBRANE spiral ligament nerve\n\n### Separates The Scala Media From\n\nbasilar\n\n> THE SCALA TYMPANI\n\nmembrane scala tympani organ of Corti\n\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
+        "normalizedText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nReissner's membrane\n\nscala vestibuli\n\nstria vascularis\n\n> THE SCALA VESTIBULI\n\ncochlear\n\nduct\n\ntectorial\n\nmembrane\n\nSEPARATES THE SCALA VESTIBULI\n\nspiral\n\nlimbus\n\nFROM THE MIDDLE COMPARTMENT\n\n> THE SCALA MEDIA\n\nTHE BASILAR MEMBRANE spiral ligament\n\nnerve\n\nSEPARATES THE SCALA MEDIA FROM\n\nbasilar\n\n> THE SCALA TYMPANI\n\nscala tympani\n\norgan of Corti\n\n©1997 Encyolopaedia Britannica, Ine. cochlear\n\nligament\n\n91997 Encyclopaedia Britannica, Ine.",
         "precleaned" : {
           "characterCount" : 790,
           "mathTokenCount" : 0,
@@ -2494,8 +2548,16 @@
         }
       ],
       "route" : "text-layer-plus-image-ocr",
-      "text" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\ncochlear\nduct tectorial membrane\nspiral limbus\ncochlear\nmembrane scala tympani organ of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
-      "title" : "Page 7"
+      "text" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nstria vascularis\ncochlear\nduct\ntectorial\nspiral\nlimbus\nnerve\norgan of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear\nligament\n91997 Encyclopaedia Britannica, Ine.",
+      "title" : "Page 7",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     },
     {
       "imageRegions" : [
@@ -2521,19 +2583,19 @@
         "changedByPrecleaning" : false,
         "destructiveFallbackTriggered" : false,
         "final" : {
-          "characterCount" : 783,
+          "characterCount" : 476,
           "mathTokenCount" : 0,
-          "sha256" : "80004e612112930790f4039f4d23cf493788c907af8973d6dc08ef4a376aa9da",
-          "tokenCount" : 96
+          "sha256" : "305707e37f450f0f640467b1908d93ce1e7282cddc77f2e8e75b3d09c6dda753",
+          "tokenCount" : 63
         },
-        "finalText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\n### Malleus Incus\n### Stapes Vibrating Helicotrema\nFigure labels:\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- External auditory canal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\n### Middle Ear Auditory Tube\ncanal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\nFigure labels:\n- Middle ear\n- Auditory tube",
+        "finalText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nMalleus Incus\nStapes vibrating Helicotrema\nCochlea\nin oval window\nSound waves\nPerilymph\ntympani\nExternal auditory\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\nVestibular membrane\nCochlear duct\nTympanic\n(contains endolymph)\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear Auditory tube\nMiddle ear\nAuditory tube",
         "normalized" : {
-          "characterCount" : 1044,
+          "characterCount" : 726,
           "mathTokenCount" : 0,
-          "sha256" : "4ee349588579b30daa7a65daff12a293445332b077414ad605d072e4759c9425",
-          "tokenCount" : 125
+          "sha256" : "3b4d573ccb6f383ef7760ee52f20e836296dc8423e0129f3bc7544fffee5d62f",
+          "tokenCount" : 92
         },
-        "normalizedText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nTRAVELING\n\n### Pressure Waves\n\n### Malleus Incus\n\n### Stapes Vibrating Helicotrema\n\nFigure labels:\n\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- Scala vestibuli\n- Basilar membrane\n- External auditory canal\n\n### Spiral Organ (organ Of Corti)\n\nFigure labels:\n\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\n\nSecondary tympanic membrane vibrating in round window\n\n### Middle Ear Auditory Tube\n\n### Scala Vestibuli Pressure Increase\n\n### Pressure Waves Displace The Reissner's And The Basilar Membrane\n\ncanal\n\n### Spiral Organ (organ Of Corti)\n\nFigure labels:\n\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\n\nSecondary tympanic membrane vibrating in round window\n\nFigure labels:\n\n- Middle ear\n- Auditory tube\n- 'IBULI PRESSURE INCREASE\n\n### He Reissner's And The Basilar Membran",
+        "normalizedText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nTRAVELING\n\nPRESSURE WAVES\n\nMalleus Incus\n\nStapes vibrating Helicotrema\n\nCochlea\n\nin oval window\n\nSound waves\n\nPerilymph\n\nScala\n\ntympani\n\nvestibuli\n\nBasilar\n\nmembrane\n\nExternal auditory\n\ncanal\n\nSpiral organ\n\n(organ of Corti)\n\nTectorial membrane\n\nVestibular membrane\n\nCochlear duct\n\nTympanic\n\n(contains endolymph)\n\nSecondary tympanic\n\nmembrane vibrating\n\nin round window\n\nMiddle ear Auditory tube\n\nSCALA VESTIBULI PRESSURE INCREASE\n\nPRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE\n\nMiddle ear\n\nAuditory tube\n\n'IBULI PRESSURE INCREASE\n\nHE REISSNER'S AND THE BASILAR MEMBRAN",
         "precleaned" : {
           "characterCount" : 901,
           "mathTokenCount" : 0,
@@ -2994,16 +3056,24 @@
         }
       ],
       "route" : "text-layer-plus-image-ocr",
-      "text" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\n### Malleus Incus\n### Stapes Vibrating Helicotrema\nFigure labels:\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- External auditory canal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\n### Middle Ear Auditory Tube\ncanal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\nFigure labels:\n- Middle ear\n- Auditory tube",
-      "title" : "Page 8"
+      "text" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nMalleus Incus\nStapes vibrating Helicotrema\nCochlea\nin oval window\nSound waves\nPerilymph\ntympani\nExternal auditory\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\nVestibular membrane\nCochlear duct\nTympanic\n(contains endolymph)\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear Auditory tube\nMiddle ear\nAuditory tube",
+      "title" : "Page 8",
+      "uncertainty" : {
+        "notes" : [
+          "OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed."
+        ],
+        "signals" : [
+          "diagram-or-chart-labels"
+        ]
+      }
     }
   ],
   "sidecarFreshness" : {
     "auditJSONFile" : "auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.audit.json",
     "emittedSectionCount" : 8,
-    "markdownCharacterCount" : 4386,
+    "markdownCharacterCount" : 4187,
     "markdownFile" : "auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.md",
-    "markdownSHA256" : "0e30f3dd7ba5a19d570c762dcfe6459635e9b8c5a01ae1e319deee32578173a3"
+    "markdownSHA256" : "e92b481498cc75392955512d97c442394bbe2321498baf36d35dcae473cd6755"
   },
   "sourceFile" : "auditory-transduction-lecture-excerpt.pdf",
   "sourceKind" : "PDF",

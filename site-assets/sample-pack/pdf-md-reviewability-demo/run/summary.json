@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-05-07T15:40:30Z",
+  "generatedAt" : "2026-05-07T18:34:54Z",
   "ocrLanguageConfiguration" : {
     "effectiveLanguages" : [
 
@@ -40,8 +40,8 @@
           "auditArtifacts" : [
             "\/private\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on\/auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.audit.json"
           ],
-          "auditWriteDurationMS" : 21.62549999957264,
-          "averagePageExtractionDurationMS" : 1251.5634322915048,
+          "auditWriteDurationMS" : 99.29924999960349,
+          "averagePageExtractionDurationMS" : 1824.1448437497638,
           "concurrencyPolicy" : {
             "activeProcessorCount" : 10,
             "effectiveWorkers" : 3,
@@ -58,15 +58,15 @@
           "destructiveNormalizationFallbackCount" : 0,
           "expectation" : "success",
           "exportMode" : "hybrid",
-          "extractionDurationMS" : 3560.9884999994392,
-          "markdownWriteDurationMS" : 0.41741666609595995,
+          "extractionDurationMS" : 5265.293125001335,
+          "markdownWriteDurationMS" : 0.8707499982847366,
           "normalization" : "on",
           "outputDirectory" : "\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on",
           "routeMix" : "Text+OCR 5 \/ OCR 3",
-          "slowestPage" : "auditory-transduction-lecture-excerpt.pdf page 3 \/ text layer + image OCR \/ 1764 ms",
+          "slowestPage" : "auditory-transduction-lecture-excerpt.pdf page 3 \/ text layer + image OCR \/ 2541 ms",
           "status" : "success",
-          "totalDurationMS" : 3586.772833332361,
-          "writeDurationMS" : 22.998041667960933,
+          "totalDurationMS" : 5369.9039583334525,
+          "writeDurationMS" : 101.75620833251742,
           "writtenFiles" : [
             "\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on\/auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.md"
           ]

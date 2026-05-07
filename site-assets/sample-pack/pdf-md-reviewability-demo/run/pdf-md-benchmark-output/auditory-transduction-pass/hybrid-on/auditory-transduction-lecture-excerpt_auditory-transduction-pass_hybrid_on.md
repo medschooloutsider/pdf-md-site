@@ -8,11 +8,13 @@ OCR language effective: `automatic` `[]`
 Page routing: `5 text-layer-plus-image-OCR page(s), 3 OCR page(s)`
 Audit sidecars: `Also writes `stem.audit.json` for page routing and future audit.`
 Pages: `8`
-Generated: `2026-05-07T15:40:30Z`
+Generated: `2026-05-07T18:34:53Z`
 
 ---
 
 ### Page 1
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 Cortex cerebellum
 
@@ -36,7 +38,7 @@ data storage system
 
 Figure labels:
 
-- Eye movement
+- Eye movement/
 - Joint position control of oculomotor
 - Proprioception activity
 - Superficial sensation
@@ -46,27 +48,33 @@ Figure labels:
 
 ### Page 2
 
-### Audiogram 125 250 1000 2000 3000 4000 6000 8000
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
-### Left Ear x Right Ear
+AUDIOGRAM
 
-### Normal Hearing
+125 250 1000 2000 3000 4000 6000 8000
 
-### 80 Hearing Level In Decibels (db)
+Left Ear X Right Ear
 
-### Mild Hearing Loss
+Normal Hearing
 
-### Moderate Hearing Loss
+80 Hearing Level in Decibels (dB)
 
-### Severe Hearing Loss
+Mild Hearing Loss
 
-### Profound Hearing Loss
+Moderate Hearing Loss
+
+Severe Hearing Loss
+
+Profound Hearing Loss
 
 125 250 500 1000 2000 4000 8000
 
-### Frequency In Hertz (hz)
+Frequency in Hertz (Hz)
 
 ### Page 3
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY
 TONES
@@ -76,10 +84,12 @@ THE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM
 
 #### Image OCR
 
-- Fundamental Various harmonics
+Various harmonics
 - Synthesized wave
 
 ### Page 4
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 OUTER EAR
 THE PART MOST VISIBLE IS THE PINNA
@@ -90,20 +100,18 @@ SOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM
 
 #### Image OCR
 
-Vibrations are vibrates in response amplified across to sound wave. ossicles.
-- Sound wave represents alternating areas of high and low pressure.
+Vibrations are
+vibrates in response
+amplified across
+areas of high and low pressure.
 Wavelength
-AAANA
-### Frequency Of Sound Wave Measured In Hz (cycles
+measured in Hz (cycles
 per second)
-Sound wave represents alternating areas of high and low pressure.
-Wavelength
-### Frequency Of Sound Wave Measured In Hz (cycles
-per second)
-### Tympanic Membrane Vibrations Are
-vibrates in response amplified across to sound wave. ossicles.
+vibrates in response amplified across
 
 ### Page 5
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 MIDDLE EAR
 THE EUSTACHIAN TUBE
@@ -113,39 +121,65 @@ TO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE
 
 #### Image OCR
 
-Figure labels:
-- Bony portion inner ear
-- Cartilaginous portion nasal passage
-- Mastoiditis usually
+Bony portion
+inner ear
+Cartilaginous
+portion
+nasal passage
+Mastoiditis usually
 arises in the pas-
 Bony-cartilaginous
-middle and inner sages of the junction (isthmus)
-Nasopharynx ear, nose, and throat.
-Eustachian tube throat passage
-### Connects The N
-ГO THE NASOPHARYNX
+middle and inner sages of the
+junction (isthmus)
+ear, nose, and throat.
+throat
+passage
 
 ### Page 6
 
-### Inward Movement Of B Outward Movement
+INWARD MOVEMENT OF B OUTWARD MOVEMENT
 
-### Tympanic Membrane Of Tympanic Membrane
+TYMPANIC MEMBRANE OF TYMPANIC MEMBRANE
 
-### External Middle Ear
+External Middle ear
 
-ineus ear canal
+ineus
 
-Figure labels:
+ear canal
 
-- Malleus
-- Stapes
-- Oval window
+Malleus
 
-,Scala vestibuli PULL
+Stapes
 
-- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave
+Oval window
+
+,Scala
+
+vestibuli PULL
+
+tympani
+
+Tympanic
+
+Round window
+
+membrane Eustachian membrane
+
+pushed by the tube
+
+pulled by the
+
+compression
+
+rarefaction
+
+pnase or a
+
+sound wave
 
 ### Page 7
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 ➢ THE SCALA VESTIBULI
 ❖ REISSNER’S MEMBRANE
@@ -158,14 +192,21 @@ SEPARATES THE SCALA MEDIA FROM
 
 #### Image OCR
 
+stria vascularis
 cochlear
-duct tectorial membrane
-spiral limbus
-cochlear
-membrane scala tympani organ of Corti
-©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.
+duct
+tectorial
+spiral
+limbus
+nerve
+organ of Corti
+©1997 Encyolopaedia Britannica, Ine. cochlear
+ligament
+91997 Encyclopaedia Britannica, Ine.
 
 ### Page 8
+
+> OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
 
 TRAVELING
 PRESSURE WAVES
@@ -174,30 +215,25 @@ PRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE
 
 #### Image OCR
 
-### Malleus Incus
-### Stapes Vibrating Helicotrema
-Figure labels:
-- Cochlea in oval window
-- Sound waves
-- Perilymph
-- Scala tympani
-- External auditory canal
-### Spiral Organ (organ Of Corti)
-Figure labels:
-- Tectorial membrane
-- Vestibular membrane
-- Cochlear duct
-- Tympanic (contains endolymph) membrane
-Secondary tympanic membrane vibrating in round window
-### Middle Ear Auditory Tube
+Malleus Incus
+Stapes vibrating Helicotrema
+Cochlea
+in oval window
+Sound waves
+Perilymph
+tympani
+External auditory
 canal
-### Spiral Organ (organ Of Corti)
-Figure labels:
-- Tectorial membrane
-- Vestibular membrane
-- Cochlear duct
-- Tympanic (contains endolymph) membrane
-Secondary tympanic membrane vibrating in round window
-Figure labels:
-- Middle ear
-- Auditory tube
+Spiral organ
+(organ of Corti)
+Tectorial membrane
+Vestibular membrane
+Cochlear duct
+Tympanic
+(contains endolymph)
+Secondary tympanic
+membrane vibrating
+in round window
+Middle ear Auditory tube
+Middle ear
+Auditory tube
