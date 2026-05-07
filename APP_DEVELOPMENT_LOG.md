@@ -1,6 +1,6 @@
 # App Development Log
 
-Updated: 2026-05-07 16:18 CEST
+Updated: 2026-05-07 16:31 CEST
 
 Append new entries at the end of this file.
 
@@ -30,3 +30,4 @@ Append new entries at the end of this file.
 - 2026-05-07 15:46 CEST | pdf-md-reviewability-proof-pack-start | Started the proof-first PDF-MD publish slice from the medstudent/study-heavy marketing advisory: create a product-specific reviewability sample pack and proof page in this site-only lane, with PDF-MD staying the only promoted app, GPT-MD omitted except future quiet cross-linking, Alarmist omitted, and HKD138 pricing unchanged. Scope gates passed from Commercialisation Hub and this publish lane; the scope checker identified `pdf-md-site-publish` as the right seam for the static page/assets.
 - 2026-05-07 15:55 CEST | pdf-md-reviewability-proof-pack | Added `reviewability-demo.html` and `site-assets/sample-pack/pdf-md-reviewability-demo/`, containing a synthetic academic/research PDF, source transcript, PDF-MD Hybrid normalized Markdown output, audit JSON, review notes, benchmark profile, benchmark summary, and downloadable ZIP. The homepage now links the sample pack before checkout and the site CSS cache key is bumped to `20260507b`. Verification passed AppDev gates, bounded PDF-MD headless benchmark export, JSON validation, ZIP integrity, local reference checks, `git diff --check`, local HTTP ZIP response, and Playwright desktop/mobile render screenshots.
 - 2026-05-07 16:18 CEST | pdf-md-reviewability-popup-fix | Changed reviewability sample file cards to open source PDF, Markdown, audit JSON, and review notes inside a closeable in-page preview modal while preserving direct open/download links. Fixed the honest-output raster image ratio by allowing intrinsic image height and bumped the shared CSS cache key to `20260507c`. Verification passed `git diff --check`, local HTML reference checks including modal preview URLs, and local Playwright desktop/mobile checks for PDF/Markdown/review-note modal open/close plus mobile honest-output image rendering.
+- 2026-05-07 16:31 CEST | pdf-md-review-notes-removal | Removed the standalone Review notes file/card from the public PDF-MD sample pack and regenerated the downloadable ZIP without `audit/review-notes.md`. Kept the closeable file-preview modal for source PDF, generated Markdown, and audit JSON. Wrong Hub lesson recorded that review-note style marketing artifacts are not acceptable for PDF-MD samples; future real lecture samples must be rights-cleared before publishing source PDFs or full generated Markdown.

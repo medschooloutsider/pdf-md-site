@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-05-07 16:18 CEST
+Updated: 2026-05-07 16:31 CEST
 
 ## Lane
 
@@ -29,12 +29,14 @@ Updated: 2026-05-07 16:18 CEST
 - proof-first launch artifact is now present: `reviewability-demo.html` and `site-assets/sample-pack/pdf-md-reviewability-demo/` provide a PDF-MD-only reviewability sample with a safe synthetic academic/research PDF, PDF-MD generated Hybrid normalized Markdown, audit JSON, review notes, benchmark profile/summary, and downloadable ZIP
 - homepage now links the sample pack before checkout, while the direct purchase path and HKD138 pricing remain unchanged
 - reviewability sample file cards now open inside a closeable in-page preview modal with direct open/download links retained; the honest-output raster image renders at its intrinsic aspect ratio
+- standalone review-note artifacts are now explicitly removed from the public sample pack; future samples should show the source, generated Markdown, and audit evidence directly
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
 - GitHub Pages may still need a short rebuild window after the pushed `main` revision
 - next useful launch slice is a medical-study variant derived from the sample-pack pattern only after this proof page is live and inspected; video is explicitly deferred for now
+- blocked before publishing the provided VITAL lecture PDF as the sample: confirm it is rights-cleared for public redistribution, or use a rights-cleared/synthetic digestion lecture instead
 
 ## Waiting On
 
@@ -52,6 +54,7 @@ Updated: 2026-05-07 16:18 CEST
 - 2026-05-02 minimal site polish: `git diff --check` passed; local HTML reference check across GPT-MD and PDF-MD site pages returned no missing local refs; local HTTP renders returned `index.html` and `export-benchmarking.html`; external Google font refs were removed from public pages. Pushed commit `988a53c` to `medschooloutsider/pdf-md-site`.
 - 2026-05-07 reviewability proof pack: AppDev Commercialisation and site-lane gates passed; bounded PDF-MD headless benchmark export passed for the three-page synthetic PDF with Hybrid normalization on; generated summary reports route mix `Text 2 / Text+OCR 1`, status `success`, and `retainedOtherByteCount=0`; JSON validation, ZIP integrity, local HTML reference checks, `git diff --check`, local HTTP ZIP response, and Playwright desktop/mobile render checks passed.
 - 2026-05-07 popup/image fix: `git diff --check` passed; local HTML reference checks including `data-preview-url` targets passed; local Playwright verified closeable PDF/Markdown/review-note preview modals on desktop/mobile and proportional honest-output image rendering on mobile.
+- 2026-05-07 review-notes removal: public HTML references, source tree, and regenerated ZIP no longer contain `audit/review-notes.md`; Wrong Hub lesson appended in `/Volumes/DATA_ARCHIVE/Hub_Network/00_Central_Hubs/Wrong_Hub/lessons/2026-05.md`.
 
 ## Risks To Other Lanes
 
