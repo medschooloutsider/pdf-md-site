@@ -1,4 +1,4 @@
-# OpenStax Digestion Lecture Sample
+# NIDDK Digestion Lecture Sample
 
 This transcript describes the intended source PDF content. It is not PDF-MD output.
 
@@ -6,7 +6,7 @@ This transcript describes the intended source PDF content. It is not PDF-MD outp
 A rights-clean lecture PDF for PDF-MD extraction testing
 - Digestion breaks food into absorbable molecules while moving material through the alimentary canal.
 - The sample includes selectable text plus diagrams whose labels are embedded as image pixels.
-- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted under CC BY 4.0.
+- Source basis: NIDDK/NIH digestive-system public information, adapted with source acknowledgement.
 
 ## Slide 2: System map
 Alimentary canal plus accessory organs
@@ -47,14 +47,12 @@ Absorption surface area and final digestion
 
 ## Slide 8: Attribution and sample boundary
 Public redistribution note
-- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The Digestive System.
-- Original OpenStax text is licensed under Creative Commons Attribution 4.0 International.
+- Adapted from NIDDK: Your Digestive System & How it Works.
+- NIDDK says most site information is copyright free and may be reproduced with source acknowledgement.
 - This sample is not medical advice. It is a PDF-MD extraction demo for lecture-slide material.
 - The test intentionally mixes selectable slide text with embedded text inside diagrams.
 
 ## Attribution
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The Digestive System.
-Book URL: https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction
-Section 23.1: https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system
-Section 23.2: https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation
-License: https://creativecommons.org/licenses/by/4.0/
+Adapted from NIDDK: Your Digestive System & How it Works.
+Source URL: https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works
+Reuse policy: https://www.niddk.nih.gov/copyright

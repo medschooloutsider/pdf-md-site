@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-05-07T14:46:26Z",
+  "generatedAt" : "2026-05-07T14:56:42Z",
   "ocrLanguageConfiguration" : {
     "effectiveLanguages" : [
 
@@ -16,14 +16,14 @@
 
   ],
   "ocrMode" : "Balanced",
-  "outputRoot" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output",
-  "profileID" : "pdf-md-openstax-digestion-lecture",
-  "profileName" : "PDF-MD OpenStax digestion lecture sample",
-  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/openstax-digestion-lecture.pdf",
+  "outputRoot" : "\/tmp\/pdfmd-niddk-benchmark-output",
+  "profileID" : "pdf-md-niddk-digestion-lecture",
+  "profileName" : "PDF-MD NIDDK digestion lecture sample",
+  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/niddk-digestion-lecture.pdf",
   "suites" : [
     {
       "description" : "A bounded Hybrid export over a rights-clean digestion lecture PDF with selectable text plus embedded-label diagrams.",
-      "id" : "openstax-digestion-pass",
+      "id" : "niddk-digestion-pass",
       "pageCount" : 8,
       "rangeExpression" : "1-8",
       "runs" : [
@@ -38,10 +38,10 @@
             "totalByteCount" : 53248
           },
           "auditArtifacts" : [
-            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on\/openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.audit.json"
+            "\/private\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on\/niddk-digestion-lecture_niddk-digestion-pass_hybrid_on.audit.json"
           ],
-          "auditWriteDurationMS" : 14.982666667492595,
-          "averagePageExtractionDurationMS" : 173.68987499980904,
+          "auditWriteDurationMS" : 15.886666666119709,
+          "averagePageExtractionDurationMS" : 214.57739062543624,
           "concurrencyPolicy" : {
             "activeProcessorCount" : 10,
             "effectiveWorkers" : 4,
@@ -58,21 +58,21 @@
           "destructiveNormalizationFallbackCount" : 0,
           "expectation" : "success",
           "exportMode" : "hybrid",
-          "extractionDurationMS" : 762.536916667159,
-          "markdownWriteDurationMS" : 0.7551250000688015,
+          "extractionDurationMS" : 879.3416249991424,
+          "markdownWriteDurationMS" : 0.3582499994081445,
           "normalization" : "on",
-          "outputDirectory" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on",
+          "outputDirectory" : "\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on",
           "routeMix" : "Text 6 \/ Text+OCR 2",
-          "slowestPage" : "openstax-digestion-lecture.pdf page 4 \/ text layer + image OCR \/ 762 ms",
+          "slowestPage" : "niddk-digestion-lecture.pdf page 6 \/ text layer + image OCR \/ 814 ms",
           "status" : "success",
-          "totalDurationMS" : 781.3916666655132,
-          "writeDurationMS" : 16.549125000892673,
+          "totalDurationMS" : 899.2367499995453,
+          "writeDurationMS" : 17.026500001520617,
           "writtenFiles" : [
-            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on\/openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.md"
+            "\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on\/niddk-digestion-lecture_niddk-digestion-pass_hybrid_on.md"
           ]
         }
       ],
-      "title" : "OpenStax digestion lecture pass"
+      "title" : "NIDDK digestion lecture pass"
     }
   ]
 }

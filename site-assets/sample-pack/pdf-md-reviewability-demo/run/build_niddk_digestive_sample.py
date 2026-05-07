@@ -6,8 +6,8 @@ import sys
 import textwrap
 from pathlib import Path
 
-if Path("/tmp/pdfmd_openstax_deps").exists():
-    sys.path.insert(0, "/tmp/pdfmd_openstax_deps")
+if Path("/tmp/pdfmd_sample_deps").exists():
+    sys.path.insert(0, "/tmp/pdfmd_sample_deps")
 
 from PIL import Image, ImageDraw, ImageFont
 from reportlab.lib import colors
@@ -18,7 +18,7 @@ from reportlab.pdfgen import canvas
 PACK_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_DIR = PACK_ROOT / "source"
 RUN_DIR = PACK_ROOT / "run"
-OUT_PDF = SOURCE_DIR / "openstax-digestion-lecture.pdf"
+OUT_PDF = SOURCE_DIR / "niddk-digestion-lecture.pdf"
 TRANSCRIPT = SOURCE_DIR / "source-transcript.md"
 ROUTE_DIAGRAM = SOURCE_DIR / "digestive-route-embedded-labels.png"
 CONTROL_DIAGRAM = SOURCE_DIR / "digestive-control-embedded-labels.png"
@@ -29,11 +29,9 @@ PAGE_W = 960
 PAGE_H = 540
 MARGIN = 52
 
-OPENSTAX_TITLE = "OpenStax Anatomy and Physiology 2e, Chapter 23: The Digestive System"
-OPENSTAX_BOOK = "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
-OPENSTAX_231 = "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-1-overview-of-the-digestive-system"
-OPENSTAX_232 = "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-2-digestive-system-processes-and-regulation"
-OPENSTAX_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
+SOURCE_TITLE = "NIDDK: Your Digestive System & How it Works"
+SOURCE_URL = "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+SOURCE_REUSE = "https://www.niddk.nih.gov/copyright"
 
 
 def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
@@ -94,7 +92,7 @@ def footer(c: canvas.Canvas, page: int) -> None:
     c.line(MARGIN, 42, PAGE_W - MARGIN, 42)
     c.setFillColor(colors.HexColor("#4d5753"))
     c.setFont("Helvetica", 9)
-    c.drawString(MARGIN, 25, "Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0.")
+    c.drawString(MARGIN, 25, "Adapted from NIDDK/NIH digestive-system public information. Source acknowledged.")
     c.drawRightString(PAGE_W - MARGIN, 25, f"PDF-MD sample lecture - {page}")
 
 
@@ -214,7 +212,7 @@ SLIDES = [
         "bullets": [
             "Digestion breaks food into absorbable molecules while moving material through the alimentary canal.",
             "The sample includes selectable text plus diagrams whose labels are embedded as image pixels.",
-            "Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted under CC BY 4.0.",
+            "Source basis: NIDDK/NIH digestive-system public information, adapted with source acknowledgement.",
         ],
     },
     {
@@ -267,8 +265,8 @@ SLIDES = [
         "title": "Attribution and sample boundary",
         "subtitle": "Public redistribution note",
         "bullets": [
-            "Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The Digestive System.",
-            "Original OpenStax text is licensed under Creative Commons Attribution 4.0 International.",
+            "Adapted from NIDDK: Your Digestive System & How it Works.",
+            "NIDDK says most site information is copyright free and may be reproduced with source acknowledgement.",
             "This sample is not medical advice. It is a PDF-MD extraction demo for lecture-slide material.",
             "The test intentionally mixes selectable slide text with embedded text inside diagrams.",
         ],
@@ -298,7 +296,7 @@ def create_pdf() -> None:
 
 def write_transcript() -> None:
     lines = [
-        "# OpenStax Digestion Lecture Sample",
+        "# NIDDK Digestion Lecture Sample",
         "",
         "This transcript describes the intended source PDF content. It is not PDF-MD output.",
         "",
@@ -323,11 +321,9 @@ def write_transcript() -> None:
         lines.append("")
     lines.extend([
         "## Attribution",
-        f"Adapted from {OPENSTAX_TITLE}.",
-        f"Book URL: {OPENSTAX_BOOK}",
-        f"Section 23.1: {OPENSTAX_231}",
-        f"Section 23.2: {OPENSTAX_232}",
-        f"License: {OPENSTAX_LICENSE}",
+        f"Adapted from {SOURCE_TITLE}.",
+        f"Source URL: {SOURCE_URL}",
+        f"Reuse policy: {SOURCE_REUSE}",
     ])
     TRANSCRIPT.write_text("\n".join(lines) + "\n")
 
@@ -336,27 +332,25 @@ def write_readme() -> None:
     README.write_text(
         "\n".join(
             [
-                "# PDF-MD OpenStax Digestion Lecture Sample",
+                "# PDF-MD NIDDK Digestion Lecture Sample",
                 "",
-                "This pack is a rights-clean public sample for PDF-MD. It uses a short lecture-style PDF adapted from OpenStax Anatomy and Physiology 2e, Chapter 23 under CC BY 4.0.",
+                "This pack is a rights-clean public sample for PDF-MD. It uses a short lecture-style PDF adapted from NIDDK/NIH digestive-system public information with source acknowledgement.",
                 "",
                 "## What is inside",
                 "",
-                "- `source/openstax-digestion-lecture.pdf` - generated lecture-slide PDF with selectable text and embedded-label diagrams.",
+                "- `source/niddk-digestion-lecture.pdf` - generated lecture-slide PDF with selectable text and embedded-label diagrams.",
                 "- `source/digestive-route-embedded-labels.png` - PNG diagram whose labels are embedded image text.",
                 "- `source/digestive-control-embedded-labels.png` - second PNG diagram for image OCR.",
                 "- `source/source-transcript.md` - intended source content and attribution.",
-                "- `output/openstax-digestion-lecture_Hybrid_norm.md` - Markdown generated through the PDF-MD benchmark/export harness.",
-                "- `audit/openstax-digestion-lecture_Hybrid_norm.audit.json` - audit sidecar generated by PDF-MD for the same run.",
+                "- `output/niddk-digestion-lecture_Hybrid_norm.md` - Markdown generated through the PDF-MD benchmark/export harness.",
+                "- `audit/niddk-digestion-lecture_Hybrid_norm.audit.json` - audit sidecar generated by PDF-MD for the same run.",
                 "- `run/benchmark-profile.json` and `run/summary.json` - bounded proof profile and run summary.",
                 "",
                 "## Source and license",
                 "",
-                f"Adapted from {OPENSTAX_TITLE}.",
-                f"Book: {OPENSTAX_BOOK}",
-                f"Section 23.1: {OPENSTAX_231}",
-                f"Section 23.2: {OPENSTAX_232}",
-                f"License: {OPENSTAX_LICENSE}",
+                f"Adapted from {SOURCE_TITLE}.",
+                f"Source: {SOURCE_URL}",
+                f"Reuse policy: {SOURCE_REUSE}",
                 "",
                 "This sample is an extraction demo, not medical advice.",
             ]
@@ -369,8 +363,8 @@ def write_profile() -> None:
     PROFILE.write_text(
         json.dumps(
             {
-                "id": "pdf-md-openstax-digestion-lecture",
-                "name": "PDF-MD OpenStax digestion lecture sample",
+                "id": "pdf-md-niddk-digestion-lecture",
+                "name": "PDF-MD NIDDK digestion lecture sample",
                 "sourcePDFPath": str(OUT_PDF),
                 "referenceAuditJSONPath": None,
                 "referenceAuditJSONPaths": None,
@@ -379,8 +373,8 @@ def write_profile() -> None:
                 "ocrLanguages": [],
                 "suites": [
                     {
-                        "id": "openstax-digestion-pass",
-                        "title": "OpenStax digestion lecture pass",
+                        "id": "niddk-digestion-pass",
+                        "title": "NIDDK digestion lecture pass",
                         "description": "A bounded Hybrid export over a rights-clean digestion lecture PDF with selectable text plus embedded-label diagrams.",
                         "rangeExpression": "1-8",
                         "combinations": [

@@ -1,6 +1,6 @@
-# openstax-digestion-lecture
+# niddk-digestion-lecture
 
-Source file: `openstax-digestion-lecture.pdf`
+Source file: `niddk-digestion-lecture.pdf`
 Processing profile: `Balanced`
 Document mode: `Hybrid`
 OCR language requested: `automatic` `[]`
@@ -8,7 +8,7 @@ OCR language effective: `automatic` `[]`
 Page routing: `6 text-layer page(s), 2 text-layer-plus-image-OCR page(s)`
 Audit sidecars: `Also writes `stem.audit.json` for page routing and future audit.`
 Pages: `8`
-Generated: `2026-05-07T14:46:26Z`
+Generated: `2026-05-07T14:56:42Z`
 
 ---
 
@@ -20,9 +20,9 @@ A rights-clean lecture PDF for PDF-MD extraction testing
 through the alimentary canal.
 - The sample includes selectable text plus diagrams whose labels are
 embedded as image pixels.
-- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted
-under CC BY 4.0.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1
+- Source basis: NIDDK/NIH digestive-system public information, adapted
+with source acknowledgement.
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 1
 
 ### Page 2
 
@@ -34,7 +34,7 @@ large intestine, rectum, anus.
 and pancreas.
 - The core job is to release nutrients and absorb them into the body while
 eliminating indigestible residue.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 2
 
 ### Page 3
 
@@ -47,13 +47,13 @@ Mechanical digestion Chewing, churning, and segmentation increase surface area.
 Chemical digestion Enzymes and acid break macromolecules into absorbable units.
 Absorption Nutrients cross the intestinal mucosa into blood or lymph.
 Defecation Indigestible material leaves the body.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 3
 
 ### Page 4
 
 Route map with embedded labels
 Image OCR target
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. The diagram labels are
 part of a PNG, so PDF-MD
 must use image OCR to
 recover them.
@@ -83,13 +83,13 @@ What students should keep straight
 - Submucosa: connective tissue, vessels, glands, and local nerve plexus.
 - Muscularis: smooth muscle layers that drive mixing and propulsion.
 - Serosa or adventitia: outer covering depending on organ position.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 5
 
 ### Page 6
 
 Control map with embedded labels
 Second image OCR target
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. This image tests whether
 the exported Markdown
 makes embedded labels
 visible enough to
@@ -122,18 +122,17 @@ Absorption surface area and final digestion
 - Brush border enzymes complete parts of carbohydrate and protein
 digestion.
 - Absorbed nutrients enter blood or lymph depending on the molecule type.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 7
 
 ### Page 8
 
 Attribution and sample boundary
 Public redistribution note
-- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The
-Digestive System.
-- Original OpenStax text is licensed under Creative Commons Attribution
-4.0 International.
+- Adapted from NIDDK: Your Digestive System & How it Works.
+- NIDDK says most site information is copyright free and may be reproduced
+with source acknowledgement.
 - This sample is not medical advice. It is a PDF-MD extraction demo for
 lecture-slide material.
 - The test intentionally mixes selectable slide text with embedded text
 inside diagrams.
-Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8
+Adapted from NIDDK/NIH digestive-system public information. Source acknowledged. PDF-MD sample lecture - 8
