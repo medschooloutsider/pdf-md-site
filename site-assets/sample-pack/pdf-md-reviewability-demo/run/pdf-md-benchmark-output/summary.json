@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-05-07T14:56:42Z",
+  "generatedAt" : "2026-05-07T15:40:30Z",
   "ocrLanguageConfiguration" : {
     "effectiveLanguages" : [
 
@@ -16,63 +16,63 @@
 
   ],
   "ocrMode" : "Balanced",
-  "outputRoot" : "\/tmp\/pdfmd-niddk-benchmark-output",
-  "profileID" : "pdf-md-niddk-digestion-lecture",
-  "profileName" : "PDF-MD NIDDK digestion lecture sample",
-  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/niddk-digestion-lecture.pdf",
+  "outputRoot" : "\/tmp\/pdfmd-auditory-benchmark-output",
+  "profileID" : "pdf-md-auditory-transduction-lecture",
+  "profileName" : "PDF-MD auditory transduction lecture sample",
+  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/auditory-transduction-lecture-excerpt.pdf",
   "suites" : [
     {
-      "description" : "A bounded Hybrid export over a rights-clean digestion lecture PDF with selectable text plus embedded-label diagrams.",
-      "id" : "niddk-digestion-pass",
+      "description" : "A bounded Hybrid export over a user-confirmed rights-cleared medical-school auditory transduction lecture excerpt with selectable slide text and embedded-label diagrams.",
+      "id" : "auditory-transduction-pass",
       "pageCount" : 8,
       "rangeExpression" : "1-8",
       "runs" : [
         {
           "artifactFootprint" : {
-            "auditArtifactByteCount" : 45056,
+            "auditArtifactByteCount" : 114688,
             "auditArtifactFileCount" : 1,
             "markdownByteCount" : 8192,
             "markdownFileCount" : 1,
             "retainedOtherByteCount" : 0,
             "retainedOtherFileCount" : 0,
-            "totalByteCount" : 53248
+            "totalByteCount" : 122880
           },
           "auditArtifacts" : [
-            "\/private\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on\/niddk-digestion-lecture_niddk-digestion-pass_hybrid_on.audit.json"
+            "\/private\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on\/auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.audit.json"
           ],
-          "auditWriteDurationMS" : 15.886666666119709,
-          "averagePageExtractionDurationMS" : 214.57739062543624,
+          "auditWriteDurationMS" : 21.62549999957264,
+          "averagePageExtractionDurationMS" : 1251.5634322915048,
           "concurrencyPolicy" : {
             "activeProcessorCount" : 10,
-            "effectiveWorkers" : 4,
+            "effectiveWorkers" : 3,
             "hostWorkerCap" : 10,
             "imageFrameCount" : 0,
-            "pageTypeWorkerCap" : 4,
+            "pageTypeWorkerCap" : 3,
             "physicalMemoryGB" : 64,
-            "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 4 from 2\/8 raster-heavy sections; effective 4",
+            "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 3 from 8\/8 raster-heavy sections; effective 3",
             "presentationPageCount" : 0,
-            "rasterHeavyPageCount" : 2,
+            "rasterHeavyPageCount" : 8,
             "requestedWorkers" : 8,
             "scheduledPageCount" : 8
           },
           "destructiveNormalizationFallbackCount" : 0,
           "expectation" : "success",
           "exportMode" : "hybrid",
-          "extractionDurationMS" : 879.3416249991424,
-          "markdownWriteDurationMS" : 0.3582499994081445,
+          "extractionDurationMS" : 3560.9884999994392,
+          "markdownWriteDurationMS" : 0.41741666609595995,
           "normalization" : "on",
-          "outputDirectory" : "\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on",
-          "routeMix" : "Text 6 \/ Text+OCR 2",
-          "slowestPage" : "niddk-digestion-lecture.pdf page 6 \/ text layer + image OCR \/ 814 ms",
+          "outputDirectory" : "\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on",
+          "routeMix" : "Text+OCR 5 \/ OCR 3",
+          "slowestPage" : "auditory-transduction-lecture-excerpt.pdf page 3 \/ text layer + image OCR \/ 1764 ms",
           "status" : "success",
-          "totalDurationMS" : 899.2367499995453,
-          "writeDurationMS" : 17.026500001520617,
+          "totalDurationMS" : 3586.772833332361,
+          "writeDurationMS" : 22.998041667960933,
           "writtenFiles" : [
-            "\/tmp\/pdfmd-niddk-benchmark-output\/niddk-digestion-pass\/hybrid-on\/niddk-digestion-lecture_niddk-digestion-pass_hybrid_on.md"
+            "\/tmp\/pdfmd-auditory-benchmark-output\/auditory-transduction-pass\/hybrid-on\/auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.md"
           ]
         }
       ],
-      "title" : "NIDDK digestion lecture pass"
+      "title" : "Auditory transduction lecture pass"
     }
   ]
 }

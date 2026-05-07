@@ -1,0 +1,3011 @@
+{
+  "concurrencyPolicy" : {
+    "activeProcessorCount" : 10,
+    "effectiveWorkers" : 3,
+    "hostWorkerCap" : 10,
+    "imageFrameCount" : 0,
+    "pageTypeWorkerCap" : 3,
+    "physicalMemoryGB" : 64,
+    "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 3 from 8\/8 raster-heavy sections; effective 3",
+    "presentationPageCount" : 0,
+    "rasterHeavyPageCount" : 8,
+    "requestedWorkers" : 8,
+    "scheduledPageCount" : 8
+  },
+  "exportMode" : "Hybrid",
+  "generatedAt" : "2026-05-07T15:40:30Z",
+  "metrics" : {
+    "extraction" : {
+      "ocrPages" : 3,
+      "pagesWithImageRegions" : 8,
+      "rasterDetectedPages" : 8,
+      "sectionCount" : 8,
+      "slideTextPages" : 0,
+      "slideTextWithOCRPages" : 0,
+      "textLayerPages" : 0,
+      "textLayerWithOCRPages" : 5,
+      "totalImageRegionCount" : 19,
+      "totalOCRObservationCount" : 265
+    },
+    "normalization" : {
+      "destructiveFallbackCount" : 0,
+      "inputFigureCaptionCount" : 0,
+      "inputFigureReferenceCount" : 0,
+      "inputMathReferenceCount" : 0,
+      "inputMathTokenCount" : 0,
+      "inputTableEquationLineCount" : 0,
+      "inputTheoremProofHeadingCount" : 0,
+      "outputBulletCount" : 32,
+      "outputFigureCaptionCount" : 0,
+      "outputFigureReferenceCount" : 0,
+      "outputHeadingCount" : 21,
+      "outputMathReferenceCount" : 0,
+      "outputMathTokenCount" : 0,
+      "outputTableEquationLineCount" : 0,
+      "outputTheoremProofHeadingCount" : 0,
+      "retainedTokenRatio" : 0.9543568464730291,
+      "sectionCount" : 8,
+      "sectionsWithChanges" : 8,
+      "totalInputCharacterCount" : 5016,
+      "totalInputTokenCount" : 723,
+      "totalOutputCharacterCount" : 3840,
+      "totalOutputTokenCount" : 520,
+      "totalRetainedTokenCount" : 690
+    }
+  },
+  "ocrLanguageConfiguration" : {
+    "effectiveLanguages" : [
+
+    ],
+    "effectiveMode" : "automatic",
+    "normalization" : "on",
+    "requestedLanguages" : [
+
+    ],
+    "requestedMode" : "automatic"
+  },
+  "pageRouting" : "5 text-layer-plus-image-OCR page(s), 3 OCR page(s)",
+  "processingProfile" : "Balanced",
+  "routeControl" : {
+    "effectiveRanges" : [
+      {
+        "end" : 8,
+        "start" : 1
+      }
+    ],
+    "requestedRangeMode" : "custom",
+    "requestedRanges" : [
+      {
+        "end" : 8,
+        "start" : 1
+      }
+    ],
+    "selectedSectionCount" : 8,
+    "selectedSections" : [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sourceSectionCount" : 8
+  },
+  "routeRanges" : [
+    {
+      "end" : 2,
+      "route" : "ocr",
+      "start" : 1
+    },
+    {
+      "end" : 5,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 3
+    },
+    {
+      "end" : 6,
+      "route" : "ocr",
+      "start" : 6
+    },
+    {
+      "end" : 8,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 7
+    }
+  ],
+  "schemaVersion" : 2,
+  "sectionCount" : 8,
+  "sectionLabel" : "Page",
+  "sections" : [
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.464,
+          "index" : 2,
+          "width" : 0.388,
+          "x" : 0.0175,
+          "y" : 0.01733333333333336
+        },
+        {
+          "height" : 0.9575555555555556,
+          "index" : 3,
+          "width" : 0.4548750000000001,
+          "x" : 0.5315,
+          "y" : 0.01733333333333336
+        }
+      ],
+      "index" : 1,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 432,
+          "mathTokenCount" : 0,
+          "sha256" : "3cfa4886f3adfd7debddb0d245d45bef514379d00e818b8cf72bbf527ebdaf31",
+          "tokenCount" : 53
+        },
+        "finalText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+        "normalized" : {
+          "characterCount" : 432,
+          "mathTokenCount" : 0,
+          "sha256" : "3cfa4886f3adfd7debddb0d245d45bef514379d00e818b8cf72bbf527ebdaf31",
+          "tokenCount" : 53
+        },
+        "normalizedText" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+        "precleaned" : {
+          "characterCount" : 402,
+          "mathTokenCount" : 0,
+          "sha256" : "cb8706c9bdfed9c12864d6fd4d263710a941a6f84443d9cecbf0bd5f3004bb7d",
+          "tokenCount" : 51
+        },
+        "precleanedText" : "Cortex cerebellum\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\nhead\/body\/motion\n\norange = distance sound wave travels in time t\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\ndata storage\n\nsystem\n\nEye movement\/\n\nJoint position\ncontrol of oculomotor\nProprioception\nactivity\nSuperficial sensation\n\nLabyrinthine activity\nControl of posture\nControl of\nmotor skills",
+        "raw" : {
+          "characterCount" : 402,
+          "mathTokenCount" : 0,
+          "sha256" : "cb8706c9bdfed9c12864d6fd4d263710a941a6f84443d9cecbf0bd5f3004bb7d",
+          "tokenCount" : 51
+        },
+        "rawText" : "Cortex cerebellum\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\nhead\/body\/motion\n\norange = distance sound wave travels in time t\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\ndata storage\n\nsystem\n\nEye movement\/\n\nJoint position\ncontrol of oculomotor\nProprioception\nactivity\nSuperficial sensation\n\nLabyrinthine activity\nControl of posture\nControl of\nmotor skills",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.01613168186611602,
+          "index" : 1,
+          "text" : "motor skills",
+          "width" : 0.04657654285430901,
+          "x" : 0.6322349836123639,
+          "y" : 0.21157240177826753
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.015581395361158545,
+          "index" : 2,
+          "text" : "Control of",
+          "width" : 0.04069767475128172,
+          "x" : 0.6351744179295917,
+          "y" : 0.22997416008984073
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018888888888888955,
+          "index" : 3,
+          "text" : "Control of posture",
+          "width" : 0.0712209272384644,
+          "x" : 0.7165697692114363,
+          "y" : 0.24777777787203525
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016046511862013113,
+          "index" : 4,
+          "text" : "Labyrinthine activity",
+          "width" : 0.07994185924530028,
+          "x" : 0.529069768851187,
+          "y" : 0.28111111096804275
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01816537433200416,
+          "index" : 5,
+          "text" : "Superficial sensation",
+          "width" : 0.08430232048034669,
+          "x" : 0.5174418640694196,
+          "y" : 0.42111111162693693
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018087855445014123,
+          "index" : 6,
+          "text" : "Proprioception",
+          "width" : 0.06104650974273684,
+          "x" : 0.5290697694018874,
+          "y" : 0.43927648575725176
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 7,
+          "text" : "activity",
+          "width" : 0.029069766998291002,
+          "x" : 0.7340116284921336,
+          "y" : 0.4444444446399147
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015968991915384922,
+          "index" : 8,
+          "text" : "Joint position",
+          "width" : 0.05377906799316401,
+          "x" : 0.5319767456109762,
+          "y" : 0.4573643412009518
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015813953611585885,
+          "index" : 9,
+          "text" : "control of oculomotor",
+          "width" : 0.08575581550598144,
+          "x" : 0.7063953491329105,
+          "y" : 0.46222222221588605
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018888888888888844,
+          "index" : 10,
+          "text" : "Eye movement\/",
+          "width" : 0.06395348548889157,
+          "x" : 0.716569768156717,
+          "y" : 0.4777777772791716
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875944349543,
+          "index" : 11,
+          "text" : "system",
+          "width" : 0.03197674274444584,
+          "x" : 0.6424418617188624,
+          "y" : 0.5064599485050001
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684742,
+          "index" : 12,
+          "text" : "blue",
+          "width" : 0.018895348310470572,
+          "x" : 0.26017441918294304,
+          "y" : 0.5167958658608449
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 13,
+          "text" : "= distance sound wave travels in time (t+x)",
+          "width" : 0.14970930099487306,
+          "x" : 0.28343023072833873,
+          "y" : 0.5166666666605645
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015607235166761546,
+          "index" : 14,
+          "text" : "data storage",
+          "width" : 0.05377906799316401,
+          "x" : 0.6308139552718288,
+          "y" : 0.5244444444936129
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018284988403320268,
+          "index" : 15,
+          "text" : "Integrating\/",
+          "width" : 0.0479885149002075,
+          "x" : 0.6337092308677776,
+          "y" : 0.5399531128071604
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333197,
+          "index" : 16,
+          "text" : "orange = distance sound wave travels in time t",
+          "width" : 0.16133720397949214,
+          "x" : 0.2587209302050215,
+          "y" : 0.5499999997845515
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018087855445014123,
+          "index" : 17,
+          "text" : "head\/body\/motion",
+          "width" : 0.07412790298461913,
+          "x" : 0.712209305557109,
+          "y" : 0.5994832041896376
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020671833886040547,
+          "index" : 18,
+          "text" : "Eye",
+          "width" : 0.018895348310470572,
+          "x" : 0.5595930233302299,
+          "y" : 0.6020671837288143
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01565891477796766,
+          "index" : 19,
+          "text" : "Cortical awareness o",
+          "width" : 0.08430232048034669,
+          "x" : 0.7063953524415126,
+          "y" : 0.6200000000675921
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015633074972364658,
+          "index" : 20,
+          "text" : "Extra-pyramidal system",
+          "width" : 0.09447673797607425,
+          "x" : 0.6104651205650151,
+          "y" : 0.7388888889688023
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015943152639600888,
+          "index" : 21,
+          "text" : "Reticular formation",
+          "width" : 0.07703488349914556,
+          "x" : 0.6191860479064349,
+          "y" : 0.7566666665556574
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015917312833997888,
+          "index" : 22,
+          "text" : "Cortex cerebellum",
+          "width" : 0.07412790298461913,
+          "x" : 0.6206395378063823,
+          "y" : 0.7751937985265333
+        }
+      ],
+      "route" : "ocr",
+      "text" : "Cortex cerebellum\n\nReticular formation\n\nExtra-pyramidal system\n\nCortical awareness o\n\nEye\n\nhead\/body\/motion\n\norange = distance sound wave travels in time t\n\nIntegrating\/\n\nblue = distance sound wave travels in time (t+x)\n\ndata storage system\n\nFigure labels:\n\n- Eye movement\n- Joint position control of oculomotor\n- Proprioception activity\n- Superficial sensation\n- Labyrinthine activity\n- Control of posture\n- Control of motor skills",
+      "title" : "Page 1"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.5800000000000001,
+          "index" : 2,
+          "width" : 0.46187500000000004,
+          "x" : 0.013500000000000002,
+          "y" : 0.15599999999999992
+        },
+        {
+          "height" : 0.7773333333333333,
+          "index" : 3,
+          "width" : 0.4997499999999999,
+          "x" : 0.48675,
+          "y" : 0.15600000000000003
+        }
+      ],
+      "index" : 2,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 300,
+          "mathTokenCount" : 0,
+          "sha256" : "a091c054b594e41c99092ba8ba72cb04efc0325442061715c0e3dfc0c1d2f6ec",
+          "tokenCount" : 44
+        },
+        "finalText" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
+        "normalized" : {
+          "characterCount" : 300,
+          "mathTokenCount" : 0,
+          "sha256" : "a091c054b594e41c99092ba8ba72cb04efc0325442061715c0e3dfc0c1d2f6ec",
+          "tokenCount" : 44
+        },
+        "normalizedText" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
+        "precleaned" : {
+          "characterCount" : 323,
+          "mathTokenCount" : 0,
+          "sha256" : "54faec36dd411c4895d0241a7c01512dda4ea159549f0e6cf0a7b3e8da307695",
+          "tokenCount" : 63
+        },
+        "precleanedText" : "[Hz]\nAUDIOGRAM\n125 250 1000 2000 3000 4000 6000 8000\nLeft Ear X Right Ear\n\n10\n-10\n\nNormal Hearing\n\n60\n70\n80 Hearing Level in Decibels (dB)\n10\n20\nMild Hearing Loss\n30\n40\n50\nModerate Hearing Loss\n60\n90\n70\nSevere Hearing Loss\n100\n80\n90\nProfound Hearing Loss\n100\n110\n\n120\n125 250 500 1000 2000 4000 8000\nFrequency in Hertz (Hz)",
+        "raw" : {
+          "characterCount" : 323,
+          "mathTokenCount" : 0,
+          "sha256" : "54faec36dd411c4895d0241a7c01512dda4ea159549f0e6cf0a7b3e8da307695",
+          "tokenCount" : 63
+        },
+        "rawText" : "[Hz]\nAUDIOGRAM\n125 250 1000 2000 3000 4000 6000 8000\nLeft Ear X Right Ear\n\n10\n-10\n\nNormal Hearing\n\n60\n70\n80 Hearing Level in Decibels (dB)\n10\n20\nMild Hearing Loss\n30\n40\n50\nModerate Hearing Loss\n60\n90\n70\nSevere Hearing Loss\n100\n80\n90\nProfound Hearing Loss\n100\n110\n\n120\n125 250 500 1000 2000 4000 8000\nFrequency in Hertz (Hz)",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 0.5,
+          "height" : 0.015813953611585885,
+          "index" : 1,
+          "text" : "Frequency in Hertz (Hz)",
+          "width" : 0.091569766998291,
+          "x" : 0.6162790688446046,
+          "y" : 0.23999999979986542
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013462531831529345,
+          "index" : 2,
+          "text" : "2000",
+          "width" : 0.018895348310470572,
+          "x" : 0.6933139540666639,
+          "y" : 0.2609819123724727
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 3,
+          "text" : "125",
+          "width" : 0.013081394433975269,
+          "x" : 0.5668604657372275,
+          "y" : 0.2633333334179112
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 4,
+          "text" : "250",
+          "width" : 0.014534883499145557,
+          "x" : 0.5973837212228109,
+          "y" : 0.2633333334179112
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 5,
+          "text" : "500",
+          "width" : 0.013081394433975158,
+          "x" : 0.6308139538186228,
+          "y" : 0.26333333348251065
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111072,
+          "index" : 6,
+          "text" : "1000",
+          "width" : 0.017441860437393153,
+          "x" : 0.6598837208714196,
+          "y" : 0.26333333345032794
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111183,
+          "index" : 7,
+          "text" : "4000",
+          "width" : 0.018895348310470572,
+          "x" : 0.7238372098806174,
+          "y" : 0.2633333334933943
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.011111111111111183,
+          "index" : 8,
+          "text" : "8000",
+          "width" : 0.018895348310470572,
+          "x" : 0.7572674424387569,
+          "y" : 0.2633333334933943
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 9,
+          "text" : "120",
+          "width" : 0.014534883499145446,
+          "x" : 0.5218023258860862,
+          "y" : 0.27111111089577966
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 10,
+          "text" : "110",
+          "width" : 0.014534883499145557,
+          "x" : 0.5218023254500396,
+          "y" : 0.29974160203655553
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 11,
+          "text" : "100",
+          "width" : 0.014534883499145557,
+          "x" : 0.5218023254500396,
+          "y" : 0.3255555555126062
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 12,
+          "text" : "Profound Hearing Loss",
+          "width" : 0.06831395149230957,
+          "x" : 0.5421511649272948,
+          "y" : 0.33850129221743397
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.19896640353732642,
+          "index" : 13,
+          "text" : "Hearing Level in Decibels (dB)",
+          "width" : 0.011627916693687346,
+          "x" : 0.5087209249791641,
+          "y" : 0.35400517198241344
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010439276165432387,
+          "index" : 14,
+          "text" : "90",
+          "width" : 0.01017441868782043,
+          "x" : 0.5261627905834153,
+          "y" : 0.354005168217305
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013462532361348534,
+          "index" : 15,
+          "text" : "100",
+          "width" : 0.015988371372222893,
+          "x" : 0.23691860493888853,
+          "y" : 0.3720930234131117
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875944349432,
+          "index" : 16,
+          "text" : "80",
+          "width" : 0.01017441868782043,
+          "x" : 0.5261627906015839,
+          "y" : 0.37726098211826453
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01568475458357066,
+          "index" : 17,
+          "text" : "Severe Hearing Loss",
+          "width" : 0.058139533996582005,
+          "x" : 0.5436046523331044,
+          "y" : 0.3900000000552708
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 18,
+          "text" : "90",
+          "width" : 0.013081394433975213,
+          "x" : 0.23982558201629728,
+          "y" : 0.3977777778993198
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 19,
+          "text" : "70",
+          "width" : 0.01017441868782043,
+          "x" : 0.52616279078327,
+          "y" : 0.4055555556894189
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015943152639600888,
+          "index" : 20,
+          "text" : "80",
+          "width" : 0.013081394433975185,
+          "x" : 0.2398255816832062,
+          "y" : 0.42333333339458934
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 21,
+          "text" : "60",
+          "width" : 0.01017441868782043,
+          "x" : 0.5261627904865162,
+          "y" : 0.4311111108833412
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 22,
+          "text" : "Moderate Hearing Loss",
+          "width" : 0.06831395149230957,
+          "x" : 0.5421511629348045,
+          "y" : 0.4444444444461162
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015943152639601,
+          "index" : 23,
+          "text" : "70",
+          "width" : 0.013081394433975213,
+          "x" : 0.2398255816347566,
+          "y" : 0.4496124030269639
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01338501294453942,
+          "index" : 24,
+          "text" : "50",
+          "width" : 0.010174418687820541,
+          "x" : 0.5261627905834154,
+          "y" : 0.4599483206412066
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018242894278632238,
+          "index" : 25,
+          "text" : "60",
+          "width" : 0.014534883499145529,
+          "x" : 0.23837209295246212,
+          "y" : 0.47286821688343617
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 26,
+          "text" : "40",
+          "width" : 0.01017441868782043,
+          "x" : 0.5261627905955276,
+          "y" : 0.48555555565090003
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.013436692555745422,
+          "index" : 27,
+          "text" : "30",
+          "width" : 0.01017441868782043,
+          "x" : 0.526162790716652,
+          "y" : 0.5111111108555888
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015968991915384922,
+          "index" : 28,
+          "text" : "Mild Hearing Loss",
+          "width" : 0.05377906799316412,
+          "x" : 0.5421511627815186,
+          "y" : 0.5266666669008897
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010387596554226275,
+          "index" : 29,
+          "text" : "20",
+          "width" : 0.01017441868782043,
+          "x" : 0.5261627905834153,
+          "y" : 0.5400000002340059
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01333333333333342,
+          "index" : 30,
+          "text" : "10",
+          "width" : 0.01017441868782043,
+          "x" : 0.52616279078327,
+          "y" : 0.5655555555908478
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.015994832250807,
+          "index" : 31,
+          "text" : "Normal Hearing",
+          "width" : 0.047965116500854554,
+          "x" : 0.5421511618803867,
+          "y" : 0.5762273901070674
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 32,
+          "text" : "10",
+          "width" : 0.013081394433975213,
+          "x" : 0.23982558201629728,
+          "y" : 0.6098191216424986
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 33,
+          "text" : "-10",
+          "width" : 0.011627906560897738,
+          "x" : 0.5247093023397063,
+          "y" : 0.6175710594008966
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02372093094719785,
+          "index" : 34,
+          "text" : "Right Ear",
+          "width" : 0.05232558250427244,
+          "x" : 0.6177325581083289,
+          "y" : 0.6377777774904442
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015943152639601,
+          "index" : 35,
+          "text" : "Left Ear X",
+          "width" : 0.05523255825042728,
+          "x" : 0.540697674290484,
+          "y" : 0.6455555553788135
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01591731230417892,
+          "index" : 36,
+          "text" : "1000 2000",
+          "width" : 0.04941860198974607,
+          "x" : 0.30523255864659987,
+          "y" : 0.6533333335921991
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.015917312833998,
+          "index" : 37,
+          "text" : "3000",
+          "width" : 0.02180232524871828,
+          "x" : 0.36191860509003043,
+          "y" : 0.6533333332777116
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01591731230417892,
+          "index" : 38,
+          "text" : "4000",
+          "width" : 0.02180232524871828,
+          "x" : 0.3895348842021913,
+          "y" : 0.6533333334199338
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015917312833998,
+          "index" : 39,
+          "text" : "8000",
+          "width" : 0.02034883737564086,
+          "x" : 0.44767441877584235,
+          "y" : 0.6533333332777116
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 40,
+          "text" : "125",
+          "width" : 0.01598837137222292,
+          "x" : 0.2514534886670862,
+          "y" : 0.6563307495171757
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 41,
+          "text" : "250",
+          "width" : 0.01598837137222292,
+          "x" : 0.2805232563742083,
+          "y" : 0.6563307495494753
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 42,
+          "text" : "6000",
+          "width" : 0.02034883737564086,
+          "x" : 0.4200581397908617,
+          "y" : 0.6563307494956424
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.025839792887369817,
+          "index" : 43,
+          "text" : "AUDIOGRAM",
+          "width" : 0.09302325248718263,
+          "x" : 0.494186049337804,
+          "y" : 0.6692506463211729
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.020671833886040547,
+          "index" : 44,
+          "text" : "[Hz]",
+          "width" : 0.020348837375640916,
+          "x" : 0.30668604660287724,
+          "y" : 0.6744186048140857
+        }
+      ],
+      "route" : "ocr",
+      "text" : "### Audiogram 125 250 1000 2000 3000 4000 6000 8000\n\n### Left Ear x Right Ear\n\n### Normal Hearing\n\n### 80 Hearing Level In Decibels (db)\n\n### Mild Hearing Loss\n\n### Moderate Hearing Loss\n\n### Severe Hearing Loss\n\n### Profound Hearing Loss\n\n125 250 500 1000 2000 4000 8000\n\n### Frequency In Hertz (hz)",
+      "title" : "Page 2"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.48888894540370376,
+          "index" : 2,
+          "width" : 0.4235,
+          "x" : 0.0315,
+          "y" : 0.32866661015185183
+        }
+      ],
+      "index" : 3,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 296,
+          "mathTokenCount" : 0,
+          "sha256" : "065a36cb63fdb39618f96e20e49b97af10861f330820264e77b1ec6874f15f0a",
+          "tokenCount" : 39
+        },
+        "finalText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n- Fundamental Various harmonics\n- Synthesized wave",
+        "normalized" : {
+          "characterCount" : 589,
+          "mathTokenCount" : 0,
+          "sha256" : "c07a952d460a9fc6fc3aa90c0c0f57449fb09b4f8cd6e1cbfd962362fa92ee53",
+          "tokenCount" : 78
+        },
+        "normalizedText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n### Sounds Produced By Musical Instruments Or The Human Voice Consist Of Many\n\nTONES\n\n### Our Hearing System Performs A Frequency Analysis\n\n### Our Brain Performs A Synthesis\n\n### The Fundamental Harmonic The Lowest Frequency Of A Periodic Waveform\n\n- Fundamental Various harmonics\n- Synthesized wave\n\n### Our Hearing System Per\n\nOUR BRAIN PER",
+        "precleaned" : {
+          "characterCount" : 566,
+          "mathTokenCount" : 0,
+          "sha256" : "cf41091b086efe5ae8514fd5a38618a46d846f2d8b36cc0ab3301ea185f56524",
+          "tokenCount" : 78
+        },
+        "precleanedText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\nSOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\n\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n- Fundamental\n\nVarious harmonics\n\n- Synthesized wave\nOUR HEARING SYSTEM PER\nOUR BRAIN PER",
+        "raw" : {
+          "characterCount" : 566,
+          "mathTokenCount" : 0,
+          "sha256" : "cf41091b086efe5ae8514fd5a38618a46d846f2d8b36cc0ab3301ea185f56524",
+          "tokenCount" : 78
+        },
+        "rawText" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\nSOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\n\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n- Fundamental\n\nVarious harmonics\n\n- Synthesized wave\nOUR HEARING SYSTEM PER\nOUR BRAIN PER",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.036363636363636376,
+          "index" : 1,
+          "text" : "THE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM",
+          "width" : 0.9011627384490032,
+          "x" : 0.05087211013596374,
+          "y" : 0.06969696926414004
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020850363066702182,
+          "index" : 2,
+          "text" : "- Synthesized wave",
+          "width" : 0.11918604772108787,
+          "x" : 0.8226744160134872,
+          "y" : 0.5321212122232605
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03882567852337465,
+          "index" : 3,
+          "text" : "OUR BRAIN PER",
+          "width" : 0.165344066258953,
+          "x" : 0.29414138224925185,
+          "y" : 0.5407740923781461
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018224101789069858,
+          "index" : 4,
+          "text" : "Various harmonics",
+          "width" : 0.11627906638095387,
+          "x" : 0.8313953485924688,
+          "y" : 0.5581395348630571
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018271082675818118,
+          "index" : 5,
+          "text" : "- Fundamental",
+          "width" : 0.09011627592517146,
+          "x" : 0.8241279074225887,
+          "y" : 0.5812121212746475
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03147781128823781,
+          "index" : 6,
+          "text" : "OUR HEARING SYSTEM PER",
+          "width" : 0.2902606120013638,
+          "x" : 0.17036044446992782,
+          "y" : 0.6097831394183671
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.036363636363636376,
+          "index" : 7,
+          "text" : "OUR BRAIN PERFORMS A SYNTHESIS",
+          "width" : 0.3866278837551125,
+          "x" : 0.2950581532936323,
+          "y" : 0.6872727268230279
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.036387126807010506,
+          "index" : 8,
+          "text" : "OUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS",
+          "width" : 0.6308139418775562,
+          "x" : 0.17296512659029153,
+          "y" : 0.7545219639798364
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.034429138645981294,
+          "index" : 9,
+          "text" : "TONES",
+          "width" : 0.07424657362695442,
+          "x" : 0.4505220624350833,
+          "y" : 0.8212867228005258
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03642001412131568,
+          "index" : 10,
+          "text" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY",
+          "width" : 0.9476744398911471,
+          "x" : 0.014534878342540133,
+          "y" : 0.8860606061324725
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY\nTONES\nOUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS\nOUR BRAIN PERFORMS A SYNTHESIS\nTHE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM\n\n#### Image OCR\n\n- Fundamental Various harmonics\n- Synthesized wave",
+      "title" : "Page 3"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.4406666666666667,
+          "index" : 2,
+          "width" : 0.56575,
+          "x" : 0.210375,
+          "y" : 0.2611111111111111
+        }
+      ],
+      "index" : 4,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 714,
+          "mathTokenCount" : 0,
+          "sha256" : "d26e23de293aaaf731e72a0a8cd37c13fbf56ca878efed4c3fdc07c3636f21eb",
+          "tokenCount" : 108
+        },
+        "finalText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n- Sound wave represents alternating areas of high and low pressure.\nWavelength\nAAANA\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\nSound wave represents alternating areas of high and low pressure.\nWavelength\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\n### Tympanic Membrane Vibrations Are\nvibrates in response amplified across to sound wave. ossicles.",
+        "normalized" : {
+          "characterCount" : 1006,
+          "mathTokenCount" : 0,
+          "sha256" : "01e974e9260c2c76c5360fd7c67c2a0ecf55084dce1cd8ed121f1e58742037f5",
+          "tokenCount" : 149
+        },
+        "normalizedText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\n### Outer Ear\n\n### The Part Most Visible Is The Pinna\n\n### It Funnels Sound Waves Into The External Auditory Canal\n\nTympanic membrane\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n\n- Sound wave represents alternating areas of high and low pressure.\n\nWavelength\n\nAAANA\n\n### Frequency Of Sound Wave Measured In Hz (cycles\n\nper second)\n\n### The Outer Ear Structures Must\n\n### Focus Sound Waves On The Tympanic Membrane\n\n### Sound Causes The Tympanic Membrane To Vibrate Like A Drum\n\nSound wave represents alternating areas of high and low pressure.\n\nWavelength\n\n### Frequency Of Sound Wave Measured In Hz (cycles\n\nper second)\n\n### Tympanic Membrane Vibrations Are\n\nvibrates in response amplified across to sound wave. ossicles.",
+        "precleaned" : {
+          "characterCount" : 973,
+          "mathTokenCount" : 0,
+          "sha256" : "9e8f37877337a20ca66dd5485362950b8c8203c4e69f8af7460b55d30fb04cbf",
+          "tokenCount" : 151
+        },
+        "precleanedText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nOUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\n\nTympanic membrane\nVibrations are\nvibrates in response\namplified across\nto sound wave.\nossicles.\n\n• Sound wave represents alternating\nareas of high and low pressure.\n\nWavelength\nAAANA\nFrequency of sound wave\nmeasured in Hz (cycles\nper second)\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\nSound wave represents alternating\n2222222233))\nareas of high and low pressure.\n\nWavelength\nAL\nFrequency of sound wave\nmeasured in Hz (cycles\nper second)\n\nTympanic membrane Vibrations are\nvibrates in response amplified across\nto sound wave.\nossicles.",
+        "raw" : {
+          "characterCount" : 973,
+          "mathTokenCount" : 0,
+          "sha256" : "9e8f37877337a20ca66dd5485362950b8c8203c4e69f8af7460b55d30fb04cbf",
+          "tokenCount" : 151
+        },
+        "rawText" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nOUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\n\nTympanic membrane\nVibrations are\nvibrates in response\namplified across\nto sound wave.\nossicles.\n\n• Sound wave represents alternating\nareas of high and low pressure.\n\nWavelength\nAAANA\nFrequency of sound wave\nmeasured in Hz (cycles\nper second)\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\nSound wave represents alternating\n2222222233))\nareas of high and low pressure.\n\nWavelength\nAL\nFrequency of sound wave\nmeasured in Hz (cycles\nper second)\n\nTympanic membrane Vibrations are\nvibrates in response amplified across\nto sound wave.\nossicles.",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.044242424242424194,
+          "index" : 1,
+          "text" : "SOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM",
+          "width" : 0.8735464729251874,
+          "x" : 0.05523258146156049,
+          "y" : 0.06969696914513268
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03906037186131328,
+          "index" : 2,
+          "text" : "FOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE",
+          "width" : 0.672965103700686,
+          "x" : 0.15697674566834485,
+          "y" : 0.15245478052827122
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.044444441361860765,
+          "index" : 3,
+          "text" : "THE OUTER EAR STRUCTURES MUST",
+          "width" : 0.38749997503674594,
+          "x" : 0.30000001732537696,
+          "y" : 0.2296296315412918
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01737344915216621,
+          "index" : 4,
+          "text" : "per second)",
+          "width" : 0.05410056709024319,
+          "x" : 0.297759029238116,
+          "y" : 0.3053426237595944
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018214705496123362,
+          "index" : 5,
+          "text" : "measured in Hz (cycles",
+          "width" : 0.10465116182312967,
+          "x" : 0.2979651169082026,
+          "y" : 0.3254545453535671
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01829872940525865,
+          "index" : 6,
+          "text" : "per second)",
+          "width" : 0.05382963142173914,
+          "x" : 0.2975010133468484,
+          "y" : 0.34085650021772607
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 7,
+          "text" : "Frequency of sound wave",
+          "width" : 0.11337208504081991,
+          "x" : 0.2979651183807529,
+          "y" : 0.3460606058569774
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02271955316716975,
+          "index" : 8,
+          "text" : "measured in Hz (cycles",
+          "width" : 0.10366625676901317,
+          "x" : 0.2982173159615139,
+          "y" : 0.3595651616720278
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.04731415257309424,
+          "index" : 9,
+          "text" : "AAANA",
+          "width" : 0.1279985444758649,
+          "x" : 0.30082630857574477,
+          "y" : 0.36652380212913016
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01818181818181816,
+          "index" : 10,
+          "text" : "Frequency of sound wave",
+          "width" : 0.11262378504038102,
+          "x" : 0.29836107620014507,
+          "y" : 0.38121212130169846
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.0448093853574811,
+          "index" : 11,
+          "text" : "AL",
+          "width" : 0.038661898259534526,
+          "x" : 0.3891324861131382,
+          "y" : 0.40228347914022333
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018887714039195647,
+          "index" : 12,
+          "text" : "Wavelength",
+          "width" : 0.0538623708401233,
+          "x" : 0.34588858135004036,
+          "y" : 0.454380432279185
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020895482843572417,
+          "index" : 13,
+          "text" : "Wavelength",
+          "width" : 0.05227754256687107,
+          "x" : 0.3470246699282318,
+          "y" : 0.4896695604272985
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.046303031227805394,
+          "index" : 14,
+          "text" : "2222222233))",
+          "width" : 0.30929518607627643,
+          "x" : 0.27146583796718227,
+          "y" : 0.5307370473836731
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018299272132642375,
+          "index" : 15,
+          "text" : "areas of high and low pressure.",
+          "width" : 0.1380813900272133,
+          "x" : 0.29505814392171303,
+          "y" : 0.5424242421537406
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021212121212121238,
+          "index" : 16,
+          "text" : "• Sound wave represents alternating",
+          "width" : 0.17005813276190784,
+          "x" : 0.2790697687026217,
+          "y" : 0.563030303331232
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019444769657019415,
+          "index" : 17,
+          "text" : "areas of high and low pressure.",
+          "width" : 0.13951902132655342,
+          "x" : 0.2949991713747191,
+          "y" : 0.5800000000186187
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.02121212121212124,
+          "index" : 18,
+          "text" : "Sound wave represents alternating",
+          "width" : 0.16893568796547367,
+          "x" : 0.27903012053442555,
+          "y" : 0.599393939528098
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018181818181818077,
+          "index" : 19,
+          "text" : "to sound wave.",
+          "width" : 0.06976743774830108,
+          "x" : 0.5726744215328262,
+          "y" : 0.6278787879200487
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016676035794344846,
+          "index" : 20,
+          "text" : "ossicles.",
+          "width" : 0.03938541789402661,
+          "x" : 0.7019642684511498,
+          "y" : 0.6299048761401025
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018181818181818188,
+          "index" : 21,
+          "text" : "vibrates in response",
+          "width" : 0.09011627592517146,
+          "x" : 0.5741279096754957,
+          "y" : 0.6484848485593452
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01575757575757586,
+          "index" : 22,
+          "text" : "amplified across",
+          "width" : 0.07412790455782425,
+          "x" : 0.700581395322832,
+          "y" : 0.650909090965331
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021503928213408505,
+          "index" : 23,
+          "text" : "to sound wave.",
+          "width" : 0.06987157145986933,
+          "x" : 0.5704511888982428,
+          "y" : 0.6645566781037819
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018701393821022722,
+          "index" : 24,
+          "text" : "ossicles.",
+          "width" : 0.03913425740795743,
+          "x" : 0.7016327097472914,
+          "y" : 0.6661720748354927
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 25,
+          "text" : "Tympanic membrane",
+          "width" : 0.09156976139456052,
+          "x" : 0.5755813992881847,
+          "y" : 0.6690909088895942
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 26,
+          "text" : "Vibrations are",
+          "width" : 0.0625,
+          "x" : 0.7020348845021802,
+          "y" : 0.6690909089154341
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021189454974550166,
+          "index" : 27,
+          "text" : "vibrates in response",
+          "width" : 0.08944444106863177,
+          "x" : 0.5738537664662958,
+          "y" : 0.6832774393190281
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01792375275582974,
+          "index" : 28,
+          "text" : "amplified across",
+          "width" : 0.07228094101602454,
+          "x" : 0.7017895793296806,
+          "y" : 0.6845826004711956
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017923753911798672,
+          "index" : 29,
+          "text" : "Tympanic membrane",
+          "width" : 0.09245236302820277,
+          "x" : 0.5740372212814066,
+          "y" : 0.7039999999516275
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014936461015181096,
+          "index" : 30,
+          "text" : "Vibrations are",
+          "width" : 0.06135475322568618,
+          "x" : 0.7017895795821989,
+          "y" : 0.7069872925200732
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04451178348425666,
+          "index" : 31,
+          "text" : "IT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL",
+          "width" : 0.7000000166421694,
+          "x" : 0.14166664959558212,
+          "y" : 0.770303029418896
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04451178348425666,
+          "index" : 32,
+          "text" : "THE PART MOST VISIBLE IS THE PINNA",
+          "width" : 0.4083333083700792,
+          "x" : 0.2875000192871824,
+          "y" : 0.8369696967028466
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03878787763190994,
+          "index" : 33,
+          "text" : "OUTER EAR",
+          "width" : 0.1482558091156484,
+          "x" : 0.4200581430127738,
+          "y" : 0.912121212823915
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "OUTER EAR\nTHE PART MOST VISIBLE IS THE PINNA\nIT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL\nTHE OUTER EAR STRUCTURES MUST\nFOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE\nSOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM\n\n#### Image OCR\n\nVibrations are vibrates in response amplified across to sound wave. ossicles.\n- Sound wave represents alternating areas of high and low pressure.\nWavelength\nAAANA\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\nSound wave represents alternating areas of high and low pressure.\nWavelength\n### Frequency Of Sound Wave Measured In Hz (cycles\nper second)\n### Tympanic Membrane Vibrations Are\nvibrates in response amplified across to sound wave. ossicles.",
+      "title" : "Page 4"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.6106666666666667,
+          "index" : 2,
+          "width" : 0.343625,
+          "x" : 0.06425,
+          "y" : 0.3688888888888889
+        },
+        {
+          "height" : 0.48577777777777775,
+          "index" : 3,
+          "width" : 0.41087499999999993,
+          "x" : 0.548,
+          "y" : 0.4733333333333334
+        }
+      ],
+      "index" : 5,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 466,
+          "mathTokenCount" : 0,
+          "sha256" : "39b861508d44206336c6a8d7e441c4c44a4e83f959a61a647b9e444e2607c28d",
+          "tokenCount" : 67
+        },
+        "finalText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nFigure labels:\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the junction (isthmus)\nNasopharynx ear, nose, and throat.\nEustachian tube throat passage\n### Connects The N\nГO THE NASOPHARYNX",
+        "normalized" : {
+          "characterCount" : 760,
+          "mathTokenCount" : 0,
+          "sha256" : "1c36df8f8c8cb37d7e7df851baab003d1ffb621363bf9a05369b02adb30a8dd5",
+          "tokenCount" : 108
+        },
+        "normalizedText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\n### Middle Ear\n\n### The Eustachian Tube\n\n### Connects The Middle Ear To The Nasopharynx\n\n### To Equalize The Air Pressure On Opposite Sides Of The Tympanic Membrane\n\nFigure labels:\n\n- (SWALLOWING\n- Middle ear\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\n\narises in the pas-\n\nBony-cartilaginous\n\nmiddle and inner sages of the junction (isthmus)\n\nNasopharynx ear, nose, and throat.\n\nEustachian tube throat passage\n\n### To Equalize The Air Pressure\n\nMiddle ear\n\n### Connects The N\n\nAN TUBE\n\nГO THE NASOPHARYNX\n\n### E Sides Of The Tympanic Membrane",
+        "precleaned" : {
+          "characterCount" : 719,
+          "mathTokenCount" : 0,
+          "sha256" : "7a4899e218f41aa508070734c36e06596ab593d009fe120ac36be6935b21fe51",
+          "tokenCount" : 110
+        },
+        "precleanedText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nMIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\n\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\nMiddle\near\n\nBony portion\ninner ear\nCartilaginous\nICA\nportion\nnasal passage\nMastoiditis usually\n\narises in the pas-\n\nBony-cartilaginous\nmiddle and inner sages of the\n\njunction (isthmus)\nNasopharynx\near, nose, and throat.\n\nEustachian\ntube\n\nthroat\npassage\nTO EQUALIZE THE AIR PRESSURE\n\nMiddle\near\n\nTHI\n\nCONNECTS THE N\nAR\nAN TUBE\nГO THE NASOPHARYNX\n\nE SIDES OF THE TYMPANIC MEMBRANE\nING",
+        "raw" : {
+          "characterCount" : 719,
+          "mathTokenCount" : 0,
+          "sha256" : "7a4899e218f41aa508070734c36e06596ab593d009fe120ac36be6935b21fe51",
+          "tokenCount" : 110
+        },
+        "rawText" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nMIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\n\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\nMiddle\near\n\nBony portion\ninner ear\nCartilaginous\nICA\nportion\nnasal passage\nMastoiditis usually\n\narises in the pas-\n\nBony-cartilaginous\nmiddle and inner sages of the\n\njunction (isthmus)\nNasopharynx\near, nose, and throat.\n\nEustachian\ntube\n\nthroat\npassage\nTO EQUALIZE THE AIR PRESSURE\n\nMiddle\near\n\nTHI\n\nCONNECTS THE N\nAR\nAN TUBE\nГO THE NASOPHARYNX\n\nE SIDES OF THE TYMPANIC MEMBRANE\nING",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034384,
+          "index" : 1,
+          "text" : "tube",
+          "width" : 0.021802324946428808,
+          "x" : 0.2732558144889949,
+          "y" : 0.08268733895413016
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023057267160126682,
+          "index" : 2,
+          "text" : "Eustachian",
+          "width" : 0.05116191362148248,
+          "x" : 0.2585760204404495,
+          "y" : 0.10216645698646265
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 3,
+          "text" : "passage",
+          "width" : 0.03197674273469453,
+          "x" : 0.9171511631166642,
+          "y" : 0.10594315245645203
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012121212121212083,
+          "index" : 4,
+          "text" : "ear",
+          "width" : 0.015001704739174913,
+          "x" : 0.22161609263065607,
+          "y" : 0.10969696962770561
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 5,
+          "text" : "throat",
+          "width" : 0.021802324946428864,
+          "x" : 0.9171511627448089,
+          "y" : 0.12144702839314458
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01696969696969697,
+          "index" : 6,
+          "text" : "Middle",
+          "width" : 0.03000340947834979,
+          "x" : 0.21411524018070235,
+          "y" : 0.13393939387878784
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.03515151515151515,
+          "index" : 7,
+          "text" : "ING",
+          "width" : 0.04500511421752471,
+          "x" : 0.5417661100352313,
+          "y" : 0.15333333339393945
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 8,
+          "text" : "throat.",
+          "width" : 0.026162790455782403,
+          "x" : 0.5683139539363529,
+          "y" : 0.1524547805572274
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020671835234670866,
+          "index" : 9,
+          "text" : "Nasopharynx",
+          "width" : 0.05959302386054394,
+          "x" : 0.33139534913077456,
+          "y" : 0.15762273881677313
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01808785525235268,
+          "index" : 10,
+          "text" : "junction (isthmus)",
+          "width" : 0.07703488069728026,
+          "x" : 0.1715116300607591,
+          "y" : 0.16279069780448696
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01828733848802966,
+          "index" : 11,
+          "text" : "ear, nose, and",
+          "width" : 0.05670607553181717,
+          "x" : 0.5683039397295807,
+          "y" : 0.1652749357059684
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 12,
+          "text" : "middle and inner",
+          "width" : 0.06686046160884507,
+          "x" : 0.5683139541277481,
+          "y" : 0.1834625324769552
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020671835234670977,
+          "index" : 13,
+          "text" : "Bony-cartilaginous",
+          "width" : 0.07994185683673632,
+          "x" : 0.17151163013904464,
+          "y" : 0.18604651106483505
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.018455393242113427,
+          "index" : 14,
+          "text" : "sages of the",
+          "width" : 0.049460751066097375,
+          "x" : 0.5682928804269621,
+          "y" : 0.19619866026847077
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034384,
+          "index" : 15,
+          "text" : "arises in the pas-",
+          "width" : 0.06831395227891213,
+          "x" : 0.5683139552316679,
+          "y" : 0.21188630543130493
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03151515151515155,
+          "index" : 16,
+          "text" : "E SIDES OF THE TYMPANIC MEMBRANE",
+          "width" : 0.40913740197749743,
+          "x" : 0.5417661113588083,
+          "y" : 0.22484848490442888
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 17,
+          "text" : "Mastoiditis usually",
+          "width" : 0.07122092841836813,
+          "x" : 0.5683139551076763,
+          "y" : 0.22727272738056692
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 18,
+          "text" : "nasal passage",
+          "width" : 0.05232558091156492,
+          "x" : 0.5828488371604966,
+          "y" : 0.25064599537531873
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01808785525235257,
+          "index" : 19,
+          "text" : "ICA",
+          "width" : 0.015988371367347265,
+          "x" : 0.22383720950527988,
+          "y" : 0.25581395338157564
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01863329338304931,
+          "index" : 20,
+          "text" : "portion",
+          "width" : 0.033522327009641806,
+          "x" : 0.34588418575074953,
+          "y" : 0.26329317251999007
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021046059348366453,
+          "index" : 21,
+          "text" : "Cartilaginous",
+          "width" : 0.058407529325166685,
+          "x" : 0.3327148401375176,
+          "y" : 0.2853426031821613
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.015757575757575748,
+          "index" : 22,
+          "text" : "inner ear",
+          "width" : 0.033430230804422645,
+          "x" : 0.5828488384010833,
+          "y" : 0.3048484846214504
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03272727272727279,
+          "index" : 23,
+          "text" : "TO EQUALIZE THE AIR PRESSURE",
+          "width" : 0.3511762700306853,
+          "x" : 0.05796113100636434,
+          "y" : 0.3072727271363636
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023255814061020397,
+          "index" : 24,
+          "text" : "Bony portion",
+          "width" : 0.05813953319047693,
+          "x" : 0.32558139677685455,
+          "y" : 0.3229974160961049
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.03151515151515155,
+          "index" : 25,
+          "text" : "ГO THE NASOPHARYNX",
+          "width" : 0.23934538015683599,
+          "x" : 0.541766110705762,
+          "y" : 0.3581818182377623
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03127715139678027,
+          "index" : 26,
+          "text" : "AN TUBE",
+          "width" : 0.08738801619968356,
+          "x" : 0.5417134246134326,
+          "y" : 0.4255735457036925
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.031515151515151496,
+          "index" : 27,
+          "text" : "CONNECTS THE N",
+          "width" : 0.18274803954994884,
+          "x" : 0.23048073727923624,
+          "y" : 0.44181818197575756
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 28,
+          "text" : "ear",
+          "width" : 0.020348836876700832,
+          "x" : 0.2180232559274001,
+          "y" : 0.45994832057073454
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01808785525235268,
+          "index" : 29,
+          "text" : "Middle",
+          "width" : 0.03197674273469453,
+          "x" : 0.2122093027847845,
+          "y" : 0.4806201549534963
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03757575757575757,
+          "index" : 30,
+          "text" : "AR",
+          "width" : 0.037504261847937266,
+          "x" : 0.5417661096724279,
+          "y" : 0.4975757577202798
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.027878787878787833,
+          "index" : 31,
+          "text" : "THI",
+          "width" : 0.03136720081827483,
+          "x" : 0.38186157504830087,
+          "y" : 0.5109090908434343
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04134367046934184,
+          "index" : 32,
+          "text" : "(SWALLOWING)",
+          "width" : 0.16569767635374066,
+          "x" : 0.42296511669231573,
+          "y" : 0.5839793276852258
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03639652367794155,
+          "index" : 33,
+          "text" : "TO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE",
+          "width" : 0.8938953527074813,
+          "x" : 0.05813952656361825,
+          "y" : 0.6563307492880681
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04451178348425666,
+          "index" : 34,
+          "text" : "CONNECTS THE MIDDLE EAR TO THE NASOPHARYNX",
+          "width" : 0.5499999833578305,
+          "x" : 0.22916666811275155,
+          "y" : 0.7851851863561067
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03363401470762306,
+          "index" : 35,
+          "text" : "THE EUSTACHIAN TUBE",
+          "width" : 0.24854651453061094,
+          "x" : 0.38081395065620616,
+          "y" : 0.8578811366156025
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03885835011800132,
+          "index" : 36,
+          "text" : "MIDDLE EAR",
+          "width" : 0.15697674273469447,
+          "x" : 0.4215116275113903,
+          "y" : 0.9302325583060489
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "MIDDLE EAR\nTHE EUSTACHIAN TUBE\nCONNECTS THE MIDDLE EAR TO THE NASOPHARYNX\nTO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE\n(SWALLOWING)\n\n#### Image OCR\n\nFigure labels:\n- Bony portion inner ear\n- Cartilaginous portion nasal passage\n- Mastoiditis usually\narises in the pas-\nBony-cartilaginous\nmiddle and inner sages of the junction (isthmus)\nNasopharynx ear, nose, and throat.\nEustachian tube throat passage\n### Connects The N\nГO THE NASOPHARYNX",
+      "title" : "Page 5"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.8906666666666667,
+          "index" : 2,
+          "width" : 0.628625,
+          "x" : 0.17675000000000002,
+          "y" : 0.054666666666666634
+        }
+      ],
+      "index" : 6,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 347,
+          "mathTokenCount" : 0,
+          "sha256" : "d94528ddf48eb1dd5a13ce2f20aa23705a4e68cbe389df8365e50838b7c07942",
+          "tokenCount" : 46
+        },
+        "finalText" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
+        "normalized" : {
+          "characterCount" : 347,
+          "mathTokenCount" : 0,
+          "sha256" : "d94528ddf48eb1dd5a13ce2f20aa23705a4e68cbe389df8365e50838b7c07942",
+          "tokenCount" : 46
+        },
+        "normalizedText" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
+        "precleaned" : {
+          "characterCount" : 342,
+          "mathTokenCount" : 0,
+          "sha256" : "2c683201f188eb54f4592520d071f45cc461187245c1b39f9e7ceecb7f28c384",
+          "tokenCount" : 49
+        },
+        "precleanedText" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT\nTYMPANIC MEMBRANE OF TYMPANIC MEMBRANE\n\nExternal Middle ear\nineus\near canal\nMalleus\nStapes\nOval window\n,Scala\nPUSH\nvestibuli PULL\n\n•Scala\ntympani\nTympanic\nTympanic\nRound window\nmembrane Eustachian membrane\npushed by the tube\npulled by the\ncompression\nrarefaction\npnase or a\nnnase0т2\nsound wave\nsound wave",
+        "raw" : {
+          "characterCount" : 342,
+          "mathTokenCount" : 0,
+          "sha256" : "2c683201f188eb54f4592520d071f45cc461187245c1b39f9e7ceecb7f28c384",
+          "tokenCount" : 49
+        },
+        "rawText" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT\nTYMPANIC MEMBRANE OF TYMPANIC MEMBRANE\n\nExternal Middle ear\nineus\near canal\nMalleus\nStapes\nOval window\n,Scala\nPUSH\nvestibuli PULL\n\n•Scala\ntympani\nTympanic\nTympanic\nRound window\nmembrane Eustachian membrane\npushed by the tube\npulled by the\ncompression\nrarefaction\npnase or a\nnnase0т2\nsound wave\nsound wave",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.012985670494310764,
+          "index" : 1,
+          "text" : "sound wave",
+          "width" : 0.040697673753401664,
+          "x" : 0.39389534912136115,
+          "y" : 0.353939394221933
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012985670494310764,
+          "index" : 2,
+          "text" : "sound wave",
+          "width" : 0.040697673753401664,
+          "x" : 0.4912790707783378,
+          "y" : 0.35393939413580044
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.008202721277872693,
+          "index" : 3,
+          "text" : "pnase or a",
+          "width" : 0.03491450688752823,
+          "x" : 0.39387995760322964,
+          "y" : 0.3692836525321025
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.005167958230683389,
+          "index" : 4,
+          "text" : "nnase0т2",
+          "width" : 0.033430228204083645,
+          "x" : 0.4927325619880743,
+          "y" : 0.3720930234686376
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 5,
+          "text" : "compression",
+          "width" : 0.040697673753401664,
+          "x" : 0.39534883747481975,
+          "y" : 0.38242894069189237
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014196820114598108,
+          "index" : 6,
+          "text" : "rarefaction",
+          "width" : 0.035026253854326395,
+          "x" : 0.4926612922602592,
+          "y" : 0.3817904789394335
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 7,
+          "text" : "tube",
+          "width" : 0.017441859437075324,
+          "x" : 0.4433139537116949,
+          "y" : 0.39276485785050896
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 8,
+          "text" : "pulled by the",
+          "width" : 0.04069767375340161,
+          "x" : 0.4927325579391907,
+          "y" : 0.39515151514850566
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012976274201364157,
+          "index" : 9,
+          "text" : "pushed by the",
+          "width" : 0.047965114102041795,
+          "x" : 0.3938953507251419,
+          "y" : 0.3979328166791051
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 10,
+          "text" : "Eustachian",
+          "width" : 0.037790697613945656,
+          "x" : 0.4447674413093063,
+          "y" : 0.40826873416403187
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013074518839518268,
+          "index" : 11,
+          "text" : "membrane",
+          "width" : 0.036354504398691756,
+          "x" : 0.3938867018948186,
+          "y" : 0.41077540220556985
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010335916461366557,
+          "index" : 12,
+          "text" : "membrane",
+          "width" : 0.03488371887415054,
+          "x" : 0.49273255974897123,
+          "y" : 0.41343669301824004
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 13,
+          "text" : "Round window",
+          "width" : 0.04796511410204185,
+          "x" : 0.5523255816844442,
+          "y" : 0.42363636382976066
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 14,
+          "text" : "Tympanic",
+          "width" : 0.03197674273469453,
+          "x" : 0.39534883833468765,
+          "y" : 0.426356589342757
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013739241397742075,
+          "index" : 15,
+          "text" : "Tympanic",
+          "width" : 0.0320783275768069,
+          "x" : 0.492681766978094,
+          "y" : 0.4259469168843365
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 16,
+          "text" : "tympani",
+          "width" : 0.026162790455782403,
+          "x" : 0.5741279067706552,
+          "y" : 0.44186046511795085
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 17,
+          "text" : "•Scala",
+          "width" : 0.02034883687670075,
+          "x" : 0.5741279068038977,
+          "y" : 0.4573643410546433
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021898221102627846,
+          "index" : 18,
+          "text" : "PUSH",
+          "width" : 0.03222108618613401,
+          "x" : 0.34871503837207896,
+          "y" : 0.5084307343633843
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020671835234670977,
+          "index" : 19,
+          "text" : "PULL",
+          "width" : 0.030523254664966526,
+          "x" : 0.6191860468317609,
+          "y" : 0.5090439272147058
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 20,
+          "text" : "vestibuli",
+          "width" : 0.027616278525510518,
+          "x" : 0.5741279077091439,
+          "y" : 0.5219638245171756
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684964,
+          "index" : 21,
+          "text" : ",Scala",
+          "width" : 0.02034883687670086,
+          "x" : 0.5741279074821922,
+          "y" : 0.5348837211580024
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012929292736631348,
+          "index" : 22,
+          "text" : "Oval window",
+          "width" : 0.042151161823129724,
+          "x" : 0.5595930230370786,
+          "y" : 0.5555555555249276
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014050999265728614,
+          "index" : 23,
+          "text" : "ear canal",
+          "width" : 0.03066845499258425,
+          "x" : 0.3938227487408027,
+          "y" : 0.5679099007358621
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 24,
+          "text" : "Stapes",
+          "width" : 0.023255814316326395,
+          "x" : 0.5508720925026895,
+          "y" : 0.5710594321324247
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034384,
+          "index" : 25,
+          "text" : "Malleus",
+          "width" : 0.026162790455782403,
+          "x" : 0.4970930236383879,
+          "y" : 0.5736434113055513
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01299036892977623,
+          "index" : 26,
+          "text" : "External Middle ear",
+          "width" : 0.06540697613945606,
+          "x" : 0.3938953480494581,
+          "y" : 0.5839793281347467
+        },
+        {
+          "confidence" : 0.30000001192092896,
+          "height" : 0.005167958230683278,
+          "index" : 27,
+          "text" : "ineus",
+          "width" : 0.01889534750680333,
+          "x" : 0.5218023271913657,
+          "y" : 0.5865633077063638
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 28,
+          "text" : "TYMPANIC MEMBRANE",
+          "width" : 0.07848837136734726,
+          "x" : 0.405523257484931,
+          "y" : 0.6199999998648495
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.013333333333333308,
+          "index" : 29,
+          "text" : "OF TYMPANIC MEMBRANE",
+          "width" : 0.09011627592517146,
+          "x" : 0.5029069771900305,
+          "y" : 0.6200000002167357
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.010401690511992356,
+          "index" : 30,
+          "text" : "INWARD MOVEMENT OF B OUTWARD MOVEMENT",
+          "width" : 0.17732558091156486,
+          "x" : 0.4026162837447988,
+          "y" : 0.6356589152835286
+        }
+      ],
+      "route" : "ocr",
+      "text" : "### Inward Movement Of B Outward Movement\n\n### Tympanic Membrane Of Tympanic Membrane\n\n### External Middle Ear\n\nineus ear canal\n\nFigure labels:\n\n- Malleus\n- Stapes\n- Oval window\n\n,Scala vestibuli PULL\n\n- Scala tympani Tympanic Round window membrane Eustachian membrane pushed by the tube pulled by the compression rarefaction pnase or a sound wave",
+      "title" : "Page 6"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.7857777777777777,
+          "index" : 2,
+          "width" : 0.5305000000000001,
+          "x" : 0.45425,
+          "y" : 0.029555555555555623
+        }
+      ],
+      "index" : 7,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 502,
+          "mathTokenCount" : 0,
+          "sha256" : "42928b99e7a3a3f5e5f41f50d8fa642a7c8d139857e747a3c5f372f7c23bac6d",
+          "tokenCount" : 67
+        },
+        "finalText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\ncochlear\nduct tectorial membrane\nspiral limbus\ncochlear\nmembrane scala tympani organ of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
+        "normalized" : {
+          "characterCount" : 806,
+          "mathTokenCount" : 0,
+          "sha256" : "0d23d2d9bce767a10c58a9e5d4dfc88d82f5879915caffb24a1ade2979e634c9",
+          "tokenCount" : 104
+        },
+        "normalizedText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nReissner's membrane scala vestibuli stria vascularis\n\n> THE SCALA VESTIBULI\n\ncochlear\n\n### Reissner's Membrane\n\nduct tectorial membrane\n\n### Separates The Scala Vestibuli\n\nspiral limbus\n\n### From The Middle Compartment\n\n> THE SCALA MEDIA\n\ncochlear\n\nTHE BASILAR MEMBRANE spiral ligament nerve\n\n### Separates The Scala Media From\n\nbasilar\n\n> THE SCALA TYMPANI\n\nmembrane scala tympani organ of Corti\n\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
+        "precleaned" : {
+          "characterCount" : 790,
+          "mathTokenCount" : 0,
+          "sha256" : "5b01376e8b09a95d3afe2a4aed96068e2aa0ddffa771f7c71ad3da89f1a20380",
+          "tokenCount" : 104
+        },
+        "precleanedText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nReissner's membrane\nscala vestibuli\n\nstria vascularis\n\n> THE SCALA VESTIBULI\ncochlear\n\nREISSNER'S MEMBRANE\nduct\ntectorial\nmembrane\nSEPARATES THE SCALA VESTIBULI\nspiral\nlimbus\nFROM THE MIDDLE COMPARTMENT\n\n> THE SCALA MEDIA\n\ncochlear\nTHE BASILAR MEMBRANE spiral ligament\nnerve\nSEPARATES THE SCALA MEDIA FROM\nbasilar\n\n> THE SCALA TYMPANI\nmembrane\nscala tympani\n\norgan of Corti\n©1997 Encyolopaedia Britannica, Ine.\ncochlear\nduct\n\nspiral\nligament\n\nbasilar\nmembrane\n\norgan of Corti\n\ntectorial\nmembrane\n\nspiral\nlimbus\n\ncochlear\nnerve\n\nscala tympani\n\n91997 Encyclopaedia Britannica, Ine.",
+        "raw" : {
+          "characterCount" : 790,
+          "mathTokenCount" : 0,
+          "sha256" : "5b01376e8b09a95d3afe2a4aed96068e2aa0ddffa771f7c71ad3da89f1a20380",
+          "tokenCount" : 104
+        },
+        "rawText" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\nReissner's membrane\nscala vestibuli\n\nstria vascularis\n\n> THE SCALA VESTIBULI\ncochlear\n\nREISSNER'S MEMBRANE\nduct\ntectorial\nmembrane\nSEPARATES THE SCALA VESTIBULI\nspiral\nlimbus\nFROM THE MIDDLE COMPARTMENT\n\n> THE SCALA MEDIA\n\ncochlear\nTHE BASILAR MEMBRANE spiral ligament\nnerve\nSEPARATES THE SCALA MEDIA FROM\nbasilar\n\n> THE SCALA TYMPANI\nmembrane\nscala tympani\n\norgan of Corti\n©1997 Encyolopaedia Britannica, Ine.\ncochlear\nduct\n\nspiral\nligament\n\nbasilar\nmembrane\n\norgan of Corti\n\ntectorial\nmembrane\n\nspiral\nlimbus\n\ncochlear\nnerve\n\nscala tympani\n\n91997 Encyclopaedia Britannica, Ine.",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.023255814061020397,
+          "index" : 1,
+          "text" : "©1997 Encyolopaedia Britannica, Ine.",
+          "width" : 0.1744185995714308,
+          "x" : 0.8066860519584705,
+          "y" : 0.18604651170333975
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026060606060606117,
+          "index" : 2,
+          "text" : "organ of Corti",
+          "width" : 0.0886627904557824,
+          "x" : 0.5712209299029228,
+          "y" : 0.19636363629341946
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.05416423450816765,
+          "index" : 3,
+          "text" : "> THE SCALA TYMPANI",
+          "width" : 0.29256484454882414,
+          "x" : 0.004141599758817125,
+          "y" : 0.24067684757823837
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023255814061020397,
+          "index" : 4,
+          "text" : "scala tympani",
+          "width" : 0.08720929978571546,
+          "x" : 0.8691860478905725,
+          "y" : 0.2816537464255622
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01808785525235268,
+          "index" : 5,
+          "text" : "membrane",
+          "width" : 0.06395348546938906,
+          "x" : 0.4694767455647241,
+          "y" : 0.2868217056748572
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019905682188091856,
+          "index" : 6,
+          "text" : "basilar",
+          "width" : 0.04527796021755981,
+          "x" : 0.4693668342935198,
+          "y" : 0.3117525854099338
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03710437774658204,
+          "index" : 7,
+          "text" : "SEPARATES THE SCALA MEDIA FROM",
+          "width" : 0.3583333250122486,
+          "x" : 0,
+          "y" : 0.3259259256839965
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021313763284373396,
+          "index" : 8,
+          "text" : "91997 Encyclopaedia Britannica, Ine.",
+          "width" : 0.17681150179530347,
+          "x" : 0.8045602120642262,
+          "y" : 0.3411249452442513
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023802320353744733,
+          "index" : 9,
+          "text" : "organ of Corti",
+          "width" : 0.08678311680593145,
+          "x" : 0.5726575694632332,
+          "y" : 0.3525508117134021
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04392764929569126,
+          "index" : 10,
+          "text" : "THE BASILAR MEMBRANE",
+          "width" : 0.33139535270748127,
+          "x" : 0.1031976697218408,
+          "y" : 0.3875968987587004
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023255814061020397,
+          "index" : 11,
+          "text" : "ligament",
+          "width" : 0.05813953319047699,
+          "x" : 0.45784883791057546,
+          "y" : 0.39018087830540715
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023255814061020397,
+          "index" : 12,
+          "text" : "spiral",
+          "width" : 0.03924418568367366,
+          "x" : 0.4593023260898492,
+          "y" : 0.41602067193159153
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01841047113591976,
+          "index" : 13,
+          "text" : "nerve",
+          "width" : 0.03493621711756967,
+          "x" : 0.902590031324553,
+          "y" : 0.4158593640476701
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02383170962219943,
+          "index" : 14,
+          "text" : "scala tympani",
+          "width" : 0.08757205810963074,
+          "x" : 0.8677201675576847,
+          "y" : 0.43655900458166846
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021216563733930053,
+          "index" : 15,
+          "text" : "membrane",
+          "width" : 0.06392620514571525,
+          "x" : 0.4692956294572345,
+          "y" : 0.4392520193784326
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022248761726148203,
+          "index" : 16,
+          "text" : "cochlear",
+          "width" : 0.05686133137022309,
+          "x" : 0.9010751488342564,
+          "y" : 0.43848802235684226
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.04677942218202524,
+          "index" : 17,
+          "text" : "> THE SCALA MEDIA",
+          "width" : 0.2616279045578242,
+          "x" : 0.004360465066049177,
+          "y" : 0.464848484643853
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02130162777934712,
+          "index" : 18,
+          "text" : "basilar",
+          "width" : 0.04598005875523409,
+          "x" : 0.4691959222391993,
+          "y" : 0.46511201376459266
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03359173167835583,
+          "index" : 19,
+          "text" : "FROM THE MIDDLE COMPARTMENT",
+          "width" : 0.3284883609659914,
+          "x" : 0.007267449477033344,
+          "y" : 0.5452196381821399
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023802320353744733,
+          "index" : 20,
+          "text" : "ligament",
+          "width" : 0.05680349293398931,
+          "x" : 0.45905057973571867,
+          "y" : 0.5457696554175502
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022402183862347873,
+          "index" : 21,
+          "text" : "spiral",
+          "width" : 0.03865793399179994,
+          "x" : 0.4598395166509336,
+          "y" : 0.5723722500291013
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016801637896760972,
+          "index" : 22,
+          "text" : "nerve",
+          "width" : 0.03550218438435609,
+          "x" : 0.9016444789534266,
+          "y" : 0.570972113215529
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024748685432202877,
+          "index" : 23,
+          "text" : "limbus",
+          "width" : 0.04529472720322347,
+          "x" : 0.9213933344493576,
+          "y" : 0.5780649338648594
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019601910879554423,
+          "index" : 24,
+          "text" : "cochlear",
+          "width" : 0.05443668463024475,
+          "x" : 0.9024334154242151,
+          "y" : 0.5961745711116855
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03359173167835583,
+          "index" : 25,
+          "text" : "SEPARATES THE SCALA VESTIBULI",
+          "width" : 0.3313953319047695,
+          "x" : 0.0058139623324989734,
+          "y" : 0.6046511622486774
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02338518316095528,
+          "index" : 26,
+          "text" : "spiral",
+          "width" : 0.04072100659495881,
+          "x" : 0.9214999616731585,
+          "y" : 0.6045864784771993
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04150340687144882,
+          "index" : 27,
+          "text" : "REISSNER'S MEMBRANE",
+          "width" : 0.3095930290612219,
+          "x" : 0.10901162279289404,
+          "y" : 0.6690909088726351
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01808785525235257,
+          "index" : 28,
+          "text" : "membrane",
+          "width" : 0.06395348546938906,
+          "x" : 0.8953488386243172,
+          "y" : 0.6692506462433327
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020876370054302873,
+          "index" : 29,
+          "text" : "tectorial",
+          "width" : 0.05816243177542657,
+          "x" : 0.8953373897323439,
+          "y" : 0.6924041923233726
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01884116779674172,
+          "index" : 30,
+          "text" : "duct",
+          "width" : 0.027769565907317773,
+          "x" : 0.46067917075531994,
+          "y" : 0.7153856173565523
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020858861749822433,
+          "index" : 31,
+          "text" : "cochlear",
+          "width" : 0.056707531721639115,
+          "x" : 0.45929158368509904,
+          "y" : 0.7389245744199079
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018201774388157652,
+          "index" : 32,
+          "text" : "limbus",
+          "width" : 0.04260261970049199,
+          "x" : 0.9229457898742206,
+          "y" : 0.7375883622501206
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.044242424242424194,
+          "index" : 33,
+          "text" : "> THE SCALA VESTIBULI",
+          "width" : 0.31104651453061094,
+          "x" : 0.0058139539992293765,
+          "y" : 0.7466666660470205
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.021002047370951193,
+          "index" : 34,
+          "text" : "spiral",
+          "width" : 0.03786899528932617,
+          "x" : 0.9229457899609912,
+          "y" : 0.7599905470041218
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018201774388157652,
+          "index" : 35,
+          "text" : "membrane",
+          "width" : 0.06390393345257632,
+          "x" : 0.8945440404799021,
+          "y" : 0.8229966916329173
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.020766863917173597,
+          "index" : 36,
+          "text" : "tectorial",
+          "width" : 0.05771470744578128,
+          "x" : 0.8952718415708809,
+          "y" : 0.847616673276955
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01835564931233724,
+          "index" : 37,
+          "text" : "stria vascularis",
+          "width" : 0.10174418048299566,
+          "x" : 0.46802325961315333,
+          "y" : 0.8501291991180098
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019601910879554513,
+          "index" : 38,
+          "text" : "duct",
+          "width" : 0.028401746466994653,
+          "x" : 0.4598395169074014,
+          "y" : 0.8706013342999213
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02087763823014031,
+          "index" : 39,
+          "text" : "cochlear",
+          "width" : 0.05536488514486289,
+          "x" : 0.45976988373882793,
+          "y" : 0.8951659284307588
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023636363636363567,
+          "index" : 40,
+          "text" : "Reissner's membrane",
+          "width" : 0.13372092321769025,
+          "x" : 0.5421511649899922,
+          "y" : 0.9327272725745079
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023636363636363678,
+          "index" : 41,
+          "text" : "scala vestibuli",
+          "width" : 0.09593022820408359,
+          "x" : 0.739825582373249,
+          "y" : 0.932727272180451
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "➢ THE SCALA VESTIBULI\n❖ REISSNER’S MEMBRANE\nSEPARATES THE SCALA VESTIBULI\nFROM THE MIDDLE COMPARTMENT\n➢ THE SCALA MEDIA\n❖ THE BASILAR MEMBRANE\nSEPARATES THE SCALA MEDIA FROM\n➢ THE SCALA TYMPANI\n\n#### Image OCR\n\ncochlear\nduct tectorial membrane\nspiral limbus\ncochlear\nmembrane scala tympani organ of Corti\n©1997 Encyolopaedia Britannica, Ine. cochlear duct spiral ligament basilar membrane organ of Corti tectorial membrane spiral limbus cochlear nerve scala tympani 91997 Encyclopaedia Britannica, Ine.",
+      "title" : "Page 7"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 1,
+          "index" : 1,
+          "width" : 1,
+          "x" : 0,
+          "y" : 0
+        },
+        {
+          "height" : 0.6075555555555556,
+          "index" : 2,
+          "width" : 0.5576250000000001,
+          "x" : 0.40425,
+          "y" : 0.030666666666666564
+        }
+      ],
+      "index" : 8,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 783,
+          "mathTokenCount" : 0,
+          "sha256" : "80004e612112930790f4039f4d23cf493788c907af8973d6dc08ef4a376aa9da",
+          "tokenCount" : 96
+        },
+        "finalText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\n### Malleus Incus\n### Stapes Vibrating Helicotrema\nFigure labels:\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- External auditory canal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\n### Middle Ear Auditory Tube\ncanal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\nFigure labels:\n- Middle ear\n- Auditory tube",
+        "normalized" : {
+          "characterCount" : 1044,
+          "mathTokenCount" : 0,
+          "sha256" : "4ee349588579b30daa7a65daff12a293445332b077414ad605d072e4759c9425",
+          "tokenCount" : 125
+        },
+        "normalizedText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nTRAVELING\n\n### Pressure Waves\n\n### Malleus Incus\n\n### Stapes Vibrating Helicotrema\n\nFigure labels:\n\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- Scala vestibuli\n- Basilar membrane\n- External auditory canal\n\n### Spiral Organ (organ Of Corti)\n\nFigure labels:\n\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\n\nSecondary tympanic membrane vibrating in round window\n\n### Middle Ear Auditory Tube\n\n### Scala Vestibuli Pressure Increase\n\n### Pressure Waves Displace The Reissner's And The Basilar Membrane\n\ncanal\n\n### Spiral Organ (organ Of Corti)\n\nFigure labels:\n\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\n\nSecondary tympanic membrane vibrating in round window\n\nFigure labels:\n\n- Middle ear\n- Auditory tube\n- 'IBULI PRESSURE INCREASE\n\n### He Reissner's And The Basilar Membran",
+        "precleaned" : {
+          "characterCount" : 901,
+          "mathTokenCount" : 0,
+          "sha256" : "953f7304232eaa91e48a860a6836340c621bc7755f6cb960c395637f00a43097",
+          "tokenCount" : 117
+        },
+        "precleanedText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nTRAVELING\nPRESSURE WAVES\n\nMalleus Incus\nStapes vibrating Helicotrema\nCochlea\nin oval window\n\nSound waves\nPerilymph\n\nScala\ntympani\nScala\nvestibuli\nBasilar\nmembrane\nExternal auditory\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\nVestibular membrane\n\nCochlear duct\nTympanic\n(contains endolymph)\nmembrane\n\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear Auditory tube\n\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\n\nVestibular membrane\n\nCochlear duct\nTympanic\n(contains endolymph)\nmembrane\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear\nAuditory tube\n\n'IBULI PRESSURE INCREASE\nHE REISSNER'S AND THE BASILAR MEMBRAN",
+        "raw" : {
+          "characterCount" : 901,
+          "mathTokenCount" : 0,
+          "sha256" : "953f7304232eaa91e48a860a6836340c621bc7755f6cb960c395637f00a43097",
+          "tokenCount" : 117
+        },
+        "rawText" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\nTRAVELING\nPRESSURE WAVES\n\nMalleus Incus\nStapes vibrating Helicotrema\nCochlea\nin oval window\n\nSound waves\nPerilymph\n\nScala\ntympani\nScala\nvestibuli\nBasilar\nmembrane\nExternal auditory\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\nVestibular membrane\n\nCochlear duct\nTympanic\n(contains endolymph)\nmembrane\n\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear Auditory tube\n\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE\ncanal\nSpiral organ\n(organ of Corti)\nTectorial membrane\n\nVestibular membrane\n\nCochlear duct\nTympanic\n(contains endolymph)\nmembrane\nSecondary tympanic\nmembrane vibrating\nin round window\nMiddle ear\nAuditory tube\n\n'IBULI PRESSURE INCREASE\nHE REISSNER'S AND THE BASILAR MEMBRAN",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.049142587835138474,
+          "index" : 1,
+          "text" : "PRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE",
+          "width" : 0.97383717834015,
+          "x" : 0.010174435082416698,
+          "y" : 0.15757575862539852
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04451178348425655,
+          "index" : 2,
+          "text" : "SCALA VESTIBULI PRESSURE INCREASE",
+          "width" : 0.5083333166911639,
+          "x" : 0.24166666863358494,
+          "y" : 0.23696969608556273
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0186451455318567,
+          "index" : 3,
+          "text" : "Auditory tube",
+          "width" : 0.05674146614516762,
+          "x" : 0.7819490345334954,
+          "y" : 0.36406243992948184
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015762273615056777,
+          "index" : 4,
+          "text" : "in round window",
+          "width" : 0.06976743774830119,
+          "x" : 0.5348837241491051,
+          "y" : 0.3666666666900724
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016498656995368677,
+          "index" : 5,
+          "text" : "Middle ear",
+          "width" : 0.046613286284256206,
+          "x" : 0.7092514969732334,
+          "y" : 0.3664276742279333
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018181818181818188,
+          "index" : 6,
+          "text" : "membrane vibrating",
+          "width" : 0.08430232364625945,
+          "x" : 0.5348837229515796,
+          "y" : 0.38242424225231164
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 7,
+          "text" : "Secondary tympanic",
+          "width" : 0.0857558143163264,
+          "x" : 0.5348837216063717,
+          "y" : 0.4030303031605451
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 8,
+          "text" : "membrane",
+          "width" : 0.046511628632652735,
+          "x" : 0.45639534905576656,
+          "y" : 0.43927648598358393
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019035797119140607,
+          "index" : 9,
+          "text" : "Tympanic",
+          "width" : 0.042276680185100834,
+          "x" : 0.4563325906675455,
+          "y" : 0.45430639093113856
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01835564931233724,
+          "index" : 10,
+          "text" : "(contains endolymph)",
+          "width" : 0.09011627592517146,
+          "x" : 0.8299418611362515,
+          "y" : 0.4648484849546659
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 11,
+          "text" : "Cochlear duct",
+          "width" : 0.05959302386054388,
+          "x" : 0.8299418609137202,
+          "y" : 0.4857881137861715
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.042666385317182205,
+          "index" : 12,
+          "text" : "HE REISSNER'S AND THE BASILAR MEMBRAN",
+          "width" : 0.5692361752977967,
+          "x" : 0.3978861335907147,
+          "y" : 0.49007221675169754
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 13,
+          "text" : "Vestibular membrane",
+          "width" : 0.09011627592517146,
+          "x" : 0.872093023326174,
+          "y" : 0.5271317832090827
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 14,
+          "text" : "Tectorial membrane",
+          "width" : 0.08284883297619239,
+          "x" : 0.8779069796892294,
+          "y" : 0.5606060607139003
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.03693414918414919,
+          "index" : 15,
+          "text" : "'IBULI PRESSURE INCREASE",
+          "width" : 0.3513189836691315,
+          "x" : 0.39788612937556117,
+          "y" : 0.5694860138894697
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.01808785525235268,
+          "index" : 16,
+          "text" : "(organ of Corti)",
+          "width" : 0.06395348546938906,
+          "x" : 0.8968023273718947,
+          "y" : 0.594315245801903
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018722349224668533,
+          "index" : 17,
+          "text" : "Spiral organ",
+          "width" : 0.05239380860539955,
+          "x" : 0.8967682123406017,
+          "y" : 0.6120858535897546
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 18,
+          "text" : "canal",
+          "width" : 0.0247093023860544,
+          "x" : 0.427325581776934,
+          "y" : 0.6304909565940957
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0182475922324441,
+          "index" : 19,
+          "text" : "External auditory",
+          "width" : 0.07122092841836813,
+          "x" : 0.42732558344100974,
+          "y" : 0.6459948317622819
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016022793162952742,
+          "index" : 20,
+          "text" : "membrane",
+          "width" : 0.04511372280835946,
+          "x" : 0.9156698827280687,
+          "y" : 0.6664072082641089
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 21,
+          "text" : "Basilar",
+          "width" : 0.03197674273469453,
+          "x" : 0.9142441872566838,
+          "y" : 0.6847545220549054
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016347902097902108,
+          "index" : 22,
+          "text" : "in round window",
+          "width" : 0.06960092954898996,
+          "x" : 0.5337736602435436,
+          "y" : 0.6960308855993442
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016347902097902108,
+          "index" : 23,
+          "text" : "Middle ear",
+          "width" : 0.04557204092073231,
+          "x" : 0.7094331538741578,
+          "y" : 0.6960308855993442
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01792030391048448,
+          "index" : 24,
+          "text" : "Auditory tube",
+          "width" : 0.05636978019352791,
+          "x" : 0.7815067497747172,
+          "y" : 0.6944439827892586
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01770598317192985,
+          "index" : 25,
+          "text" : "membrane vibrating",
+          "width" : 0.0836868364169579,
+          "x" : 0.534602240954329,
+          "y" : 0.7122316625215854
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015935448155258602,
+          "index" : 26,
+          "text" : "vestibuli",
+          "width" : 0.036394705639132496,
+          "x" : 0.9258433446920675,
+          "y" : 0.7103785289566071
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01816433566433574,
+          "index" : 27,
+          "text" : "Secondary tympanic",
+          "width" : 0.08534399917659766,
+          "x" : 0.5346022406951174,
+          "y" : 0.7311486012308359
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034384,
+          "index" : 28,
+          "text" : "Scala",
+          "width" : 0.0247093023860544,
+          "x" : 0.9273255817769341,
+          "y" : 0.73126615022028
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01808785525235268,
+          "index" : 29,
+          "text" : "tympani",
+          "width" : 0.033430230804422645,
+          "x" : 0.9273255819088352,
+          "y" : 0.7519379842170623
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014868547142802467,
+          "index" : 30,
+          "text" : "membrane",
+          "width" : 0.04475964176504432,
+          "x" : 0.4567073903687523,
+          "y" : 0.7680613368843028
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034384,
+          "index" : 31,
+          "text" : "Scala",
+          "width" : 0.0247093023860544,
+          "x" : 0.9273255817284843,
+          "y" : 0.772609819212528
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018419205754509085,
+          "index" : 32,
+          "text" : "Tympanic",
+          "width" : 0.041530300885631984,
+          "x" : 0.4558363135661629,
+          "y" : 0.7839410628715264
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.041451728127219534,
+          "index" : 33,
+          "text" : "PRESSURE WAVES",
+          "width" : 0.23691860997278674,
+          "x" : 0.08430232143984212,
+          "y" : 0.7957575746462111
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019126309902795763,
+          "index" : 34,
+          "text" : "(contains endolymph)",
+          "width" : 0.09031549786041913,
+          "x" : 0.8295776207675759,
+          "y" : 0.7946219199069
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015136946386946402,
+          "index" : 35,
+          "text" : "Cochlear duct",
+          "width" : 0.05882935860520369,
+          "x" : 0.8304062037810582,
+          "y" : 0.8165209787639343
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01892770015832157,
+          "index" : 36,
+          "text" : "Perilymph",
+          "width" : 0.04226269036145458,
+          "x" : 0.6918047017532013,
+          "y" : 0.8497092766566073
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015136946386946333,
+          "index" : 37,
+          "text" : "Vestibular membrane",
+          "width" : 0.08865832989832831,
+          "x" : 0.87266391238361,
+          "y" : 0.8576934730062993
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.04392764929569126,
+          "index" : 38,
+          "text" : "TRAVELING",
+          "width" : 0.14534883817687033,
+          "x" : 0.13372093071776636,
+          "y" : 0.8733850129275205
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015757575757575748,
+          "index" : 39,
+          "text" : "Sound waves",
+          "width" : 0.05813953319047699,
+          "x" : 0.4418604666896452,
+          "y" : 0.8836363634321331
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014712545546062585,
+          "index" : 40,
+          "text" : "Tectorial membrane",
+          "width" : 0.08285825243591245,
+          "x" : 0.8776354074792436,
+          "y" : 0.8902534694465545
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017796521679226903,
+          "index" : 41,
+          "text" : "(organ of Corti)",
+          "width" : 0.06462943606761953,
+          "x" : 0.8958642237035574,
+          "y" : 0.9224796037895351
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 42,
+          "text" : "in oval window",
+          "width" : 0.06395348546938906,
+          "x" : 0.6395348862381737,
+          "y" : 0.9302325585751465
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017666372719344584,
+          "index" : 43,
+          "text" : "Spiral organ",
+          "width" : 0.052200697161742485,
+          "x" : 0.8958642239078597,
+          "y" : 0.941747380362695
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018369744040749314,
+          "index" : 44,
+          "text" : "Stapes vibrating",
+          "width" : 0.06831395227891213,
+          "x" : 0.6409883738363191,
+          "y" : 0.9454545454717319
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.016035173589533103,
+          "index" : 45,
+          "text" : "Malleus",
+          "width" : 0.034957230456767574,
+          "x" : 0.5101376644231731,
+          "y" : 0.9480547647036871
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01650248440829183,
+          "index" : 46,
+          "text" : "Helicotrema",
+          "width" : 0.05120255171886989,
+          "x" : 0.7338988430182508,
+          "y" : 0.9485803214734981
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.012919896443684853,
+          "index" : 47,
+          "text" : "Incus",
+          "width" : 0.0247093023860544,
+          "x" : 0.5639534886507228,
+          "y" : 0.9509043929603281
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015503875270034273,
+          "index" : 48,
+          "text" : "Cochlea",
+          "width" : 0.03633720694387865,
+          "x" : 0.8241279075987971,
+          "y" : 0.9509043933727348
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.015093128788999223,
+          "index" : 49,
+          "text" : "canal",
+          "width" : 0.024101957053891065,
+          "x" : 0.42684998024818627,
+          "y" : 0.9606833989383514
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "TRAVELING\nPRESSURE WAVES\nSCALA VESTIBULI PRESSURE INCREASE\nPRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE\n\n#### Image OCR\n\n### Malleus Incus\n### Stapes Vibrating Helicotrema\nFigure labels:\n- Cochlea in oval window\n- Sound waves\n- Perilymph\n- Scala tympani\n- External auditory canal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\n### Middle Ear Auditory Tube\ncanal\n### Spiral Organ (organ Of Corti)\nFigure labels:\n- Tectorial membrane\n- Vestibular membrane\n- Cochlear duct\n- Tympanic (contains endolymph) membrane\nSecondary tympanic membrane vibrating in round window\nFigure labels:\n- Middle ear\n- Auditory tube",
+      "title" : "Page 8"
+    }
+  ],
+  "sidecarFreshness" : {
+    "auditJSONFile" : "auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.audit.json",
+    "emittedSectionCount" : 8,
+    "markdownCharacterCount" : 4386,
+    "markdownFile" : "auditory-transduction-lecture-excerpt_auditory-transduction-pass_hybrid_on.md",
+    "markdownSHA256" : "0e30f3dd7ba5a19d570c762dcfe6459635e9b8c5a01ae1e319deee32578173a3"
+  },
+  "sourceFile" : "auditory-transduction-lecture-excerpt.pdf",
+  "sourceKind" : "PDF",
+  "title" : "auditory-transduction-lecture-excerpt"
+}

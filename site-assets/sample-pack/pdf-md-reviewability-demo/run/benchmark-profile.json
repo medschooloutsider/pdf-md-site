@@ -1,7 +1,7 @@
 {
-  "id": "pdf-md-niddk-digestion-lecture",
-  "name": "PDF-MD NIDDK digestion lecture sample",
-  "sourcePDFPath": "/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/apps/PDF-MD/publishing/pdf-md-site-publish/site-assets/sample-pack/pdf-md-reviewability-demo/source/niddk-digestion-lecture.pdf",
+  "id": "pdf-md-auditory-transduction-lecture",
+  "name": "PDF-MD auditory transduction lecture sample",
+  "sourcePDFPath": "/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/apps/PDF-MD/publishing/pdf-md-site-publish/site-assets/sample-pack/pdf-md-reviewability-demo/source/auditory-transduction-lecture-excerpt.pdf",
   "referenceAuditJSONPath": null,
   "referenceAuditJSONPaths": null,
   "ocrMode": "balanced",
@@ -9,9 +9,9 @@
   "ocrLanguages": [],
   "suites": [
     {
-      "id": "niddk-digestion-pass",
-      "title": "NIDDK digestion lecture pass",
-      "description": "A bounded Hybrid export over a rights-clean digestion lecture PDF with selectable text plus embedded-label diagrams.",
+      "id": "auditory-transduction-pass",
+      "title": "Auditory transduction lecture pass",
+      "description": "A bounded Hybrid export over a user-confirmed rights-cleared medical-school auditory transduction lecture excerpt with selectable slide text and embedded-label diagrams.",
       "rangeExpression": "1-8",
       "combinations": [
         {

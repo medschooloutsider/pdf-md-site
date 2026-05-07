@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-05-07 16:52 CEST
+Updated: 2026-05-07 17:43 CEST
 
 ## Lane
 
@@ -26,18 +26,17 @@ Updated: 2026-05-07 16:52 CEST
 - the homepage `Buy pdf.md` CTA is wired to the live Lemon Squeezy checkout URL `https://medout.lemonsqueezy.com/checkout/buy/4a9b9138-736f-4a98-afc2-48488fbf12ee`
 - Terms, Privacy, and EULA pages are refreshed with PDF-MD-specific public-facing copy and cross-page navigation
 - public pages now use the native system font stack instead of Google-hosted fonts; `site.css` carries the calmer premium/minimal treatment for tabs, cards, gallery images, and proof-page components; gallery/proof images have explicit dimensions plus lazy/async decoding
-- proof-first launch artifact is now present: `reviewability-demo.html` and `site-assets/sample-pack/pdf-md-reviewability-demo/` provide a PDF-MD-only reviewability sample with a rights-clean NIDDK-derived digestion lecture PDF, PDF-MD generated Hybrid normalized Markdown, audit JSON, benchmark profile/summary, source transcript, and downloadable ZIP
+- proof-first launch artifact is now present: `reviewability-demo.html` and `site-assets/sample-pack/pdf-md-reviewability-demo/` provide a PDF-MD-only reviewability sample with a user-confirmed rights-cleared auditory transduction lecture excerpt, PDF-MD generated Hybrid normalized Markdown, audit JSON, benchmark profile/summary, source transcript, and downloadable ZIP
 - homepage now links the sample pack before checkout, while the direct purchase path and HKD138 pricing remain unchanged
 - reviewability sample file cards now open inside a closeable in-page preview modal with direct open/download links retained; the honest-output raster image renders at its intrinsic aspect ratio
 - standalone review-note artifacts are now explicitly removed from the public sample pack; future samples should show the source, generated Markdown, and audit evidence directly
-- current sample source is `source/niddk-digestion-lecture.pdf`, adapted from NIDDK/NIH digestive-system public information with source acknowledgement; it intentionally mixes selectable slide text with image-embedded labels for OCR inspection
+- current sample source is `source/auditory-transduction-lecture-excerpt.pdf`, an eight-slide auditory transduction lecture excerpt selected from original pages 5, 8, 10, 11, 15, 20, 30, and 40; it intentionally mixes selectable slide text with image-heavy embedded figure labels for OCR inspection
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
 - GitHub Pages may still need a short rebuild window after the pushed `main` revision
-- next useful launch slice is live GitHub Pages verification after the NIDDK sample-pack correction is pushed; video is explicitly deferred for now
-- blocked before publishing the provided VITAL lecture PDF as the sample: confirm it is rights-cleared for public redistribution
+- next useful launch slice is live GitHub Pages verification after the auditory transduction sample-pack correction is pushed; video is explicitly deferred for now
 
 ## Waiting On
 
@@ -57,6 +56,7 @@ Updated: 2026-05-07 16:52 CEST
 - 2026-05-07 popup/image fix: `git diff --check` passed; local HTML reference checks including `data-preview-url` targets passed; local Playwright verified closeable PDF/Markdown/review-note preview modals on desktop/mobile and proportional honest-output image rendering on mobile.
 - 2026-05-07 review-notes removal: public HTML references, source tree, and regenerated ZIP no longer contain `audit/review-notes.md`; Wrong Hub lesson appended in `/Volumes/DATA_ARCHIVE/Hub_Network/00_Central_Hubs/Wrong_Hub/lessons/2026-05.md`.
 - 2026-05-07 NIDDK digestion sample: generated `niddk-digestion-lecture.pdf` with 8 pages and selectable text plus two embedded-label diagram slides; PDF-MD benchmark export passed with route mix `Text 6 / Text+OCR 2`, status `success`, `retainedOtherByteCount=0`, and `destructiveNormalizationFallbackCount=0`; JSON validation, stale-asset grep, clean ZIP check, local reference check, `git diff --check`, and Playwright desktop/mobile modal plus image-ratio checks passed. The OpenStax path was rejected before final publication because current source pages are marked NonCommercial-ShareAlike.
+- 2026-05-07 auditory transduction sample: rebuilt the public sample pack from the user-confirmed rights-cleared lecture excerpt at `source/auditory-transduction-lecture-excerpt.pdf`; PDF-MD benchmark export passed with route mix `Text+OCR 5 / OCR 3`, status `success`, `retainedOtherByteCount=0`, and `destructiveNormalizationFallbackCount=0`; JSON validation, public-artifact stale grep, local reference check, clean ZIP inspection, `git diff --check`, PDF render/text checks, and Playwright desktop/mobile closeable modal plus image-ratio checks passed.
 
 ## Risks To Other Lanes
 
