@@ -631,6 +631,15 @@ li + li {
   scroll-margin-top: 7.5rem;
 }
 
+.product-sample .section-heading {
+  margin-bottom: 1rem;
+}
+
+.product-sample .section-heading h2 {
+  margin-bottom: 0.65rem;
+  font-size: 1.35rem;
+}
+
 .integrated-file-grid {
   margin-bottom: 1rem;
 }
@@ -782,7 +791,7 @@ li + li {
   width: 100%;
   height: 100%;
   border: 0;
-  background: #ffffff;
+  background: var(--page);
 }
 
 .sample-output {

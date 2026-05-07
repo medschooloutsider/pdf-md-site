@@ -12,7 +12,7 @@
   <meta property="og:description" content="Turn difficult PDFs, slides, and images into clean Markdown.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/png" href="./favicon.png?v=20260331b">
-  <link rel="stylesheet" href="./site.css?v=20260508a">
+  <link rel="stylesheet" href="./site.css?v=20260508b">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -83,32 +83,7 @@
 
       <section class="feature-list product-sample" id="reviewability-sample" aria-labelledby="sample-title">
         <div class="section-heading">
-          <p class="kicker">Review before checkout</p>
-          <h2 id="sample-title">Inspect a real lecture-slide export in the product page.</h2>
-          <p>
-            This user-confirmed rights-cleared auditory transduction excerpt mixes selectable slide text with
-            image-heavy ear anatomy and physiology labels. It shows the source PDF, generated Markdown, and
-            audit JSON from the same PDF-MD Hybrid run without sending you to a separate sample site.
-          </p>
-        </div>
-
-        <div class="proof-metrics compact">
-          <div class="proof-metric">
-            <strong>8 slides</strong>
-            <span>Lecture-style auditory physiology material with bullets, plots, and diagrams.</span>
-          </div>
-          <div class="proof-metric">
-            <strong>Hybrid</strong>
-            <span>Direct text first, with image OCR where embedded labels need help.</span>
-          </div>
-          <div class="proof-metric">
-            <strong>Text+OCR 5 / OCR 3</strong>
-            <span>The route mix is shown instead of hidden.</span>
-          </div>
-          <div class="proof-metric">
-            <strong>0 retained other bytes</strong>
-            <span>The benchmark summary reports a clean artifact footprint.</span>
-          </div>
+          <h2 id="sample-title">Sample</h2>
         </div>
 
         <div class="file-grid integrated-file-grid">
@@ -434,21 +409,210 @@ Auditory tube</pre>
       const openLink = document.getElementById("file-preview-open");
       const cards = document.querySelectorAll("[data-preview-url]");
       let lastTrigger = null;
+      let previewRequest = 0;
+
+      function escapeHTML(value) {
+        return value.replace(/[&<>"']/g, (character) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          "\"": "&quot;",
+          "'": "&#39;"
+        })[character]);
+      }
+
+      function inlineMarkdown(value) {
+        return escapeHTML(value)
+          .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+          .replace(/`([^`]+)`/g, "<code>$1</code>");
+      }
+
+      function markdownToHTML(markdown) {
+        const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+        const blocks = [];
+        let paragraph = [];
+
+        function flushParagraph() {
+          if (!paragraph.length) {
+            return;
+          }
+          blocks.push(`<p>${inlineMarkdown(paragraph.join(" "))}</p>`);
+          paragraph = [];
+        }
+
+        lines.forEach((line) => {
+          const trimmed = line.trim();
+          const heading = /^(#{1,6})\s+(.+)$/.exec(trimmed);
+          const quote = /^>\s?(.*)$/.exec(trimmed);
+
+          if (!trimmed) {
+            flushParagraph();
+          } else if (heading) {
+            flushParagraph();
+            const level = Math.min(heading[1].length, 4);
+            blocks.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+          } else if (quote) {
+            flushParagraph();
+            blocks.push(`<blockquote>${inlineMarkdown(quote[1])}</blockquote>`);
+          } else {
+            paragraph.push(line);
+          }
+        });
+
+        flushParagraph();
+        return blocks.join("\n");
+      }
+
+      function markdownPreviewDocument(markdown) {
+        return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f7f7f4;
+      --paper: #ffffff;
+      --ink: #181c1b;
+      --muted: #5c6462;
+      --rule: #d7dcda;
+      --green: #204d3d;
+      --green-soft: #eef4f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.62;
+    }
+
+    main {
+      width: min(860px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2rem 0 3rem;
+    }
+
+    article {
+      border: 1px solid var(--rule);
+      background: var(--paper);
+      padding: clamp(1rem, 3vw, 2rem);
+      border-radius: 8px;
+      box-shadow: 0 14px 38px rgba(24, 28, 27, 0.07);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: 1.45em 0 0.55em;
+      color: var(--ink);
+      line-height: 1.22;
+      letter-spacing: 0;
+    }
+
+    h1:first-child,
+    h2:first-child,
+    h3:first-child,
+    h4:first-child {
+      margin-top: 0;
+    }
+
+    h3 {
+      padding-bottom: 0.45rem;
+      border-bottom: 1px solid var(--rule);
+      font-size: 1.25rem;
+    }
+
+    h4 {
+      color: var(--green);
+      font-size: 1rem;
+    }
+
+    p {
+      margin: 0 0 0.85rem;
+      color: #303736;
+      white-space: pre-wrap;
+    }
+
+    blockquote {
+      margin: 0 0 1rem;
+      border-left: 3px solid var(--green);
+      background: var(--green-soft);
+      padding: 0.75rem 0.9rem;
+      color: #26302d;
+      border-radius: 0 6px 6px 0;
+    }
+
+    code {
+      border: 1px solid var(--rule);
+      background: #fbfbf8;
+      padding: 0.08rem 0.25rem;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>${markdownToHTML(markdown)}</article>
+  </main>
+</body>
+</html>`;
+      }
+
+      function loadingPreviewDocument() {
+        return "<!doctype html><html><body style=\"margin:0;background:#f7f7f4;color:#181c1b;font:16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;\"><main style=\"padding:2rem;\">Loading preview...</main></body></html>";
+      }
 
       function openPreview(trigger) {
         const previewURL = trigger.dataset.previewUrl;
+        const requestID = ++previewRequest;
         lastTrigger = trigger;
         title.textContent = trigger.dataset.previewTitle || "Sample file";
-        frame.src = previewURL;
         openLink.href = previewURL;
         modal.hidden = false;
         document.body.classList.add("modal-open");
+        if (previewURL.endsWith(".md")) {
+          frame.srcdoc = loadingPreviewDocument();
+          frame.removeAttribute("src");
+          fetch(previewURL)
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Preview unavailable");
+              }
+              return response.text();
+            })
+            .then((markdown) => {
+              if (requestID === previewRequest) {
+                frame.srcdoc = markdownPreviewDocument(markdown);
+              }
+            })
+            .catch(() => {
+              if (requestID === previewRequest) {
+                frame.srcdoc = "<!doctype html><html><body style=\"margin:0;background:#f7f7f4;color:#181c1b;font:16px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;\"><main style=\"padding:2rem;\">Preview unavailable. Use Open in new tab.</main></body></html>";
+              }
+            });
+        } else {
+          frame.removeAttribute("srcdoc");
+          frame.src = previewURL;
+        }
         modal.querySelector(".modal-close").focus();
       }
 
       function closePreview() {
+        previewRequest += 1;
         modal.hidden = true;
         frame.removeAttribute("src");
+        frame.removeAttribute("srcdoc");
         document.body.classList.remove("modal-open");
         if (lastTrigger) {
           lastTrigger.focus();

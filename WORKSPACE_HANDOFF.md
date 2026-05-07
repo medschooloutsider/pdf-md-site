@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-05-08 01:39 CEST
+Updated: 2026-05-08 01:52 CEST
 
 ## Lane
 
@@ -34,12 +34,13 @@ Updated: 2026-05-08 01:39 CEST
 - the `Image-embedded labels` page block now shows the regenerated Page 8 Markdown excerpt with the inline OCR uncertainty note for spatially ambiguous diagram/chart labels
 - the current sample pack was regenerated from canonical PDF-MD `main` after OCR uncertainty annotations landed; generated Markdown and audit JSON now include uncertainty evidence
 - the auditory transduction sample proof is now integrated into the main product page at `index.html#reviewability-sample`; the old `reviewability-demo.html` route redirects there for compatibility instead of presenting a separate sample-pack theme
+- the product-page sample section now uses the terse heading `Sample`, with the previous explanatory proof-metric copy removed; Markdown output previews render in a light PDF-MD/MarkEdit-style reading pane instead of a raw browser text iframe
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
 - GitHub Pages may still need a short rebuild window after the pushed `main` revision
-- next useful launch slice is live GitHub Pages verification after the product-page sample integration is pushed; video is explicitly deferred for now
+- next useful launch slice is live GitHub Pages verification after the sample-section cleanup is pushed; video is explicitly deferred for now
 
 ## Waiting On
 
@@ -63,6 +64,7 @@ Updated: 2026-05-08 01:39 CEST
 - 2026-05-07 OCR excerpt completion: public sample block now mirrors the full generated Page 6 excerpt rather than an incomplete tail-only snippet.
 - 2026-05-07 uncertainty sample refresh: canonical PDF-MD benchmark export passed from app `main` with route mix `Text+OCR 5 / OCR 3`, status `success`, `retainedOtherByteCount=0`, and audit uncertainty metrics `sectionsWithUncertaintyNotes=7`, `diagramOrChartSectionCount=7`. Verification passed clean ZIP inspection with no `__MACOSX`, no review-notes/NIDDK/synthetic/digestion stale entries, local HTML reference check with 83 checked refs and 0 missing, `git diff --check`, Playwright desktop resource/no-overflow checks, Playwright mobile no-overflow check, and Markdown preview modal open/close check. Screenshot: `pdfmd-reviewability-uncertainty-mobile.png`.
 - 2026-05-08 product-page sample integration: `git diff --check` passed; local HTML/reference checks found no missing refs; local HTTP checks returned 200 for `index.html`, `reviewability-demo.html`, and the sample ZIP; Playwright verified `index.html#reviewability-sample` on desktop/mobile with no horizontal overflow, verified Markdown preview modal open/close, and verified `reviewability-demo.html` redirects to the integrated product-page section. Screenshots: `/tmp/pdf-md-integrated-sample-1440.png` and `/tmp/pdf-md-integrated-sample-390.png`.
+- 2026-05-08 sample-section cleanup: `git diff --check` passed; stale-copy grep found no remaining `Review before checkout`, long sample heading, proof metrics, or retained-byte copy in `index.html`; local HTML/reference checks found no missing refs; local HTTP checks returned 200 for `index.html` and the Markdown output; Playwright verified `Sample` heading, themed rendered Markdown preview, blockquote styling, close-button behavior, and no desktop/mobile horizontal overflow. Screenshots: `/tmp/pdf-md-sample-clean-md-modal-1440.png` and `/tmp/pdf-md-sample-clean-section-390.png`.
 
 ## Risks To Other Lanes
 
