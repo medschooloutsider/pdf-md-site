@@ -1,0 +1,25 @@
+{
+  "id": "pdf-md-reviewability-demo",
+  "name": "PDF-MD reviewability demo sample pack",
+  "sourcePDFPath": "/Volumes/DATA_ARCHIVE/Hub_Network/20_App_And_Tool_Hubs/AppDev_Hub/Commercialisation_Hub/apps/PDF-MD/publishing/pdf-md-site-publish/site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf",
+  "referenceAuditJSONPath": null,
+  "referenceAuditJSONPaths": null,
+  "ocrMode": "balanced",
+  "ocrLanguageMode": "automatic",
+  "ocrLanguages": [],
+  "suites": [
+    {
+      "id": "reviewability-pass",
+      "title": "Reviewability pass",
+      "description": "A bounded Hybrid export over a synthetic academic/research handout with text, table-like content, equation text, and an image-like note region.",
+      "rangeExpression": "1-3",
+      "combinations": [
+        {
+          "exportMode": "hybrid",
+          "normalization": "on",
+          "expectation": "success"
+        }
+      ]
+    }
+  ]
+}

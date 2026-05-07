@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDF-MD Reviewability Sample Pack</title>
+  <meta
+    name="description"
+    content="Inspect a PDF-MD sample pack with a synthetic research PDF, generated Markdown output, audit JSON, and review notes."
+  >
+  <link rel="icon" type="image/png" href="./favicon.png?v=20260331b">
+  <link rel="stylesheet" href="./site.css?v=20260507b">
+</head>
+<body class="page-compact">
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="PDF-MD home">
+      <span class="brand-mark">PDF</span>
+      <span>PDF-MD</span>
+    </a>
+    <nav class="site-nav" aria-label="Sample pack page">
+      <a href="#sample">Sample</a>
+      <a href="#output">Output</a>
+      <a href="#review">Review</a>
+      <a href="./index.html#sales-support">Product page</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section proof-hero" id="sample">
+      <div>
+        <p class="eyebrow">Reviewability sample pack</p>
+        <h1>Inspect the source, Markdown, and audit sidecar before buying.</h1>
+        <p class="lede">
+          This is a safe synthetic research-methods document exported through
+          PDF-MD's bounded Hybrid workflow. The point is reviewability: a useful
+          Markdown draft, visible caveats, and enough audit material to inspect
+          what happened.
+        </p>
+        <div class="proof-metrics">
+          <div class="proof-metric">
+            <strong>3 pages</strong>
+            <span>Text, table-like content, equation text, and one raster note region.</span>
+          </div>
+          <div class="proof-metric">
+            <strong>Hybrid</strong>
+            <span>Direct text first, with image OCR where the page needs help.</span>
+          </div>
+          <div class="proof-metric">
+            <strong>Text 2 / Text+OCR 1</strong>
+            <span>The run summary reports the mixed route instead of hiding it.</span>
+          </div>
+          <div class="proof-metric">
+            <strong>Review required</strong>
+            <span>The OCR section intentionally shows rough edges to check.</span>
+          </div>
+        </div>
+      </div>
+      <aside class="proof-panel">
+        <p>
+          This sample does not claim perfect OCR. It shows the inspection loop:
+          source PDF, generated Markdown, audit sidecar, and human review notes.
+        </p>
+        <a class="button" href="./site-assets/sample-pack/pdf-md-reviewability-demo.zip">Download sample pack</a>
+      </aside>
+    </section>
+
+    <section class="section" id="output">
+      <div class="section-heading">
+        <p class="eyebrow">Files</p>
+        <h2>Open the PDF and Markdown side by side.</h2>
+      </div>
+      <div class="file-grid">
+        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf">
+          <strong>Source PDF</strong>
+          <span>Synthetic academic/research handout.</span>
+        </a>
+        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md">
+          <strong>Markdown output</strong>
+          <span>Generated through the PDF-MD benchmark/export harness.</span>
+        </a>
+        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json">
+          <strong>Audit JSON</strong>
+          <span>Sidecar with route, OCR, timing, and output metadata.</span>
+        </a>
+        <a class="file-card" href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/review-notes.md">
+          <strong>Review notes</strong>
+          <span>What to inspect and what not to overclaim.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section section-accent" id="review">
+      <div class="section-heading">
+        <p class="eyebrow">Honest output</p>
+        <h2>The raster note is readable, but not perfect.</h2>
+      </div>
+      <div class="proof-strip">
+        <img
+          src="./site-assets/sample-pack/pdf-md-reviewability-demo/source/raster-field-note.png"
+          width="1400"
+          height="620"
+          loading="lazy"
+          decoding="async"
+          alt="Synthetic raster field note used in the PDF-MD reviewability sample pack."
+        >
+        <div class="proof-strip-copy">
+          <h3>Why this matters</h3>
+          <p>
+            The generated Markdown keeps the important Site B readings visible,
+            but also includes OCR roughness around nearby text. That is the right
+            kind of proof for this product: inspectable output, not a promise
+            that difficult pages never need correction.
+          </p>
+          <pre class="sample-output">Field note 2: TURBIDITY SPIKE
+Site B readings: 8.1 NTU, 8.4 NTU, 8.2 NTU
+Check sensor rinse betore tinal average</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="proof-strip">
+        <div class="proof-strip-copy">
+          <p class="eyebrow">Soft purchase path</p>
+          <h2>Use the sample first, then decide.</h2>
+          <p>
+            PDF-MD is available for Mac as a one-time purchase. The sample pack
+            is here so you can inspect the source, output, and caveats before
+            you reach the checkout.
+          </p>
+          <a class="button secondary" href="./index.html#sales-support">Go to product page</a>
+        </div>
+        <div class="proof-panel">
+          <h3>Reviewability beats hype</h3>
+          <p>
+            For academic and research PDFs, the safe promise is not perfect
+            extraction. It is a visible workflow for turning difficult source
+            material into Markdown you can check and keep.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>PDF-MD</span>
+    <nav aria-label="Footer">
+      <a href="./index.html">Home</a>
+      <a href="./terms.html">Terms</a>
+      <a href="./privacy.html">Privacy</a>
+      <a href="./eula.html">EULA</a>
+      <a href="./reviewability-demo.html">Sample pack</a>
+      <a href="https://medschooloutsider-support.vercel.app" target="_blank" rel="noreferrer">Support site</a>
+      <a href="mailto:worldpresident1030@gmail.com" target="_blank" rel="noreferrer">Email support</a>
+    </nav>
+  </footer>
+</body>
+</html>

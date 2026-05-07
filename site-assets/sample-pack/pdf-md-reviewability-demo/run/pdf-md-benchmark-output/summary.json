@@ -1,0 +1,78 @@
+{
+  "generatedAt" : "2026-05-07T13:49:23Z",
+  "ocrLanguageConfiguration" : {
+    "effectiveLanguages" : [
+
+    ],
+    "effectiveMode" : "automatic",
+    "normalization" : "on",
+    "requestedLanguages" : [
+
+    ],
+    "requestedMode" : "automatic"
+  },
+  "ocrLanguageMode" : "automatic",
+  "ocrLanguages" : [
+
+  ],
+  "ocrMode" : "Balanced",
+  "outputRoot" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output",
+  "profileID" : "pdf-md-reviewability-demo",
+  "profileName" : "PDF-MD reviewability demo sample pack",
+  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/research-methods-field-notes.pdf",
+  "suites" : [
+    {
+      "description" : "A bounded Hybrid export over a synthetic academic\/research handout with text, table-like content, equation text, and an image-like note region.",
+      "id" : "reviewability-pass",
+      "pageCount" : 3,
+      "rangeExpression" : "1-3",
+      "runs" : [
+        {
+          "artifactFootprint" : {
+            "auditArtifactByteCount" : 24576,
+            "auditArtifactFileCount" : 1,
+            "markdownByteCount" : 4096,
+            "markdownFileCount" : 1,
+            "retainedOtherByteCount" : 0,
+            "retainedOtherFileCount" : 0,
+            "totalByteCount" : 28672
+          },
+          "auditArtifacts" : [
+            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on\/research-methods-field-notes_reviewability-pass_hybrid_on.audit.json"
+          ],
+          "auditWriteDurationMS" : 8.863041666700155,
+          "averagePageExtractionDurationMS" : 303.6295138887605,
+          "concurrencyPolicy" : {
+            "activeProcessorCount" : 10,
+            "effectiveWorkers" : 3,
+            "hostWorkerCap" : 10,
+            "imageFrameCount" : 0,
+            "pageTypeWorkerCap" : 4,
+            "physicalMemoryGB" : 64,
+            "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 4 from 1\/3 raster-heavy sections; effective 3",
+            "presentationPageCount" : 0,
+            "rasterHeavyPageCount" : 1,
+            "requestedWorkers" : 8,
+            "scheduledPageCount" : 3
+          },
+          "destructiveNormalizationFallbackCount" : 0,
+          "expectation" : "success",
+          "exportMode" : "hybrid",
+          "extractionDurationMS" : 801.9657083332277,
+          "markdownWriteDurationMS" : 0.340791666531004,
+          "normalization" : "on",
+          "outputDirectory" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on",
+          "routeMix" : "Text 2 \/ Text+OCR 1",
+          "slowestPage" : "research-methods-field-notes.pdf page 2 \/ text layer + image OCR \/ 802 ms",
+          "status" : "success",
+          "totalDurationMS" : 813.4349166666652,
+          "writeDurationMS" : 10.008625000409666,
+          "writtenFiles" : [
+            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on\/research-methods-field-notes_reviewability-pass_hybrid_on.md"
+          ]
+        }
+      ],
+      "title" : "Reviewability pass"
+    }
+  ]
+}
