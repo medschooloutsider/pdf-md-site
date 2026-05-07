@@ -1,0 +1,722 @@
+{
+  "concurrencyPolicy" : {
+    "activeProcessorCount" : 10,
+    "effectiveWorkers" : 4,
+    "hostWorkerCap" : 10,
+    "imageFrameCount" : 0,
+    "pageTypeWorkerCap" : 4,
+    "physicalMemoryGB" : 64,
+    "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 4 from 2\/8 raster-heavy sections; effective 4",
+    "presentationPageCount" : 0,
+    "rasterHeavyPageCount" : 2,
+    "requestedWorkers" : 8,
+    "scheduledPageCount" : 8
+  },
+  "exportMode" : "Hybrid",
+  "generatedAt" : "2026-05-07T14:46:26Z",
+  "metrics" : {
+    "extraction" : {
+      "ocrPages" : 0,
+      "pagesWithImageRegions" : 2,
+      "rasterDetectedPages" : 2,
+      "sectionCount" : 8,
+      "slideTextPages" : 0,
+      "slideTextWithOCRPages" : 0,
+      "textLayerPages" : 6,
+      "textLayerWithOCRPages" : 2,
+      "totalImageRegionCount" : 2,
+      "totalOCRObservationCount" : 22
+    },
+    "normalization" : {
+      "destructiveFallbackCount" : 0,
+      "inputFigureCaptionCount" : 0,
+      "inputFigureReferenceCount" : 0,
+      "inputMathReferenceCount" : 0,
+      "inputMathTokenCount" : 0,
+      "inputTableEquationLineCount" : 0,
+      "inputTheoremProofHeadingCount" : 0,
+      "outputBulletCount" : 25,
+      "outputFigureCaptionCount" : 0,
+      "outputFigureReferenceCount" : 0,
+      "outputHeadingCount" : 2,
+      "outputMathReferenceCount" : 0,
+      "outputMathTokenCount" : 0,
+      "outputTableEquationLineCount" : 0,
+      "outputTheoremProofHeadingCount" : 0,
+      "retainedTokenRatio" : 1,
+      "sectionCount" : 8,
+      "sectionsWithChanges" : 2,
+      "totalInputCharacterCount" : 4111,
+      "totalInputTokenCount" : 582,
+      "totalOutputCharacterCount" : 4129,
+      "totalOutputTokenCount" : 584,
+      "totalRetainedTokenCount" : 582
+    }
+  },
+  "ocrLanguageConfiguration" : {
+    "effectiveLanguages" : [
+
+    ],
+    "effectiveMode" : "automatic",
+    "normalization" : "on",
+    "requestedLanguages" : [
+
+    ],
+    "requestedMode" : "automatic"
+  },
+  "pageRouting" : "6 text-layer page(s), 2 text-layer-plus-image-OCR page(s)",
+  "processingProfile" : "Balanced",
+  "routeControl" : {
+    "effectiveRanges" : [
+      {
+        "end" : 8,
+        "start" : 1
+      }
+    ],
+    "requestedRangeMode" : "custom",
+    "requestedRanges" : [
+      {
+        "end" : 8,
+        "start" : 1
+      }
+    ],
+    "selectedSectionCount" : 8,
+    "selectedSections" : [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "sourceSectionCount" : 8
+  },
+  "routeRanges" : [
+    {
+      "end" : 3,
+      "route" : "text-layer",
+      "start" : 1
+    },
+    {
+      "end" : 4,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 4
+    },
+    {
+      "end" : 5,
+      "route" : "text-layer",
+      "start" : 5
+    },
+    {
+      "end" : 6,
+      "route" : "text-layer-plus-image-ocr",
+      "start" : 6
+    },
+    {
+      "end" : 8,
+      "route" : "text-layer",
+      "start" : 7
+    }
+  ],
+  "schemaVersion" : 2,
+  "sectionCount" : 8,
+  "sectionLabel" : "Page",
+  "sections" : [
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 1,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 466,
+          "mathTokenCount" : 0,
+          "sha256" : "11bd651ddbef60756116c56a2925a2afa612f464112a0035eec367e53bb2a747",
+          "tokenCount" : 67
+        },
+        "finalText" : "Introduction to digestion\nA rights-clean lecture PDF for PDF-MD extraction testing\n- Digestion breaks food into absorbable molecules while moving material\nthrough the alimentary canal.\n- The sample includes selectable text plus diagrams whose labels are\nembedded as image pixels.\n- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted\nunder CC BY 4.0.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1",
+        "normalized" : {
+          "characterCount" : 466,
+          "mathTokenCount" : 0,
+          "sha256" : "11bd651ddbef60756116c56a2925a2afa612f464112a0035eec367e53bb2a747",
+          "tokenCount" : 67
+        },
+        "normalizedText" : "Introduction to digestion\nA rights-clean lecture PDF for PDF-MD extraction testing\n- Digestion breaks food into absorbable molecules while moving material\nthrough the alimentary canal.\n- The sample includes selectable text plus diagrams whose labels are\nembedded as image pixels.\n- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted\nunder CC BY 4.0.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1",
+        "precleaned" : {
+          "characterCount" : 466,
+          "mathTokenCount" : 0,
+          "sha256" : "11bd651ddbef60756116c56a2925a2afa612f464112a0035eec367e53bb2a747",
+          "tokenCount" : 67
+        },
+        "precleanedText" : "Introduction to digestion\nA rights-clean lecture PDF for PDF-MD extraction testing\n- Digestion breaks food into absorbable molecules while moving material\nthrough the alimentary canal.\n- The sample includes selectable text plus diagrams whose labels are\nembedded as image pixels.\n- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted\nunder CC BY 4.0.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1",
+        "raw" : {
+          "characterCount" : 466,
+          "mathTokenCount" : 0,
+          "sha256" : "11bd651ddbef60756116c56a2925a2afa612f464112a0035eec367e53bb2a747",
+          "tokenCount" : 67
+        },
+        "rawText" : "Introduction to digestion\nA rights-clean lecture PDF for PDF-MD extraction testing\n- Digestion breaks food into absorbable molecules while moving material\nthrough the alimentary canal.\n- The sample includes selectable text plus diagrams whose labels are\nembedded as image pixels.\n- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted\nunder CC BY 4.0.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Introduction to digestion\nA rights-clean lecture PDF for PDF-MD extraction testing\n- Digestion breaks food into absorbable molecules while moving material\nthrough the alimentary canal.\n- The sample includes selectable text plus diagrams whose labels are\nembedded as image pixels.\n- Source basis: OpenStax Anatomy and Physiology 2e, Chapter 23, adapted\nunder CC BY 4.0.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 1",
+      "title" : "Page 1"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 2,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 446,
+          "mathTokenCount" : 0,
+          "sha256" : "4af283fe46dca98a45fb40c8d719aa9bc5e98984137d58f2e769c75b7af7c8d5",
+          "tokenCount" : 61
+        },
+        "finalText" : "System map\nAlimentary canal plus accessory organs\n- Alimentary canal: mouth, pharynx, esophagus, stomach, small intestine,\nlarge intestine, rectum, anus.\n- Accessory organs: teeth, tongue, salivary glands, liver, gallbladder,\nand pancreas.\n- The core job is to release nutrients and absorb them into the body while\neliminating indigestible residue.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2",
+        "normalized" : {
+          "characterCount" : 446,
+          "mathTokenCount" : 0,
+          "sha256" : "4af283fe46dca98a45fb40c8d719aa9bc5e98984137d58f2e769c75b7af7c8d5",
+          "tokenCount" : 61
+        },
+        "normalizedText" : "System map\nAlimentary canal plus accessory organs\n- Alimentary canal: mouth, pharynx, esophagus, stomach, small intestine,\nlarge intestine, rectum, anus.\n- Accessory organs: teeth, tongue, salivary glands, liver, gallbladder,\nand pancreas.\n- The core job is to release nutrients and absorb them into the body while\neliminating indigestible residue.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2",
+        "precleaned" : {
+          "characterCount" : 446,
+          "mathTokenCount" : 0,
+          "sha256" : "4af283fe46dca98a45fb40c8d719aa9bc5e98984137d58f2e769c75b7af7c8d5",
+          "tokenCount" : 61
+        },
+        "precleanedText" : "System map\nAlimentary canal plus accessory organs\n- Alimentary canal: mouth, pharynx, esophagus, stomach, small intestine,\nlarge intestine, rectum, anus.\n- Accessory organs: teeth, tongue, salivary glands, liver, gallbladder,\nand pancreas.\n- The core job is to release nutrients and absorb them into the body while\neliminating indigestible residue.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2",
+        "raw" : {
+          "characterCount" : 446,
+          "mathTokenCount" : 0,
+          "sha256" : "4af283fe46dca98a45fb40c8d719aa9bc5e98984137d58f2e769c75b7af7c8d5",
+          "tokenCount" : 61
+        },
+        "rawText" : "System map\nAlimentary canal plus accessory organs\n- Alimentary canal: mouth, pharynx, esophagus, stomach, small intestine,\nlarge intestine, rectum, anus.\n- Accessory organs: teeth, tongue, salivary glands, liver, gallbladder,\nand pancreas.\n- The core job is to release nutrients and absorb them into the body while\neliminating indigestible residue.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "System map\nAlimentary canal plus accessory organs\n- Alimentary canal: mouth, pharynx, esophagus, stomach, small intestine,\nlarge intestine, rectum, anus.\n- Accessory organs: teeth, tongue, salivary glands, liver, gallbladder,\nand pancreas.\n- The core job is to release nutrients and absorb them into the body while\neliminating indigestible residue.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 2",
+      "title" : "Page 2"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 3,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 579,
+          "mathTokenCount" : 0,
+          "sha256" : "66f619717f46bbbee0e50120fd961b8a338b3f47d4f901e49d167da8eb40dde5",
+          "tokenCount" : 79
+        },
+        "finalText" : "Six digestive processes\nText-table extraction target\nProcess Study cue\nIngestion Food enters the mouth and is prepared for movement.\nPropulsion Swallowing and peristalsis move contents along the tract.\nMechanical digestion Chewing, churning, and segmentation increase surface area.\nChemical digestion Enzymes and acid break macromolecules into absorbable units.\nAbsorption Nutrients cross the intestinal mucosa into blood or lymph.\nDefecation Indigestible material leaves the body.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3",
+        "normalized" : {
+          "characterCount" : 579,
+          "mathTokenCount" : 0,
+          "sha256" : "66f619717f46bbbee0e50120fd961b8a338b3f47d4f901e49d167da8eb40dde5",
+          "tokenCount" : 79
+        },
+        "normalizedText" : "Six digestive processes\nText-table extraction target\nProcess Study cue\nIngestion Food enters the mouth and is prepared for movement.\nPropulsion Swallowing and peristalsis move contents along the tract.\nMechanical digestion Chewing, churning, and segmentation increase surface area.\nChemical digestion Enzymes and acid break macromolecules into absorbable units.\nAbsorption Nutrients cross the intestinal mucosa into blood or lymph.\nDefecation Indigestible material leaves the body.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3",
+        "precleaned" : {
+          "characterCount" : 579,
+          "mathTokenCount" : 0,
+          "sha256" : "66f619717f46bbbee0e50120fd961b8a338b3f47d4f901e49d167da8eb40dde5",
+          "tokenCount" : 79
+        },
+        "precleanedText" : "Six digestive processes\nText-table extraction target\nProcess Study cue\nIngestion Food enters the mouth and is prepared for movement.\nPropulsion Swallowing and peristalsis move contents along the tract.\nMechanical digestion Chewing, churning, and segmentation increase surface area.\nChemical digestion Enzymes and acid break macromolecules into absorbable units.\nAbsorption Nutrients cross the intestinal mucosa into blood or lymph.\nDefecation Indigestible material leaves the body.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3",
+        "raw" : {
+          "characterCount" : 579,
+          "mathTokenCount" : 0,
+          "sha256" : "66f619717f46bbbee0e50120fd961b8a338b3f47d4f901e49d167da8eb40dde5",
+          "tokenCount" : 79
+        },
+        "rawText" : "Six digestive processes\nText-table extraction target\nProcess Study cue\nIngestion Food enters the mouth and is prepared for movement.\nPropulsion Swallowing and peristalsis move contents along the tract.\nMechanical digestion Chewing, churning, and segmentation increase surface area.\nChemical digestion Enzymes and acid break macromolecules into absorbable units.\nAbsorption Nutrients cross the intestinal mucosa into blood or lymph.\nDefecation Indigestible material leaves the body.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Six digestive processes\nText-table extraction target\nProcess Study cue\nIngestion Food enters the mouth and is prepared for movement.\nPropulsion Swallowing and peristalsis move contents along the tract.\nMechanical digestion Chewing, churning, and segmentation increase surface area.\nChemical digestion Enzymes and acid break macromolecules into absorbable units.\nAbsorption Nutrients cross the intestinal mucosa into blood or lymph.\nDefecation Indigestible material leaves the body.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 3",
+      "title" : "Page 3"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.5770370370370371,
+          "index" : 1,
+          "width" : 0.59375,
+          "x" : 0.05416666666666667,
+          "y" : 0.20407407407407405
+        }
+      ],
+      "index" : 4,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 579,
+          "mathTokenCount" : 0,
+          "sha256" : "24e44df962271e22834e024680a59335fe5be50fc6d9a5a1c07e2259c67b51db",
+          "tokenCount" : 87
+        },
+        "finalText" : "Route map with embedded labels\nImage OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are\npart of a PNG, so PDF-MD\nmust use image OCR to\nrecover them.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 4\n\n#### Image OCR\n\nEmbedded-label route map\nThe labels in this diagram are pixels, not selectable PDF text.\n### Mouth Pharynx Esophagus\nStomach\nAccessory organs\n- Liver\n### Rectum \/ Anusa Karge Intestino Small Intestine\n- Gallbladder - Pancreas\n- Salivary glands",
+        "normalized" : {
+          "characterCount" : 586,
+          "mathTokenCount" : 0,
+          "sha256" : "3f3451140e6ccb74e6c0e3a2a13763478190724e8dfbfd593a26f62873b0ba34",
+          "tokenCount" : 87
+        },
+        "normalizedText" : "Route map with embedded labels\nImage OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are\npart of a PNG, so PDF-MD\nmust use image OCR to\nrecover them.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 4\n\n#### Image OCR\n\nEmbedded-label route map\n\nThe labels in this diagram are pixels, not selectable PDF text.\n\n### Mouth Pharynx Esophagus\n\nStomach\n\nAccessory organs\n\n- Liver\n\n### Rectum \/ Anusa Karge Intestino Small Intestine\n\n- Gallbladder - Pancreas\n- Salivary glands",
+        "precleaned" : {
+          "characterCount" : 577,
+          "mathTokenCount" : 0,
+          "sha256" : "745aa357e2a54accd618fad7c2fae9630ce0862736c30fa7a06ba7c160cb09ae",
+          "tokenCount" : 87
+        },
+        "precleanedText" : "Route map with embedded labels\nImage OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are\npart of a PNG, so PDF-MD\nmust use image OCR to\nrecover them.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 4\n\n#### Image OCR\n\nEmbedded-label route map\n\nThe labels in this diagram are pixels, not selectable PDF text.\n\nMouth Pharynx Esophagus\nStomach\n\nAccessory organs\n\n- Liver\n\nRectum \/ anusA karge intestino Small intestine\n- Gallbladder - Pancreas\n\n- Salivary glands",
+        "raw" : {
+          "characterCount" : 577,
+          "mathTokenCount" : 0,
+          "sha256" : "745aa357e2a54accd618fad7c2fae9630ce0862736c30fa7a06ba7c160cb09ae",
+          "tokenCount" : 87
+        },
+        "rawText" : "Route map with embedded labels\nImage OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are\npart of a PNG, so PDF-MD\nmust use image OCR to\nrecover them.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 4\n\n#### Image OCR\n\nEmbedded-label route map\n\nThe labels in this diagram are pixels, not selectable PDF text.\n\nMouth Pharynx Esophagus\nStomach\n\nAccessory organs\n\n- Liver\n\nRectum \/ anusA karge intestino Small intestine\n- Gallbladder - Pancreas\n\n- Salivary glands",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.01755800428527699,
+          "index" : 1,
+          "text" : "- Salivary glands",
+          "width" : 0.07225120380556385,
+          "x" : 0.49533773755342614,
+          "y" : 0.38466972760006846
+        },
+        {
+          "confidence" : 0.5,
+          "height" : 0.040605217608173656,
+          "index" : 2,
+          "text" : "Rectum \/ anusA karge intestino",
+          "width" : 0.18655082320256564,
+          "x" : 0.08440372778725816,
+          "y" : 0.42274566299703487
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.014160853352355512,
+          "index" : 3,
+          "text" : "- Pancreas",
+          "width" : 0.0484611753144445,
+          "x" : 0.49533773639471484,
+          "y" : 0.42220752995006894
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02761391402268796,
+          "index" : 4,
+          "text" : "Small intestine",
+          "width" : 0.08468560297823262,
+          "x" : 0.3005625108503422,
+          "y" : 0.4280389166411428
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01589657790806084,
+          "index" : 5,
+          "text" : "- Gallbladder",
+          "width" : 0.05727229620708852,
+          "x" : 0.495337737098279,
+          "y" : 0.4549017446731205
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01592977497881985,
+          "index" : 6,
+          "text" : "- Liver",
+          "width" : 0.03083892832670523,
+          "x" : 0.4944566253169819,
+          "y" : 0.48801329194094056
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.024658643735962004,
+          "index" : 7,
+          "text" : "Accessory organs",
+          "width" : 0.10353436422884524,
+          "x" : 0.4889190492495045,
+          "y" : 0.5215584613310634
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.0485186916149316,
+          "index" : 8,
+          "text" : "Pharynx",
+          "width" : 0.096280773954915,
+          "x" : 0.1656819748358527,
+          "y" : 0.604603697148249
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.022446150834311496,
+          "index" : 9,
+          "text" : "Esophagus",
+          "width" : 0.06437845942188032,
+          "x" : 0.2635765751284107,
+          "y" : 0.6223349593184158
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01877996643785673,
+          "index" : 10,
+          "text" : "Mouth",
+          "width" : 0.04053116495032949,
+          "x" : 0.0891449745590483,
+          "y" : 0.6257330487708388
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019019229703260476,
+          "index" : 11,
+          "text" : "Stomach",
+          "width" : 0.05113223856559515,
+          "x" : 0.38694706242817545,
+          "y" : 0.625613416962919
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.018870072690288228,
+          "index" : 12,
+          "text" : "The labels in this diagram are pixels, not selectable PDF text.",
+          "width" : 0.2572847841706977,
+          "x" : 0.07504717940407779,
+          "y" : 0.721197879557114
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.029953097856916886,
+          "index" : 13,
+          "text" : "Embedded-label route map",
+          "width" : 0.22292140852742504,
+          "x" : 0.07592829068330514,
+          "y" : 0.7491496787375294
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "Route map with embedded labels\nImage OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. The diagram labels are\npart of a PNG, so PDF-MD\nmust use image OCR to\nrecover them.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 4\n\n#### Image OCR\n\nEmbedded-label route map\nThe labels in this diagram are pixels, not selectable PDF text.\n### Mouth Pharynx Esophagus\nStomach\nAccessory organs\n- Liver\n### Rectum \/ Anusa Karge Intestino Small Intestine\n- Gallbladder - Pancreas\n- Salivary glands",
+      "title" : "Page 4"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 5,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 450,
+          "mathTokenCount" : 0,
+          "sha256" : "52f005ba67755f881a321e46c617d41532d4a2d09f1cb9679987a70a374105a9",
+          "tokenCount" : 63
+        },
+        "finalText" : "Wall layers of the alimentary canal\nWhat students should keep straight\n- Mucosa: epithelium and connective tissue at the lumen-facing surface.\n- Submucosa: connective tissue, vessels, glands, and local nerve plexus.\n- Muscularis: smooth muscle layers that drive mixing and propulsion.\n- Serosa or adventitia: outer covering depending on organ position.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5",
+        "normalized" : {
+          "characterCount" : 450,
+          "mathTokenCount" : 0,
+          "sha256" : "52f005ba67755f881a321e46c617d41532d4a2d09f1cb9679987a70a374105a9",
+          "tokenCount" : 63
+        },
+        "normalizedText" : "Wall layers of the alimentary canal\nWhat students should keep straight\n- Mucosa: epithelium and connective tissue at the lumen-facing surface.\n- Submucosa: connective tissue, vessels, glands, and local nerve plexus.\n- Muscularis: smooth muscle layers that drive mixing and propulsion.\n- Serosa or adventitia: outer covering depending on organ position.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5",
+        "precleaned" : {
+          "characterCount" : 450,
+          "mathTokenCount" : 0,
+          "sha256" : "52f005ba67755f881a321e46c617d41532d4a2d09f1cb9679987a70a374105a9",
+          "tokenCount" : 63
+        },
+        "precleanedText" : "Wall layers of the alimentary canal\nWhat students should keep straight\n- Mucosa: epithelium and connective tissue at the lumen-facing surface.\n- Submucosa: connective tissue, vessels, glands, and local nerve plexus.\n- Muscularis: smooth muscle layers that drive mixing and propulsion.\n- Serosa or adventitia: outer covering depending on organ position.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5",
+        "raw" : {
+          "characterCount" : 450,
+          "mathTokenCount" : 0,
+          "sha256" : "52f005ba67755f881a321e46c617d41532d4a2d09f1cb9679987a70a374105a9",
+          "tokenCount" : 63
+        },
+        "rawText" : "Wall layers of the alimentary canal\nWhat students should keep straight\n- Mucosa: epithelium and connective tissue at the lumen-facing surface.\n- Submucosa: connective tissue, vessels, glands, and local nerve plexus.\n- Muscularis: smooth muscle layers that drive mixing and propulsion.\n- Serosa or adventitia: outer covering depending on organ position.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Wall layers of the alimentary canal\nWhat students should keep straight\n- Mucosa: epithelium and connective tissue at the lumen-facing surface.\n- Submucosa: connective tissue, vessels, glands, and local nerve plexus.\n- Muscularis: smooth muscle layers that drive mixing and propulsion.\n- Serosa or adventitia: outer covering depending on organ position.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 5",
+      "title" : "Page 5"
+    },
+    {
+      "imageRegions" : [
+        {
+          "height" : 0.5770370370370371,
+          "index" : 1,
+          "width" : 0.59375,
+          "x" : 0.05416666666666667,
+          "y" : 0.20407407407407405
+        }
+      ],
+      "index" : 6,
+      "normalizationTrace" : {
+        "changedByFallback" : true,
+        "changedByNormalizer" : true,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 648,
+          "mathTokenCount" : 0,
+          "sha256" : "75b2f88771cad5e18ba87fac9e141e366e2395531e8da39db941848d73a3e883",
+          "tokenCount" : 92
+        },
+        "finalText" : "Control map with embedded labels\nSecond image OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether\nthe exported Markdown\nmakes embedded labels\nvisible enough to\ninspect.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 6\n\n#### Image OCR\n\nEmbedded-label control map\nNeural and hormonal labels are intentionally embedded in the image.\nFigure labels:\n- Stretch sensors\n- Food in lumen\n- Enteric plexuses\n- Chemoreceptors\nStudy point: regulation is local plus systemic; reflexes and gut hormones tune digestion.\nSecretions +\nmotility",
+        "normalized" : {
+          "characterCount" : 654,
+          "mathTokenCount" : 0,
+          "sha256" : "fae2a65175a55a560ccaa517e678dc5ee299b4dee606e5c550f72cc71700d21b",
+          "tokenCount" : 92
+        },
+        "normalizedText" : "Control map with embedded labels\nSecond image OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether\nthe exported Markdown\nmakes embedded labels\nvisible enough to\ninspect.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 6\n\n#### Image OCR\n\nEmbedded-label control map\n\nNeural and hormonal labels are intentionally embedded in the image.\n\nFigure labels:\n\n- Stretch sensors\n- Food in lumen\n- Enteric plexuses\n- Chemoreceptors\n\nStudy point: regulation is local plus systemic; reflexes and gut hormones tune digestion.\n\nSecretions +\n\nmotility",
+        "precleaned" : {
+          "characterCount" : 632,
+          "mathTokenCount" : 0,
+          "sha256" : "28404ddc5995f9095069ec7d095e6c4357da44d4bfe1e02ac4d593dfe0d3a783",
+          "tokenCount" : 90
+        },
+        "precleanedText" : "Control map with embedded labels\nSecond image OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether\nthe exported Markdown\nmakes embedded labels\nvisible enough to\ninspect.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 6\n\n#### Image OCR\n\nEmbedded-label control map\n\nNeural and hormonal labels are intentionally embedded in the image.\n\nStretch sensors\n\nFood in lumen\nEnteric plexuses\n\nChemoreceptors\n\nStudy point: regulation is local plus systemic; reflexes and gut hormones tune digestion.\n\nSecretions +\n\nmotility",
+        "raw" : {
+          "characterCount" : 632,
+          "mathTokenCount" : 0,
+          "sha256" : "28404ddc5995f9095069ec7d095e6c4357da44d4bfe1e02ac4d593dfe0d3a783",
+          "tokenCount" : 90
+        },
+        "rawText" : "Control map with embedded labels\nSecond image OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether\nthe exported Markdown\nmakes embedded labels\nvisible enough to\ninspect.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 6\n\n#### Image OCR\n\nEmbedded-label control map\n\nNeural and hormonal labels are intentionally embedded in the image.\n\nStretch sensors\n\nFood in lumen\nEnteric plexuses\n\nChemoreceptors\n\nStudy point: regulation is local plus systemic; reflexes and gut hormones tune digestion.\n\nSecretions +\n\nmotility",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+        {
+          "confidence" : 1,
+          "height" : 0.02058524640342822,
+          "index" : 1,
+          "text" : "Study point: regulation is local plus systemic; reflexes and gut hormones tune digestion.",
+          "width" : 0.3841649291867329,
+          "x" : 0.09355055187325761,
+          "y" : 0.3126213646130137
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02034496460334585,
+          "index" : 2,
+          "text" : "Chemoreceptors",
+          "width" : 0.09780345855619245,
+          "x" : 0.22659849180927963,
+          "y" : 0.4269784000918235
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.023474958624721546,
+          "index" : 3,
+          "text" : "motility",
+          "width" : 0.04493672799787705,
+          "x" : 0.5147222056437948,
+          "y" : 0.50522826158295
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02058524640342822,
+          "index" : 4,
+          "text" : "Enteric plexuses",
+          "width" : 0.09692235062888893,
+          "x" : 0.3517164347733892,
+          "y" : 0.5317936945406384
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.026430615769857196,
+          "index" : 5,
+          "text" : "Secretions +",
+          "width" : 0.08042279778996549,
+          "x" : 0.4970158325138683,
+          "y" : 0.5327645703097923
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.017558004285277058,
+          "index" : 6,
+          "text" : "Food in lumen",
+          "width" : 0.08458677721722639,
+          "x" : 0.1146972322072829,
+          "y" : 0.5348209365518943
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.019034476543808403,
+          "index" : 7,
+          "text" : "Stretch sensors",
+          "width" : 0.09339789810987044,
+          "x" : 0.22924183026650422,
+          "y" : 0.6395635136768211
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.01755800428527699,
+          "index" : 8,
+          "text" : "Neural and hormonal labels are intentionally embedded in the image.",
+          "width" : 0.3031026252983293,
+          "x" : 0.07504718069656428,
+          "y" : 0.7225099482443278
+        },
+        {
+          "confidence" : 1,
+          "height" : 0.02995309785691682,
+          "index" : 9,
+          "text" : "Embedded-label control map",
+          "width" : 0.23878143445810607,
+          "x" : 0.07504717277199927,
+          "y" : 0.7491496788635986
+        }
+      ],
+      "route" : "text-layer-plus-image-ocr",
+      "text" : "Control map with embedded labels\nSecond image OCR target\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. This image tests whether\nthe exported Markdown\nmakes embedded labels\nvisible enough to\ninspect.\nNormal slide text remains\nselectable; labels inside\nthe diagram are embedded\nimage text.\nPDF-MD sample lecture - 6\n\n#### Image OCR\n\nEmbedded-label control map\nNeural and hormonal labels are intentionally embedded in the image.\nFigure labels:\n- Stretch sensors\n- Food in lumen\n- Enteric plexuses\n- Chemoreceptors\nStudy point: regulation is local plus systemic; reflexes and gut hormones tune digestion.\nSecretions +\nmotility",
+      "title" : "Page 6"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 7,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 444,
+          "mathTokenCount" : 0,
+          "sha256" : "352e12e11b55a0d214af73fa7dd878bde52cbe7970806259f6926791ed1674f8",
+          "tokenCount" : 63
+        },
+        "finalText" : "Why the small intestine matters\nAbsorption surface area and final digestion\n- Most absorption occurs in the small intestine.\n- Circular folds, villi, and microvilli increase mucosal surface area.\n- Brush border enzymes complete parts of carbohydrate and protein\ndigestion.\n- Absorbed nutrients enter blood or lymph depending on the molecule type.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7",
+        "normalized" : {
+          "characterCount" : 444,
+          "mathTokenCount" : 0,
+          "sha256" : "352e12e11b55a0d214af73fa7dd878bde52cbe7970806259f6926791ed1674f8",
+          "tokenCount" : 63
+        },
+        "normalizedText" : "Why the small intestine matters\nAbsorption surface area and final digestion\n- Most absorption occurs in the small intestine.\n- Circular folds, villi, and microvilli increase mucosal surface area.\n- Brush border enzymes complete parts of carbohydrate and protein\ndigestion.\n- Absorbed nutrients enter blood or lymph depending on the molecule type.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7",
+        "precleaned" : {
+          "characterCount" : 444,
+          "mathTokenCount" : 0,
+          "sha256" : "352e12e11b55a0d214af73fa7dd878bde52cbe7970806259f6926791ed1674f8",
+          "tokenCount" : 63
+        },
+        "precleanedText" : "Why the small intestine matters\nAbsorption surface area and final digestion\n- Most absorption occurs in the small intestine.\n- Circular folds, villi, and microvilli increase mucosal surface area.\n- Brush border enzymes complete parts of carbohydrate and protein\ndigestion.\n- Absorbed nutrients enter blood or lymph depending on the molecule type.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7",
+        "raw" : {
+          "characterCount" : 444,
+          "mathTokenCount" : 0,
+          "sha256" : "352e12e11b55a0d214af73fa7dd878bde52cbe7970806259f6926791ed1674f8",
+          "tokenCount" : 63
+        },
+        "rawText" : "Why the small intestine matters\nAbsorption surface area and final digestion\n- Most absorption occurs in the small intestine.\n- Circular folds, villi, and microvilli increase mucosal surface area.\n- Brush border enzymes complete parts of carbohydrate and protein\ndigestion.\n- Absorbed nutrients enter blood or lymph depending on the molecule type.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Why the small intestine matters\nAbsorption surface area and final digestion\n- Most absorption occurs in the small intestine.\n- Circular folds, villi, and microvilli increase mucosal surface area.\n- Brush border enzymes complete parts of carbohydrate and protein\ndigestion.\n- Absorbed nutrients enter blood or lymph depending on the molecule type.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 7",
+      "title" : "Page 7"
+    },
+    {
+      "imageRegions" : [
+
+      ],
+      "index" : 8,
+      "normalizationTrace" : {
+        "changedByFallback" : false,
+        "changedByNormalizer" : false,
+        "changedByPrecleaning" : false,
+        "destructiveFallbackTriggered" : false,
+        "final" : {
+          "characterCount" : 517,
+          "mathTokenCount" : 0,
+          "sha256" : "afa0d5d890d5ceeda06acb43a9849dc41418941dea1e5cdf0412fa5fc2509ccb",
+          "tokenCount" : 72
+        },
+        "finalText" : "Attribution and sample boundary\nPublic redistribution note\n- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The\nDigestive System.\n- Original OpenStax text is licensed under Creative Commons Attribution\n4.0 International.\n- This sample is not medical advice. It is a PDF-MD extraction demo for\nlecture-slide material.\n- The test intentionally mixes selectable slide text with embedded text\ninside diagrams.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8",
+        "normalized" : {
+          "characterCount" : 517,
+          "mathTokenCount" : 0,
+          "sha256" : "afa0d5d890d5ceeda06acb43a9849dc41418941dea1e5cdf0412fa5fc2509ccb",
+          "tokenCount" : 72
+        },
+        "normalizedText" : "Attribution and sample boundary\nPublic redistribution note\n- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The\nDigestive System.\n- Original OpenStax text is licensed under Creative Commons Attribution\n4.0 International.\n- This sample is not medical advice. It is a PDF-MD extraction demo for\nlecture-slide material.\n- The test intentionally mixes selectable slide text with embedded text\ninside diagrams.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8",
+        "precleaned" : {
+          "characterCount" : 517,
+          "mathTokenCount" : 0,
+          "sha256" : "afa0d5d890d5ceeda06acb43a9849dc41418941dea1e5cdf0412fa5fc2509ccb",
+          "tokenCount" : 72
+        },
+        "precleanedText" : "Attribution and sample boundary\nPublic redistribution note\n- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The\nDigestive System.\n- Original OpenStax text is licensed under Creative Commons Attribution\n4.0 International.\n- This sample is not medical advice. It is a PDF-MD extraction demo for\nlecture-slide material.\n- The test intentionally mixes selectable slide text with embedded text\ninside diagrams.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8",
+        "raw" : {
+          "characterCount" : 517,
+          "mathTokenCount" : 0,
+          "sha256" : "afa0d5d890d5ceeda06acb43a9849dc41418941dea1e5cdf0412fa5fc2509ccb",
+          "tokenCount" : 72
+        },
+        "rawText" : "Attribution and sample boundary\nPublic redistribution note\n- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The\nDigestive System.\n- Original OpenStax text is licensed under Creative Commons Attribution\n4.0 International.\n- This sample is not medical advice. It is a PDF-MD extraction demo for\nlecture-slide material.\n- The test intentionally mixes selectable slide text with embedded text\ninside diagrams.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8",
+        "schemaVersion" : 1
+      },
+      "ocrObservations" : [
+
+      ],
+      "route" : "text-layer",
+      "text" : "Attribution and sample boundary\nPublic redistribution note\n- Adapted from OpenStax Anatomy and Physiology 2e, Chapter 23: The\nDigestive System.\n- Original OpenStax text is licensed under Creative Commons Attribution\n4.0 International.\n- This sample is not medical advice. It is a PDF-MD extraction demo for\nlecture-slide material.\n- The test intentionally mixes selectable slide text with embedded text\ninside diagrams.\nAdapted from OpenStax Anatomy and Physiology 2e, Chapter 23. CC BY 4.0. PDF-MD sample lecture - 8",
+      "title" : "Page 8"
+    }
+  ],
+  "sidecarFreshness" : {
+    "auditJSONFile" : "openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.audit.json",
+    "emittedSectionCount" : 8,
+    "markdownCharacterCount" : 4660,
+    "markdownFile" : "openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.md",
+    "markdownSHA256" : "3ab0516b9e121c6e97a17c21e5f321caf4f3070c4074d1006baf57f837dceb84"
+  },
+  "sourceFile" : "openstax-digestion-lecture.pdf",
+  "sourceKind" : "PDF",
+  "title" : "openstax-digestion-lecture"
+}

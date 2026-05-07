@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PDF-MD Reviewability Sample Pack</title>
+  <title>PDF-MD Digestion Lecture Sample Pack</title>
   <meta
     name="description"
-    content="Inspect a PDF-MD sample pack with a source PDF, generated Markdown output, and audit JSON."
+    content="Inspect a PDF-MD sample pack with a rights-clean OpenStax-derived digestion lecture PDF, generated Markdown output, and audit JSON."
   >
   <link rel="icon" type="image/png" href="./favicon.png?v=20260331b">
   <link rel="stylesheet" href="./site.css?v=20260507d">
@@ -20,7 +20,7 @@
     <nav class="site-nav" aria-label="Sample pack page">
       <a href="#sample">Sample</a>
       <a href="#output">Output</a>
-      <a href="#review">Review</a>
+      <a href="#review">OCR</a>
       <a href="./index.html#sales-support">Product page</a>
     </nav>
   </header>
@@ -28,36 +28,38 @@
   <main>
     <section class="section proof-hero" id="sample">
       <div>
-        <p class="eyebrow">Reviewability sample pack</p>
-        <h1>Inspect the source, Markdown, and audit sidecar before buying.</h1>
+        <p class="eyebrow">Medical-study sample pack</p>
+        <h1>Inspect a digestion lecture slide PDF before buying.</h1>
         <p class="lede">
-          This is a safe synthetic research-methods document exported through
-          PDF-MD's bounded Hybrid workflow. The point is reviewability: a useful
-          Markdown draft and enough audit material to inspect what happened.
+          This rights-clean sample is adapted from OpenStax Anatomy and
+          Physiology 2e, Chapter 23. It mixes normal selectable slide text with
+          diagram labels embedded inside images, then shows the PDF-MD Markdown
+          and audit sidecar generated from the same source.
         </p>
         <div class="proof-metrics">
           <div class="proof-metric">
-            <strong>3 pages</strong>
-            <span>Text, table-like content, equation text, and one raster note region.</span>
+            <strong>8 slides</strong>
+            <span>Lecture-style digestion material with tables, bullets, and diagrams.</span>
           </div>
           <div class="proof-metric">
             <strong>Hybrid</strong>
-            <span>Direct text first, with image OCR where the page needs help.</span>
+            <span>Direct text first, with image OCR where embedded labels need help.</span>
           </div>
           <div class="proof-metric">
-            <strong>Text 2 / Text+OCR 1</strong>
+            <strong>Text 6 / Text+OCR 2</strong>
             <span>The run summary reports the mixed route instead of hiding it.</span>
           </div>
           <div class="proof-metric">
-            <strong>Review required</strong>
-            <span>The OCR section intentionally shows rough edges to check.</span>
+            <strong>CC BY 4.0</strong>
+            <span>Source basis is OpenStax, with attribution included in the PDF.</span>
           </div>
         </div>
       </div>
       <aside class="proof-panel">
         <p>
-          This sample shows the inspection loop: source PDF, generated Markdown,
-          and the audit sidecar produced by the same run.
+          The sample is not medical advice. It is a public extraction demo for
+          lecture-slide material: source PDF, generated Markdown, and audit
+          evidence side by side.
         </p>
         <a class="button" href="./site-assets/sample-pack/pdf-md-reviewability-demo.zip">Download sample pack</a>
       </aside>
@@ -71,27 +73,27 @@
       <div class="file-grid">
         <a
           class="file-card"
-          href="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf"
-          data-preview-title="Source PDF"
-          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/source/research-methods-field-notes.pdf"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/source/openstax-digestion-lecture.pdf"
+          data-preview-title="Source lecture PDF"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/source/openstax-digestion-lecture.pdf"
         >
-          <strong>Source PDF</strong>
-          <span>Synthetic academic/research handout.</span>
+          <strong>Source lecture PDF</strong>
+          <span>OpenStax-derived digestion slides with embedded-label diagrams.</span>
         </a>
         <a
           class="file-card"
-          href="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/output/openstax-digestion-lecture_Hybrid_norm.md"
           data-preview-title="Markdown output"
-          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/output/research-methods-field-notes_Hybrid_norm.md"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/output/openstax-digestion-lecture_Hybrid_norm.md"
         >
           <strong>Markdown output</strong>
           <span>Generated through the PDF-MD benchmark/export harness.</span>
         </a>
         <a
           class="file-card"
-          href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json"
+          href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/openstax-digestion-lecture_Hybrid_norm.audit.json"
           data-preview-title="Audit JSON"
-          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/research-methods-field-notes_Hybrid_norm.audit.json"
+          data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/openstax-digestion-lecture_Hybrid_norm.audit.json"
         >
           <strong>Audit JSON</strong>
           <span>Sidecar with route, OCR, timing, and output metadata.</span>
@@ -101,29 +103,34 @@
 
     <section class="section section-accent" id="review">
       <div class="section-heading">
-        <p class="eyebrow">Honest output</p>
-        <h2>The raster note is readable, but not perfect.</h2>
+        <p class="eyebrow">Image-embedded labels</p>
+        <h2>The diagram labels are recovered, with OCR roughness visible.</h2>
       </div>
       <div class="proof-strip">
         <img
-          src="./site-assets/sample-pack/pdf-md-reviewability-demo/source/raster-field-note.png"
-          width="1400"
-          height="620"
+          src="./site-assets/sample-pack/pdf-md-reviewability-demo/source/digestive-route-embedded-labels.png"
+          width="1500"
+          height="820"
           loading="lazy"
           decoding="async"
-          alt="Synthetic raster field note used in the PDF-MD reviewability sample pack."
+          alt="Embedded-label digestive route diagram used in the PDF-MD sample pack."
         >
         <div class="proof-strip-copy">
           <h3>Why this matters</h3>
           <p>
-            The generated Markdown keeps the important Site B readings visible,
-            but also includes OCR roughness around nearby text. That is the right
-            kind of proof for this product: inspectable output, not a promise
-            that difficult pages never need correction.
+            The slide text is selectable, while the diagram labels are pixels.
+            PDF-MD routes those slides through image OCR, so labels like Mouth,
+            Pharynx, and Stomach become visible in Markdown. The imperfect lower
+            row is the point: lecture-slide extraction should be inspectable.
           </p>
-          <pre class="sample-output">Field note 2: TURBIDITY SPIKE
-Site B readings: 8.1 NTU, 8.4 NTU, 8.2 NTU
-Check sensor rinse betore tinal average</pre>
+          <pre class="sample-output">#### Image OCR
+
+Embedded-label route map
+Mouth Pharynx Esophagus
+Stomach
+Accessory organs
+- Liver
+Rectum / Anusa Karge Intestino Small Intestine</pre>
         </div>
       </div>
     </section>
@@ -135,17 +142,17 @@ Check sensor rinse betore tinal average</pre>
           <h2>Use the sample first, then decide.</h2>
           <p>
             PDF-MD is available for Mac as a one-time purchase. The sample pack
-            is here so you can inspect the source, output, and caveats before
+            is here so you can inspect the source, output, and audit trail before
             you reach the checkout.
           </p>
           <a class="button secondary" href="./index.html#sales-support">Go to product page</a>
         </div>
         <div class="proof-panel">
-          <h3>Reviewability beats hype</h3>
+          <h3>Lecture slides are a real fit</h3>
           <p>
-            For academic and research PDFs, the safe promise is not perfect
-            extraction. It is a visible workflow for turning difficult source
-            material into Markdown with an audit trail beside it.
+            For study PDFs, the useful promise is not perfect OCR. It is a
+            visible workflow for turning slide material into Markdown with the
+            source and route evidence beside it.
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 {
-  "generatedAt" : "2026-05-07T13:49:23Z",
+  "generatedAt" : "2026-05-07T14:46:26Z",
   "ocrLanguageConfiguration" : {
     "effectiveLanguages" : [
 
@@ -17,62 +17,62 @@
   ],
   "ocrMode" : "Balanced",
   "outputRoot" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output",
-  "profileID" : "pdf-md-reviewability-demo",
-  "profileName" : "PDF-MD reviewability demo sample pack",
-  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/research-methods-field-notes.pdf",
+  "profileID" : "pdf-md-openstax-digestion-lecture",
+  "profileName" : "PDF-MD OpenStax digestion lecture sample",
+  "sourcePDFPath" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/source\/openstax-digestion-lecture.pdf",
   "suites" : [
     {
-      "description" : "A bounded Hybrid export over a synthetic academic\/research handout with text, table-like content, equation text, and an image-like note region.",
-      "id" : "reviewability-pass",
-      "pageCount" : 3,
-      "rangeExpression" : "1-3",
+      "description" : "A bounded Hybrid export over a rights-clean digestion lecture PDF with selectable text plus embedded-label diagrams.",
+      "id" : "openstax-digestion-pass",
+      "pageCount" : 8,
+      "rangeExpression" : "1-8",
       "runs" : [
         {
           "artifactFootprint" : {
-            "auditArtifactByteCount" : 24576,
+            "auditArtifactByteCount" : 45056,
             "auditArtifactFileCount" : 1,
-            "markdownByteCount" : 4096,
+            "markdownByteCount" : 8192,
             "markdownFileCount" : 1,
             "retainedOtherByteCount" : 0,
             "retainedOtherFileCount" : 0,
-            "totalByteCount" : 28672
+            "totalByteCount" : 53248
           },
           "auditArtifacts" : [
-            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on\/research-methods-field-notes_reviewability-pass_hybrid_on.audit.json"
+            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on\/openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.audit.json"
           ],
-          "auditWriteDurationMS" : 8.863041666700155,
-          "averagePageExtractionDurationMS" : 303.6295138887605,
+          "auditWriteDurationMS" : 14.982666667492595,
+          "averagePageExtractionDurationMS" : 173.68987499980904,
           "concurrencyPolicy" : {
             "activeProcessorCount" : 10,
-            "effectiveWorkers" : 3,
+            "effectiveWorkers" : 4,
             "hostWorkerCap" : 10,
             "imageFrameCount" : 0,
             "pageTypeWorkerCap" : 4,
             "physicalMemoryGB" : 64,
-            "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 4 from 1\/3 raster-heavy sections; effective 3",
+            "policyReason" : "requested 8; host cap 10 from 10 active cores and 64 GB memory; page cap 4 from 2\/8 raster-heavy sections; effective 4",
             "presentationPageCount" : 0,
-            "rasterHeavyPageCount" : 1,
+            "rasterHeavyPageCount" : 2,
             "requestedWorkers" : 8,
-            "scheduledPageCount" : 3
+            "scheduledPageCount" : 8
           },
           "destructiveNormalizationFallbackCount" : 0,
           "expectation" : "success",
           "exportMode" : "hybrid",
-          "extractionDurationMS" : 801.9657083332277,
-          "markdownWriteDurationMS" : 0.340791666531004,
+          "extractionDurationMS" : 762.536916667159,
+          "markdownWriteDurationMS" : 0.7551250000688015,
           "normalization" : "on",
-          "outputDirectory" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on",
-          "routeMix" : "Text 2 \/ Text+OCR 1",
-          "slowestPage" : "research-methods-field-notes.pdf page 2 \/ text layer + image OCR \/ 802 ms",
+          "outputDirectory" : "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on",
+          "routeMix" : "Text 6 \/ Text+OCR 2",
+          "slowestPage" : "openstax-digestion-lecture.pdf page 4 \/ text layer + image OCR \/ 762 ms",
           "status" : "success",
-          "totalDurationMS" : 813.4349166666652,
-          "writeDurationMS" : 10.008625000409666,
+          "totalDurationMS" : 781.3916666655132,
+          "writeDurationMS" : 16.549125000892673,
           "writtenFiles" : [
-            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/reviewability-pass\/hybrid-on\/research-methods-field-notes_reviewability-pass_hybrid_on.md"
+            "\/Volumes\/DATA_ARCHIVE\/Hub_Network\/20_App_And_Tool_Hubs\/AppDev_Hub\/Commercialisation_Hub\/apps\/PDF-MD\/publishing\/pdf-md-site-publish\/site-assets\/sample-pack\/pdf-md-reviewability-demo\/run\/pdf-md-benchmark-output\/openstax-digestion-pass\/hybrid-on\/openstax-digestion-lecture_openstax-digestion-pass_hybrid_on.md"
           ]
         }
       ],
-      "title" : "Reviewability pass"
+      "title" : "OpenStax digestion lecture pass"
     }
   ]
 }
