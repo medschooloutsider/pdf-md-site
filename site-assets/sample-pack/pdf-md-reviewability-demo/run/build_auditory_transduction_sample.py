@@ -126,6 +126,11 @@ def write_profile() -> None:
                                 "exportMode": "hybrid",
                                 "normalization": "on",
                                 "expectation": "success",
+                            },
+                            {
+                                "exportMode": "heavyAudit",
+                                "normalization": "on",
+                                "expectation": "success",
                             }
                         ],
                     }
@@ -158,6 +163,8 @@ def write_readme() -> None:
             "- `source/source-transcript.md` - selectable PDF text layer",
             "- `output/auditory-transduction-lecture-excerpt_Hybrid_norm.md` - generated Markdown",
             "- `audit/auditory-transduction-lecture-excerpt_Hybrid_norm.audit.json` - audit sidecar",
+            "- `audit/heavy-audit/auditory-transduction-lecture-excerpt_Heavy_Audit_norm.audit.html` - Heavy Audit report with OCR overlays",
+            "- `audit/heavy-audit/auditory-transduction-lecture-excerpt_Heavy_Audit_norm.audit.json` - Heavy Audit JSON with OCR boxes, probable label groups, and chart/diagram semantic candidates",
             "- OCR uncertainty notes are included inline in the Markdown and in the audit JSON when slide labels are spatially ambiguous.",
             "- `run/benchmark-profile.json` - benchmark profile used to regenerate output",
             "- `run/pdf-md-benchmark-output/` - retained benchmark output copy",

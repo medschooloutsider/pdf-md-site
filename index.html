@@ -112,7 +112,16 @@
             data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/auditory-transduction-lecture-excerpt_Hybrid_norm.audit.json"
           >
             <strong>Audit JSON</strong>
-            <span>Route, OCR, timing, uncertainty, and artifact metadata.</span>
+            <span>Route, OCR, timing, uncertainty, label groups, and semantic candidates.</span>
+          </a>
+          <a
+            class="file-card"
+            href="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/heavy-audit/auditory-transduction-lecture-excerpt_Heavy_Audit_norm.audit.html"
+            data-preview-title="Heavy Audit report"
+            data-preview-url="./site-assets/sample-pack/pdf-md-reviewability-demo/audit/heavy-audit/auditory-transduction-lecture-excerpt_Heavy_Audit_norm.audit.html"
+          >
+            <strong>Heavy Audit report</strong>
+            <span>OCR overlays, crop assets, probable label groups, and chart or diagram candidates.</span>
           </a>
         </div>
 
@@ -129,8 +138,9 @@
             <h3>Image-embedded labels</h3>
             <p>
               The slide text is selectable, while many anatomy labels are pixels inside the figures. PDF-MD
-              routes these slides through Hybrid OCR so useful labels become visible in Markdown. The caveat is
-              visible too: spatial relationships are not reconstructed.
+              routes these slides through Hybrid OCR so useful labels become visible in Markdown. Heavy Audit
+              adds OCR confidence overlays, probable label groups, and chart or diagram candidates. The caveat is
+              visible too: spatial relationships are exposed for review, not perfectly reconstructed.
             </p>
             <pre class="sample-output">### Page 8
 

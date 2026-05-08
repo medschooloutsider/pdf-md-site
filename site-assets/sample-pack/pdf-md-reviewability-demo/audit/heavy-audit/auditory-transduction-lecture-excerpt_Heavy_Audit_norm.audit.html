@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>auditory-transduction-lecture-excerpt</title>
+  <style>
+    :root { color-scheme: dark; --bg:#07111c; --card:#0f1c2a; --ink:#eaf4ff; --muted:#9eb0c2; --line:rgba(255,255,255,0.10); --accent:#2ba8c6; --region:rgba(255,187,92,0.18); --region-line:rgba(255,187,92,0.72); --ocr-high:rgba(45,211,111,0.82); --ocr-medium:rgba(255,176,50,0.86); --ocr-low:rgba(255,72,72,0.90); }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif; background: radial-gradient(circle at top, #12304a 0%, var(--bg) 45%, #03070c 100%); color:var(--ink); }
+    main { max-width: 1600px; margin: 0 auto; padding: 28px; }
+    header { margin-bottom: 24px; }
+    h1 { margin: 0 0 6px; font-size: 2rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    .slides { display: grid; gap: 20px; }
+    .slide-card { display:grid; grid-template-columns: minmax(420px, 1.3fr) minmax(320px, 0.9fr); gap: 18px; padding: 18px; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid var(--line); border-radius: 22px; backdrop-filter: blur(12px); }
+    .slide-meta { grid-column: 1 / -1; }
+    .slide-meta h2 { margin:0 0 4px; font-size: 1.05rem; }
+    .slide-meta p { margin:0; color:var(--muted); }
+    .slide-frame { position:relative; overflow:hidden; border-radius: 16px; border:1px solid var(--line); background:#05090f; }
+    .slide-frame img { display:block; width:100%; height:auto; }
+    .slide-frame-empty { min-height: 220px; display:grid; place-items:center; }
+    .slide-frame-placeholder { color:var(--muted); font-size:0.95rem; }
+    .region { position:absolute; border: 2px solid var(--region-line); background: var(--region); border-radius: 10px; }
+    .ocr-line { position:absolute; border:1px solid var(--ocr-high); background:rgba(45,211,111,0.14); border-radius: 6px; }
+    .ocr-line.ocr-medium { border-color:var(--ocr-medium); background:rgba(255,176,50,0.16); }
+    .ocr-line.ocr-low { border-color:var(--ocr-low); background:rgba(255,72,72,0.18); }
+    .label-group { position:absolute; border:2px dashed rgba(105,220,255,0.95); background:rgba(105,220,255,0.08); border-radius:14px; pointer-events:none; }
+    .label-groups { margin-top:12px; padding-top:12px; border-top:1px solid var(--line); }
+    .label-groups h3 { margin:0 0 6px; font-size:0.95rem; }
+    .label-groups ol { margin:0; padding-left:20px; color:var(--muted); }
+    .label-groups li { margin:4px 0; }
+    .label-groups span { color:var(--ink); }
+    .semantic-candidate { position:absolute; border:2px dotted rgba(206,151,255,0.95); background:rgba(206,151,255,0.10); border-radius:12px; pointer-events:none; }
+    .semantic-candidates { margin-top:12px; padding-top:12px; border-top:1px solid var(--line); }
+    .semantic-candidates h3 { margin:0 0 6px; font-size:0.95rem; }
+    .semantic-candidates ol { margin:0; padding-left:20px; color:var(--muted); }
+    .semantic-candidates li { margin:4px 0; }
+    .semantic-candidates span { color:var(--ink); }
+    .semantic-candidates em { color:var(--muted); font-style:normal; font-size:0.86rem; }
+    .ocr-overlay-preview { display:block; margin-top:12px; border:1px solid var(--line); border-radius:16px; overflow:hidden; color:var(--ink); text-decoration:none; background:#05090f; }
+    .ocr-overlay-preview span { display:block; padding:10px 12px; color:var(--muted); font-size:0.9rem; border-bottom:1px solid var(--line); }
+    .ocr-overlay-preview img { display:block; width:100%; height:auto; }
+    .slide-text { margin:0; padding: 16px; border-radius:16px; border:1px solid var(--line); background: rgba(0,0,0,0.22); white-space: pre-wrap; line-height:1.45; color:#f0f6ff; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; overflow:auto; max-height: 760px; }
+    .crop-strip { margin-top: 12px; display:flex; gap:10px; flex-wrap:wrap; }
+    .crop { display:block; width: 140px; border:1px solid var(--line); border-radius: 12px; overflow:hidden; background:#08101a; }
+    .crop img { display:block; width:100%; height:auto; }
+    @media (max-width: 1180px) { .slide-card { grid-template-columns: 1fr; } .slide-text { max-height:none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>auditory-transduction-lecture-excerpt</h1>
+      <div class="meta">Source: auditory-transduction-lecture-excerpt.pdf | Format: PDF | Sections: 8 | Profile: Balanced | Mode: Heavy Audit | Routing: 5 text-layer-plus-image-OCR page(s), 3 OCR page(s) | Ranges: ocr 1-2 | text-layer-plus-image-ocr 3-5 | ocr 6-6 | text-layer-plus-image-ocr 7-8 | Generated: 2026-05-08T21:44:42Z</div>
+    </header>
+    <div class="slides">
+      <section class="slide-card" id="section-1">
+  <div class="slide-meta">
+    <h2>Page 1</h2>
+    <p><strong>Route:</strong> ocr</p>
+    <p><strong>OCR boxes:</strong> 22</p>
+    <p><strong>Probable label groups:</strong> 4</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 0</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>Cortex cerebellum | Reticular formation | Extra-pyramidal system</li><li><span>Group 2, medium confidence</span><br>Eye | Joint position | Proprioception | Superficial sensation | Integrating/ | data storage | system | Cortical awareness o | head/body/motion | Eye movement/ | control of oculomotor | activity</li><li><span>Group 3, medium confidence</span><br>= distance sound wave travels in time (t+x) | blue</li><li><span>Group 4, medium confidence</span><br>Labyrinthine activity | Control of | motor skills | Control of posture</li>
+  </ol>
+</div>
+    
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001.png" alt="Page 1">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:1.7500%;top:1.7333%;width:38.8000%;height:46.4000%;"></div><div class="region" style="left:53.1500%;top:1.7333%;width:45.4875%;height:95.7556%;"></div>
+  <div class="ocr-line ocr-high" title="motor skills" style="left:63.2235%;top:77.2296%;width:4.6577%;height:1.6132%;"></div><div class="ocr-line ocr-medium" title="Control of" style="left:63.5174%;top:75.4444%;width:4.0698%;height:1.5581%;"></div><div class="ocr-line ocr-high" title="Control of posture" style="left:71.6570%;top:73.3333%;width:7.1221%;height:1.8889%;"></div><div class="ocr-line ocr-high" title="Labyrinthine activity" style="left:52.9070%;top:70.2842%;width:7.9942%;height:1.6047%;"></div><div class="ocr-line ocr-high" title="Superficial sensation" style="left:51.7442%;top:56.0724%;width:8.4302%;height:1.8165%;"></div><div class="ocr-line ocr-high" title="Proprioception" style="left:52.9070%;top:54.2636%;width:6.1047%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="activity" style="left:73.4012%;top:54.2636%;width:2.9070%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Joint position" style="left:53.1977%;top:52.6667%;width:5.3779%;height:1.5969%;"></div><div class="ocr-line ocr-high" title="control of oculomotor" style="left:70.6395%;top:52.1964%;width:8.5756%;height:1.5814%;"></div><div class="ocr-line ocr-high" title="Eye movement/" style="left:71.6570%;top:50.3333%;width:6.3953%;height:1.8889%;"></div><div class="ocr-line ocr-high" title="system" style="left:64.2442%;top:47.8036%;width:3.1977%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="blue" style="left:26.0174%;top:47.0284%;width:1.8895%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="= distance sound wave travels in time (t+x)" style="left:28.3430%;top:47.0000%;width:14.9709%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="data storage" style="left:63.0814%;top:45.9948%;width:5.3779%;height:1.5607%;"></div><div class="ocr-line ocr-high" title="Integrating/" style="left:63.3709%;top:44.1762%;width:4.7989%;height:1.8285%;"></div><div class="ocr-line ocr-high" title="orange = distance sound wave travels in time t" style="left:25.8721%;top:43.6667%;width:16.1337%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="head/body/motion" style="left:71.2209%;top:38.2429%;width:7.4128%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="Eye" style="left:55.9593%;top:37.7261%;width:1.8895%;height:2.0672%;"></div><div class="ocr-line ocr-high" title="Cortical awareness o" style="left:70.6395%;top:36.4341%;width:8.4302%;height:1.5659%;"></div><div class="ocr-line ocr-high" title="Extra-pyramidal system" style="left:61.0465%;top:24.5478%;width:9.4477%;height:1.5633%;"></div><div class="ocr-line ocr-high" title="Reticular formation" style="left:61.9186%;top:22.7390%;width:7.7035%;height:1.5943%;"></div><div class="ocr-line ocr-high" title="Cortex cerebellum" style="left:62.0640%;top:20.8889%;width:7.4128%;height:1.5917%;"></div>
+  <div class="label-group" title="Cortex cerebellum | Reticular formation | Extra-pyramidal system" style="left:61.0465%;top:20.8889%;width:9.4477%;height:5.2222%;"></div><div class="label-group" title="Eye | Joint position | Proprioception | Superficial sensation | Integrating/ | data storage | system | Cortical awareness o | head/body/motion | Eye movement/ | control of oculomotor | activity" style="left:51.7442%;top:36.4341%;width:27.4709%;height:21.4548%;"></div><div class="label-group" title="= distance sound wave travels in time (t+x) | blue" style="left:26.0174%;top:47.0000%;width:17.2965%;height:1.3333%;"></div><div class="label-group" title="Labyrinthine activity | Control of | motor skills | Control of posture" style="left:52.9070%;top:70.2842%;width:25.8721%;height:8.5585%;"></div>
+  
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-ocr-overlay.png" alt="OCR confidence overlay for Page 1">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-02.png" alt="Region 2"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-03.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-001-region-03.png" alt="Region 3"></a></div>
+  </div>
+  <pre class="slide-text">Cortex cerebellum
+
+Reticular formation
+
+Extra-pyramidal system
+
+Cortical awareness o
+
+Eye
+
+head/body/motion
+
+orange = distance sound wave travels in time t
+
+Integrating/
+
+blue = distance sound wave travels in time (t+x)
+
+data storage system
+
+Figure labels:
+
+- Eye movement/
+- Joint position control of oculomotor
+- Proprioception activity
+- Superficial sensation
+- Labyrinthine activity
+- Control of posture
+- Control of motor skills</pre>
+</section>
+<section class="slide-card" id="section-2">
+  <div class="slide-meta">
+    <h2>Page 2</h2>
+    <p><strong>Route:</strong> ocr</p>
+    <p><strong>OCR boxes:</strong> 44</p>
+    <p><strong>Probable label groups:</strong> 1</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 3</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p><p><strong>OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>250 | 125 | 10 | 60 | 70 | 80 | 90 | 100 | [Hz] | 3000 | 1000 2000 | 8000 | 6000 | 4000 | AUDIOGRAM | Left Ear X | -10 | Normal Hearing | 10 | 20 | Mild Hearing Loss | 30 | 40 | 50 | Moderate Hearing Loss | 60 | 70 | Severe Hearing Loss | 80 | 90 | Profound Hearing Loss | 100 | 110 | 120 | Right Ear | 125 | 500 | 250 | 1000 | Frequency in Hertz (Hz) | 4000 | 2000 | 8000</li>
+  </ol>
+</div>
+    <div class="semantic-candidates">
+  <h3>Chart/diagram semantic candidates</h3>
+  <ol>
+    <li><span>Probable vertical chart axis tick labels, medium confidence</span><br>-10 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 110 | 120<br><em>orientation=vertical ; tickLabelCount=13 ; averageOCRConfidence=0.923</em></li><li><span>Probable horizontal chart axis tick labels, medium confidence</span><br>120 | 125 | 250 | 500 | 1000 | 2000 | 4000 | 8000<br><em>orientation=horizontal ; tickLabelCount=8 ; averageOCRConfidence=0.938</em></li><li><span>Probable chart label cloud, medium confidence</span><br>250 | 125 | 10 | 60 | 70 | 80 | 90 | 100 | [Hz] | 3000 | 1000 2000 | 8000 | 6000 | 4000 | AUDIOGRAM | Left Ear X | -10 | Normal Hearing | 10 | 20 | Mild Hearing Loss | 30 | 40 | 50 | Moderate Hearing Loss | 60 | 70 | Severe Hearing Loss | 80 | 90 | Profound Hearing Loss | 100 | 110 | 120 | Right Ear | 125 | 500 | 250 | 1000 | Frequency in Hertz (Hz) | 4000 | 2000 | 8000<br><em>sourceLabelGroup=1 ; labelCount=43 ; numericLabelCount=33 ; chartTermCount=9</em></li>
+  </ol>
+</div>
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002.png" alt="Page 2">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:1.3500%;top:15.6000%;width:46.1875%;height:58.0000%;"></div><div class="region" style="left:48.6750%;top:15.6000%;width:49.9750%;height:77.7333%;"></div>
+  <div class="ocr-line ocr-medium" title="Frequency in Hertz (Hz)" style="left:61.6279%;top:74.4186%;width:9.1570%;height:1.5814%;"></div><div class="ocr-line ocr-medium" title="2000" style="left:69.3314%;top:72.5556%;width:1.8895%;height:1.3463%;"></div><div class="ocr-line ocr-high" title="125" style="left:56.6860%;top:72.3333%;width:1.3081%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="250" style="left:59.7384%;top:72.3333%;width:1.4535%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="500" style="left:63.0814%;top:72.3333%;width:1.3081%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="1000" style="left:65.9884%;top:72.5556%;width:1.7442%;height:1.1111%;"></div><div class="ocr-line ocr-high" title="4000" style="left:72.3837%;top:72.5556%;width:1.8895%;height:1.1111%;"></div><div class="ocr-line ocr-high" title="8000" style="left:75.7267%;top:72.5556%;width:1.8895%;height:1.1111%;"></div><div class="ocr-line ocr-high" title="120" style="left:52.1802%;top:71.5556%;width:1.4535%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="110" style="left:52.1802%;top:68.7339%;width:1.4535%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="100" style="left:52.1802%;top:66.1111%;width:1.4535%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="Profound Hearing Loss" style="left:54.2151%;top:64.8579%;width:6.8314%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Hearing Level in Decibels (dB)" style="left:50.8721%;top:44.7028%;width:1.1628%;height:19.8966%;"></div><div class="ocr-line ocr-high" title="90" style="left:52.6163%;top:63.5556%;width:1.0174%;height:1.0439%;"></div><div class="ocr-line ocr-high" title="100" style="left:23.6919%;top:61.4444%;width:1.5988%;height:1.3463%;"></div><div class="ocr-line ocr-high" title="80" style="left:52.6163%;top:60.7235%;width:1.0174%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Severe Hearing Loss" style="left:54.3605%;top:59.4315%;width:5.8140%;height:1.5685%;"></div><div class="ocr-line ocr-high" title="90" style="left:23.9826%;top:58.8889%;width:1.3081%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="70" style="left:52.6163%;top:58.1111%;width:1.0174%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="80" style="left:23.9826%;top:56.0724%;width:1.3081%;height:1.5943%;"></div><div class="ocr-line ocr-high" title="60" style="left:52.6163%;top:55.5556%;width:1.0174%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="Moderate Hearing Loss" style="left:54.2151%;top:54.2222%;width:6.8314%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="70" style="left:23.9826%;top:53.4444%;width:1.3081%;height:1.5943%;"></div><div class="ocr-line ocr-medium" title="50" style="left:52.6163%;top:52.6667%;width:1.0174%;height:1.3385%;"></div><div class="ocr-line ocr-high" title="60" style="left:23.8372%;top:50.8889%;width:1.4535%;height:1.8243%;"></div><div class="ocr-line ocr-high" title="40" style="left:52.6163%;top:50.1111%;width:1.0174%;height:1.3333%;"></div><div class="ocr-line ocr-medium" title="30" style="left:52.6163%;top:47.5452%;width:1.0174%;height:1.3437%;"></div><div class="ocr-line ocr-high" title="Mild Hearing Loss" style="left:54.2151%;top:45.7364%;width:5.3779%;height:1.5969%;"></div><div class="ocr-line ocr-high" title="20" style="left:52.6163%;top:44.9612%;width:1.0174%;height:1.0388%;"></div><div class="ocr-line ocr-high" title="10" style="left:52.6163%;top:42.1111%;width:1.0174%;height:1.3333%;"></div><div class="ocr-line ocr-medium" title="Normal Hearing" style="left:54.2151%;top:40.7778%;width:4.7965%;height:1.5995%;"></div><div class="ocr-line ocr-high" title="10" style="left:23.9826%;top:37.7261%;width:1.3081%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="-10" style="left:52.4709%;top:36.9509%;width:1.1628%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Right Ear" style="left:61.7733%;top:33.8501%;width:5.2326%;height:2.3721%;"></div><div class="ocr-line ocr-high" title="Left Ear X" style="left:54.0698%;top:33.8501%;width:5.5233%;height:1.5943%;"></div><div class="ocr-line ocr-medium" title="1000 2000" style="left:30.5233%;top:33.0749%;width:4.9419%;height:1.5917%;"></div><div class="ocr-line ocr-medium" title="3000" style="left:36.1919%;top:33.0749%;width:2.1802%;height:1.5917%;"></div><div class="ocr-line ocr-medium" title="4000" style="left:38.9535%;top:33.0749%;width:2.1802%;height:1.5917%;"></div><div class="ocr-line ocr-high" title="8000" style="left:44.7674%;top:33.0749%;width:2.0349%;height:1.5917%;"></div><div class="ocr-line ocr-high" title="125" style="left:25.1453%;top:33.0749%;width:1.5988%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="250" style="left:28.0523%;top:33.0749%;width:1.5988%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="6000" style="left:42.0058%;top:33.0749%;width:2.0349%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="AUDIOGRAM" style="left:49.4186%;top:30.4910%;width:9.3023%;height:2.5840%;"></div><div class="ocr-line ocr-medium" title="[Hz]" style="left:30.6686%;top:30.4910%;width:2.0349%;height:2.0672%;"></div>
+  <div class="label-group" title="250 | 125 | 10 | 60 | 70 | 80 | 90 | 100 | [Hz] | 3000 | 1000 2000 | 8000 | 6000 | 4000 | AUDIOGRAM | Left Ear X | -10 | Normal Hearing | 10 | 20 | Mild Hearing Loss | 30 | 40 | 50 | Moderate Hearing Loss | 60 | 70 | Severe Hearing Loss | 80 | 90 | Profound Hearing Loss | 100 | 110 | 120 | Right Ear | 125 | 500 | 250 | 1000 | Frequency in Hertz (Hz) | 4000 | 2000 | 8000" style="left:23.6919%;top:30.4910%;width:53.9244%;height:45.5090%;"></div>
+  <div class="semantic-candidate" title="Probable vertical chart axis tick labels: -10 | 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 | 100 | 110 | 120" style="left:52.1802%;top:36.9509%;width:1.4535%;height:35.9380%;"></div><div class="semantic-candidate" title="Probable horizontal chart axis tick labels: 120 | 125 | 250 | 500 | 1000 | 2000 | 4000 | 8000" style="left:52.1802%;top:71.5556%;width:25.4360%;height:2.3463%;"></div><div class="semantic-candidate" title="Probable chart label cloud: 250 | 125 | 10 | 60 | 70 | 80 | 90 | 100 | [Hz] | 3000 | 1000 2000 | 8000 | 6000 | 4000 | AUDIOGRAM | Left Ear X | -10 | Normal Hearing | 10 | 20 | Mild Hearing Loss | 30 | 40 | 50 | Moderate Hearing Loss | 60 | 70 | Severe Hearing Loss | 80 | 90 | Profound Hearing Loss | 100 | 110 | 120 | Right Ear | 125 | 500 | 250 | 1000 | Frequency in Hertz (Hz) | 4000 | 2000 | 8000" style="left:23.6919%;top:30.4910%;width:53.9244%;height:45.5090%;"></div>
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-ocr-overlay.png" alt="OCR confidence overlay for Page 2">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-02.png" alt="Region 2"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-03.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-002-region-03.png" alt="Region 3"></a></div>
+  </div>
+  <pre class="slide-text">AUDIOGRAM
+
+125 250 1000 2000 3000 4000 6000 8000
+
+Left Ear X Right Ear
+
+Normal Hearing
+
+80 Hearing Level in Decibels (dB)
+
+Mild Hearing Loss
+
+Moderate Hearing Loss
+
+Severe Hearing Loss
+
+Profound Hearing Loss
+
+125 250 500 1000 2000 4000 8000
+
+Frequency in Hertz (Hz)</pre>
+</section>
+<section class="slide-card" id="section-3">
+  <div class="slide-meta">
+    <h2>Page 3</h2>
+    <p><strong>Route:</strong> text-layer-plus-image-ocr</p>
+    <p><strong>OCR boxes:</strong> 10</p>
+    <p><strong>Probable label groups:</strong> 2</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 0</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>OUR HEARING SYSTEM PER | OUR BRAIN PERFORMS A SYNTHESIS | OUR BRAIN PER</li><li><span>Group 2, medium confidence</span><br>- Fundamental | Various harmonics | - Synthesized wave</li>
+  </ol>
+</div>
+    
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003.png" alt="Page 3">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:3.1500%;top:32.8667%;width:42.3500%;height:48.8889%;"></div>
+  <div class="ocr-line ocr-high" title="THE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM" style="left:5.0872%;top:89.3939%;width:90.1163%;height:3.6364%;"></div><div class="ocr-line ocr-high" title="- Synthesized wave" style="left:82.2674%;top:44.7028%;width:11.9186%;height:2.0850%;"></div><div class="ocr-line ocr-high" title="OUR BRAIN PER" style="left:29.4141%;top:42.0400%;width:16.5344%;height:3.8826%;"></div><div class="ocr-line ocr-high" title="Various harmonics" style="left:83.1395%;top:42.3636%;width:11.6279%;height:1.8224%;"></div><div class="ocr-line ocr-high" title="- Fundamental" style="left:82.4128%;top:40.0517%;width:9.0116%;height:1.8271%;"></div><div class="ocr-line ocr-high" title="OUR HEARING SYSTEM PER" style="left:17.0360%;top:35.8739%;width:29.0261%;height:3.1478%;"></div><div class="ocr-line ocr-high" title="OUR BRAIN PERFORMS A SYNTHESIS" style="left:29.5058%;top:27.6364%;width:38.6628%;height:3.6364%;"></div><div class="ocr-line ocr-high" title="OUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS" style="left:17.2965%;top:20.9091%;width:63.0814%;height:3.6387%;"></div><div class="ocr-line ocr-high" title="TONES" style="left:45.0522%;top:14.4284%;width:7.4247%;height:3.4429%;"></div><div class="ocr-line ocr-high" title="SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY" style="left:1.4535%;top:7.7519%;width:94.7674%;height:3.6420%;"></div>
+  <div class="label-group" title="OUR HEARING SYSTEM PER | OUR BRAIN PERFORMS A SYNTHESIS | OUR BRAIN PER" style="left:17.0360%;top:27.6364%;width:51.1326%;height:18.2862%;"></div><div class="label-group" title="- Fundamental | Various harmonics | - Synthesized wave" style="left:82.2674%;top:40.0517%;width:12.5000%;height:6.7362%;"></div>
+  
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-ocr-overlay.png" alt="OCR confidence overlay for Page 3">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-003-region-02.png" alt="Region 2"></a></div>
+  </div>
+  <pre class="slide-text">SOUNDS PRODUCED BY MUSICAL INSTRUMENTS OR THE HUMAN VOICE CONSIST OF MANY
+TONES
+OUR HEARING SYSTEM PERFORMS A FREQUENCY ANALYSIS
+OUR BRAIN PERFORMS A SYNTHESIS
+THE FUNDAMENTAL HARMONIC THE LOWEST FREQUENCY OF A PERIODIC WAVEFORM
+
+#### Image OCR
+
+Various harmonics
+- Synthesized wave</pre>
+</section>
+<section class="slide-card" id="section-4">
+  <div class="slide-meta">
+    <h2>Page 4</h2>
+    <p><strong>Route:</strong> text-layer-plus-image-ocr</p>
+    <p><strong>OCR boxes:</strong> 33</p>
+    <p><strong>Probable label groups:</strong> 2</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 2</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p><p><strong>OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>Tympanic membrane | vibrates in response | Tympanic membrane | vibrates in response | Vibrations are | amplified across | Vibrations are | amplified across</li><li><span>Group 2, medium confidence</span><br>Sound wave represents alternating | • Sound wave represents alternating | Wavelength | Wavelength | Frequency of sound wave | measured in Hz (cycles | Frequency of sound wave | per second) | measured in Hz (cycles | per second) | THE OUTER EAR STRUCTURES MUST</li>
+  </ol>
+</div>
+    <div class="semantic-candidates">
+  <h3>Chart/diagram semantic candidates</h3>
+  <ol>
+    <li><span>Repeated diagram label text detected, medium confidence</span><br>Tympanic membrane | vibrates in response | Tympanic membrane | vibrates in response | Vibrations are | amplified across | Vibrations are | amplified across<br><em>sourceLabelGroup=1 ; labelCount=8 ; uniqueLabelCount=4</em></li><li><span>Probable chart label cloud, medium confidence</span><br>Sound wave represents alternating | • Sound wave represents alternating | Wavelength | Wavelength | Frequency of sound wave | measured in Hz (cycles | Frequency of sound wave | per second) | measured in Hz (cycles | per second) | THE OUTER EAR STRUCTURES MUST<br><em>sourceLabelGroup=2 ; labelCount=11 ; numericLabelCount=0 ; chartTermCount=2</em></li>
+  </ol>
+</div>
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004.png" alt="Page 4">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:21.0375%;top:26.1111%;width:56.5750%;height:44.0667%;"></div>
+  <div class="ocr-line ocr-high" title="SOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM" style="left:5.5233%;top:88.6061%;width:87.3546%;height:4.4242%;"></div><div class="ocr-line ocr-high" title="FOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE" style="left:15.6977%;top:80.8485%;width:67.2965%;height:3.9060%;"></div><div class="ocr-line ocr-high" title="THE OUTER EAR STRUCTURES MUST" style="left:30.0000%;top:72.5926%;width:38.7500%;height:4.4444%;"></div><div class="ocr-line ocr-high" title="per second)" style="left:29.7759%;top:67.7284%;width:5.4101%;height:1.7373%;"></div><div class="ocr-line ocr-high" title="measured in Hz (cycles" style="left:29.7965%;top:65.6331%;width:10.4651%;height:1.8215%;"></div><div class="ocr-line ocr-high" title="per second)" style="left:29.7501%;top:64.0845%;width:5.3830%;height:1.8299%;"></div><div class="ocr-line ocr-high" title="Frequency of sound wave" style="left:29.7965%;top:63.8182%;width:11.3372%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="measured in Hz (cycles" style="left:29.8217%;top:61.7715%;width:10.3666%;height:2.2720%;"></div><div class="ocr-line ocr-low" title="AAANA" style="left:30.0826%;top:58.6162%;width:12.7999%;height:4.7314%;"></div><div class="ocr-line ocr-high" title="Frequency of sound wave" style="left:29.8361%;top:60.0606%;width:11.2624%;height:1.8182%;"></div><div class="ocr-line ocr-low" title="AL" style="left:38.9132%;top:55.2907%;width:3.8662%;height:4.4809%;"></div><div class="ocr-line ocr-high" title="Wavelength" style="left:34.5889%;top:52.6732%;width:5.3862%;height:1.8888%;"></div><div class="ocr-line ocr-high" title="Wavelength" style="left:34.7025%;top:48.9435%;width:5.2278%;height:2.0895%;"></div><div class="ocr-line ocr-low" title="2222222233))" style="left:27.1466%;top:42.2960%;width:30.9295%;height:4.6303%;"></div><div class="ocr-line ocr-high" title="areas of high and low pressure." style="left:29.5058%;top:43.9276%;width:13.8081%;height:1.8299%;"></div><div class="ocr-line ocr-high" title="• Sound wave represents alternating" style="left:27.9070%;top:41.5758%;width:17.0058%;height:2.1212%;"></div><div class="ocr-line ocr-high" title="areas of high and low pressure." style="left:29.4999%;top:40.0555%;width:13.9519%;height:1.9445%;"></div><div class="ocr-line ocr-medium" title="Sound wave represents alternating" style="left:27.9030%;top:37.9394%;width:16.8936%;height:2.1212%;"></div><div class="ocr-line ocr-high" title="to sound wave." style="left:57.2674%;top:35.3939%;width:6.9767%;height:1.8182%;"></div><div class="ocr-line ocr-high" title="ossicles." style="left:70.1964%;top:35.3419%;width:3.9385%;height:1.6676%;"></div><div class="ocr-line ocr-high" title="vibrates in response" style="left:57.4128%;top:33.3333%;width:9.0116%;height:1.8182%;"></div><div class="ocr-line ocr-high" title="amplified across" style="left:70.0581%;top:33.3333%;width:7.4128%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="to sound wave." style="left:57.0451%;top:31.3939%;width:6.9872%;height:2.1504%;"></div><div class="ocr-line ocr-high" title="ossicles." style="left:70.1633%;top:31.5127%;width:3.9134%;height:1.8701%;"></div><div class="ocr-line ocr-high" title="Tympanic membrane" style="left:57.5581%;top:31.5152%;width:9.1570%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="Vibrations are" style="left:70.2035%;top:31.5152%;width:6.2500%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="vibrates in response" style="left:57.3854%;top:29.5533%;width:8.9444%;height:2.1189%;"></div><div class="ocr-line ocr-high" title="amplified across" style="left:70.1790%;top:29.7494%;width:7.2281%;height:1.7924%;"></div><div class="ocr-line ocr-high" title="Tympanic membrane" style="left:57.4037%;top:27.8076%;width:9.2452%;height:1.7924%;"></div><div class="ocr-line ocr-high" title="Vibrations are" style="left:70.1790%;top:27.8076%;width:6.1355%;height:1.4936%;"></div><div class="ocr-line ocr-high" title="IT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL" style="left:14.1667%;top:18.5185%;width:70.0000%;height:4.4512%;"></div><div class="ocr-line ocr-high" title="THE PART MOST VISIBLE IS THE PINNA" style="left:28.7500%;top:11.8519%;width:40.8333%;height:4.4512%;"></div><div class="ocr-line ocr-high" title="OUTER EAR" style="left:42.0058%;top:4.9091%;width:14.8256%;height:3.8788%;"></div>
+  <div class="label-group" title="Tympanic membrane | vibrates in response | Tympanic membrane | vibrates in response | Vibrations are | amplified across | Vibrations are | amplified across" style="left:57.3854%;top:27.8076%;width:20.0856%;height:7.3439%;"></div><div class="label-group" title="Sound wave represents alternating | • Sound wave represents alternating | Wavelength | Wavelength | Frequency of sound wave | measured in Hz (cycles | Frequency of sound wave | per second) | measured in Hz (cycles | per second) | THE OUTER EAR STRUCTURES MUST" style="left:27.9030%;top:37.9394%;width:40.8470%;height:39.0976%;"></div>
+  <div class="semantic-candidate" title="Repeated diagram label text detected: Tympanic membrane | vibrates in response | Tympanic membrane | vibrates in response | Vibrations are | amplified across | Vibrations are | amplified across" style="left:57.3854%;top:27.8076%;width:20.0856%;height:7.3439%;"></div><div class="semantic-candidate" title="Probable chart label cloud: Sound wave represents alternating | • Sound wave represents alternating | Wavelength | Wavelength | Frequency of sound wave | measured in Hz (cycles | Frequency of sound wave | per second) | measured in Hz (cycles | per second) | THE OUTER EAR STRUCTURES MUST" style="left:27.9030%;top:37.9394%;width:40.8470%;height:39.0976%;"></div>
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-ocr-overlay.png" alt="OCR confidence overlay for Page 4">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-004-region-02.png" alt="Region 2"></a></div>
+  </div>
+  <pre class="slide-text">OUTER EAR
+THE PART MOST VISIBLE IS THE PINNA
+IT FUNNELS SOUND WAVES INTO THE EXTERNAL AUDITORY CANAL
+THE OUTER EAR STRUCTURES MUST
+FOCUS SOUND WAVES ON THE TYMPANIC MEMBRANE
+SOUND CAUSES THE TYMPANIC MEMBRANE TO VIBRATE LIKE A DRUM
+
+#### Image OCR
+
+Vibrations are
+vibrates in response
+amplified across
+areas of high and low pressure.
+Wavelength
+measured in Hz (cycles
+per second)
+vibrates in response amplified across</pre>
+</section>
+<section class="slide-card" id="section-5">
+  <div class="slide-meta">
+    <h2>Page 5</h2>
+    <p><strong>Route:</strong> text-layer-plus-image-ocr</p>
+    <p><strong>OCR boxes:</strong> 36</p>
+    <p><strong>Probable label groups:</strong> 3</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 1</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p><p><strong>OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>THE EUSTACHIAN TUBE | MIDDLE EAR</li><li><span>Group 2, medium confidence</span><br>TO EQUALIZE THE AIR PRESSURE | Middle | CONNECTS THE N | ear | ICA | Bony-cartilaginous | junction (isthmus) | Middle | Eustachian | ear | Bony portion | Cartilaginous | Nasopharynx | tube | THI | portion | (SWALLOWING) | AR | AN TUBE | ГO THE NASOPHARYNX | inner ear | nasal passage | Mastoiditis usually | arises in the pas- | sages of the | middle and inner | ear, nose, and</li><li><span>Group 3, medium confidence</span><br>throat | passage</li>
+  </ol>
+</div>
+    <div class="semantic-candidates">
+  <h3>Chart/diagram semantic candidates</h3>
+  <ol>
+    <li><span>Repeated diagram label text detected, medium confidence</span><br>TO EQUALIZE THE AIR PRESSURE | Middle | CONNECTS THE N | ear | ICA | Bony-cartilaginous | junction (isthmus) | Middle | Eustachian | ear | Bony portion | Cartilaginous | Nasopharynx | tube | THI | portion | (SWALLOWING) | AR | AN TUBE | ГO THE NASOPHARYNX | inner ear | nasal passage | Mastoiditis usually | arises in the pas- | sages of the | middle and inner | ear, nose, and<br><em>sourceLabelGroup=2 ; labelCount=27 ; uniqueLabelCount=25</em></li>
+  </ol>
+</div>
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005.png" alt="Page 5">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:6.4250%;top:36.8889%;width:34.3625%;height:61.0667%;"></div><div class="region" style="left:54.8000%;top:47.3333%;width:41.0875%;height:48.5778%;"></div>
+  <div class="ocr-line ocr-high" title="tube" style="left:27.3256%;top:90.1809%;width:2.1802%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Eustachian" style="left:25.8576%;top:87.4776%;width:5.1162%;height:2.3057%;"></div><div class="ocr-line ocr-high" title="passage" style="left:91.7151%;top:88.1137%;width:3.1977%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="ear" style="left:22.1616%;top:87.8182%;width:1.5002%;height:1.2121%;"></div><div class="ocr-line ocr-high" title="throat" style="left:91.7151%;top:86.5633%;width:2.1802%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Middle" style="left:21.4115%;top:84.9091%;width:3.0003%;height:1.6970%;"></div><div class="ocr-line ocr-low" title="ING" style="left:54.1766%;top:81.1515%;width:4.5005%;height:3.5152%;"></div><div class="ocr-line ocr-high" title="throat." style="left:56.8314%;top:83.4625%;width:2.6163%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Nasopharynx" style="left:33.1395%;top:82.1705%;width:5.9593%;height:2.0672%;"></div><div class="ocr-line ocr-high" title="junction (isthmus)" style="left:17.1512%;top:81.9121%;width:7.7035%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="ear, nose, and" style="left:56.8304%;top:81.6438%;width:5.6706%;height:1.8287%;"></div><div class="ocr-line ocr-high" title="middle and inner" style="left:56.8314%;top:80.1034%;width:6.6860%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Bony-cartilaginous" style="left:17.1512%;top:79.3282%;width:7.9942%;height:2.0672%;"></div><div class="ocr-line ocr-medium" title="sages of the" style="left:56.8293%;top:78.5346%;width:4.9461%;height:1.8455%;"></div><div class="ocr-line ocr-high" title="arises in the pas-" style="left:56.8314%;top:77.2610%;width:6.8314%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="E SIDES OF THE TYMPANIC MEMBRANE" style="left:54.1766%;top:74.3636%;width:40.9137%;height:3.1515%;"></div><div class="ocr-line ocr-high" title="Mastoiditis usually" style="left:56.8314%;top:75.6970%;width:7.1221%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="nasal passage" style="left:58.2849%;top:73.3850%;width:5.2326%;height:1.5504%;"></div><div class="ocr-line ocr-medium" title="ICA" style="left:22.3837%;top:72.6098%;width:1.5988%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="portion" style="left:34.5884%;top:71.8074%;width:3.3522%;height:1.8633%;"></div><div class="ocr-line ocr-high" title="Cartilaginous" style="left:33.2715%;top:69.3611%;width:5.8408%;height:2.1046%;"></div><div class="ocr-line ocr-medium" title="inner ear" style="left:58.2849%;top:67.9394%;width:3.3430%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="TO EQUALIZE THE AIR PRESSURE" style="left:5.7961%;top:66.0000%;width:35.1176%;height:3.2727%;"></div><div class="ocr-line ocr-high" title="Bony portion" style="left:32.5581%;top:65.3747%;width:5.8140%;height:2.3256%;"></div><div class="ocr-line ocr-medium" title="ГO THE NASOPHARYNX" style="left:54.1766%;top:61.0303%;width:23.9345%;height:3.1515%;"></div><div class="ocr-line ocr-high" title="AN TUBE" style="left:54.1713%;top:54.3149%;width:8.7388%;height:3.1277%;"></div><div class="ocr-line ocr-high" title="CONNECTS THE N" style="left:23.0481%;top:52.6667%;width:18.2748%;height:3.1515%;"></div><div class="ocr-line ocr-high" title="ear" style="left:21.8023%;top:52.7132%;width:2.0349%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Middle" style="left:21.2209%;top:50.1292%;width:3.1977%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="AR" style="left:54.1766%;top:46.4848%;width:3.7504%;height:3.7576%;"></div><div class="ocr-line ocr-high" title="THI" style="left:38.1862%;top:46.1212%;width:3.1367%;height:2.7879%;"></div><div class="ocr-line ocr-high" title="(SWALLOWING)" style="left:42.2965%;top:37.4677%;width:16.5698%;height:4.1344%;"></div><div class="ocr-line ocr-high" title="TO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE" style="left:5.8140%;top:30.7273%;width:89.3895%;height:3.6397%;"></div><div class="ocr-line ocr-high" title="CONNECTS THE MIDDLE EAR TO THE NASOPHARYNX" style="left:22.9167%;top:17.0303%;width:55.0000%;height:4.4512%;"></div><div class="ocr-line ocr-high" title="THE EUSTACHIAN TUBE" style="left:38.0814%;top:10.8485%;width:24.8547%;height:3.3634%;"></div><div class="ocr-line ocr-high" title="MIDDLE EAR" style="left:42.1512%;top:3.0909%;width:15.6977%;height:3.8858%;"></div>
+  <div class="label-group" title="THE EUSTACHIAN TUBE | MIDDLE EAR" style="left:38.0814%;top:3.0909%;width:24.8547%;height:11.1210%;"></div><div class="label-group" title="TO EQUALIZE THE AIR PRESSURE | Middle | CONNECTS THE N | ear | ICA | Bony-cartilaginous | junction (isthmus) | Middle | Eustachian | ear | Bony portion | Cartilaginous | Nasopharynx | tube | THI | portion | (SWALLOWING) | AR | AN TUBE | ГO THE NASOPHARYNX | inner ear | nasal passage | Mastoiditis usually | arises in the pas- | sages of the | middle and inner | ear, nose, and" style="left:5.7961%;top:37.4677%;width:72.3150%;height:54.2636%;"></div><div class="label-group" title="throat | passage" style="left:91.7151%;top:86.5633%;width:3.1977%;height:2.8424%;"></div>
+  <div class="semantic-candidate" title="Repeated diagram label text detected: TO EQUALIZE THE AIR PRESSURE | Middle | CONNECTS THE N | ear | ICA | Bony-cartilaginous | junction (isthmus) | Middle | Eustachian | ear | Bony portion | Cartilaginous | Nasopharynx | tube | THI | portion | (SWALLOWING) | AR | AN TUBE | ГO THE NASOPHARYNX | inner ear | nasal passage | Mastoiditis usually | arises in the pas- | sages of the | middle and inner | ear, nose, and" style="left:5.7961%;top:37.4677%;width:72.3150%;height:54.2636%;"></div>
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-ocr-overlay.png" alt="OCR confidence overlay for Page 5">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-02.png" alt="Region 2"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-03.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-005-region-03.png" alt="Region 3"></a></div>
+  </div>
+  <pre class="slide-text">MIDDLE EAR
+THE EUSTACHIAN TUBE
+CONNECTS THE MIDDLE EAR TO THE NASOPHARYNX
+TO EQUALIZE THE AIR PRESSURE ON OPPOSITE SIDES OF THE TYMPANIC MEMBRANE
+(SWALLOWING)
+
+#### Image OCR
+
+Bony portion
+inner ear
+Cartilaginous
+portion
+nasal passage
+Mastoiditis usually
+arises in the pas-
+Bony-cartilaginous
+middle and inner sages of the
+junction (isthmus)
+ear, nose, and throat.
+throat
+passage</pre>
+</section>
+<section class="slide-card" id="section-6">
+  <div class="slide-meta">
+    <h2>Page 6</h2>
+    <p><strong>Route:</strong> ocr</p>
+    <p><strong>OCR boxes:</strong> 30</p>
+    <p><strong>Probable label groups:</strong> 0</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 0</p>
+    <p><strong>OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.</strong></p>
+    
+    
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006.png" alt="Page 6">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:17.6750%;top:5.4667%;width:62.8625%;height:89.0667%;"></div>
+  <div class="ocr-line ocr-high" title="sound wave" style="left:39.3895%;top:63.3075%;width:4.0698%;height:1.2986%;"></div><div class="ocr-line ocr-high" title="sound wave" style="left:49.1279%;top:63.3075%;width:4.0698%;height:1.2986%;"></div><div class="ocr-line ocr-medium" title="pnase or a" style="left:39.3880%;top:62.2514%;width:3.4915%;height:0.8203%;"></div><div class="ocr-line ocr-low" title="nnase0т2" style="left:49.2733%;top:62.2739%;width:3.3430%;height:0.5168%;"></div><div class="ocr-line ocr-high" title="compression" style="left:39.5349%;top:60.4651%;width:4.0698%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="rarefaction" style="left:49.2661%;top:60.4013%;width:3.5026%;height:1.4197%;"></div><div class="ocr-line ocr-high" title="tube" style="left:44.3314%;top:59.4315%;width:1.7442%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="pulled by the" style="left:49.2733%;top:58.9091%;width:4.0698%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="pushed by the" style="left:39.3895%;top:58.9091%;width:4.7965%;height:1.2976%;"></div><div class="ocr-line ocr-high" title="Eustachian" style="left:44.4767%;top:57.8811%;width:3.7791%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:39.3887%;top:57.6150%;width:3.6355%;height:1.3075%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:49.2733%;top:57.6227%;width:3.4884%;height:1.0336%;"></div><div class="ocr-line ocr-high" title="Round window" style="left:55.2326%;top:56.3030%;width:4.7965%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="Tympanic" style="left:39.5349%;top:56.0724%;width:3.1977%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Tympanic" style="left:49.2682%;top:56.0314%;width:3.2078%;height:1.3739%;"></div><div class="ocr-line ocr-high" title="tympani" style="left:57.4128%;top:54.5220%;width:2.6163%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="•Scala" style="left:57.4128%;top:52.9716%;width:2.0349%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="PUSH" style="left:34.8715%;top:46.9671%;width:3.2221%;height:2.1898%;"></div><div class="ocr-line ocr-high" title="PULL" style="left:61.9186%;top:47.0284%;width:3.0523%;height:2.0672%;"></div><div class="ocr-line ocr-high" title="vestibuli" style="left:57.4128%;top:46.5116%;width:2.7616%;height:1.2920%;"></div><div class="ocr-line ocr-high" title=",Scala" style="left:57.4128%;top:45.2196%;width:2.0349%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Oval window" style="left:55.9593%;top:43.1515%;width:4.2151%;height:1.2929%;"></div><div class="ocr-line ocr-high" title="ear canal" style="left:39.3823%;top:41.8039%;width:3.0668%;height:1.4051%;"></div><div class="ocr-line ocr-high" title="Stapes" style="left:55.0872%;top:41.3437%;width:2.3256%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Malleus" style="left:49.7093%;top:41.0853%;width:2.6163%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="External Middle ear" style="left:39.3895%;top:40.3030%;width:6.5407%;height:1.2990%;"></div><div class="ocr-line ocr-low" title="ineus" style="left:52.1802%;top:40.8269%;width:1.8895%;height:0.5168%;"></div><div class="ocr-line ocr-high" title="TYMPANIC MEMBRANE" style="left:40.5523%;top:36.6667%;width:7.8488%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="OF TYMPANIC MEMBRANE" style="left:50.2907%;top:36.6667%;width:9.0116%;height:1.3333%;"></div><div class="ocr-line ocr-high" title="INWARD MOVEMENT OF B OUTWARD MOVEMENT" style="left:40.2616%;top:35.3939%;width:17.7326%;height:1.0402%;"></div>
+  
+  
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-ocr-overlay.png" alt="OCR confidence overlay for Page 6">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-006-region-02.png" alt="Region 2"></a></div>
+  </div>
+  <pre class="slide-text">INWARD MOVEMENT OF B OUTWARD MOVEMENT
+
+TYMPANIC MEMBRANE OF TYMPANIC MEMBRANE
+
+External Middle ear
+
+ineus
+
+ear canal
+
+Malleus
+
+Stapes
+
+Oval window
+
+,Scala
+
+vestibuli PULL
+
+tympani
+
+Tympanic
+
+Round window
+
+membrane Eustachian membrane
+
+pushed by the tube
+
+pulled by the
+
+compression
+
+rarefaction
+
+pnase or a
+
+sound wave</pre>
+</section>
+<section class="slide-card" id="section-7">
+  <div class="slide-meta">
+    <h2>Page 7</h2>
+    <p><strong>Route:</strong> text-layer-plus-image-ocr</p>
+    <p><strong>OCR boxes:</strong> 41</p>
+    <p><strong>Probable label groups:</strong> 6</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 3</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p><p><strong>OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>cochlear | duct | stria vascularis | Reissner's membrane | scala vestibuli</li><li><span>Group 2, medium confidence</span><br>tectorial | membrane | spiral | limbus | tectorial | membrane | spiral | cochlear | limbus | nerve</li><li><span>Group 3, medium confidence</span><br>&gt; THE SCALA VESTIBULI | SEPARATES THE SCALA VESTIBULI | FROM THE MIDDLE COMPARTMENT | &gt; THE SCALA MEDIA | REISSNER'S MEMBRANE | THE BASILAR MEMBRANE | cochlear | duct | basilar | membrane | spiral | ligament | basilar | membrane | organ of Corti</li><li><span>Group 4, medium confidence</span><br>spiral | ligament</li><li><span>Group 5, medium confidence</span><br>cochlear | scala tympani | nerve | scala tympani</li><li><span>Group 6, medium confidence</span><br>SEPARATES THE SCALA MEDIA FROM | &gt; THE SCALA TYMPANI</li>
+  </ol>
+</div>
+    <div class="semantic-candidates">
+  <h3>Chart/diagram semantic candidates</h3>
+  <ol>
+    <li><span>Repeated diagram label text detected, medium confidence</span><br>tectorial | membrane | spiral | limbus | tectorial | membrane | spiral | cochlear | limbus | nerve<br><em>sourceLabelGroup=2 ; labelCount=10 ; uniqueLabelCount=6</em></li><li><span>Repeated diagram label text detected, medium confidence</span><br>&gt; THE SCALA VESTIBULI | SEPARATES THE SCALA VESTIBULI | FROM THE MIDDLE COMPARTMENT | &gt; THE SCALA MEDIA | REISSNER'S MEMBRANE | THE BASILAR MEMBRANE | cochlear | duct | basilar | membrane | spiral | ligament | basilar | membrane | organ of Corti<br><em>sourceLabelGroup=3 ; labelCount=15 ; uniqueLabelCount=13</em></li><li><span>Repeated diagram label text detected, medium confidence</span><br>cochlear | scala tympani | nerve | scala tympani<br><em>sourceLabelGroup=5 ; labelCount=4 ; uniqueLabelCount=3</em></li>
+  </ol>
+</div>
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007.png" alt="Page 7">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:45.4250%;top:2.9556%;width:53.0500%;height:78.5778%;"></div>
+  <div class="ocr-line ocr-high" title="©1997 Encyolopaedia Britannica, Ine." style="left:80.6686%;top:79.0698%;width:17.4419%;height:2.3256%;"></div><div class="ocr-line ocr-high" title="organ of Corti" style="left:57.1221%;top:77.7576%;width:8.8663%;height:2.6061%;"></div><div class="ocr-line ocr-high" title="&gt; THE SCALA TYMPANI" style="left:0.4142%;top:70.5159%;width:29.2565%;height:5.4164%;"></div><div class="ocr-line ocr-high" title="scala tympani" style="left:86.9186%;top:69.5090%;width:8.7209%;height:2.3256%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:46.9477%;top:69.5090%;width:6.3953%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="basilar" style="left:46.9367%;top:66.8342%;width:4.5278%;height:1.9906%;"></div><div class="ocr-line ocr-high" title="SEPARATES THE SCALA MEDIA FROM" style="left:0.0000%;top:63.6970%;width:35.8333%;height:3.7104%;"></div><div class="ocr-line ocr-high" title="91997 Encyclopaedia Britannica, Ine." style="left:80.4560%;top:63.7561%;width:17.6812%;height:2.1314%;"></div><div class="ocr-line ocr-high" title="organ of Corti" style="left:57.2658%;top:62.3647%;width:8.6783%;height:2.3802%;"></div><div class="ocr-line ocr-high" title="THE BASILAR MEMBRANE" style="left:10.3198%;top:56.8475%;width:33.1395%;height:4.3928%;"></div><div class="ocr-line ocr-high" title="ligament" style="left:45.7849%;top:58.6563%;width:5.8140%;height:2.3256%;"></div><div class="ocr-line ocr-high" title="spiral" style="left:45.9302%;top:56.0724%;width:3.9244%;height:2.3256%;"></div><div class="ocr-line ocr-high" title="nerve" style="left:90.2590%;top:56.5730%;width:3.4936%;height:1.8410%;"></div><div class="ocr-line ocr-high" title="scala tympani" style="left:86.7720%;top:53.9609%;width:8.7572%;height:2.3832%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:46.9296%;top:53.9531%;width:6.3926%;height:2.1217%;"></div><div class="ocr-line ocr-high" title="cochlear" style="left:90.1075%;top:53.9263%;width:5.6861%;height:2.2249%;"></div><div class="ocr-line ocr-medium" title="&gt; THE SCALA MEDIA" style="left:0.4360%;top:48.8372%;width:26.1628%;height:4.6779%;"></div><div class="ocr-line ocr-high" title="basilar" style="left:46.9196%;top:51.3586%;width:4.5980%;height:2.1302%;"></div><div class="ocr-line ocr-high" title="FROM THE MIDDLE COMPARTMENT" style="left:0.7267%;top:42.1189%;width:32.8488%;height:3.3592%;"></div><div class="ocr-line ocr-high" title="ligament" style="left:45.9051%;top:43.0428%;width:5.6803%;height:2.3802%;"></div><div class="ocr-line ocr-high" title="spiral" style="left:45.9840%;top:40.5226%;width:3.8658%;height:2.2402%;"></div><div class="ocr-line ocr-high" title="nerve" style="left:90.1644%;top:41.2226%;width:3.5502%;height:1.6802%;"></div><div class="ocr-line ocr-high" title="limbus" style="left:92.1393%;top:39.7186%;width:4.5295%;height:2.4749%;"></div><div class="ocr-line ocr-high" title="cochlear" style="left:90.2433%;top:38.4224%;width:5.4437%;height:1.9602%;"></div><div class="ocr-line ocr-high" title="SEPARATES THE SCALA VESTIBULI" style="left:0.5814%;top:36.1757%;width:33.1395%;height:3.3592%;"></div><div class="ocr-line ocr-high" title="spiral" style="left:92.1500%;top:37.2028%;width:4.0721%;height:2.3385%;"></div><div class="ocr-line ocr-high" title="REISSNER'S MEMBRANE" style="left:10.9012%;top:28.9406%;width:30.9593%;height:4.1503%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:89.5349%;top:31.2661%;width:6.3953%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="tectorial" style="left:89.5337%;top:28.6719%;width:5.8162%;height:2.0876%;"></div><div class="ocr-line ocr-high" title="duct" style="left:46.0679%;top:26.5773%;width:2.7770%;height:1.8841%;"></div><div class="ocr-line ocr-high" title="cochlear" style="left:45.9292%;top:24.0217%;width:5.6708%;height:2.0859%;"></div><div class="ocr-line ocr-high" title="limbus" style="left:92.2946%;top:24.4210%;width:4.2603%;height:1.8202%;"></div><div class="ocr-line ocr-medium" title="&gt; THE SCALA VESTIBULI" style="left:0.5814%;top:20.9091%;width:31.1047%;height:4.4242%;"></div><div class="ocr-line ocr-high" title="spiral" style="left:92.2946%;top:21.9007%;width:3.7869%;height:2.1002%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:89.4544%;top:15.8802%;width:6.3904%;height:1.8202%;"></div><div class="ocr-line ocr-high" title="tectorial" style="left:89.5272%;top:13.1616%;width:5.7715%;height:2.0767%;"></div><div class="ocr-line ocr-high" title="stria vascularis" style="left:46.8023%;top:13.1515%;width:10.1744%;height:1.8356%;"></div><div class="ocr-line ocr-high" title="duct" style="left:45.9840%;top:10.9797%;width:2.8402%;height:1.9602%;"></div><div class="ocr-line ocr-high" title="cochlear" style="left:45.9770%;top:8.3956%;width:5.5365%;height:2.0878%;"></div><div class="ocr-line ocr-high" title="Reissner's membrane" style="left:54.2151%;top:4.3636%;width:13.3721%;height:2.3636%;"></div><div class="ocr-line ocr-high" title="scala vestibuli" style="left:73.9826%;top:4.3636%;width:9.5930%;height:2.3636%;"></div>
+  <div class="label-group" title="cochlear | duct | stria vascularis | Reissner's membrane | scala vestibuli" style="left:45.9770%;top:4.3636%;width:37.5986%;height:10.6234%;"></div><div class="label-group" title="tectorial | membrane | spiral | limbus | tectorial | membrane | spiral | cochlear | limbus | nerve" style="left:89.4544%;top:13.1616%;width:7.2144%;height:29.7411%;"></div><div class="label-group" title="&gt; THE SCALA VESTIBULI | SEPARATES THE SCALA VESTIBULI | FROM THE MIDDLE COMPARTMENT | &gt; THE SCALA MEDIA | REISSNER'S MEMBRANE | THE BASILAR MEMBRANE | cochlear | duct | basilar | membrane | spiral | ligament | basilar | membrane | organ of Corti" style="left:0.4360%;top:20.9091%;width:65.5080%;height:50.4087%;"></div><div class="label-group" title="spiral | ligament" style="left:45.9051%;top:40.5226%;width:5.6803%;height:4.9005%;"></div><div class="label-group" title="cochlear | scala tympani | nerve | scala tympani" style="left:86.7720%;top:53.9263%;width:9.0216%;height:17.9083%;"></div><div class="label-group" title="SEPARATES THE SCALA MEDIA FROM | &gt; THE SCALA TYMPANI" style="left:0.0000%;top:63.6970%;width:35.8333%;height:12.2353%;"></div>
+  <div class="semantic-candidate" title="Repeated diagram label text detected: tectorial | membrane | spiral | limbus | tectorial | membrane | spiral | cochlear | limbus | nerve" style="left:89.4544%;top:13.1616%;width:7.2144%;height:29.7411%;"></div><div class="semantic-candidate" title="Repeated diagram label text detected: &gt; THE SCALA VESTIBULI | SEPARATES THE SCALA VESTIBULI | FROM THE MIDDLE COMPARTMENT | &gt; THE SCALA MEDIA | REISSNER'S MEMBRANE | THE BASILAR MEMBRANE | cochlear | duct | basilar | membrane | spiral | ligament | basilar | membrane | organ of Corti" style="left:0.4360%;top:20.9091%;width:65.5080%;height:50.4087%;"></div><div class="semantic-candidate" title="Repeated diagram label text detected: cochlear | scala tympani | nerve | scala tympani" style="left:86.7720%;top:53.9263%;width:9.0216%;height:17.9083%;"></div>
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-ocr-overlay.png" alt="OCR confidence overlay for Page 7">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-007-region-02.png" alt="Region 2"></a></div>
+  </div>
+  <pre class="slide-text">➢ THE SCALA VESTIBULI
+❖ REISSNER’S MEMBRANE
+SEPARATES THE SCALA VESTIBULI
+FROM THE MIDDLE COMPARTMENT
+➢ THE SCALA MEDIA
+❖ THE BASILAR MEMBRANE
+SEPARATES THE SCALA MEDIA FROM
+➢ THE SCALA TYMPANI
+
+#### Image OCR
+
+stria vascularis
+cochlear
+duct
+tectorial
+spiral
+limbus
+nerve
+organ of Corti
+©1997 Encyolopaedia Britannica, Ine. cochlear
+ligament
+91997 Encyclopaedia Britannica, Ine.</pre>
+</section>
+<section class="slide-card" id="section-8">
+  <div class="slide-meta">
+    <h2>Page 8</h2>
+    <p><strong>Route:</strong> text-layer-plus-image-ocr</p>
+    <p><strong>OCR boxes:</strong> 49</p>
+    <p><strong>Probable label groups:</strong> 6</p>
+    <p><strong>Chart/diagram semantic candidates:</strong> 2</p>
+    <p><strong>OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.</strong></p>
+    <div class="label-groups">
+  <h3>Probable label groups</h3>
+  <ol>
+    <li><span>Group 1, medium confidence</span><br>canal | Sound waves | Tympanic | membrane | Malleus | Incus | Secondary tympanic | membrane vibrating | in round window | Stapes vibrating | in oval window | Helicotrema | Perilymph | Middle ear | Cochlea | Auditory tube | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane | Basilar | membrane | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane</li><li><span>Group 2, medium confidence</span><br>TRAVELING | PRESSURE WAVES</li><li><span>Group 3, medium confidence</span><br>Cochlear duct | (contains endolymph) | Scala | tympani | Scala | vestibuli</li><li><span>Group 4, medium confidence</span><br>External auditory | canal | 'IBULI PRESSURE INCREASE | Tympanic | membrane | Middle ear | Auditory tube</li><li><span>Group 5, medium confidence</span><br>Cochlear duct | (contains endolymph)</li><li><span>Group 6, medium confidence</span><br>SCALA VESTIBULI PRESSURE INCREASE | Secondary tympanic | membrane vibrating | in round window</li>
+  </ol>
+</div>
+    <div class="semantic-candidates">
+  <h3>Chart/diagram semantic candidates</h3>
+  <ol>
+    <li><span>Repeated diagram label text detected, medium confidence</span><br>canal | Sound waves | Tympanic | membrane | Malleus | Incus | Secondary tympanic | membrane vibrating | in round window | Stapes vibrating | in oval window | Helicotrema | Perilymph | Middle ear | Cochlea | Auditory tube | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane | Basilar | membrane | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane<br><em>sourceLabelGroup=1 ; labelCount=26 ; uniqueLabelCount=21</em></li><li><span>Repeated diagram label text detected, medium confidence</span><br>Cochlear duct | (contains endolymph) | Scala | tympani | Scala | vestibuli<br><em>sourceLabelGroup=3 ; labelCount=6 ; uniqueLabelCount=5</em></li>
+  </ol>
+</div>
+  </div>
+  <div class="slide-visual">
+    <div class="slide-frame">
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008.png" alt="Page 8">
+  <div class="region" style="left:0.0000%;top:0.0000%;width:100.0000%;height:100.0000%;"></div><div class="region" style="left:40.4250%;top:3.0667%;width:55.7625%;height:60.7556%;"></div>
+  <div class="ocr-line ocr-high" title="PRESSURE WAVES DISPLACE THE REISSNER'S AND THE BASILAR MEMBRANE" style="left:1.0174%;top:79.3282%;width:97.3837%;height:4.9143%;"></div><div class="ocr-line ocr-high" title="SCALA VESTIBULI PRESSURE INCREASE" style="left:24.1667%;top:71.8519%;width:50.8333%;height:4.4512%;"></div><div class="ocr-line ocr-high" title="Auditory tube" style="left:78.1949%;top:61.7292%;width:5.6741%;height:1.8645%;"></div><div class="ocr-line ocr-high" title="in round window" style="left:53.4884%;top:61.7571%;width:6.9767%;height:1.5762%;"></div><div class="ocr-line ocr-high" title="Middle ear" style="left:70.9251%;top:61.7074%;width:4.6613%;height:1.6499%;"></div><div class="ocr-line ocr-high" title="membrane vibrating" style="left:53.4884%;top:59.9394%;width:8.4302%;height:1.8182%;"></div><div class="ocr-line ocr-high" title="Secondary tympanic" style="left:53.4884%;top:58.1212%;width:8.5756%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:45.6395%;top:54.7804%;width:4.6512%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Tympanic" style="left:45.6333%;top:52.6658%;width:4.2277%;height:1.9036%;"></div><div class="ocr-line ocr-high" title="(contains endolymph)" style="left:82.9942%;top:51.6796%;width:9.0116%;height:1.8356%;"></div><div class="ocr-line ocr-high" title="Cochlear duct" style="left:82.9942%;top:49.8708%;width:5.9593%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="HE REISSNER'S AND THE BASILAR MEMBRAN" style="left:39.7886%;top:46.7261%;width:56.9236%;height:4.2666%;"></div><div class="ocr-line ocr-high" title="Vestibular membrane" style="left:87.2093%;top:45.7364%;width:9.0116%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Tectorial membrane" style="left:87.7907%;top:42.3636%;width:8.2849%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="'IBULI PRESSURE INCREASE" style="left:39.7886%;top:39.3580%;width:35.1319%;height:3.6934%;"></div><div class="ocr-line ocr-medium" title="(organ of Corti)" style="left:89.6802%;top:38.7597%;width:6.3953%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="Spiral organ" style="left:89.6768%;top:36.9192%;width:5.2394%;height:1.8722%;"></div><div class="ocr-line ocr-high" title="canal" style="left:42.7326%;top:35.4005%;width:2.4709%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="External auditory" style="left:42.7326%;top:33.5758%;width:7.1221%;height:1.8248%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:91.5670%;top:31.7570%;width:4.5114%;height:1.6023%;"></div><div class="ocr-line ocr-high" title="Basilar" style="left:91.4244%;top:29.9742%;width:3.1977%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="in round window" style="left:53.3774%;top:28.7621%;width:6.9601%;height:1.6348%;"></div><div class="ocr-line ocr-high" title="Middle ear" style="left:70.9433%;top:28.7621%;width:4.5572%;height:1.6348%;"></div><div class="ocr-line ocr-high" title="Auditory tube" style="left:78.1507%;top:28.7636%;width:5.6370%;height:1.7920%;"></div><div class="ocr-line ocr-high" title="membrane vibrating" style="left:53.4602%;top:27.0062%;width:8.3687%;height:1.7706%;"></div><div class="ocr-line ocr-high" title="vestibuli" style="left:92.5843%;top:27.3686%;width:3.6395%;height:1.5935%;"></div><div class="ocr-line ocr-high" title="Secondary tympanic" style="left:53.4602%;top:25.0687%;width:8.5344%;height:1.8164%;"></div><div class="ocr-line ocr-high" title="Scala" style="left:92.7326%;top:25.3230%;width:2.4709%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="tympani" style="left:92.7326%;top:22.9974%;width:3.3430%;height:1.8088%;"></div><div class="ocr-line ocr-high" title="membrane" style="left:45.6707%;top:21.7070%;width:4.4760%;height:1.4869%;"></div><div class="ocr-line ocr-high" title="Scala" style="left:92.7326%;top:21.1886%;width:2.4709%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Tympanic" style="left:45.5836%;top:19.7640%;width:4.1530%;height:1.8419%;"></div><div class="ocr-line ocr-high" title="PRESSURE WAVES" style="left:8.4302%;top:16.2791%;width:23.6919%;height:4.1452%;"></div><div class="ocr-line ocr-high" title="(contains endolymph)" style="left:82.9578%;top:18.6252%;width:9.0315%;height:1.9126%;"></div><div class="ocr-line ocr-high" title="Cochlear duct" style="left:83.0406%;top:16.8342%;width:5.8829%;height:1.5137%;"></div><div class="ocr-line ocr-high" title="Perilymph" style="left:69.1805%;top:13.1363%;width:4.2263%;height:1.8928%;"></div><div class="ocr-line ocr-high" title="Vestibular membrane" style="left:87.2664%;top:12.7170%;width:8.8658%;height:1.5137%;"></div><div class="ocr-line ocr-high" title="TRAVELING" style="left:13.3721%;top:8.2687%;width:14.5349%;height:4.3928%;"></div><div class="ocr-line ocr-high" title="Sound waves" style="left:44.1860%;top:10.0606%;width:5.8140%;height:1.5758%;"></div><div class="ocr-line ocr-high" title="Tectorial membrane" style="left:87.7635%;top:9.5034%;width:8.2858%;height:1.4713%;"></div><div class="ocr-line ocr-high" title="(organ of Corti)" style="left:89.5864%;top:5.9724%;width:6.4629%;height:1.7797%;"></div><div class="ocr-line ocr-high" title="in oval window" style="left:63.9535%;top:5.4264%;width:6.3953%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="Spiral organ" style="left:89.5864%;top:4.0586%;width:5.2201%;height:1.7666%;"></div><div class="ocr-line ocr-high" title="Stapes vibrating" style="left:64.0988%;top:3.6176%;width:6.8314%;height:1.8370%;"></div><div class="ocr-line ocr-high" title="Malleus" style="left:51.0138%;top:3.5910%;width:3.4957%;height:1.6035%;"></div><div class="ocr-line ocr-high" title="Helicotrema" style="left:73.3899%;top:3.4917%;width:5.1203%;height:1.6502%;"></div><div class="ocr-line ocr-high" title="Incus" style="left:56.3953%;top:3.6176%;width:2.4709%;height:1.2920%;"></div><div class="ocr-line ocr-high" title="Cochlea" style="left:82.4128%;top:3.3592%;width:3.6337%;height:1.5504%;"></div><div class="ocr-line ocr-high" title="canal" style="left:42.6850%;top:2.4223%;width:2.4102%;height:1.5093%;"></div>
+  <div class="label-group" title="canal | Sound waves | Tympanic | membrane | Malleus | Incus | Secondary tympanic | membrane vibrating | in round window | Stapes vibrating | in oval window | Helicotrema | Perilymph | Middle ear | Cochlea | Auditory tube | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane | Basilar | membrane | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane" style="left:42.6850%;top:2.4223%;width:53.5359%;height:44.8645%;"></div><div class="label-group" title="TRAVELING | PRESSURE WAVES" style="left:8.4302%;top:8.2687%;width:23.6919%;height:12.1555%;"></div><div class="label-group" title="Cochlear duct | (contains endolymph) | Scala | tympani | Scala | vestibuli" style="left:82.9578%;top:16.8342%;width:13.2660%;height:12.1279%;"></div><div class="label-group" title="External auditory | canal | 'IBULI PRESSURE INCREASE | Tympanic | membrane | Middle ear | Auditory tube" style="left:39.7886%;top:33.5758%;width:44.0804%;height:30.0180%;"></div><div class="label-group" title="Cochlear duct | (contains endolymph)" style="left:82.9942%;top:49.8708%;width:9.0116%;height:3.6444%;"></div><div class="label-group" title="SCALA VESTIBULI PRESSURE INCREASE | Secondary tympanic | membrane vibrating | in round window" style="left:24.1667%;top:58.1212%;width:50.8333%;height:18.1818%;"></div>
+  <div class="semantic-candidate" title="Repeated diagram label text detected: canal | Sound waves | Tympanic | membrane | Malleus | Incus | Secondary tympanic | membrane vibrating | in round window | Stapes vibrating | in oval window | Helicotrema | Perilymph | Middle ear | Cochlea | Auditory tube | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane | Basilar | membrane | Spiral organ | (organ of Corti) | Tectorial membrane | Vestibular membrane" style="left:42.6850%;top:2.4223%;width:53.5359%;height:44.8645%;"></div><div class="semantic-candidate" title="Repeated diagram label text detected: Cochlear duct | (contains endolymph) | Scala | tympani | Scala | vestibuli" style="left:82.9578%;top:16.8342%;width:13.2660%;height:12.1279%;"></div>
+</div>
+<a class="ocr-overlay-preview" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-ocr-overlay.png">
+  <span>OCR confidence overlay</span>
+  <img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-ocr-overlay.png" alt="OCR confidence overlay for Page 8">
+</a>
+    <div class="crop-strip"><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-region-01.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-region-01.png" alt="Region 1"></a><a class="crop" href="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-region-02.png"><img src="auditory-transduction-lecture-excerpt_Heavy_Audit_norm.assets/page-008-region-02.png" alt="Region 2"></a></div>
+  </div>
+  <pre class="slide-text">TRAVELING
+PRESSURE WAVES
+SCALA VESTIBULI PRESSURE INCREASE
+PRESSURE WAVES DISPLACE THE REISSNER’S AND THE BASILAR MEMBRANE
+
+#### Image OCR
+
+Malleus Incus
+Stapes vibrating Helicotrema
+Cochlea
+in oval window
+Sound waves
+Perilymph
+tympani
+External auditory
+canal
+Spiral organ
+(organ of Corti)
+Tectorial membrane
+Vestibular membrane
+Cochlear duct
+Tympanic
+(contains endolymph)
+Secondary tympanic
+membrane vibrating
+in round window
+Middle ear Auditory tube
+Middle ear
+Auditory tube</pre>
+</section>
+    </div>
+  </main>
+</body>
+</html>

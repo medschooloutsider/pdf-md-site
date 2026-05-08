@@ -1,6 +1,6 @@
 # Workspace Handoff
 
-Updated: 2026-05-08 02:07 CEST
+Updated: 2026-05-08 23:49 CEST
 
 ## Lane
 
@@ -36,12 +36,15 @@ Updated: 2026-05-08 02:07 CEST
 - the auditory transduction sample proof is now integrated into the main product page at `index.html#reviewability-sample`; the old `reviewability-demo.html` route redirects there for compatibility instead of presenting a separate sample-pack theme
 - the product-page sample section now uses the terse heading `Sample`, with the previous explanatory proof-metric copy removed; Markdown output previews render in a light PDF-MD/MarkEdit-style reading pane instead of a raw browser text iframe
 - the Sales & Support purchase box now includes the live PDF-MD App Store listing `https://apps.apple.com/app/pdf-md/id6763402178` as the primary new-tab CTA, with Lemon retained as `Buy direct`
+- the public auditory transduction sample pack now includes a Heavy Audit branch alongside the Hybrid Markdown output: `audit/heavy-audit/auditory-transduction-lecture-excerpt_Heavy_Audit_norm.audit.html`, matching JSON, OCR confidence overlays, crop assets, probable label groups, and chart/diagram semantic candidates
+- `index.html#reviewability-sample` now exposes a fourth sample card, `Heavy Audit report`, which opens the report in the existing closeable preview modal
 
 ## Left To Do
 
 - keep site-only work isolated here and mirror meaningful site-publish milestones into the PDF-MD app log
-- GitHub Pages may still need a short rebuild window after the pushed `main` revision
-- next useful launch slice is live GitHub Pages verification after the App Store CTA update is pushed; video is explicitly deferred for now
+- publish the refreshed site revision to the public `medschooloutsider/pdf-md-site` remote when ready
+- GitHub Pages may need a short rebuild window after the pushed `main` revision
+- optional next product slice remains deeper table/diagram/chart reconstruction in the product app, not more site/audit-copy tuning; video is explicitly deferred for now
 
 ## Waiting On
 
@@ -67,6 +70,7 @@ Updated: 2026-05-08 02:07 CEST
 - 2026-05-08 product-page sample integration: `git diff --check` passed; local HTML/reference checks found no missing refs; local HTTP checks returned 200 for `index.html`, `reviewability-demo.html`, and the sample ZIP; Playwright verified `index.html#reviewability-sample` on desktop/mobile with no horizontal overflow, verified Markdown preview modal open/close, and verified `reviewability-demo.html` redirects to the integrated product-page section. Screenshots: `/tmp/pdf-md-integrated-sample-1440.png` and `/tmp/pdf-md-integrated-sample-390.png`.
 - 2026-05-08 sample-section cleanup: `git diff --check` passed; stale-copy grep found no remaining `Review before checkout`, long sample heading, proof metrics, or retained-byte copy in `index.html`; local HTML/reference checks found no missing refs; local HTTP checks returned 200 for `index.html` and the Markdown output; Playwright verified `Sample` heading, themed rendered Markdown preview, blockquote styling, close-button behavior, and no desktop/mobile horizontal overflow. Screenshots: `/tmp/pdf-md-sample-clean-md-modal-1440.png` and `/tmp/pdf-md-sample-clean-section-390.png`.
 - 2026-05-08 App Store CTA update: `git diff --check` passed; local HTML/reference checks found no missing refs; Playwright verified the PDF-MD App Store link appears once, opens with `target="_blank"`, and does not introduce desktop/mobile horizontal overflow.
+- 2026-05-08 Heavy Audit sample refresh: site-lane coordination/master/scope gates passed; PDF-MD representative benchmark export from current product `main` passed for Hybrid and Heavy Audit with route mix `Text+OCR 5 / OCR 3`; Heavy Audit JSON checks found 8 OCR overlay assets, 24 probable label groups, and 11 chart/diagram semantic candidates with kinds `probable-chart-axis`, `probable-chart-label-cloud`, and `probable-repeated-diagram-labels`; stale sample grep found no review-note/NIDDK/digestion/synthetic remnants; ZIP inspection found no `__MACOSX`; `git diff --check` passed; Playwright verified the Heavy Audit modal loads without console errors after stable asset-path repair, verified Markdown modal Page 8/OCR-note rendering and close behavior, and verified mobile no-overflow.
 
 ## Risks To Other Lanes
 

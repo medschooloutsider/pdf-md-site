@@ -8,7 +8,7 @@ OCR language effective: `automatic` `[]`
 Page routing: `5 text-layer-plus-image-OCR page(s), 3 OCR page(s)`
 Audit sidecars: `Also writes `stem.audit.json` for page routing and future audit.`
 Pages: `8`
-Generated: `2026-05-07T18:34:53Z`
+Generated: `2026-05-08T21:44:38Z`
 
 ---
 
@@ -49,6 +49,7 @@ Figure labels:
 ### Page 2
 
 > OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
+> OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.
 
 AUDIOGRAM
 
@@ -90,6 +91,7 @@ Various harmonics
 ### Page 4
 
 > OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
+> OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.
 
 OUTER EAR
 THE PART MOST VISIBLE IS THE PINNA
@@ -112,6 +114,7 @@ vibrates in response amplified across
 ### Page 5
 
 > OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
+> OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.
 
 MIDDLE EAR
 THE EUSTACHIAN TUBE
@@ -136,6 +139,8 @@ throat
 passage
 
 ### Page 6
+
+> OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.
 
 INWARD MOVEMENT OF B OUTWARD MOVEMENT
 
@@ -180,6 +185,7 @@ sound wave
 ### Page 7
 
 > OCR note: diagram or chart labels were extracted. Spatial relationships were not reconstructed.
+> OCR note: low-confidence OCR text detected. Check spelling, missing characters, and truncated labels against the original slide.
 
 ➢ THE SCALA VESTIBULI
 ❖ REISSNER’S MEMBRANE

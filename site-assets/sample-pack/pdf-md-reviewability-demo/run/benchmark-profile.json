@@ -18,6 +18,11 @@
           "exportMode": "hybrid",
           "normalization": "on",
           "expectation": "success"
+        },
+        {
+          "exportMode": "heavyAudit",
+          "normalization": "on",
+          "expectation": "success"
         }
       ]
     }
