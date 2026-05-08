@@ -659,6 +659,12 @@ li + li {
   margin-top: 1rem;
 }
 
+.purchase-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 .redirect-page {
   display: grid;
   min-height: 100vh;
@@ -852,7 +858,8 @@ li + li {
     flex-direction: column;
   }
 
-  .sample-actions {
+  .sample-actions,
+  .purchase-actions {
     align-items: stretch;
     flex-direction: column;
   }
